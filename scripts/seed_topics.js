@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://ajaybmihub:ajay2004@cluster7.sid1ior.mongodb.net/goverment_qb";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://pf3ihub:42eoLwZCRIdRO8Yz@tat-qestion-bank.qjtlk.mongodb.net/quiz_bank?retryWrites=true&w=majority&appName=TAT-Qestion-Bank";
 
 // ── TOPIC SCHEMA ──
 const topicSchema = new mongoose.Schema({

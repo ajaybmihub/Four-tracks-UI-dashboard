@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static(__dirname));
 
 // ── MONGOOSE SETUP ──
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://ajaybmihub:ajay2004@cluster7.sid1ior.mongodb.net/goverment_qb";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://pf3ihub:42eoLwZCRIdRO8Yz@tat-qestion-bank.qjtlk.mongodb.net/quiz_bank?retryWrites=true&w=majority&appName=TAT-Qestion-Bank";
 
 if (!MONGO_URI) {
   console.error("❌ Error: MONGO_URI is missing. Set it in your environment variables or .env file.");

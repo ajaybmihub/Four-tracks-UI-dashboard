@@ -1,0 +1,86 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "As per Article 368 of the Constitution of India, the Parliament can amend any provision of the Constitution by way of :\n1. Addition\n2. Variation\n3. Repeal\nSelect the correct answer using the code given below :",
+    "option": {
+      "A": "1 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "answer": "D",
+    "level": "National/Bank Exam",
+    "year": "2021",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "Article 368 of the Indian Constitution empowers the Parliament to amend the Constitution by way of addition, variation, or repeal of any provision in accordance with the procedure laid down for the purpose. This means Parliament can introduce new provisions, modify existing ones, or remove them entirely, subject to the 'Basic Structure Doctrine' established by the Supreme Court.",
+    "pdf_name": "IBPS-PO-Mains-Memory-Based-2021.pdf",
+    "subject": "Indian Polity",
+    "subtopic": "Article 368",
+    "topic": "Constitutional Amendment"
+  },
+  {
+    "difficulty": "Hard",
+    "question": "Which of the following is/are correctly matched in terms of equivalent rank in respective services of Indian Defence forces ?\nArmy | Navy | Air Force\n1. Brigadier | Air Commodore\n2. Major General | Air Vice Marshal | Vice Admiral\n3. Squadron Leader | Lieutenant\n4. Lieutenant Colonel | Group Captain | Captain\nSelect the correct answer using the code given below :",
+    "option": {
+      "A": "1 and 4",
+      "B": "1 and 3",
+      "C": "2, 3 and 4",
+      "D": "3 only"
+    },
+    "answer": "A",
+    "level": "National/Bank Exam",
+    "year": "2021",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "Let's check the rank equivalences:\n1. Brigadier (Army) is equivalent to Air Commodore (Air Force). This is correctly matched.\n2. Major General (Army) is equivalent to Air Vice Marshal (Air Force) and Rear Admiral (Navy). The option lists 'Vice Admiral', which is a higher rank than Rear Admiral, making this pair incorrectly matched.\n3. Squadron Leader (Air Force) is equivalent to Major (Army). The option lists 'Lieutenant' (Army), which is a much junior rank, making this pair incorrectly matched.\n4. Lieutenant Colonel (Army) is equivalent to Group Captain (Air Force) and Captain (Navy). This is correctly matched.\nTherefore, only statements 1 and 4 are correctly matched.",
+    "pdf_name": "ibps-clerk-mains-question-paper-2021.pdf",
+    "subject": "Indian Defence",
+    "subtopic": "Ranks and Equivalences",
+    "topic": "Armed Forces"
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Which of the following statements are correct about the Constitution of India ?\n1. Powers of the Municipalities are given in Part IX A of the Constitution.\n2. Emergency provisions are given in Part XVIII of the Constitution.\n3. Provisions related to the amendment of the Constitution are given in Part XX of the Constitution.\nSelect the answer using the code given below :",
+    "option": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "answer": "D",
+    "level": "National/Bank Exam",
+    "year": "2021",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "All three statements are correct. Part IX A (Articles 243P to 243ZG) of the Indian Constitution deals with Municipalities. Part XVIII (Articles 352 to 360) contains the Emergency Provisions. Part XX (Article 368) contains the provisions related to the Amendment of the Constitution. These parts delineate significant aspects of India's governance structure.",
+    "pdf_name": "IBPS-PO-Mains-Memory-Based-2021.pdf",
+    "subject": "Indian Polity",
+    "subtopic": "Parts and Schedules",
+    "topic": "Constitution of India"
+  },
+  {
+    "difficulty": "Easy",
+    "question": "The sensation of feeling full after eaten enough is perceived in which part of our body?",
+    "option": {
+      "A": "Mid-brain",
+      "B": "Fore-brain",
+      "C": "Buccal cavity",
+      "D": "Heart"
+    },
+    "answer": "B",
+    "level": "National/Bank Exam",
+    "year": "2021",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "SBI",
+    "explanation": "The sensation of hunger and satiety (feeling full) are complex processes regulated by the brain. Specifically, the hypothalamus, which is part of the forebrain, plays a crucial role in regulating appetite and satiety signals. While other parts of the body like the stomach and intestines send signals to the brain, the conscious perception and integration of these signals occur in the forebrain. The buccal cavity is involved in tasting and initial digestion, and the heart pumps blood. The mid-brain is primarily involved in relaying sensory and motor signals, and in controlling movement.",
+    "pdf_name": "sbi-clerk-prelims-question-paper-2021.pdf",
+    "subject": "General Science",
+    "subtopic": "Sensation and Perception",
+    "topic": "Human Physiology"
+  }
+]

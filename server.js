@@ -49,7 +49,8 @@ const questionSchema = new mongoose.Schema({
     A: String,
     B: String,
     C: String,
-    D: String
+    D: String,
+    E: String
   },
   answer: String,
   explanation: String,
@@ -93,8 +94,10 @@ function mapToCollection(dept) {
     // Exact/Specific matches first
     if (d.includes("upsc")) return "upsc";
     if (d.includes("railway")) return "railways";
-    if (d.includes("bank")) return "bank_exams";
+    if (d.includes("bank") || d.includes("sbi") || d.includes("ibps") || d.includes("rbi") || d.includes("pnb") || d.includes("canara") || d.includes("hdfc") || d.includes("bob") || d.includes("axis") || d.includes("icici") || d.includes("idbi") || d.includes("indian bank") || d.includes("central bank") || d.includes("union bank") || d.includes("corporation bank") || d.includes("dena bank") || d.includes("vijaya bank") || d.includes("syndicate bank") || d.includes("oriental bank") || d.includes("idfc") || d.includes("yes bank") || d.includes("kotak")) return "bank_exams";
+    if (d.includes("neet pg")) return "neet_pg";
     if (d.includes("neet")) return "neet_ug";
+    if (d.includes("afcat") || d.includes("defence_afcad") || d.includes("afcad")) return "defence_afcad";
     
     // JEE sub-variants
     if (d.includes("jee advance")) return "jee_advance";
@@ -117,10 +120,28 @@ app.get("/exams", async (req, res) => {
 app.get("/years", async (req, res) => {
   try {
     const { exam } = req.query; 
-    const Model = getQuestionModel(mapToCollection(exam));
-    // Remove strict department match because collections are natively isolated
-    // e.g., jee_main collection only contains JEE questions.
-    const years = await Model.distinct("year", { year: { $gte: "1900" } });
+    const collectionName = mapToCollection(exam);
+    const Model = getQuestionModel(collectionName);
+    
+    // If the collection contains multiple types, we should filter by the requested exam
+    // Exception: dedicated collections for single exams
+    const dedicated = ["jee_main", "jee_advance", "neet_ug", "neet_pg"];
+    let filter = { year: { $gte: "1900" } };
+    
+    if (exam && !dedicated.includes(collectionName)) {
+        filter.$or = [
+            { exam_type: exam },
+            { exam: exam },
+            { category: exam }
+        ];
+        
+        // Loosen regex for bank exams if literal match fails
+        if (collectionName === "bank_exams") {
+           filter.$or.push({ exam_type: { $regex: exam.split(' ')[0], $options: 'i' } });
+        }
+    }
+
+    const years = await Model.distinct("year", filter);
     res.json(years.sort((a,b) => b.localeCompare(a)));
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -135,9 +156,14 @@ app.get("/papers", async (req, res) => {
     
     const papers = await Model.aggregate([
       { $match: { 
-          $or: [
-              { year: String(year) },
-              { year: Number(year) }
+          $and: [
+            { $or: [{ year: String(year) }, { year: Number(year) }] },
+            { $or: [
+                { exam_type: exam },
+                { exam: exam },
+                { category: exam },
+                { exam_type: { $regex: exam.split(' ')[0], $options: 'i' } } 
+            ]}
           ]
       }},
       {
@@ -158,9 +184,20 @@ app.get("/papers", async (req, res) => {
 // 4. GET /questions?paper_id=...&exam=UPSC
 app.get("/questions", async (req, res) => {
   try {
-    const { paper_id, exam } = req.query;
+    const { paper_id, exam, year } = req.query;
     const Model = getQuestionModel(mapToCollection(exam));
-    const questions = await Model.find({ exam_type: paper_id });
+    
+    let query = { $or: [{ exam_type: paper_id }, { exam: paper_id }] };
+    if (year) {
+      query = {
+        $and: [
+          { $or: [{ exam_type: paper_id }, { exam: paper_id }] },
+          { $or: [{ year: String(year) }, { year: Number(year) }] }
+        ]
+      };
+    }
+    
+    const questions = await Model.find(query);
     res.json(questions);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -189,7 +226,9 @@ async function calculateProgress() {
         'bank_exams': 'Banking Track',
         'jee_main': 'JEE / NEET Track',
         'jee_advance': 'JEE / NEET Track',
-        'neet_ug': 'JEE / NEET Track'
+        'neet_ug': 'JEE / NEET Track',
+        'neet_pg': 'JEE / NEET Track',
+        'defence_afcad': 'Govt Exams Track'
     };
 
     let metric = {
@@ -206,16 +245,47 @@ async function calculateProgress() {
 
     for (const [col, trackTitle] of Object.entries(collections)) {
       const Model = getQuestionModel(col);
-      const aggr = await Model.aggregate([
-          { $group: { _id: { exam_name: { $ifNull: ["$exam_type", "$exam"] }, year: "$year" } } },
-          { $group: { _id: "$_id.exam_name", updated_years: { $sum: 1 } } }
-      ]);
       
-      aggr.forEach(item => {
-          metric.exams[item._id] = item.updated_years;
-          metric.tracks[trackTitle].updated += item.updated_years;
-          metric.totalUpdatedYears += item.updated_years;
-      });
+      const singleExamOverrides = {
+        'jee_main': 'JEE Main',
+        'jee_advance': 'JEE Advanced',
+        'neet_ug': 'NEET UG',
+        'neet_pg': 'NEET PG'
+      };
+
+      if (singleExamOverrides[col]) {
+          const years = (await Model.distinct("year")).filter(y => y && String(y).trim() !== "");
+          const count = years.length;
+          metric.exams[singleExamOverrides[col]] = count;
+          metric.tracks[trackTitle].updated += count;
+          metric.totalUpdatedYears += count;
+      } else {
+          const aggr = await Model.aggregate([
+              { $group: { _id: { exam_name: { $ifNull: ["$exam_type", "$exam"] }, year: "$year" } } },
+              { $group: { _id: "$_id.exam_name", updated_years: { $sum: 1 } } }
+          ]);
+          
+          if (col === 'bank_exams') console.log("Bank individual counts:", aggr);
+          
+          aggr.forEach(item => {
+              if (item._id) {
+                  metric.exams[item._id] = item.updated_years;
+                  metric.tracks[trackTitle].updated += item.updated_years;
+                  metric.totalUpdatedYears += item.updated_years;
+              }
+          });
+          
+          // Fallback mapping for display names
+          if (col === 'bank_exams') {
+              metric.exams["SBI PO"] = metric.exams["SBI"] || 0;
+              metric.exams["SBI Clerk"] = metric.exams["SBI"] || 0;
+              metric.exams["IBPS PO"] = metric.exams["IBPS"] || 0;
+              metric.exams["IBPS Clerk"] = metric.exams["IBPS"] || 0;
+              metric.exams["IBPS RRB Officer Scale I (PO)"] = metric.exams["IBPS"] || 0;
+              metric.exams["IBPS RRB Office Assistant (Clerk)"] = metric.exams["IBPS"] || 0;
+              metric.exams["IBPS Specialist Officer (SO)"] = metric.exams["IBPS"] || 0;
+          }
+      }
     }
 
     const allTopics = await Topic.find({});

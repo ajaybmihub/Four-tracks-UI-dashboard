@@ -76,9 +76,15 @@ function _getUpdated(eName) {
    if (!apiProgress || !apiProgress.exams || !eName) return 0;
    const map = apiProgress.exams;
    if (map[eName]) return map[eName];
+
+   const searchName = eName.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+   
    for (let k in map) {
-      if (k.toLowerCase() === eName.toLowerCase()) return map[k];
-      if (k.toLowerCase().includes(eName.toLowerCase()) && eName.length > 4) return map[k];
+      const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+      if (keyName === searchName) return map[k];
+      // Improved fuzzy match: check if UI exam name contains the DB id (e.g., "SBI Clerk" contains "SBI")
+      if (searchName.includes(keyName) && keyName.length >= 2) return map[k];
+      if (keyName.includes(searchName) && searchName.length >= 2) return map[k];
    }
    return 0;
 }
@@ -329,7 +335,7 @@ function renderExamTrack(trackName, items) {
           }
           
           const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-          const clickHandler = examPct > 0 ? `onclick="loadYears('${cat.replace(/'/g, "\\'")}')"` : "";
+          const clickHandler = examPct > 0 ? `onclick="loadYears('${(exam.exam_name || exam.topic).replace(/'/g, "\\'")}')"` : "";
 
           html += `
             <a class="ecard" href="javascript:void(0)" ${clickHandler} style="animation-delay:${delay}s; ${disabledStyle}">
@@ -396,7 +402,7 @@ function renderExamTrack(trackName, items) {
         }
         
         const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-        const clickHandler = examPct > 0 ? `onclick="loadYears('${cat.replace(/'/g, "\\'")}')"` : "";
+        const clickHandler = examPct > 0 ? `onclick="loadYears('${(exam.exam_name || exam.topic).replace(/'/g, "\\'")}')"` : "";
 
         html += `
           <a class="sub-card" href="javascript:void(0)" ${clickHandler} style="${disabledStyle}">
@@ -709,7 +715,7 @@ window.loadPapers = async function(exam, year) {
 
     papers.forEach(p => {
       html += `
-        <div class="paper-card" onclick="loadQuestions('${p._id}', '${exam.replace(/'/g, "\\'")}')">
+        <div class="paper-card" onclick="loadQuestions('${p._id}', '${exam.replace(/'/g, "\\'")}', '${year}')">
           <h4>${p.paper}</h4>
           <p>${p.pdf_name}</p>
         </div>`;
@@ -721,10 +727,10 @@ window.loadPapers = async function(exam, year) {
   }
 };
 
-window.loadQuestions = async function(paper_id, exam = currentExam) {
+window.loadQuestions = async function(paper_id, exam = currentExam, year = currentYear) {
   showLoader();
   try {
-    const res = await fetch(`${API_BASE}/questions?paper_id=${paper_id}&exam=${encodeURIComponent(exam)}`);
+    const res = await fetch(`${API_BASE}/questions?paper_id=${paper_id}&exam=${encodeURIComponent(exam)}&year=${encodeURIComponent(year)}`);
     const questions = await res.json();
 
     let html = `

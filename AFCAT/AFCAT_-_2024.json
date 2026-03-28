@@ -1,0 +1,4154 @@
+[
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Current Affairs",
+    "subtopic": "Disaster Management",
+    "difficulty": "Easy",
+    "question": "Q1. Consider the following statements regarding the Operation Zindagi:\n1. The goal of the rescue effort was to free laborers who were stranded in a tunnel that was still under construction at Silkyara.\n2. The location of the Silkyara tunnel is in Uttarakhand.\nWhich of the given statements is/are correct?",
+    "option": {
+      "A": "1 Only",
+      "B": "2 Only",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "answer": "C",
+    "explanation": "Operation Zindagi was a rescue operation aimed at saving workers who were trapped in the Silkyara tunnel in Uttarakhand. [cite: 774, 776]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6a753e8f227e2cc28"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Indian Polity",
+    "subtopic": "Constitution of India",
+    "difficulty": "Easy",
+    "question": "Q2. Which section of the Indian Constitution contains the anti-defection law?",
+    "option": {
+      "A": "Seventh Schedule",
+      "B": "Eighth Schedule",
+      "C": "Ninth Schedule",
+      "D": "Tenth Schedule"
+    },
+    "answer": "D",
+    "explanation": "The anti-defection law is contained in the Tenth Schedule of the Indian Constitution, added by the 52nd Amendment in 1985. [cite: 781, 782]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6d414a3400362082e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Earthquakes",
+    "difficulty": "Medium",
+    "question": "Q3. What are the lines that are created on a map to join locations where an earthquake is causing equal shaking strength called?",
+    "option": {
+      "A": "Seismic Markings",
+      "B": "Richter Lines",
+      "C": "Isoseismic Lines",
+      "D": "Tremor Connections"
+    },
+    "answer": "C",
+    "explanation": "Isoseismic lines are used on maps to connect points that experienced equal intensity of shaking during an earthquake. [cite: 784, 785]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a618cbd48a04c93274"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Astronomy",
+    "subtopic": "Measurement",
+    "difficulty": "Easy",
+    "question": "Q4. What unit of measurement is used to calculate the separation between heavenly bodies?",
+    "option": {
+      "A": "Metres",
+      "B": "Miles",
+      "C": "Kilometres",
+      "D": "Light years"
+    },
+    "answer": "D",
+    "explanation": "Light years are used as the unit of measurement to calculate the separation between heavenly bodies. [cite: 789, 790]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6c624b2637a7505b8"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Current Affairs",
+    "subtopic": "Space Missions",
+    "difficulty": "Easy",
+    "question": "Q5. What is the name of the lunar landing site of the Chandrayaan-3 lander?",
+    "option": {
+      "A": "Shiv Shakti Point",
+      "B": "Ganga Point",
+      "C": "Sadbhavana Point",
+      "D": "Vikram Site"
+    },
+    "answer": "A",
+    "explanation": "The lunar landing site of the Chandrayaan lander is known as Shiv Shakti Point. [cite: 794, 795]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a65a5b07fd30718da1"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "General Awareness",
+    "subtopic": "Companies",
+    "difficulty": "Medium",
+    "question": "Q6. Which nation is the home of the C295 Airbus Company?",
+    "option": {
+      "A": "France",
+      "B": "Germany",
+      "C": "Spain",
+      "D": "United Kingdom"
+    },
+    "answer": "C",
+    "explanation": "The C295 is a tactical transport aircraft produced by Airbus Defence and Space, which is headquartered in Spain. [cite: 798, 799]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a69feb123fc81718a2"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Indian National Movement",
+    "difficulty": "Medium",
+    "question": "Q7. While incarcerated in ______, Pandit Nehru penned the book Discovery of India.",
+    "option": {
+      "A": "Ahmednagar",
+      "B": "Ahmedabad",
+      "C": "Allahabad",
+      "D": "Yerwada"
+    },
+    "answer": "A",
+    "explanation": "While incarcerated in Ahmednagar Fort in 1942-1946, Pandit Jawaharlal Nehru wrote the book 'Discovery of India.' [cite: 801, 803, 804]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6b6e9b538922b71d4"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Rivers of India",
+    "difficulty": "Easy",
+    "question": "Q8. Where in India does the Bhagirathi River meet the Alaknanda River?",
+    "option": {
+      "A": "Devprayag",
+      "B": "Dehradun",
+      "C": "Prayagraj",
+      "D": "Champawat"
+    },
+    "answer": "A",
+    "explanation": "The Bhagirathi River meets the Alaknanda River at Devprayag in Uttarakhand, India, marking the official beginning of the Ganges. [cite: 806, 807, 808]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6e881cc02756fda94"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Defence",
+    "subtopic": "Military Exercises",
+    "difficulty": "Easy",
+    "question": "Q9. Which of the following countries participates in the joint military exercise known as \"Vajra Prahar\" with India?",
+    "option": {
+      "A": "Australia",
+      "B": "Saudi Arabia",
+      "C": "USA",
+      "D": "France"
+    },
+    "answer": "C",
+    "explanation": "The joint military exercise known as 'Vajra Prahar' is conducted between India and the United States. [cite: 813, 814]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a628ce377b974e9544"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Current Affairs",
+    "subtopic": "Appointments",
+    "difficulty": "Medium",
+    "question": "Q10. In August 2023, who was named Chairman and CEO of the Railway Board?",
+    "option": {
+      "A": "Anil Kumar Lahoti",
+      "B": "Jaya Varma Sinha",
+      "C": "Vinod Kumar Yadav",
+      "D": "VK Tripath"
+    },
+    "answer": "B",
+    "explanation": "In August 2023, Jaya Varma Sinha was named Chairman and CEO of the Railway Board. [cite: 817]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6a5aa82fd5f82db18"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "International Organizations",
+    "subtopic": "SAARC",
+    "difficulty": "Easy",
+    "question": "Q11. Of the following, who does not belong to SAARC?",
+    "option": {
+      "A": "Bhutan",
+      "B": "Maldives",
+      "C": "Indonesia",
+      "D": "Afghanistan"
+    },
+    "answer": "C",
+    "explanation": "Indonesia is not a member of SAARC; the organization includes Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka, and Afghanistan. [cite: 819, 820, 821]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6602cafaa05759882"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Sports",
+    "subtopic": "Tournament Associations",
+    "difficulty": "Medium",
+    "question": "Q12. Which sport is connected to the Japan Challenge Tour?",
+    "option": {
+      "A": "Tennis",
+      "B": "Golf",
+      "C": "Soccer",
+      "D": "Swimming"
+    },
+    "answer": "B",
+    "explanation": "The Japan Challenge Tour is associated with golf and serves as a development tour for the Japan Golf Tour. [cite: 824, 825]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a67aed03d965caec33"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Indus Valley Civilization",
+    "difficulty": "Easy",
+    "question": "Q13. Ropar was situated on the banks of which river?",
+    "option": {
+      "A": "Chenab",
+      "B": "Sutlej",
+      "C": "Indus",
+      "D": "Ravi"
+    },
+    "answer": "B",
+    "explanation": "Ropar, also known as Rupnagar, is situated on the banks of the Sutlej River in Punjab. [cite: 827, 828]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6859f8a6f38b1ba34"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Laws of Motion",
+    "difficulty": "Medium",
+    "question": "Q14. A ball bounces when it falls to the ground. This is in line with",
+    "option": {
+      "A": "Newton’s first law of motion",
+      "B": "Newton’s second law of motion",
+      "C": "Newton’s third law of motion",
+      "D": "The ball is elastic"
+    },
+    "answer": "C",
+    "explanation": "Newton's third law states that for every action, there is an equal and opposite reaction; when a ball bounces, the ground exerts an equal force back on the ball. [cite: 831, 832, 834]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6cf20d24da1a413f6"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Current Affairs",
+    "subtopic": "Infrastructure",
+    "difficulty": "Medium",
+    "question": "Q15. In which of the cities of Gujarat the New Greenfield Airport will be developed?",
+    "option": {
+      "A": "Surat",
+      "B": "Dholera",
+      "C": "Ahmedabad",
+      "D": "Jamnagar"
+    },
+    "answer": "B",
+    "explanation": "A new Greenfield airport is planned to be developed in Dholera, Gujarat. [cite: 838, 839]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a66ce2b0730aad5014"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Mughal Empire",
+    "difficulty": "Medium",
+    "question": "Q16. Who was the founder of Tasvir Khana?",
+    "option": {
+      "A": "Akbar",
+      "B": "Humayun",
+      "C": "Jahangir",
+      "D": "Shahjahan"
+    },
+    "answer": "A",
+    "explanation": "Akbar, the Mughal emperor, founded the Tasvir Khana, a workshop or studio for artists during his reign. [cite: 848, 849]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a698495ab4d33b6979"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Defence",
+    "subtopic": "Indian Navy",
+    "difficulty": "Hard",
+    "question": "Q17. Which of the following Indian Navy Kalvari class submarines was put into service on January 23, 2023?",
+    "option": {
+      "A": "INS Vagir",
+      "B": "INS Vela",
+      "C": "INS Vagsheer",
+      "D": "INS Khanderi"
+    },
+    "answer": "A",
+    "explanation": "The Kalvari class submarine that was put into service on January 23, 2023, is the INS Vagir. [cite: 854]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6176eb82b15b5b599"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Defence",
+    "subtopic": "Indian Air Force",
+    "difficulty": "Hard",
+    "question": "Q18. Which of the following was the Indian Air Force's first aircraft to be inducted in 1932?",
+    "option": {
+      "A": "Havilland Tiger Moth",
+      "B": "Westland Wapiti",
+      "C": "Supermarine spitfire",
+      "D": "Fairchild Packet"
+    },
+    "answer": "B",
+    "explanation": "The Westland Wapiti was the first aircraft to be inducted into the Indian Air Force (IAF) when it was established in 1932. [cite: 856, 857]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a66030b5ad7fd1da08"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Defence",
+    "subtopic": "Missile Systems",
+    "difficulty": "Medium",
+    "question": "Q19. Which of the following describes guided anti-tank missiles that are produced domestically?",
+    "option": {
+      "A": "Amogha",
+      "B": "Viraat",
+      "C": "Jasmine",
+      "D": "Dhruvastra"
+    },
+    "answer": "D",
+    "explanation": "Dhruvastra is an indigenously developed third-generation anti-tank guided missile (ATGM). [cite: 860, 861]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6286e104d2e64f61c"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Discoveries",
+    "difficulty": "Easy",
+    "question": "Q20. Of the following, who made the discovery of X-ray?",
+    "option": {
+      "A": "Wilhelm Roentgen",
+      "B": "Michael Faraday",
+      "C": "John Napier",
+      "D": "James Chadwick"
+    },
+    "answer": "A",
+    "explanation": "Wilhelm Roentgen, a German physicist, is credited with the discovery of X-rays in 1895. [cite: 865, 866]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6aac30a2d8d9b6145"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "International Affairs",
+    "subtopic": "G20",
+    "difficulty": "Easy",
+    "question": "Q21. In 2023, India hosted the G20 summit. What was the G20 2023 theme?",
+    "option": {
+      "A": "It’s Time for Wetlands Restoration",
+      "B": "One Earth One Family One Future",
+      "C": "Today's Era Is Not an Era of War",
+      "D": "Uniting the World against Terrorism"
+    },
+    "answer": "B",
+    "explanation": "In 2023, India hosted the G20 summit with the theme 'Vasudhaiva Kutumbakam: One Earth, One Family, One Future.' [cite: 869]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a66076c706ca0e46b4"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Static GK",
+    "subtopic": "Organizations",
+    "difficulty": "Easy",
+    "question": "Q22. Where in India is the headquarters of the Indian Space Research Organization located?",
+    "option": {
+      "A": "New Delhi",
+      "B": "Mumbai",
+      "C": "Bengaluru",
+      "D": "Kolkata"
+    },
+    "answer": "C",
+    "explanation": "The headquarters of the Indian Space Research Organization (ISRO) is located in Bengaluru, Karnataka, India. [cite: 872, 875]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a64d3b69dcb75b0f90"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "History",
+    "subtopic": "Social Reform Movements",
+    "difficulty": "Easy",
+    "question": "Q23. The founder of the Brahmo Samaj was:",
+    "option": {
+      "A": "Keshab Chandra Sen",
+      "B": "Raja Rammohan Roy",
+      "C": "Devendranath Tagore",
+      "D": "Dayananda Saraswathi"
+    },
+    "answer": "B",
+    "explanation": "Raja Rammohan Roy is recognized as the founder of the Brahmo Samaj, which was established in 1828. [cite: 880, 881]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a617e37e50a1b8895a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Sports",
+    "subtopic": "Terminology",
+    "difficulty": "Easy",
+    "question": "Q24. Which sport is the term \"fine leg,\" \"gully,\" and \"midwicket\" linked with?",
+    "option": {
+      "A": "Cricket",
+      "B": "Football",
+      "C": "Hockey",
+      "D": "Volleyball"
+    },
+    "answer": "A",
+    "explanation": "The terms 'fine leg,' 'gully,' and 'midwicket' are all fielding positions in the sport of cricket. [cite: 884, 885]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6de1426288854f086"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Geography",
+    "subtopic": "Infrastructure",
+    "difficulty": "Easy",
+    "question": "Q25. Which of the following countries has the longest railway station platform in the world?",
+    "option": {
+      "A": "India",
+      "B": "USA",
+      "C": "Japan",
+      "D": "China"
+    },
+    "answer": "A",
+    "explanation": "India has the longest railway station platform in the world, located at Hubballi Railway Station in Karnataka. [cite: 890, 891, 892]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6a4400e98b321512c"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "Q26. Select the most appropriate word opposite to the given word: Curious",
+    "option": {
+      "A": "unconcerned",
+      "B": "impassionate",
+      "C": "complex",
+      "D": "suspicion"
+    },
+    "answer": "A",
+    "explanation": "'Unconcerned' is the most appropriate opposite to 'curious' as it means not interested or not showing any particular interest. [cite: 897, 898]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6a4e779fbf8920af0"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "Easy",
+    "question": "Q27. Select the most appropriate 'one word ' for the expressions given below. That which cannot be corrected",
+    "option": {
+      "A": "Tremor",
+      "B": "Ineligible",
+      "C": "Incorrigible",
+      "D": "Intangible"
+    },
+    "answer": "C",
+    "explanation": "The word 'incorrigible' refers to something that cannot be corrected, reformed, or improved. [cite: 907, 908]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a62e4837a65a2aea68"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Phrasal Verbs",
+    "difficulty": "Medium",
+    "question": "Q28. Choose the most appropriate option to fill in the blank. Radhika decided to ________ with me.",
+    "option": {
+      "A": "Move in",
+      "B": "Move at",
+      "C": "Move from",
+      "D": "Move to"
+    },
+    "answer": "A",
+    "explanation": "The phrase 'move in' is used when someone is planning to live together in the same house or apartment. [cite: 917, 918]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6f145d38f6c46cd70"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "Easy",
+    "question": "Q29. Select the most appropriate 'one word ' for the expressions given below. Done, occurring, or active at night.",
+    "option": {
+      "A": "Nocturnal",
+      "B": "Cothurn",
+      "C": "Adjournal",
+      "D": "Diuturnal"
+    },
+    "answer": "A",
+    "explanation": "The word 'nocturnal' specifically refers to activities or behaviors that take place during the night. [cite: 922, 923]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a661b8a0bb0613b51a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Medium",
+    "question": "Q30. Select the word that is closest in meaning (SYNONYM) to the word given below. Vandalize",
+    "option": {
+      "A": "Desecrate",
+      "B": "Acertain",
+      "C": "Commemorate",
+      "D": "Venerate"
+    },
+    "answer": "A",
+    "explanation": "The word that is closest in meaning to 'Vandalize' is 'Desecrate,' as both involve showing a lack of respect through damage or destruction. [cite: 929, 931]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6f9d85ed9a51a938c"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Error Detection",
+    "difficulty": "Medium",
+    "question": "Q31. Identify the segment in the sentence which contains a grammatical error. Prior to this assignment, he work as an officer in the accounts department.",
+    "option": {
+      "A": "he work",
+      "B": "as an officer",
+      "C": "Prior to this assignment",
+      "D": "in the accounts department"
+    },
+    "answer": "A",
+    "explanation": "The sentence discusses a past action indicated by 'Prior to this assignment,' so the verb should be in the past tense 'worked' instead of 'work.' [cite: 938, 939, 940]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a64f3bdce4d4513380"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "Hard",
+    "question": "Q32. Select the most appropriate 'one word' for the expression given below. Self-pityingly or tearfully sentimental.",
+    "option": {
+      "A": "Cisplatin",
+      "B": "Maudlin",
+      "C": "Codlin",
+      "D": "Myelin"
+    },
+    "answer": "B",
+    "explanation": "The term 'Maudlin' specifically refers to being overly sentimental, often in a tearful or self-pitying way. [cite: 946, 947]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6299ecdf15fe46d99"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Idioms and Phrases",
+    "difficulty": "Easy",
+    "question": "Q33. Select the most appropriate meaning of the given idiom. \"Haste makes waste\"",
+    "option": {
+      "A": "Should, ought to, be advisable to",
+      "B": "Angry and overcome by emotions",
+      "C": "Doing things quickly result in a poor ending",
+      "D": "Intelligent people think like each other"
+    },
+    "answer": "C",
+    "explanation": "The idiom 'Haste makes waste' means that rushing too quickly often results in mistakes or poor outcomes. [cite: 955]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6b73d67b921868c84"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Medium",
+    "question": "Q34. Select the word that is opposite in meaning (ANTONYM) to the word given below. Avert",
+    "option": {
+      "A": "Thwart",
+      "B": "Assist",
+      "C": "Elude",
+      "D": "Compensate"
+    },
+    "answer": "B",
+    "explanation": "'Assist' means to help, aid, or support, which is the opposite of 'Avert,' which means to prevent or avoid something bad. [cite: 958, 961]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a675fcb64106aedb8b"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Medium",
+    "question": "Q35. Select the most appropriate antonym of the given word. Dilatory",
+    "option": {
+      "A": "Unhurried",
+      "B": "Postponing",
+      "C": "Prompt",
+      "D": "Idle"
+    },
+    "answer": "C",
+    "explanation": "Dilatory means tending to delay or procrastinate; 'Prompt' means done quickly and without delay, making it the antonym. [cite: 973, 975]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a61507904b4529a112"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms/Antonyms",
+    "difficulty": "Medium",
+    "question": "Q36. Four words are given, out of which only one word is spelt correctly. Choose the word with the correct spelling.",
+    "option": {
+      "A": "Fillicious",
+      "B": "Fallacious",
+      "C": "Fallicious",
+      "D": "Fillacious"
+    },
+    "answer": "B",
+    "explanation": "The word with the correct spelling is 'Fallacious,' meaning based on a mistaken belief. [cite: 983]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a655fe1f80d1e5474e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Sentence Rearrangement",
+    "subtopic": "Jumbled Sentences",
+    "difficulty": "Hard",
+    "question": "Q37. Given below are four parts of a sentence which are jumbled. Pick the option that gives their correct order to make a grammatically correct, meaningful sentence.\nA. that they got from the grapevine\nB. the employees of the MNC were on tenterhooks all day\nC. and their nervousness could be seen on their faces\nD. having heard rumours of mass transfers",
+    "option": {
+      "A": "BCDA",
+      "B": "DBAC",
+      "C": "DABC",
+      "D": "BDCA"
+    },
+    "answer": "C",
+    "explanation": "The correct order is DABC, starting with 'Having heard rumours...' to set context for subsequent reactions. [cite: 985, 986, 987]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a60ddb4eb258507937"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Sentence Rearrangement",
+    "subtopic": "Jumbled Sentences",
+    "difficulty": "Hard",
+    "question": "Q38. Given below are four parts of a sentence which are jumbled. Pick the option that gives their correct order to make a grammatically correct, meaningful sentence.\nA. students were expected\nB. studied in earlier classes\nC. having reached higher classes\nD. to know the formulas and principles",
+    "option": {
+      "A": "ACDB",
+      "B": "CDAB",
+      "C": "ADBC",
+      "D": "CADB"
+    },
+    "answer": "D",
+    "explanation": "The correct order is CADB: 'having reached higher classes (C), students were expected (A) to know the formulas and principles (D) studied in earlier classes (B).' [cite: 995, 996]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6ce9c09111091bca8"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Idioms and Phrases",
+    "subtopic": "Idiomatic Expressions",
+    "difficulty": "Medium",
+    "question": "Q39. Out of all the alternatives given, select the word which closely fits the given idiom/phrase. Barking up the wrong tree",
+    "option": {
+      "A": "To blame someone unfairly for a problem.",
+      "B": "To be mistaken, to be looking for solutions in the wrong place.",
+      "C": "To ignore someone.",
+      "D": "Being treated the same unpleasant way you have treated others."
+    },
+    "answer": "B",
+    "explanation": "The idiom 'Barking up the wrong tree' conveys that someone is making a mistake or looking for answers in the wrong place. [cite: 1003]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a61d331251d2b6be90"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Subject-Verb Agreement",
+    "difficulty": "Medium",
+    "question": "Q40. Select the most appropriate option to fill in the blank. The problem, at least for those holidaying in Gibraltar, is that neither of these hotels _______ a beach.",
+    "option": {
+      "A": "has",
+      "B": "have",
+      "C": "had",
+      "D": "having"
+    },
+    "answer": "A",
+    "explanation": "'Neither of these hotels' takes a singular verb 'has' because it refers to the hotels collectively. [cite: 1006, 1010, 1011]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6dd0ad4eaaa937c10"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Adjectives",
+    "difficulty": "Easy",
+    "question": "Q41. A sentence has been given with a blank to be filled with an appropriate word. Choose the correct alternative. Your brother is ____________ intelligent than your father.",
+    "option": {
+      "A": "most",
+      "B": "more",
+      "C": "many",
+      "D": "much"
+    },
+    "answer": "B",
+    "explanation": "In comparisons between two individuals, comparative forms of adjectives like 'more' are appropriate. [cite: 1014, 1015, 1017]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a69eb40a01c705b47a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Spelling",
+    "subtopic": "Correct Spelling",
+    "difficulty": "Easy",
+    "question": "Q42. Which of the following is correctly spelt?",
+    "option": {
+      "A": "Riceprocity",
+      "B": "Reciprosity",
+      "C": "Reciprocity",
+      "D": "Reciprrosity"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Reciprocity,' referring to the exchange of things for mutual benefit. [cite: 1025, 1026]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a65e44faf6c7cec432"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "Medium",
+    "question": "Q43. Select the word which means the same as the group of words given. The ability to make good judgements and take quick decisions.",
+    "option": {
+      "A": "Acumen",
+      "B": "Ineptness",
+      "C": "Intuition",
+      "D": "Perception"
+    },
+    "answer": "A",
+    "explanation": "'Acumen' refers to the ability to make sound judgments and quick decisions, especially in practical matters. [cite: 1028, 1029]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a676bf389862da2ab9"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Error Spotting",
+    "difficulty": "Medium",
+    "question": "Q44. Identify the segment of the sentence which contains a grammatical error. Shall her flight get cancelled, your mother says she will send you a message.",
+    "option": {
+      "A": "she will send you a message.",
+      "B": "your mother says",
+      "C": "Shall her flight",
+      "D": "get cancelled,"
+    },
+    "answer": "C",
+    "explanation": "The use of 'Shall' in this context is inappropriate; it is not commonly used in conditional sentences. [cite: 1032, 1033, 1034]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a69911c9783726fa8d"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Error Spotting",
+    "difficulty": "Hard",
+    "question": "Q45. In the following question, some parts of the sentence may have errors. Select the option that has the error. If the sentence has no error then select ‘No Error’. In the ancient world, theories of the origin of Earth and the objects see in the sky were certainly much less constrained.",
+    "option": {
+      "A": "of Earth and the objects see in the sky",
+      "B": "were certainly much less constrained.",
+      "C": "No Error",
+      "D": "In the ancient world, theories of the origin"
+    },
+    "answer": "A",
+    "explanation": "The error is the use of 'see' instead of 'seen'; the phrase should be 'the objects seen in the sky.' [cite: 1037, 1038, 1039]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6403384b137d0e842"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Scientific Research and ITER Project",
+    "difficulty": "Medium",
+    "question": "According to the passage, what is major problem which the project ITER hopes to solve?",
+    "option": {
+      "A": "Reduction in pollution caused by the usage of fossil fuels",
+      "B": "Reduction in the stress put on renewable resources",
+      "C": "Solving the electricity crisis",
+      "D": "Cost efficiency and energy saving"
+    },
+    "answer": "A",
+    "explanation": "The major problem ITER hopes to solve is the reduction in pollution caused by burning fossil fuels. [cite: 1068, 1069]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6684f2b36c7e9eefc"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "History/Science",
+    "subtopic": "Thermonuclear Fusion",
+    "difficulty": "Medium",
+    "question": "Q50. According to which country’s fraudulent claim did America become curious about a thermonuclear fusion?",
+    "option": {
+      "A": "The U.K.",
+      "B": "China",
+      "C": "Russia",
+      "D": "Argentina"
+    },
+    "answer": "D",
+    "explanation": "America became curious about thermonuclear fusion due to a fraudulent claim made by Argentina. [cite: 1071]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6a67b5f5829b87409"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "subtopic": "Fractions",
+    "difficulty": "Easy",
+    "question": "Q51. A person gives 1/4 of his property to his daughter, 1/2 to his sons and 1/5 for charity. How much has he given away?",
+    "option": {
+      "A": "1/20",
+      "B": "19/20",
+      "C": "1/10",
+      "D": "9/10"
+    },
+    "answer": "B",
+    "explanation": "Total part of property given away is 1/4 + 1/2 + 1/5 = (5+10+4)/20 = 19/20. [cite: 1073, 1075, 1076]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6354c4e6f5d1f3eb3"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "subtopic": "Independent Events",
+    "difficulty": "Hard",
+    "question": "Q52. Salman and his wife Katrina appear in an interview for two vacancies in the same post. The probability of Salman's selection is 1/7 and that of his wife Katrina's selection is 1/5. What is the probability that only one of them will be selected?",
+    "option": {
+      "A": "2/7",
+      "B": "1/5",
+      "C": "5/7",
+      "D": "5/2"
+    },
+    "answer": "A",
+    "explanation": "Probability of only one selection is P(E)P(F') + P(F)P(E') = (1/7 * 4/5) + (1/5 * 6/7) = 10/35 = 2/7. [cite: 1077, 1079]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a62abe28373ed0d25a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Ratio and Proportion",
+    "subtopic": "Partnership/Division of Sums",
+    "difficulty": "Medium",
+    "question": "Q53. A sum of Rs. 730 was divided among A, B and C in such a way that if A gets Rs. 3 then B gets Rs. 4 and if B gets Rs. 3.50 then C gets Rs. 3. The share of B exceeds that of C by",
+    "option": {
+      "A": "Rs. 30",
+      "B": "Rs. 40",
+      "C": "Rs. 70",
+      "D": "Rs. 210"
+    },
+    "answer": "B",
+    "explanation": "Ratio A:B:C is 21:28:24. Difference between B and C's share is (4/73) * 730 = Rs. 40. [cite: 1080, 1085, 1088, 1089]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a62ccf561578cd9cbd"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Percentage",
+    "difficulty": "Medium",
+    "question": "Q54. If the selling price of an article is doubled, then its loss percentage gets converted into the equal profit percentage. What is the loss percentage?",
+    "option": {
+      "A": "16.66",
+      "B": "50",
+      "C": "33.33",
+      "D": "37.5"
+    },
+    "answer": "C",
+    "explanation": "Let loss % = x. According to question, 2(100-x)-100=x, which simplifies to 3x=100, so x=33.33%. [cite: 1092, 1094, 1101]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6c89beab8ee416aa5"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Successive Discounts",
+    "difficulty": "Easy",
+    "question": "Q55. Two successive discounts of 12% and 20% are given by Rajat on a shirt. If the marked price of the shirt is Rs. 500, then what is the value (in Rs.) of discount?",
+    "option": {
+      "A": "198",
+      "B": "152",
+      "C": "148",
+      "D": "168"
+    },
+    "answer": "C",
+    "explanation": "Selling price = 500 * (88/100) * (80/100) = Rs. 352. Discount = 500 - 352 = Rs. 148. [cite: 1102, 1105, 1107]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a67117678b93ed1118"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Time and Work",
+    "subtopic": "Pipes and Cisterns",
+    "difficulty": "Medium",
+    "question": "Q56. A tank can be filled by pipe A in 2 hours and pipe B in 6 hours. At 10 a.m. pipe A was opened. At what time will the tank be filled if pipe B is opened at 11 a.m.?",
+    "option": {
+      "A": "12:45 a.m.",
+      "B": "5 p.m.",
+      "C": "11:45 a.m.",
+      "D": "12 p.m."
+    },
+    "answer": "C",
+    "explanation": "Combined efficiency of A and B is 2/3 part/hour. Time to fill remaining half tank is 45 minutes, so it fills at 11:45 am. [cite: 1106, 1110, 1112, 1115]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a660fc61fb2f39bb6d"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Work and Time",
+    "subtopic": "Wages",
+    "difficulty": "Medium",
+    "question": "Q57. Robin can do a work alone in 9 days. Amit can do the same work alone in 6 days. Both of them finish the work together and they get a total Rs. 2500. What is the share (in Rs.) of Robin?",
+    "option": {
+      "A": "1700",
+      "B": "1200",
+      "C": "1500",
+      "D": "1000"
+    },
+    "answer": "D",
+    "explanation": "Work efficiency ratio of Robin and Amit is 6:9 = 2:3. Robin's part is (2/5) * 2500 = Rs. 1000. [cite: 1116, 1118, 1119]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a62ae48d978522b370"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mixtures and Alligations",
+    "subtopic": "Mixture",
+    "difficulty": "Hard",
+    "question": "Q58. A mixture of 240 litres of juice and water contains 15% water. How much more water (in litres) should be added to this, so that the strength of water will become 25% in the new mixture?",
+    "option": {
+      "A": "28",
+      "B": "32",
+      "C": "26",
+      "D": "34"
+    },
+    "answer": "B",
+    "explanation": "Initial water is 36 litres. Adding 32 litres of water results in a strength of 25% in the new mixture. [cite: 1120, 1124, 1132]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a60525fcb1beee17e6"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Time, Speed and Distance",
+    "subtopic": "Stoppage time",
+    "difficulty": "Medium",
+    "question": "Q59. A boy is driving car at the speed of 42 km/hr. He stops for 8 minutes at end of every 11 km. What will be the time (in minutes) taken by him to cover a distance of 84 km?",
+    "option": {
+      "A": "138",
+      "B": "142",
+      "C": "156",
+      "D": "176"
+    },
+    "answer": "D",
+    "explanation": "Travel time is 2 hours. Number of stops in 84 km is 7. Total rest time is 56 minutes. Total time is 176 minutes. [cite: 1133, 1135, 1146, 1148]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6c5a2b1bae621d3c2"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Time, Speed and Distance",
+    "subtopic": "Relative Speed",
+    "difficulty": "Medium",
+    "question": "Q60. A taxi going at 90 km/hr takes 35 minutes to travel a certain distance. By how much should it increase its speed (in km/hr) to travel the same distance in 21 minutes?",
+    "option": {
+      "A": "60",
+      "B": "150",
+      "C": "120",
+      "D": "90"
+    },
+    "answer": "A",
+    "explanation": "Distance is 52.5 km. Required speed is 150 km/hr. Increase in speed is 60 km/hr. [cite: 1149, 1153, 1156, 1157]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6b35131b299af308b"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Volume",
+    "difficulty": "Medium",
+    "question": "Q61. If the diameter of a hemisphere is 21 cm, then what is the volume (in cm³) of hemisphere?",
+    "option": {
+      "A": "2810",
+      "B": "1250.5",
+      "C": "1725.25",
+      "D": "2425.5"
+    },
+    "answer": "D",
+    "explanation": "Volume of hemisphere = (2/3)πr³ = (2/3) * (22/7) * (21/2)³ = 2425.5 cm³. [cite: 1158, 1160, 1161]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a69c0b5e8be851face"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Averages",
+    "subtopic": "Mean",
+    "difficulty": "Medium",
+    "question": "Q62. The average age of 120 members of a society is 60.7 yr. By addition of 30 new members, the average age becomes 56.3 yr. What is the average age (in yr) of newly joined members?",
+    "option": {
+      "A": "36.5",
+      "B": "37.2",
+      "C": "38.3",
+      "D": "38.7"
+    },
+    "answer": "D",
+    "explanation": "The average age of newly joined members is (8445 - 7284) / 30 = 38.7. [cite: 1162, 1167]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6527c5c94fda2ff01"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Ratio and Proportion",
+    "subtopic": "Proportional Numbers",
+    "difficulty": "Medium",
+    "question": "Q63. What number should be added to each of 4, 16, 18 and 58 so that the resulting numbers will be in proportion in the given order?",
+    "option": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "1"
+    },
+    "answer": "A",
+    "explanation": "Solving (4+x)/(16+x) = (18+x)/(58+x) gives 28x=56, so x=2. [cite: 1170, 1174, 1178, 1179]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a636ac8fba34dd5d7e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Linear Equations",
+    "difficulty": "Medium",
+    "question": "Q64. If (5/7)^4x * (7/5)^(3x-1) = (7/5)^6, then find the value of x which satisfies the equation.",
+    "option": {
+      "A": "-1",
+      "B": "-7",
+      "C": "1",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "Converting bases to (7/5) gives (7/5)^(-4x + 3x - 1) = (7/5)^6, thus -x - 1 = 6, so x = -7. [cite: 1181, 1183, 1185, 1186]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a65b8f3bb5079128d7"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Number System",
+    "subtopic": "Prime Factors",
+    "difficulty": "Medium",
+    "question": "Q65. Calculate the total numbers of prime factors in the expression (9)^11 * (5)^7 * (7)^5 * (3)^2 * (17)^2.",
+    "option": {
+      "A": "35",
+      "B": "36",
+      "C": "37",
+      "D": "38"
+    },
+    "answer": "D",
+    "explanation": "The expression (3^22 * 5^7 * 7^5 * 3^2 * 17^2) has 22+7+5+2+2 = 38 prime factors. [cite: 1187, 1191, 1194]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6cfe9a34358a30708"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Average",
+    "subtopic": "Weight calculation",
+    "difficulty": "Medium",
+    "question": "Q66. A group of boys has an average weight of 36 kg. One boy weighing 42 kg leaves the group and another boy weighing 30 kg joins the group. If the average now becomes 35.7 kg, then how many boys are there in the group?",
+    "option": {
+      "A": "30",
+      "B": "32",
+      "C": "40",
+      "D": "56"
+    },
+    "answer": "C",
+    "explanation": "Solving 35.7 * x = 36 * x - 42 + 30 gives 0.3x = 12, so x = 40. [cite: 1195, 1198, 1200]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6920f2d3cd45e8e1f"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Volume",
+    "difficulty": "Hard",
+    "question": "Q67. A tall rectangular vessel is half filled with water. The base dimension of the vessel is 62 cm x 45 cm. A heavy metal cube of edge 15 cm is dropped into the vessel. The rise in level of the vessel is:",
+    "option": {
+      "A": "1.21 cm",
+      "B": "1.15 cm",
+      "C": "1.07 cm",
+      "D": "1 cm"
+    },
+    "answer": "A",
+    "explanation": "Rise = (15 * 15 * 15) / (62 * 45) = 1.21 cm. [cite: 1201, 1204]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a63cc9c2ac9cea3d59"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Simple Interest",
+    "subtopic": "Distribution of Sums",
+    "difficulty": "Hard",
+    "question": "Q68. A sum of Rs. 13,440 was distributed in two parts. The first part given on loan at 4% per annum for three years while the second part at 6% for 5 years. If interests accrued on both the parts were equal, then what was the difference between the parts?",
+    "option": {
+      "A": "Rs. 3840",
+      "B": "Rs. 3640",
+      "C": "Rs. 9600",
+      "D": "Rs. 5760"
+    },
+    "answer": "D",
+    "explanation": "The parts are Rs. 9600 and Rs. 3840; their difference is Rs. 5760. [cite: 1207, 1208]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6d9a3a75bdad811f2"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopic": "Circles",
+    "difficulty": "Medium",
+    "question": "Q69. O is the center of a circle with diameter 20 cm. T is a point outside the circle and TA is a tangent to a circle. If OT is 14.5 cm. What is the length (in cm) of the tangent TA?",
+    "option": {
+      "A": "10 cm",
+      "B": "10.5 cm",
+      "C": "11.25 cm",
+      "D": "12 cm"
+    },
+    "answer": "B",
+    "explanation": "OA = 10 cm. Using Pythagoras theorem, AT² = 14.5² - 10² = 210.25 - 100 = 110.25, so AT = 10.5 cm. [cite: 1215, 1216, 1217, 1218]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6c51d51bff1ccdd5a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Consumption and Expenditure",
+    "difficulty": "Medium",
+    "question": "Q70. If the increase in the percentage of the consumption of a sugar is 35% so that overall budget does not change, then the price of the sugar falls by :",
+    "option": {
+      "A": "26.92%%",
+      "B": "25.92%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "answer": "B",
+    "explanation": "Price falls by (135 - 100) / 135 * 100 = 25.92%. [cite: 1219, 1230, 1231]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6e65baebd500f07b4"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Cylinder",
+    "difficulty": "Medium",
+    "question": "Q71. If the curved surface area of a cylinder 1760 cm² with height 20cm. Find the total surface area of the cylinder.",
+    "option": {
+      "A": "2992 cm²",
+      "B": "2962 cm²",
+      "C": "2772 cm²",
+      "D": "2982 cm²"
+    },
+    "answer": "A",
+    "explanation": "r = 14 cm. Total surface Area = 1760 + 2 * (22/7) * 14 * 14 = 2992 cm². [cite: 1237, 1238, 1239, 1240]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6d00aea5b2c70e9ec"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Dishonest Dealing",
+    "difficulty": "Hard",
+    "question": "Q72. Ramu sells his old stock at 35 percent loss on cost price, but uses 25 percent less weight. What is his percentage profit or loss (consider up to two decimals)?",
+    "option": {
+      "A": "Profit of 9.14 %",
+      "B": "Loss of 13.3%",
+      "C": "Profit of 7.14 %",
+      "D": "Loss of 9.14 %"
+    },
+    "answer": "B",
+    "explanation": "Loss % = ((15 - 13) / 15) * 100 = 13.3% loss. [cite: 1243, 1246, 1248]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6ce35eb0f30961f3d"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Comparison",
+    "difficulty": "Easy",
+    "question": "Q73. If Manish ‘s income is 37.5 percent more than Puneet income, then what percentage does Puneet earn less than Manish?",
+    "option": {
+      "A": "21 37 percent",
+      "B": "25 37 percent",
+      "C": "27.27 percent",
+      "D": "28 47 percent"
+    },
+    "answer": "C",
+    "explanation": "Puneet earns ((11-8)/11) * 100 = 27.27% less than Manish. [cite: 1249, 1255]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6369c2112bacdeab1"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Population/Value change",
+    "difficulty": "Medium",
+    "question": "Q74. A flat's value is reduced by 11% percent and is now worth Rs.62,742,241. What was its original price?",
+    "option": {
+      "A": "Rs. 7,04,96,900",
+      "B": "Rs. 7,88,96,200",
+      "C": "Rs. 7,44,96,200",
+      "D": "Rs. 7,54,96,200"
+    },
+    "answer": "A",
+    "explanation": "Original Price = 62,742,241 / 0.89 = Rs. 7,04,96,900. [cite: 1256, 1257, 1261]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6ffcffc9c607feabf"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Cone",
+    "difficulty": "Medium",
+    "question": "Q75. The height of a cone 24 cm and area of the base of this cone = 154 cm². Find the curved surface area of the cone?",
+    "option": {
+      "A": "504 cm²",
+      "B": "550 cm²",
+      "C": "514 cm²",
+      "D": "524 cm²"
+    },
+    "answer": "B",
+    "explanation": "r = 7 cm, Slant height l = 25. Curved Surface Area = πrl = (22/7) * 7 * 25 = 550 cm². [cite: 1262, 1267, 1271, 1272, 1277]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a643cec9337f7592b8"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Analogy",
+    "subtopic": "General Knowledge",
+    "difficulty": "Medium",
+    "question": "Q76. Select the option that is related to the third word in the same way as the second word is related to the first word.\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word)\nUttar Pradesh: Sarus Crane :: Delhi : ?",
+    "option": {
+      "A": "House Sparrow",
+      "B": "Rake",
+      "C": "Tractor",
+      "D": "Wrench"
+    },
+    "answer": "A",
+    "explanation": "Uttar Pradesh state bird is Sarus Crane; Delhi state bird is House Sparrow. [cite: 1281, 1282, 1283]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6e714998a61486708"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Coding-Decoding",
+    "subtopic": "Numerical Coding",
+    "difficulty": "Hard",
+    "question": "Q77. Select the option that is related to the fifth term in the same way as the second term is related to the first term and fourth term is related to the third term.\nRAJAN : 69 :: ARUN : 70 :: ABHISHEK : ?",
+    "option": {
+      "A": "110",
+      "B": "130",
+      "C": "127",
+      "D": "128"
+    },
+    "answer": "C",
+    "explanation": "The logic is (Sum of Position Value) + (Number of digits)²; for ABHISHEK, this is (63) + 8² = 127. [cite: 1284, 1288, 1292, 1293]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a613c122d43b27cbd0"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Mathematical Operations",
+    "subtopic": "Equation Balancing",
+    "difficulty": "Medium",
+    "question": "Q78. Select the correct combination of mathematical signs to sequentially replace the A sign and to balance the given equation.\n60 A 15 A 3 A 16 A 7 A 21",
+    "option": {
+      "A": "÷ ,× , – , + , =",
+      "B": "× , + , – ,÷ =",
+      "C": "× , ÷ , - , + , =",
+      "D": "÷ , × , + , - ,="
+    },
+    "answer": "A",
+    "explanation": "Substituting option (a) gives 60 ÷ 15 * 3 + 16 - 7 = 12 + 16 - 7 = 21. [cite: 1294, 1297, 1298, 1300]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a679c42a6ca08c45ea"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Coding-Decoding",
+    "subtopic": "Sentence Coding",
+    "difficulty": "Medium",
+    "question": "Q79. In a code language, 'These birds eat insects .' is coded as '5537', 'I can not disclose the range ' coded as '133835', 'nights are dark' is coded as '634', . What is the code of ‘ Wishing everyone happy Deepawali’.?",
+    "option": {
+      "A": "7859",
+      "B": "5464",
+      "C": "9775",
+      "D": "7869"
+    },
+    "answer": "A",
+    "explanation": "The code uses the number of letters in each word: Wishing(7), everyone(8), happy(5), Deepawali(9). [cite: 1301, 1312, 1320, 1321, 1322, 1325]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6b64a9841e7f77225"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Mathematical Operations",
+    "subtopic": "Sign Interchange",
+    "difficulty": "Medium",
+    "question": "Q80. Which two signs should be interchanged to make the below equation mathematically correct?\n64 – 8 × 2 + 63 ÷ 49 = 30",
+    "option": {
+      "A": "+ and ÷",
+      "B": "÷ and –",
+      "C": "+ and ×",
+      "D": "– and +"
+    },
+    "answer": "B",
+    "explanation": "After interchanging ÷ and –, the expression 64 ÷ 8 * 2 + 63 - 49 = 8 * 2 + 14 = 16 + 14 = 30. [cite: 1327, 1329, 1330, 1331, 1332]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a616b8944f5101e602"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Seating Arrangement",
+    "subtopic": "Linear Row",
+    "difficulty": "Hard",
+    "question": "Q81. Seven people, Ritika, Chaya , Komal, Tanu, Monika, Neha and Sobha are sitting in a straight row, facing north. Ritika sits second from the left. Only two people sit between Ritika and Komal. Only 3 people sit between Tanu and Neha and Tanu is an immediate neighbour of Ritika. Chaya is an immediate neighbour of Tanu and Monika is not an immediate neighbour of Komal. Who sits to the immediate right of Komal?",
+    "option": {
+      "A": "Chaya",
+      "B": "Sobha",
+      "C": "Ritika",
+      "D": "Tanu"
+    },
+    "answer": "B",
+    "explanation": "The sitting order is Monika, Rikita, Tanu, Chaya, Komal, Sobha, Neha. [cite: 1335, 1337]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6fefcd3ed09f82109"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Number Series",
+    "subtopic": "Pattern Recognition",
+    "difficulty": "Medium",
+    "question": "Q82. Which of the following numbers will replace the question mark (?) in the given series?\n1 , 2 , 10 , 37 , 101 , ?",
+    "option": {
+      "A": "226",
+      "B": "348",
+      "C": "248",
+      "D": "544"
+    },
+    "answer": "A",
+    "explanation": "The series follows the pattern of cubes: 1=1³, 8=2³, 27=3³, 64=4³, 125=5³, which when added consecutively gives 226. [cite: 1338, 1341, 1342]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a648856014736f5d6f"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Blood Relations",
+    "subtopic": "Coded Relations",
+    "difficulty": "Hard",
+    "question": "Q83. In a certain code language, ‘P + Q’ means ‘P is the sister of Q’, ‘P – Q’ means ‘A is the father of B’, ‘P x Q’ means ‘A is the brother of B’ and ‘P & Q’ means ‘A is the son of B’. How is A related to E if A + B – C x D & E?",
+    "option": {
+      "A": "Daughter",
+      "B": "Sister",
+      "C": "Mother’s sister",
+      "D": "Husband’s sister"
+    },
+    "answer": "D",
+    "explanation": "Following the relationship diagram, A is the husband's sister of E. [cite: 1343, 1348]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a63ef14ec25be45a7e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Analogy",
+    "subtopic": "Numerical Analogy",
+    "difficulty": "Hard",
+    "question": "Q84. Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n8 : 729 :: 12 : ? :: 15 : 4,096",
+    "option": {
+      "A": "2367",
+      "B": "2197",
+      "C": "3437",
+      "D": "3135"
+    },
+    "answer": "B",
+    "explanation": "The pattern is (n+1)³: 8=(8+1)³=729; 15=(15+1)³=4096. Similarly, 12=(12+1)³=2,197. [cite: 1349]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a68835ac1a193be5b2"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Analogy",
+    "subtopic": "Numerical Analogy",
+    "difficulty": "Medium",
+    "question": "Q85. Which of the following numbers will replace the question mark (?) in the given series?\n5 : 61 :: 6 : ?",
+    "option": {
+      "A": "96",
+      "B": "91",
+      "C": "97",
+      "D": "85"
+    },
+    "answer": "B",
+    "explanation": "The logic is n³ - (n-1)³; 5³-4³=61. Similarly, 6³-5³=91. [cite: 1352]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a60cd44a4123dcc589"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Syllogism",
+    "subtopic": "Logical Deductions",
+    "difficulty": "Medium",
+    "question": "Q86. Statements: All birds are aeroplanes. All kites are aeroplanes. All aeroplanes are butterflies. Conclusions: I. All kites are butterflies. II. Some butterflies are birds. III. Some butterflies are kites.",
+    "option": {
+      "A": "Only conclusions I and II follow",
+      "B": "Only conclusions I and III follow",
+      "C": "All conclusions follow",
+      "D": "Only conclusions II and III follow"
+    },
+    "answer": "C",
+    "explanation": "Based on the syllogism diagram, all three conclusions follow logically. [cite: 1353, 1354, 1355, 1356, 1357]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a67a429693fc758b0f"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Geometry",
+    "subtopic": "Counting Figures",
+    "difficulty": "Medium",
+    "question": "Q99. How many triangle are there in the given figure.",
+    "option": {
+      "A": "14",
+      "B": "15",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "C",
+    "explanation": "The figure contains 17 triangles identified as ΔAGH, ΔBIJ, ΔHIJ, ΔJKL, ΔEFK, ΔDLM, ΔBGJ, ΔEMI, ΔADKE, ΔABI, ΔABC, ΔADEF, ΔBME, ΔABEG, ΔABLF, ΔEHC, and ΔABJE. [cite: 1378, 1391, 1392]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a6dd8444b933e8b761"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "question": "Q100. Present ages of R and P are in the ratio of 9 : 11, respectively. After 7 yr, their ages will be in the ratio of 26 : 31 and sum of their ages will be 114 yr. What is the present age (in yr) of P?",
+    "option": {
+      "A": "36",
+      "B": "35",
+      "C": "55",
+      "D": "45"
+    },
+    "answer": "C",
+    "explanation": "Present age of P is 11x. Solving (x+7)+(9x/11+7)=114 gives x=55 years. [cite: 1393, 1398, 1399]",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-I-2024-PYP-Memory-Based-1.pdf",
+    "_id": {
+      "$oid": "69c4a9a63920b59eb1868fd2"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q1. Select the most appropriate synonym of the given word. Acrimonious",
+    "option": {
+      "A": "Bitter",
+      "B": "Sweet",
+      "C": "Harmonious",
+      "D": "Pleasant"
+    },
+    "answer": "A",
+    "explanation": "Acrimonious means angry and bitter (कटु). [cite: 2200, 2201, 2202]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3d2a00879dffac80a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q2. Select the most appropriate synonym of the given word. Taciturn",
+    "option": {
+      "A": "Garrulous",
+      "B": "Loquacious",
+      "C": "Silent",
+      "D": "Talkative"
+    },
+    "answer": "C",
+    "explanation": "Taciturn means reserved or uncommunicative in speech; saying little (मौन). [cite: 2213, 2214, 2215]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae36e01faf9bddbb8c3"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "Q3. Select the most appropriate ANTONYM of the given word. Acerbic",
+    "option": {
+      "A": "Sweet",
+      "B": "Sharp",
+      "C": "Harsh",
+      "D": "Caustic"
+    },
+    "answer": "A",
+    "explanation": "Acerbic means sharp, sour, or bitter; its antonym is 'Sweet.' [cite: 2227, 2228, 2231]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3cdeb22ba459e8cc4"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "Q4. Select the most appropriate ANTONYM of the given word. Dissemble",
+    "option": {
+      "A": "Reveal",
+      "B": "Conceal",
+      "C": "Feign",
+      "D": "Pretend"
+    },
+    "answer": "A",
+    "explanation": "Dissemble means to conceal motives; its antonym is 'Reveal.' [cite: 2240, 2241, 2244, 2247]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3f559ab82f732ca7f"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "Q5. Select the most appropriate ANTONYM of the given word. Perspicacious",
+    "option": {
+      "A": "Ignorant",
+      "B": "Insightful",
+      "C": "Astute",
+      "D": "Perceptive"
+    },
+    "answer": "A",
+    "explanation": "Perspicacious means having ready insight; its antonym is 'Ignorant.' [cite: 2254, 2255, 2256, 2259]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae392b7b903f8431f4c"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "Easy",
+    "question": "Q6. Select the word which means the same as the group of words given. A person who takes care of a museum.",
+    "option": {
+      "A": "Curator",
+      "B": "Custodian",
+      "C": "Caretaker",
+      "D": "Conservator"
+    },
+    "answer": "A",
+    "explanation": "A 'curator' is precisely one who is in charge of a museum collection. [cite: 2267, 2268]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae375040f06f19c2725"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "Easy",
+    "question": "Q7. Select the word which means the same as the group of words given. A person who has long experience in a particular field.",
+    "option": {
+      "A": "Novice",
+      "B": "Veteran",
+      "C": "Amateur",
+      "D": "Apprentice"
+    },
+    "answer": "B",
+    "explanation": "A 'veteran' describes someone with long experience in an occupation. [cite: 2276, 2277]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae37af30072a8cf5aa7"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Idioms and Phrases",
+    "subtopic": "Idioms",
+    "difficulty": "Easy",
+    "question": "Q8. Choose the meaning of the highlighted phrase/Idiom- I am going to stay at home because I am feeling under the weather today.",
+    "option": {
+      "A": "unhappy",
+      "B": "depressed",
+      "C": "irritated",
+      "D": "sick"
+    },
+    "answer": "D",
+    "explanation": "The idiom 'under the weather' means feeling sick or ill. [cite: 2285, 2287, 2290]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3d807e829788f385c"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Direct and Indirect Speech",
+    "difficulty": "Medium",
+    "question": "Q9. Choose the correct answer from the given options- The teacher said to the students, “Take back your books”. (Change into indirect speech)",
+    "option": {
+      "A": "The teacher asked the students to take back your books.",
+      "B": "The teacher asked the students to take back their books.",
+      "C": "The teacher told the students to take back books.",
+      "D": "The teacher ordered the students to take back your books."
+    },
+    "answer": "B",
+    "explanation": "Option (b) correctly adjusts pronouns ('your' to 'their') and verb choice for indirect speech reporting. [cite: 2298, 2299, 2303]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3637695260b0c86d5"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Articles",
+    "difficulty": "Medium",
+    "question": "Q10. Fill in the blank spaces in the given sentence choosing correct answer from the given options- “ ………………………. tiger is ……………. fierce wild animal”.",
+    "option": {
+      "A": "a , the",
+      "B": "the, a",
+      "C": "a, a",
+      "D": "the, the"
+    },
+    "answer": "B",
+    "explanation": "'The' refers to the species as a whole, while 'a' indicates that the tiger is one example of a fierce wild animal. [cite: 2307, 2309, 2310]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3fb448d4a1cbe59d7"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Active and Passive Voice",
+    "difficulty": "Medium",
+    "question": "Q11. Choose the correct option: They made me laugh. (Change into passive voice)",
+    "option": {
+      "A": "They were made to laugh by me.",
+      "B": "They made too laugh by me.",
+      "C": "I was made to laugh.",
+      "D": "I were made to laugh by them."
+    },
+    "answer": "C",
+    "explanation": "Simple past sentences convert following the rule: Obj. + was/were + V3 + by + sub. [cite: 2316, 2318, 2319]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3c42c8b9ab4084297"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Error Spotting",
+    "difficulty": "Hard",
+    "question": "Q12. Find the part of the given sentence that has an error in it. If there is no error, choose ‘No error’. Any portion of the underground rhizome when broken of (1)/ is capable of producing a new plant; hence (2)/ difficulty of eradicating them when once established. (3)/ No Error (4)",
+    "option": {
+      "A": "No Error",
+      "B": "Any portion of the underground rhizome when broken of",
+      "C": "difficulty of eradicating them when once established.",
+      "D": "is capable of producing a new plant; hence the"
+    },
+    "answer": "B",
+    "explanation": "The correct phrase should be 'broken off,' using 'off' to indicate separation from the main body. [cite: 2322, 2324, 2326]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3658f03aa790b579d"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Error Spotting",
+    "difficulty": "Medium",
+    "question": "Q13. In the following question, some parts of the sentence may have errors. Find out which part of the sentence has an error and select the appropriate option. If a sentence is free from error, select 'No Error'. Neither the severe earthquake or the subsequent famine could demoralise the people of the country.",
+    "option": {
+      "A": "Neither the severe earthquake or the subsequent famine",
+      "B": "could demoralise",
+      "C": "the people of the country.",
+      "D": "No Error"
+    },
+    "answer": "A",
+    "explanation": "The conjunction 'neither' must be paired with 'nor,' not 'or.' [cite: 2328, 2330, 2332]",
+    "level": "National",
+    "eligibility": "Graduate/12th",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3e1ce297409b656d3"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Sentence Completion",
+    "difficulty": "Medium",
+    "question": "Q14. A sentence has been given with a blank to be filled with an appropriate word. Choose the correct alternative. The Egyptian mongoose is mainly ______, although it sometimes hunts during the day.",
+    "option": {
+      "A": "avarice",
+      "B": "substantial",
+      "C": "nocturnal",
+      "D": "pliant"
+    },
+    "answer": "C",
+    "explanation": "'Nocturnal' (active during the night) fits the context of contrasting with occasional daytime hunting. [cite: 2334, 2335, 2336, 2340]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3c77be6243ed99dad"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Paragraph Rearrangement",
+    "difficulty": "Hard",
+    "question": "Q15. The question below consists of a set of labelled sentences. Out of four options given, select the most logical order of the sentences which form a paragraph. The pivotal engineering and scientific success of the Twentieth century was the Manhattan Project. P. The only cloud hanging over the impressive achievement of the atomic researchers and engineers is what their success truly meant; hundreds of thousands of innocent lives obliterated. Q. The Manhattan Project assimilated concepts and leaders from all scientific fields and engineering disciplines to construct the first two atomic bombs. R. The presence of communication amid scientific minds was equally important to the success of the Manhattan Project as scientific intellect was. S. From the study of nuclear physics and chemistry to the practical engineering and processing of uranium 235 and plutonium 239 and the final construction of the weapons, scientific knowledge grew at an exponential rate to critical levels. Yet this grave definition of success cannot diminish the impressive collaboration and efficiency of the Manhattan Project.",
+    "option": {
+      "A": "QSPR",
+      "B": "QSRP",
+      "C": "QPRS",
+      "D": "QPSR"
+    },
+    "answer": "B",
+    "explanation": "Q introduces the project, S elaborates on knowledge, R discusses communication, and P reflects on ethical outcomes. [cite: 2346, 2347, 2348, 2349, 2350]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae39d6eac8b2db91421"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Hard",
+    "question": "Q16. Some parts of a sentence have been jumbled up, and labelled P, Q, R and S. Select the option that gives the correct sequence in which these parts can be rearranged to form a meaningful and grammatically correct sentence. The cacophony of deafening noises P. memories I have from Q. is one of the more vivid R. my time I S. served in the pre-Iraq war.",
+    "option": {
+      "A": "QPSR",
+      "B": "QPSP",
+      "C": "QPRS",
+      "D": "QSPR"
+    },
+    "answer": "C",
+    "explanation": "The sequence 'QPRS' forms: 'is one of the more vivid memories I have from my time I served in the pre-Iraq war.' [cite: 2352, 2353, 2355, 2358, 2359, 2360]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae317a38a0731dca13e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Medium",
+    "question": "Q17. The question below consist of a set of labelled sentences. Out of four options given, select the most logical order of the sentences which form a paragraph. Google's history began in 1995 when Larry Page met Sergey Brin. P. At the time Larry Page was a Ph.D. student at Stanford University, and Sergey was considering studying there. Q. In 1996 Larry and Sergey began working on a search engine called BackRub. R. This engine worked on the Stanford servers for more than a year which eventually clogged up the bandwidth and hence Google.com was registered on September 15th, 1997. S. The name came from the algorithms ranking for how many \"back-links\" a page has.",
+    "option": {
+      "A": "PQSR",
+      "B": "PQRS",
+      "C": "PSQR",
+      "D": "PRSQ"
+    },
+    "answer": "A",
+    "explanation": "P introduces the meeting, Q mentions BackRub, S explains the name, and R describes the registration of Google.com. [cite: 2363, 2364, 2365, 2367, 2368]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3ce2365635302425d"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q18. The first ceremony for the ‘One DAE One Subscription’ (ODOS) program took place at Tata Memorial Hospital in Mumbai. This initiative aims to improve access to ________ (1) scientific research for the Department of Atomic Energy (DAE) and its around 60 units.",
+    "option": {
+      "A": "innovative",
+      "B": "comprehensive",
+      "C": "vitally",
+      "D": "academic"
+    },
+    "answer": "A",
+    "explanation": "'Innovative' describes the new methods and original research the initiative aims to provide. [cite: 2371, 2372, 2376]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3e370cf001331b455"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q19. ODOS is ________ (2) to make it easier for DAE members to access both national and international research papers and journals online.",
+    "option": {
+      "A": "designed",
+      "B": "proposed",
+      "C": "required",
+      "D": "suggested"
+    },
+    "answer": "A",
+    "explanation": "'Designed' refers to something planned with a specific purpose, fitting the context of the ODOS program. [cite: 2382, 2383, 2384]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3256070daf1afd648"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q20. This will help promote ________ (3) in scientific knowledge.",
+    "option": {
+      "A": "growth",
+      "B": "decline",
+      "C": "stagnation",
+      "D": "decrease"
+    },
+    "answer": "A",
+    "explanation": "'Growth' is the correct term for promoting an increase in scientific knowledge through the program. [cite: 2392, 2393, 2394]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae37d1093c146e9be56"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q22. The Apple Vision Pro, launched in Australia, allows people to enter ________ (1) online environments known as the metaverse.",
+    "option": {
+      "A": "immersive",
+      "B": "limited",
+      "C": "temporary",
+      "D": "expansive"
+    },
+    "answer": "A",
+    "explanation": "'Immersive' describes environments that completely involve the user, which fits the description of the metaverse. [cite: 2413, 2414, 2415]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3c4607bf66df44bd1"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q23. In these virtual spaces, users can ________ (2) various activities.",
+    "option": {
+      "A": "avoid",
+      "B": "experience",
+      "C": "ignore",
+      "D": "analyze"
+    },
+    "answer": "B",
+    "explanation": "'Experience' correctly describes participating in activities within the virtual space of the metaverse. [cite: 2423, 2424, 2425]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae348c483360fc36cf9"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q24. Understanding the Metaverse The metaverse is made up of three-dimensional virtual worlds that you ________ (3) with VR headsets.",
+    "option": {
+      "A": "design",
+      "B": "access",
+      "C": "avoid",
+      "D": "exit"
+    },
+    "answer": "B",
+    "explanation": "'Access' is the appropriate verb to describe entering a virtual world using hardware like VR headsets. [cite: 2433, 2434, 2435]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3e6a4e661fa5a24cf"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Cloze Test",
+    "difficulty": "Easy",
+    "question": "Q25. Movies like Ready Player One show what these ________ (4) universes can be like.",
+    "option": {
+      "A": "interactive",
+      "B": "static",
+      "C": "isolated",
+      "D": "crowded"
+    },
+    "answer": "A",
+    "explanation": "'Interactive' aptly describes how users can engage with the dynamic virtual environments in the metaverse. [cite: 2442, 2445, 2446]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3fdb309f3556009ae"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Arms Control and Non-Proliferation",
+    "difficulty": "Easy",
+    "question": "Q26. What is the primary goal of arms control?",
+    "option": {
+      "A": "To enhance military capabilities of global powers.",
+      "B": "To reduce and regulate weapons through international agreements.",
+      "C": "To increase economic benefits from military expenditures.",
+      "D": "To solely focus on the disarmament of nuclear weapons."
+    },
+    "answer": "B",
+    "explanation": "The primary goal of arms control is to reduce and regulate weapons through international agreements to ensure stability. [cite: 2454, 2455]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae382595d520c5ab830"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Arms Control and Non-Proliferation",
+    "difficulty": "Easy",
+    "question": "Q27. Which treaty is NOT mentioned in the passage as being related to nuclear non-proliferation or arms reduction?",
+    "option": {
+      "A": "Treaty on the Non-Proliferation of Nuclear Weapons (NPT)",
+      "B": "Strategic Arms Limitation Talks (SALT)",
+      "C": "Strategic Arms Reduction Treaty (START)",
+      "D": "Comprehensive Nuclear-Test-Ban Treaty (CTBT)"
+    },
+    "answer": "B",
+    "explanation": "The passage lists NPT, START, and CTBT but does not explicitly mention SALT. [cite: 2461, 2462]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3dea5498ac510f2c9"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Arms Control and Non-Proliferation",
+    "difficulty": "Easy",
+    "question": "Q28. What role do transparency and confidence-building measures play in arms control?",
+    "option": {
+      "A": "They primarily enforce economic sanctions on non-compliant countries.",
+      "B": "They encourage states to reduce their overall military spending.",
+      "C": "They foster trust through the sharing of military capabilities and intentions.",
+      "D": "They allow countries to expand their military presence globally."
+    },
+    "answer": "C",
+    "explanation": "These measures foster trust by encouraging nations to share information regarding military capabilities and intentions. [cite: 2464, 2465]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3977db0c1729319e8"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Arms Control and Non-Proliferation",
+    "difficulty": "Easy",
+    "question": "Q29. According to the passage, which mechanism is crucial for ensuring compliance with arms control agreements?",
+    "option": {
+      "A": "Unilateral military interventions",
+      "B": "Diplomatic negotiations without verification",
+      "C": "Verification mechanisms, including satellite surveillance and on-site inspections",
+      "D": "Increased arms production to maintain balance of power"
+    },
+    "answer": "C",
+    "explanation": "Verification mechanisms like satellite surveillance are crucial for confirming nations adhere to treaty terms. [cite: 2470, 2471]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3bda0c4dd9d3107f0"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Arms Control and Non-Proliferation",
+    "difficulty": "Easy",
+    "question": "Q30. What is a significant challenge to successful arms control as mentioned in the passage?",
+    "option": {
+      "A": "Geopolitical rivalries and national security concerns.",
+      "B": "Lack of interest in modern warfare.",
+      "C": "The absence of military-industrial complexes.",
+      "D": "The simplicity of global dynamics."
+    },
+    "answer": "A",
+    "explanation": "Geopolitical rivalries and the interests of military-industrial complexes create hurdles for reducing weapons. [cite: 2476, 2477]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3d5887956b00aee64"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Current Affairs",
+    "subtopic": "Appointments",
+    "difficulty": "Medium",
+    "question": "Q31. When was Kareena Kapoor Khan appointed as the National Ambassador of UNICEF India?",
+    "option": {
+      "A": "March 2023",
+      "B": "May 2024",
+      "C": "January 2022",
+      "D": "July 2021"
+    },
+    "answer": "B",
+    "explanation": "Kareena Kapoor Khan was appointed as the National Ambassador of UNICEF India on May 4, 2024. [cite: 2481, 2483]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae384c7b73b21767b6a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Defence",
+    "subtopic": "Missile Systems",
+    "difficulty": "Medium",
+    "question": "Q32. The Rampage missile, a recent addition to the Indian Air Force (IAF) and Indian Navy, is characterized as which of the following?",
+    "option": {
+      "A": "A long-range, subsonic, air-to-air missile",
+      "B": "A medium-range, supersonic, anti-ship missile",
+      "C": "A long-range, supersonic, air-to-ground missile",
+      "D": "A short-range, supersonic, surface-to-air missile"
+    },
+    "answer": "C",
+    "explanation": "The Rampage is a long-range, supersonic, air-to-ground missile designed for precision strikes on high-value targets. [cite: 2493, 2494, 2495]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae362eb32e9fb3da952"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Defence",
+    "subtopic": "Aircraft",
+    "difficulty": "Medium",
+    "question": "Q33. What is one of the primary uses of the military version of the Il-76 aircraft?",
+    "option": {
+      "A": "Aerial reconnaissance",
+      "B": "Airborne early warning and control",
+      "C": "Aerial refueling tanker or command center",
+      "D": "Light tactical transport"
+    },
+    "answer": "C",
+    "explanation": "Military variants of the Il-76 are primarily used as aerial refueling tankers and command centers. [cite: 2507, 2508]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3b9d667884dd5d540"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Polity",
+    "subtopic": "Constitution",
+    "difficulty": "Easy",
+    "question": "Q34. Which of the following is a subject under the State List in the Indian Constitution?",
+    "option": {
+      "A": "Defence",
+      "B": "Banking",
+      "C": "Police",
+      "D": "Foreign Affairs"
+    },
+    "answer": "C",
+    "explanation": "According to the Seventh Schedule of the Indian Constitution, 'Police' is a subject explicitly included in the State List. [cite: 2520, 2521, 2523]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3f64de3ad9ce93042"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "History",
+    "subtopic": "Ancient India",
+    "difficulty": "Easy",
+    "question": "Q35. The phrase \"Tamaso Ma Jyotirgamaya\" is part of which ancient Indian scripture?",
+    "option": {
+      "A": "Rigveda",
+      "B": "Yajurveda",
+      "C": "Upanishads",
+      "D": "Mahabharata"
+    },
+    "answer": "C",
+    "explanation": "The mantra 'Tamaso Ma Jyotirgamaya' (From darkness, lead me to light) is found in the Brihadaranyaka Upanishad. [cite: 2533, 2534, 2535]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae33baaccce6e50f2ce"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Sports",
+    "subtopic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Q36. Kho-Kho is a traditional sport in India. How many players are there in a standard Kho-Kho team?",
+    "option": {
+      "A": "7",
+      "B": "9",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "B",
+    "explanation": "In a standard Kho-Kho team, there are 12 players total, out of which 9 players take the field. [cite: 2552, 2553, 2558]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3249266157940f295"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Defence",
+    "subtopic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "Q37. Where is the Indian Air Force (I.A.F.) Heritage Centre located?",
+    "option": {
+      "A": "New Delhi",
+      "B": "Chandigarh",
+      "C": "Pune",
+      "D": "Bengaluru"
+    },
+    "answer": "B",
+    "explanation": "The Indian Air Force (I.A.F.) Heritage Centre is located in Chandigarh. [cite: 2567, 2568]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae39e58910630d57dff"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "General Knowledge",
+    "subtopic": "Acronyms",
+    "difficulty": "Easy",
+    "question": "Q38. What is the full form of the acronym \"SMART\"?",
+    "option": {
+      "A": "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "B": "Simple, Manageable, Accurate, Realistic, Timely",
+      "C": "Strategic, Motivational, Actionable, Realistic, Timely",
+      "D": "Structured, Measurable, Achievable, Reliable, Timely"
+    },
+    "answer": "A",
+    "explanation": "SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound in the context of goal setting. [cite: 2582]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae38fe3ddf90f3170d1"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "General Knowledge",
+    "subtopic": "Taxation",
+    "difficulty": "Easy",
+    "question": "Q39.What does the acronym \"GST\" stand for in the context of Indian taxation?",
+    "option": {
+      "A": "Goods and Supply Tax",
+      "B": "Goods and Services Tax",
+      "C": "General Sales Tax",
+      "D": "Government Sales Tax"
+    },
+    "answer": "B",
+    "explanation": "GST stands for Goods and Services Tax, which was introduced in India on July 1, 2017. [cite: 2589, 2591, 2592]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3ecc941a2faaf5904"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "History",
+    "subtopic": "Ancient Indian Literature",
+    "difficulty": "Medium",
+    "question": "Q40.Who was Vishakhadatta, and which famous Sanskrit play did he author?",
+    "option": {
+      "A": "Shakuntala",
+      "B": "Mudrarakshasa",
+      "C": "Malavikagnimitram",
+      "D": "Abhijnanashakuntalam"
+    },
+    "answer": "B",
+    "explanation": "Vishakhadatta was an ancient Sanskrit poet whose famous work Mudrarakshasa centers on Chanakya and Chandragupta Maurya. [cite: 2600, 2601]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3d00a6a233bb44721"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Science",
+    "subtopic": "Physics",
+    "difficulty": "Easy",
+    "question": "Q41. What is the gravitational force of Earth, and how does it affect objects?",
+    "option": {
+      "A": "It attracts objects towards the center of the Earth.",
+      "B": "It repels objects away from the Earth.",
+      "C": "It has no effect on objects on Earth.",
+      "D": "It only affects objects in space."
+    },
+    "answer": "A",
+    "explanation": "The gravitational force of Earth attracts all objects with mass toward its center. [cite: 2606, 2608]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3ba617a4096f9fe2e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "General Knowledge",
+    "subtopic": "Awards and Honors",
+    "difficulty": "Medium",
+    "question": "Q42. Who was the first Indian to win an Oscar, and for what achievement?",
+    "option": {
+      "A": "Bhanu Athaiya for Costume Design",
+      "B": "Satyajit Ray for Lifetime Achievement",
+      "C": "A.R. Rahman for Best Original Score",
+      "D": "Resul Pookutty for Sound Mixing"
+    },
+    "answer": "A",
+    "explanation": "Bhanu Athaiya became the first Indian to win an Oscar in 1983 for Best Costume Design for the film 'Gandhi.' [cite: 2617, 2618]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3517ceef271c22d50"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Science",
+    "subtopic": "Ecology",
+    "difficulty": "Easy",
+    "question": "Q43. What is a food chain, and what does it represent in an ecosystem?",
+    "option": {
+      "A": "A linear sequence of organisms where each is eaten by the next.",
+      "B": "A random collection of animals and plants.",
+      "C": "A cycle where all organisms are predators.",
+      "D": "A group of species that do not interact with each other."
+    },
+    "answer": "A",
+    "explanation": "A food chain represents the flow of energy through a linear sequence of organisms where each is eaten by the next. [cite: 2627, 2628]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3e05bffde6b2d06f9"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Science",
+    "subtopic": "Chemistry",
+    "difficulty": "Medium",
+    "question": "Q44. Which of the following is a form of carbon material known for its exceptional strength and electrical conductivity?",
+    "option": {
+      "A": "Diamond",
+      "B": "Graphene",
+      "C": "Carbon dioxide",
+      "D": "Methane"
+    },
+    "answer": "B",
+    "explanation": "Graphene is a single layer of carbon atoms in a honeycomb lattice known for extreme strength and conductivity. [cite: 2665, 2667, 2668]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae38ee090fc48a1f756"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Technology",
+    "subtopic": "Navigation Systems",
+    "difficulty": "Easy",
+    "question": "Q45. What is the name of the Chinese navigation satellite system that provides global positioning services?",
+    "option": {
+      "A": "GPS",
+      "B": "GLONASS",
+      "C": "Galileo",
+      "D": "BeiDou"
+    },
+    "answer": "D",
+    "explanation": "The BeiDou Navigation Satellite System (BDS) is China's independent global navigation satellite system. [cite: 2680, 2681]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae31066c613a4013c7f"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "History",
+    "subtopic": "Medieval Indian History",
+    "difficulty": "Easy",
+    "question": "Q46. What was the \"Bagh Nakh\" used by Chhatrapati Shivaji Maharaj, and for what purpose was it famously used?",
+    "option": {
+      "A": "A ceremonial sword used in royal rituals",
+      "B": "A tiger claw weapon used in personal combat",
+      "C": "A shield used in defensive battles",
+      "D": "A spear used in warfare"
+    },
+    "answer": "B",
+    "explanation": "The Bagh Nakh is a traditional tiger claw weapon famously used by Chhatrapati Shivaji Maharaj to defeat Afzal Khan in 1659. [cite: 2693, 2694, 2696]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae308a692d91e2c7d17"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Current Affairs",
+    "subtopic": "Road Safety",
+    "difficulty": "Medium",
+    "question": "Q47. Which Indian state will be the first to adopt a 10-year road safety action plan aimed at reducing road accidents by 50% by 2030, and what technological measure will be implemented as part of this plan?",
+    "option": {
+      "A": "Maharashtra",
+      "B": "Tamil Nadu",
+      "C": "Rajasthan",
+      "D": "Kerala"
+    },
+    "answer": "C",
+    "explanation": "Rajasthan is the first state in India to adopt a 10-year road safety action plan aiming to reduce accidents by 50% by 2030. [cite: 2712, 2714]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3f4e57d4742e1269f"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "International Organizations",
+    "subtopic": "Human Rights",
+    "difficulty": "Easy",
+    "question": "Q48. What is Amnesty International, and what is its primary focus?",
+    "option": {
+      "A": "A global human rights organization",
+      "B": "An environmental conservation group",
+      "C": "A financial institution",
+      "D": "A technology company"
+    },
+    "answer": "A",
+    "explanation": "Amnesty International is a global non-governmental organization focused on the protection and promotion of human rights. [cite: 2723, 2725]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae31a0ed100989ca698"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Regional Development",
+    "difficulty": "Medium",
+    "question": "Q49. What is \"Project Ishan,\" and what is its primary objective?",
+    "option": {
+      "A": "A government initiative to promote agriculture in South India",
+      "B": "A development initiative focused on the Northeastern region of India",
+      "C": "A cultural exchange program between India and Southeast Asia",
+      "D": "A technology project aimed at enhancing digital literacy in rural areas"
+    },
+    "answer": "B",
+    "explanation": "Project Ishan is an initiative by the Government of India aimed at improving the overall development of the eight Northeastern states. [cite: 2732, 2733, 2734]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae36553b6c6872008d4"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Human Health",
+    "difficulty": "Easy",
+    "question": "Q50. What harmful substances are found in cigarette smoke?",
+    "option": {
+      "A": "Nicotine, Tar, Carbon Monoxide",
+      "B": "Oxygen, Water Vapor, Vitamin C",
+      "C": "Calcium, Iron, Potassium",
+      "D": "Sodium Chloride, Sucrose, Citric Acid"
+    },
+    "answer": "A",
+    "explanation": "Cigarette smoke contains harmful substances such as Nicotine, Tar, and Carbon Monoxide. [cite: 2740, 2741, 2743, 2745]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae30ba0dacad403b3a1"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Culture",
+    "subtopic": "Yoga",
+    "difficulty": "Medium",
+    "question": "Q51. What are the eight limbs of Yoga as described in the ancient text \"Yoga Sutras\" by Patanjali?",
+    "option": {
+      "A": "Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi",
+      "B": "Yama, Niyama, Pranayama, Asana, Pratyahara, Kundalini, Mudra, Samadhi",
+      "C": "Pranayama, Asana, Niyama, Karma, Mantra, Dharana, Dhyana, Samadhi",
+      "D": "Yama, Mudra, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi"
+    },
+    "answer": "A",
+    "explanation": "The eight limbs are Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, and Samadhi. [cite: 2750, 2751, 2753-2762]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3ddde15af9ffd7be3"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Technology/Governance",
+    "subtopic": "Disaster Response",
+    "difficulty": "Medium",
+    "question": "Q52. What is the purpose of the BHISHM Cube under Project Aarogya Maitri, and what technological advancements does it integrate for effective disaster response?",
+    "option": {
+      "A": "To provide routine healthcare services using basic medical tools",
+      "B": "To serve as a mobile educational unit with digital classrooms",
+      "C": "To offer comprehensive medical support during disasters using AI and data analytics",
+      "D": "To distribute food supplies in rural areas using automated drones"
+    },
+    "answer": "C",
+    "explanation": "The BHISHM Cube is an innovative mobile hospital designed to provide rapid medical care in disaster areas using AI and data analytics. [cite: 2764, 2765, 2766, 2768]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3a30ce501a49918e4"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Knowledge",
+    "topic": "Sports",
+    "subtopic": "History",
+    "difficulty": "Medium",
+    "question": "Q53. In which year and city was the first football tournament held during the Asian Games?",
+    "option": {
+      "A": "1951, New Delhi",
+      "B": "1954, Manila",
+      "C": "1962, Jakarta",
+      "D": "1966, Bangkok"
+    },
+    "answer": "A",
+    "explanation": "The first football tournament during the Asian Games was held in 1951 in New Delhi, India. [cite: 2771, 2772]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae35682b156c8585aed"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Geography",
+    "topic": "Rivers",
+    "subtopic": "Tributaries",
+    "difficulty": "Easy",
+    "question": "Q54. Which of the following rivers is correctly matched with its tributary?",
+    "option": {
+      "A": "Ganga - Narmada",
+      "B": "Yamuna - Chambal",
+      "C": "Brahmaputra - Godavari",
+      "D": "Indus - Krishna"
+    },
+    "answer": "B",
+    "explanation": "The Chambal River is a major tributary of the Yamuna River. [cite: 2786, 2787]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae33600c4145101a5fa"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "General Awareness",
+    "topic": "Aviation",
+    "subtopic": "Roles",
+    "difficulty": "Easy",
+    "question": "Q55. What is the primary role of an Air Traffic Controller (ATC)?",
+    "option": {
+      "A": "To guide airplanes during takeoff and landing",
+      "B": "To refuel airplanes on the ground",
+      "C": "To repair and maintain aircraft",
+      "D": "To provide in-flight meal services to passengers"
+    },
+    "answer": "A",
+    "explanation": "The primary function of an ATC is to guide airplanes during takeoff and landing and maintain safe movement in controlled airspace. [cite: 2800, 2801]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae379d0760167313d55"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "subtopic": "Basic Probability",
+    "difficulty": "Medium",
+    "question": "Q56. The probability of Winning first prize in a lottery is 0.08. If 60,000 tickets are sold, how many tickets has he bought?",
+    "option": {
+      "A": "2000",
+      "B": "480",
+      "C": "4800",
+      "D": "2400"
+    },
+    "answer": "C",
+    "explanation": "Number of tickets = Probability * Total tickets = 0.08 * 60,000 = 4,800. [cite: 2813, 2816]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae33469ed558cf88511"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Ratio and Proportion",
+    "difficulty": "Hard",
+    "question": "Q57. Weight of A and B are in the ratio 11 : 8. A’s weight increases by 40% and the total weight of A and B increases by 30%. What is the percentage increase in the B’s weight?",
+    "option": {
+      "A": "10.25",
+      "B": "16.25",
+      "C": "12.5",
+      "D": "18.75"
+    },
+    "answer": "B",
+    "explanation": "Using the weighted average increase formula, the percentage increase in B's weight is 16.25%. [cite: 2819, 2828]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3563f99d20d296371"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Depreciation",
+    "subtopic": "Compound Interest/Percentage",
+    "difficulty": "Medium",
+    "question": "Q58. The value of a car depreciates at the rate of 15% per annum. If its present value is Rs. 433500, then what was the value (in Rs.) of the car 2 years ago?",
+    "option": {
+      "A": "594200",
+      "B": "620000",
+      "C": "563550",
+      "D": "600000"
+    },
+    "answer": "D",
+    "explanation": "Original Price = 433500 / (0.85 * 0.85) = Rs. 6,00,000. [cite: 2829, 2831, 2832]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3fb3d346b699ae560"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Basic Percentage",
+    "difficulty": "Medium",
+    "question": "Q59. If a number is reduced by 35%, then it becomes 416. By how much percent should the number be increased, so that it become 876.8?",
+    "option": {
+      "A": "33",
+      "B": "37",
+      "C": "34.2",
+      "D": "38.4"
+    },
+    "answer": "B",
+    "explanation": "Original number = 640. Required percentage increase x = (876.8 - 640) / 6.4 = 37%. [cite: 2833, 2837, 2841]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3053c93af3757e045"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Time and Work",
+    "subtopic": "Man-Days-Hours Formula",
+    "difficulty": "Easy",
+    "question": "Q60. If 60 boys can finish a work in 15 days by working 8 hours a day, then how many hours a day should 72 boys work to finish that work within 20 days?",
+    "option": {
+      "A": "4",
+      "B": "6",
+      "C": "5",
+      "D": "7"
+    },
+    "answer": "C",
+    "explanation": "Using M1D1H1 = M2D2H2: 60 * 15 * 8 = 72 * 20 * H2 gives H2 = 5 hours. [cite: 2846, 2848]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3bbde7351e5b357fb"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Time and Work",
+    "subtopic": "Efficiency",
+    "difficulty": "Medium",
+    "question": "Q61. S does half as much work as T in 1/7 of the time taken by T. If together they take 21 days to complete a work, then how many days shall S take to complete that work alone?",
+    "option": {
+      "A": "26",
+      "B": "27",
+      "C": "28",
+      "D": "32"
+    },
+    "answer": "B",
+    "explanation": "Solving the work equation gives x = 189 days for T, so S takes (2/7)*189 / 2 (accounting for half work) = 27 days. [cite: 2850, 2861, 2863]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3f0e3da62847089ac"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Speed, Time and Distance",
+    "subtopic": "Basic Speed",
+    "difficulty": "Easy",
+    "question": "Q62. A girl walking at the speed of 2 km/hr covers a certain distance in 7 hr 30 min. If she covers the same distance by cycle in 5 hours, then what is the speed (in km/hr) of cycle?",
+    "option": {
+      "A": "2.5",
+      "B": "4",
+      "C": "3",
+      "D": "3.5"
+    },
+    "answer": "C",
+    "explanation": "Total distance = 2 * 7.5 = 15 km. Speed of cycle = 15 / 5 = 3 km/hr. [cite: 2866, 2867, 2868, 2870]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae39806e9cba86e9058"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Speed, Time and Distance",
+    "subtopic": "Relative Speed",
+    "difficulty": "Medium",
+    "question": "Q63. The distance between two cities X and Y is 270 km. First train starts from X at 7:00 am and travels towards Y at 40 km/hr. Second train starts from Y at 8:30 am and travels towards X at 30 km/hr. At what time (in a.m.) will both the trains meet?",
+    "option": {
+      "A": "10:00",
+      "B": "11:00",
+      "C": "11:30",
+      "D": "12:30"
+    },
+    "answer": "C",
+    "explanation": "Train 1 covers 60 km by 8:30 am. Remaining 210 km is covered at relative speed 70 km/hr in 3 hours. Time = 8:30 + 3 = 11:30 am. [cite: 2882, 2883, 2886, 2888]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3e4aa4852efa76b45"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Boats and Streams",
+    "subtopic": "Linear Equations",
+    "difficulty": "Hard",
+    "question": "Q64. A boat covers a distance of 14 km upstream and 16 km downstream in 9 hours. It covers a distance of 12 km upstream and 40 km downstream in 11 hours. What is the speed (in km/h) of the boat in still water?",
+    "option": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A",
+    "explanation": "Downstream speed u = 8 km/h and upstream v = 2 km/h. Boat speed in still water = (u+v)/2 = 5 km/h. [cite: 2897, 2899]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3b0f15de23b571833"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Trapezium Area",
+    "difficulty": "Medium",
+    "question": "Q65. A farmer’s land is in the shape of a trapezium which has its parallel sides measuring 2.56 yards and 3.44 yards and the distance between the parallel sides in 1.44 yards. The cost of ploughing the land is Rs. 1800 per square yard. What amount will (in Rs.) have to be spent in order to plough the entire land?",
+    "option": {
+      "A": "3672",
+      "B": "6732",
+      "C": "7776",
+      "D": "8214"
+    },
+    "answer": "C",
+    "explanation": "Area = 0.5 * (2.56 + 3.44) * 1.44 = 4.32 sq yard. Cost = 4.32 * 1800 = Rs. 7776. [cite: 2905, 2906, 2907]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae31ac7591b33a927f5"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Rhombus Properties",
+    "difficulty": "Medium",
+    "question": "Q66. One of the diagonal of a rhombus is 70% of the other diagonal. What is the ratio of area of rhombus to the square of the length of the larger diagonal?",
+    "option": {
+      "A": "3:10",
+      "B": "3:20",
+      "C": "7:20",
+      "D": "7:10"
+    },
+    "answer": "C",
+    "explanation": "Area = 0.5 * x * 0.7x = 7x²/20. Ratio to larger diagonal squared (x²) is 7:20. [cite: 2914, 2916]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3011fb8ab29db25f3"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Mixtures and Alligations",
+    "subtopic": "Mixture replacement",
+    "difficulty": "Hard",
+    "question": "Q67. In a bucket, paint and oil are in the ratio 7:5. 24 litres of mixture is drawn off and 24 litres of oil is added. If the ratio of paint and oil becomes 1 : 1, then how many litres of paint was contained in the bucket initially?",
+    "option": {
+      "A": "49",
+      "B": "63",
+      "C": "84",
+      "D": "98"
+    },
+    "answer": "D",
+    "explanation": "Solving (7x - 14) / (5x + 14) = 1 gives x = 14. Initial paint = 7 * 14 = 98 litres. [cite: 2918, 2921, 2922, 2924]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae37a1b5a997eedfe63"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Selling Price/Cost Price Ratio",
+    "difficulty": "Medium",
+    "question": "Q68. Mukesh sells two shirts. The cost price of the first shirt is equal to the selling price of the second shirt. The first shirt is sold at a profit of 30% and the second shirt is sold at a loss of 30%. What is the ratio of the selling price of the first shirt to the cost price of the second shirt?",
+    "option": {
+      "A": "91: 100",
+      "B": "100:91",
+      "C": "31:50",
+      "D": "50:31"
+    },
+    "answer": "A",
+    "explanation": "SP1/CP2 = (1.3x) / (x/0.7) = 91/100. [cite: 2929, 2932, 2933, 2934]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae35761be34737e6af1"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Overall Loss/Gain",
+    "difficulty": "Medium",
+    "question": "Q69. If 60% of total articles are sold at a loss of 50% and remaining articles are sold at a profit of 50%, then what will be the overall loss percentage?",
+    "option": {
+      "A": "20",
+      "B": "15",
+      "C": "25",
+      "D": "10"
+    },
+    "answer": "D",
+    "explanation": "Total loss = (60 * 0.5) - (40 * 0.5) = 30 - 20 = 10%. [cite: 2940, 2941, 2942]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3a6864c6f6914349e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Averages",
+    "subtopic": "Replacement",
+    "difficulty": "Hard",
+    "question": "Q70. There were 24 students in a class. One of them, who was 18 years old, left the class and his place was filled up by a new comer. If a the average of the class thereby, was lowered by one month, the age of the newcomer is",
+    "option": {
+      "A": "14 years",
+      "B": "15 years",
+      "C": "16 years",
+      "D": "17 years"
+    },
+    "answer": "C",
+    "explanation": "Age of new student = 18 - (24 * 1 month / 12) = 18 - 2 = 16 years. [cite: 2944]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3dd0f3e9f5ab15abf"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Average",
+    "subtopic": "Age Calculations",
+    "difficulty": "Medium",
+    "question": "Q71. The average age of 9 students and their teacher is 16 years. The average age of the first four students is 19 years and that of the last five is 10 years. The teacher’s age is",
+    "option": {
+      "A": "36 years",
+      "B": "34 years",
+      "C": "30 years",
+      "D": "28 years"
+    },
+    "answer": "B",
+    "explanation": "Teacher's age = (16 * 10) - (19 * 4) - (10 * 5) = 160 - 76 - 50 = 34 years. [cite: 2946, 2947]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae37c1aa99a2471e213"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Partnership",
+    "subtopic": "Profit Sharing",
+    "difficulty": "Medium",
+    "question": "Q72. X and Y started a business by investing Rs. 171000 and Rs. 243000, respectively. If X’s share in the profit earned at the end of year is Rs. 3800, then what will be the total profit (in Rs.) earned by them together?",
+    "option": {
+      "A": "9200",
+      "B": "9600",
+      "C": "8400",
+      "D": "8800"
+    },
+    "answer": "A",
+    "explanation": "X:Y investment ratio is 19:27. Total profit = (3800/19) * 46 = Rs. 9200. [cite: 2950, 2951, 2952]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3190c4e9ff049253d"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Compound Interest",
+    "subtopic": "Interest Calculation",
+    "difficulty": "Hard",
+    "question": "Q73. Rs 2,40,000 is taken as loan for three years compounded annually at 12.5% p.a. At the end of first year, the interest is revised to 12% p.a. The total amount to be repaid at the end of third year is:",
+    "option": {
+      "A": "Rs 3,26,400",
+      "B": "Rs 3,34,800",
+      "C": "Rs 3,38,688",
+      "D": "Rs 3,42,648"
+    },
+    "answer": "C",
+    "explanation": "Amount after Year 1 = 270,000. Final Amount after 2 more years at 12% = 270,000 * 1.12 * 1.12 = Rs. 3,38,688. [cite: 2953, 2955, 2965, 2966]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae306584bd40d6c6838"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Square Roots",
+    "difficulty": "Easy",
+    "question": "Q74. The students of a class donated Rs.3,481 towards relief. Each student donated an amount equal to the number of students in the class. The number of students in the class is:",
+    "option": {
+      "A": "49",
+      "B": "59",
+      "C": "61",
+      "D": "51"
+    },
+    "answer": "B",
+    "explanation": "Let students = x. x² = 3481, so x = √3481 = 59. [cite: 2971, 2973, 2974]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae303fd8521bdd10729"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Mathematics",
+    "topic": "Logical Reasoning",
+    "subtopic": "Growth Patterns",
+    "difficulty": "Medium",
+    "question": "Q75. If it takes 42 days for a pond to get filled with rain water. If the level of water doubles each day. Then how long would it take to fill 1/16 of pond.",
+    "option": {
+      "A": "38 days",
+      "B": "39 days",
+      "C": "32 days",
+      "D": "8 days"
+    },
+    "answer": "A",
+    "explanation": "If it is full (16/16) on day 42, then it was 1/2 (8/16) on day 41, 1/4 (4/16) on day 40, 1/8 (2/16) on day 39, and 1/16 on day 38. [cite: 2979, 2980, 2981, 2982, 2983, 2985]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae33391264577819b02"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Analogy",
+    "subtopic": "Classification",
+    "difficulty": "Easy",
+    "question": "Q76. Choose the correct appropriate answer. In each of the following questions, find out the alternative which will replace the question mark. Horse : Stable :: ? : ?",
+    "option": {
+      "A": "Dog : Byre",
+      "B": "Eagle : Igloo",
+      "C": "Pig : Sty",
+      "D": "Cow : Kennel"
+    },
+    "answer": "C",
+    "explanation": "Stable is where a horse lives; similarly, a sty is where a pig lives. [cite: 1927, 1930, 2988]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae38f79dd029750ba57"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Odd One Out",
+    "subtopic": "Classification",
+    "difficulty": "Easy",
+    "question": "Q78. Choose the correct appropriate answer. (a) Trident (b) Triumph (c) Tripod (d) Triangle",
+    "option": {
+      "A": "Trident",
+      "B": "Triumph",
+      "C": "Tripod",
+      "D": "Triangle"
+    },
+    "answer": "B",
+    "explanation": "Except triumph, 'tri' stands for 'three' in all the other terms. [cite: 2992]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae34a6770ed66e22a87"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Quantitative Aptitude",
+    "topic": "Age Problems",
+    "subtopic": "Ratio and Proportion",
+    "difficulty": "Medium",
+    "question": "Q89. Ratio of present ages of P and Q is 9 : 4. The difference between their ages is 20 yr. What will be the sum (in yr) of their ages after 10 yr?",
+    "option": {
+      "A": "62",
+      "B": "66",
+      "C": "72",
+      "D": "76"
+    },
+    "answer": "C",
+    "explanation": "Solving 9x - 4x = 20 gives x=4. Sum after 10 yr = (36+10) + (16+10) = 46 + 26 = 72 yr. [cite: 3046, 3048, 3049, 3050]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae393de5d30d247b98a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Mathematical Operations",
+    "subtopic": "Coding Decoding",
+    "difficulty": "Medium",
+    "question": "Q90. In a certain code language, ‘+’ represents ‘×’, ‘–’ represents ‘+’, ‘×’ represents ‘÷’ and ‘÷’ represents ‘–’. What is the answer to the following question? 80 + 2 ÷ 25 + 5 – 10 = ?",
+    "option": {
+      "A": "35",
+      "B": "98",
+      "C": "36",
+      "D": "45"
+    },
+    "answer": "D",
+    "explanation": "Substituting signs gives 80 * 2 - 25 * 5 + 10 = 160 - 125 + 10 = 45. [cite: 3051, 3061, 3062, 3063]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3885b4f554009210a"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Mathematical Operations",
+    "subtopic": "Coding Decoding",
+    "difficulty": "Medium",
+    "question": "Q91. In a certain code language, ‘+’ represents ‘×’, ‘–’ represents ‘+’, ‘×’ represents ‘÷’ and ‘÷’ represents ‘–’. What is the answer to the following question? 72 × 9 – 14 + 2 = ?",
+    "option": {
+      "A": "20",
+      "B": "86",
+      "C": "30",
+      "D": "36"
+    },
+    "answer": "D",
+    "explanation": "Changing signs gives 72 ÷ 9 + 14 * 2 = 8 + 28 = 36. [cite: 3064, 3066, 3070, 3071, 3072]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae385553909a333709e"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Syllogism",
+    "subtopic": "Logical Deduction",
+    "difficulty": "Medium",
+    "question": "Q92. Statements: 1. Some boys are hardworking. 2. No intelligent are boys. Conclusion: I. Some hardworking are not intelligent. II. All hardworking are intelligent. III. Some intelligent are not hardworking.",
+    "option": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusions I and III follow",
+      "C": "All conclusions follow",
+      "D": "No conclusion follows"
+    },
+    "answer": "A",
+    "explanation": "Based on the statements, only conclusion I is true. [cite: 3075, 3078]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3b45635fcae87af08"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Blood Relations",
+    "subtopic": "Family Tree",
+    "difficulty": "Easy",
+    "question": "Q93. Pointing to a woman in the photograph Arun said, “She is the wife of the only child of my father”. How is the woman related to Arun?",
+    "option": {
+      "A": "Wife",
+      "B": "Niece",
+      "C": "Mother",
+      "D": "Daughter"
+    },
+    "answer": "A",
+    "explanation": "The woman is the wife of Arun. [cite: 3079, 3086]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae36a86975c40fc23c9"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Blood Relations",
+    "subtopic": "Family Tree",
+    "difficulty": "Medium",
+    "question": "Q94. Introducing a girl a boy says, “She is the only daughter of the wife of my brother-in-law”. How is the girl related to the boy?",
+    "option": {
+      "A": "Sister-in-law",
+      "B": "Mother",
+      "C": "Daughter",
+      "D": "Niece"
+    },
+    "answer": "D",
+    "explanation": "The girl is the niece of the boy. [cite: 3087, 3093]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae34e1afd77bcb28f8b"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Ranking",
+    "subtopic": "Linear Arrangement",
+    "difficulty": "Medium",
+    "question": "Q95. In a row of 74 girls, Shweta is 27 from left end. Palak is 7th to the right of Shweta. What is Palak’s position from right end of the row?",
+    "option": {
+      "A": "40",
+      "B": "41",
+      "C": "42",
+      "D": "44"
+    },
+    "answer": "B",
+    "explanation": "Palak's position from left = 34th. Position from right = 74 - 34 + 1 = 41st. [cite: 3094, 3098, 3102, 3103, 3104]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae36ab2398db273ca70"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Ranking",
+    "subtopic": "Comparison",
+    "difficulty": "Medium",
+    "question": "Q96. In a class, P has more marks than Q and R does not have the least marks. S has more marks than T and T has more marks than P, who among them will have the least marks?",
+    "option": {
+      "A": "P",
+      "B": "Q",
+      "C": "S",
+      "D": "T"
+    },
+    "answer": "B",
+    "explanation": "From the conditions S > T > P > Q, Q has the minimum marks. [cite: 3105, 3107, 3109, 3110]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3403113e6546d5868"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Sitting Arrangement",
+    "subtopic": "Linear Arrangement",
+    "difficulty": "Medium",
+    "question": "Q97. Five students are sitting in a row. T is on the right of Z. M is on the left of Z but is on the right of L. T is on the left of Q. Who is sitting first from the left?",
+    "option": {
+      "A": "Z",
+      "B": "Q",
+      "C": "T",
+      "D": "L"
+    },
+    "answer": "D",
+    "explanation": "Sitting arrangement is L M Z T Q. L is sitting first from the left. [cite: 3113, 3114, 3121]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae3180e4cb51c413bae"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Calendar",
+    "subtopic": "Days and Dates",
+    "difficulty": "Hard",
+    "question": "Q98. Eshan’s birthday is on Friday 10 March. On what day of the week will be Shlok’s birthday in the same year if Shlok was born on 25th September?",
+    "option": {
+      "A": "Monday",
+      "B": "Wednesday",
+      "C": "Friday",
+      "D": "Thursday"
+    },
+    "answer": "A",
+    "explanation": "Total days from 10 March to 25 September = 199. Odd days = 199 ÷ 7 = 3. Required day = Friday + 3 = Monday. [cite: 3122, 3123, 3124, 3125, 3126]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae301eaa1220b90ec4c"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Direction Sense",
+    "subtopic": "Distance and Direction",
+    "difficulty": "Medium",
+    "question": "Q99. Kamal starts walking from his home facing west direction. After walking 10 km he takes a right turn and walks another 10 km. He takes another right turn and walks 10 km to reach his school. How far (in km) and in which direction is he from his home?",
+    "option": {
+      "A": "10, North",
+      "B": "10, South",
+      "C": "20, North-East",
+      "D": "20, South-West"
+    },
+    "answer": "A",
+    "explanation": "Kamal is 10 km North from his home. [cite: 3127, 3136]",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae366e36762a007ea83"
+    }
+  },
+  {
+    "exam_type": "AFCAT",
+    "department": "Indian Air Force",
+    "subject": "Reasoning",
+    "topic": "Counting Figures",
+    "subtopic": "Triangles",
+    "difficulty": "Medium",
+    "question": "Q100. How many triangles are there in the given figure.",
+    "option": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "answer": "B",
+    "explanation": "Triangles are identified as: 1. ΔAFG 2. ΔFGD 3. ΔADF 4. ΔEBH 5. ΔEHD 6. ΔBED 7. ΔFCD 8. ΔCDE 9. ΔACD 10. ΔBDC 11. ΔABC. [cite: 3137, 3145-3155]",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2024",
+    "pdf_name": "IAF-AFCAT-II-2024-PYP-Memory-Based.pdf",
+    "_id": {
+      "$oid": "69c4aae36b66ae201b35d8df"
+    }
+  }
+]

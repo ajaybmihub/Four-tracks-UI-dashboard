@@ -91,12 +91,33 @@ function mapToCollection(dept) {
     if (!dept) return "topics"; 
     const d = dept.toLowerCase();
     
-    // Exact/Specific matches first
-    if (d.includes("upsc")) return "upsc";
-    if (d.includes("railway")) return "railways";
-    if (d.includes("bank") || d.includes("sbi") || d.includes("ibps") || d.includes("rbi") || d.includes("pnb") || d.includes("canara") || d.includes("hdfc") || d.includes("bob") || d.includes("axis") || d.includes("icici") || d.includes("idbi") || d.includes("indian bank") || d.includes("central bank") || d.includes("union bank") || d.includes("corporation bank") || d.includes("dena bank") || d.includes("vijaya bank") || d.includes("syndicate bank") || d.includes("oriental bank") || d.includes("idfc") || d.includes("yes bank") || d.includes("kotak")) return "bank_exams";
+    // Exact/Specific matches for UPSC sub-exams
+    if (d.includes("medical services") || d.includes("cms")) return "upse_cms";
+    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("engineering services") || d.includes("ese") || d.includes("ies") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("capf") || d.includes("geo-scientist")) return "upsc";
+    
+    // 1. Precise Banking Matches (HIGHEST PRIORITY)
+    if (d.includes("office assistant") || d.includes("rrb clerk") || d.includes("rrb po") || d.includes("officer scale i")) {
+        if (d.includes("clerk") || d.includes("assistant")) return "ibps_rrb_clerk";
+        if (d.includes("po") || d.includes("scale i")) return "ibps_rrb_po";
+    }
+    if (d.includes("specialist officer") || d.includes("so")) return "ibps_rrb_so";
+    if (d.includes("sbi clerk") || d === "sbi clerk") return "sbi_clerk";
+    if (d.includes("sbi po") || d === "sbi po") return "sbi_po";
+    if (d.includes("ibps clerk") || d === "ibps clerk") return "ibps_clerk";
+    if (d.includes("ibps po") || d === "ibps po") return "ibps_po";
+    if (d.includes("bank") || d.includes("sbi") || d.includes("ibps") || d.includes("rbi") || d.includes("rbi po") || d.includes("rbi assistant")) return "bank_exams";
+    
+    // 2. Railways / RRB
+    if (d.includes("railway") || d.includes("rrb") || d.includes("ntpc") || d.includes("group d") || d.includes("alp") || d.includes("rpf")) return "railways";
+    
+    // 3. Medical
+    if (d.includes("medical services") || d.includes("cms")) return "upse_cms";
+    if (d.includes("neet mds")) return "neet_mds";
+    if (d.includes("neet ss")) return "neet_ss";
     if (d.includes("neet pg")) return "neet_pg";
     if (d.includes("neet")) return "neet_ug";
+    
+    // Defence
     if (d.includes("afcat") || d.includes("defence_afcad") || d.includes("afcad")) return "defence_afcad";
     
     // JEE sub-variants
@@ -121,11 +142,15 @@ app.get("/years", async (req, res) => {
   try {
     const { exam } = req.query; 
     const collectionName = mapToCollection(exam);
+    console.log(`[DEBUG] /years: exam="${exam}", collectionName="${collectionName}"`);
     const Model = getQuestionModel(collectionName);
     
     // If the collection contains multiple types, we should filter by the requested exam
     // Exception: dedicated collections for single exams
-    const dedicated = ["jee_main", "jee_advance", "neet_ug", "neet_pg"];
+    const dedicated = [
+        "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
+        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so"
+    ];
     let filter = { year: { $gte: "1900" } };
     
     if (exam && !dedicated.includes(collectionName)) {
@@ -224,11 +249,21 @@ async function calculateProgress() {
         'upsc': 'Govt Exams Track',
         'railways': 'Govt Exams Track',
         'bank_exams': 'Banking Track',
+        'sbi_clerk': 'Banking Track',
+        'sbi_po': 'Banking Track',
+        'ibps_clerk': 'Banking Track',
+        'ibps_po': 'Banking Track',
+        'ibps_rrb_clerk': 'Banking Track',
+        'ibps_rrb_po': 'Banking Track',
+        'ibps_rrb_so': 'Banking Track',
         'jee_main': 'JEE / NEET Track',
         'jee_advance': 'JEE / NEET Track',
         'neet_ug': 'JEE / NEET Track',
         'neet_pg': 'JEE / NEET Track',
-        'defence_afcad': 'Govt Exams Track'
+        'neet_ss': 'JEE / NEET Track',
+        'neet_mds': 'JEE / NEET Track',
+        'defence_afcad': 'Govt Exams Track',
+        'upse_cms': 'Govt Exams Track'
     };
 
     let metric = {
@@ -250,7 +285,16 @@ async function calculateProgress() {
         'jee_main': 'JEE Main',
         'jee_advance': 'JEE Advanced',
         'neet_ug': 'NEET UG',
-        'neet_pg': 'NEET PG'
+        'neet_pg': 'NEET PG',
+        'neet_ss': 'NEET SS',
+        'neet_mds': 'NEET MDS',
+        'upse_cms': 'Combined Medical Services (CMS)',
+        'ibps_rrb_po': 'IBPS RRB Officer Scale I (PO)',
+        'ibps_rrb_clerk': 'IBPS RRB Office Assistant (Clerk)',
+        'sbi_clerk': 'SBI Clerk',
+        'sbi_po': 'SBI PO',
+        'ibps_clerk': 'IBPS Clerk',
+        'ibps_po': 'IBPS PO'
       };
 
       if (singleExamOverrides[col]) {
@@ -265,7 +309,7 @@ async function calculateProgress() {
               { $group: { _id: "$_id.exam_name", updated_years: { $sum: 1 } } }
           ]);
           
-          if (col === 'bank_exams') console.log("Bank individual counts:", aggr);
+          // if (col === 'bank_exams') console.log("Bank individual counts:", aggr);
           
           aggr.forEach(item => {
               if (item._id) {

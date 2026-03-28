@@ -174,13 +174,8 @@ function renderTabs(activeTrackName) {
     const btn = document.createElement('button');
     btn.className = `tab-btn ${track.name === activeTrackName ? 'active' : ''}`;
     btn.dataset.track = track.name;
-    btn.onclick = () => {
-      // Clear any drill-down state when switching tracks
-      currentExam = "";
-      currentYear = "";
-      currentCategory = "";
-      switchTab(track, btn);
-    };
+    btn.dataset.type = track.type;
+    btn.dataset.action = 'switch-tab';
     btn.innerHTML = `<svg class="tab-icon"><use href="#${track.icon}"/></svg>${track.name}`;
     tabsContainer.appendChild(btn);
   });
@@ -217,7 +212,10 @@ function renderExamTrack(trackName, items) {
     const catPct = maxCat > 0 ? Math.min(100, Math.round((catUpdated / maxCat) * 100)) : 0;
 
     html += `
-      <div class="cat-item ${i === activeIdx ? 'active' : ''}" onclick="switchCat(this,'${safeid(trackName + '-' + cat)}', '${cat.replace(/'/g, "\\'")}')">
+      <div class="cat-item ${i === activeIdx ? 'active' : ''}" 
+           data-action="switch-cat" 
+           data-panel="${safeid(trackName + '-' + cat)}" 
+           data-cat="${cat}">
         <div class="cat-item-left">
           <div class="cat-icon-wrap ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
           <div>
@@ -281,7 +279,7 @@ function renderExamTrack(trackName, items) {
       states.forEach(state => {
         const count = stateMap.get(state).length;
         html += `
-          <button class="sbtn" data-state="${state}" onclick="openState('${panelId}','${safeid(state)}','${state.replace(/'/g, "\\'")}')">
+          <button class="sbtn" data-state="${state}" data-action="open-state" data-panel="${panelId}" data-sid="${safeid(state)}" data-sname="${state}">
             <div class="sbtn-icon ic-orange"><svg width="12" height="12"><use href="#ic-globe"/></svg></div>
             <div>
               <div class="sbn">${state}</div>
@@ -335,10 +333,11 @@ function renderExamTrack(trackName, items) {
           }
           
           const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-          const clickHandler = examPct > 0 ? `onclick="loadYears('${(exam.exam_name || exam.topic).replace(/'/g, "\\'")}')"` : "";
-
           html += `
-            <a class="ecard" href="javascript:void(0)" ${clickHandler} style="animation-delay:${delay}s; ${disabledStyle}">
+            <a class="ecard" href="javascript:void(0)" 
+               data-action="load-years" 
+               data-exam="${exam.exam_name || exam.topic}" 
+               style="animation-delay:${delay}s; ${disabledStyle}">
               <div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div>
               <div class="ebody">
                 <div class="ename">${displayName}</div>
@@ -402,10 +401,11 @@ function renderExamTrack(trackName, items) {
         }
         
         const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-        const clickHandler = examPct > 0 ? `onclick="loadYears('${(exam.exam_name || exam.topic).replace(/'/g, "\\'")}')"` : "";
-
         html += `
-          <a class="sub-card" href="javascript:void(0)" ${clickHandler} style="${disabledStyle}">
+          <a class="sub-card" href="javascript:void(0)" 
+             data-action="load-years" 
+             data-exam="${exam.exam_name || exam.topic}"
+             style="${disabledStyle}">
             <div class="sub-card-header">
               <div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
               <div class="sub-card-body">
@@ -680,7 +680,7 @@ window.loadYears = async function(exam) {
         <div class="year-grid">`;
     
     years.forEach(year => {
-      html += `<div class="year-card" onclick="loadPapers('${exam.replace(/'/g, "\\'")}', ${year})">
+      html += `<div class="year-card" data-action="load-papers" data-exam="${exam}" data-year="${year}">
         ${year}
       </div>`;
     });
@@ -715,7 +715,7 @@ window.loadPapers = async function(exam, year) {
 
     papers.forEach(p => {
       html += `
-        <div class="paper-card" onclick="loadQuestions('${p._id}', '${exam.replace(/'/g, "\\'")}', '${year}')">
+        <div class="paper-card" data-action="load-questions" data-id="${p._id}" data-exam="${exam}" data-year="${year}">
           <h4>${p.paper}</h4>
           <p>${p.pdf_name}</p>
         </div>`;
@@ -810,6 +810,30 @@ window.toggleAllAnswers = function() {
     
     btn.innerText = show ? 'Hide All Answers' : 'Show All Answers';
 };
+
+// ═══════════════════════════════════════════════════════════
+//  GLOBAL EVENT DELEGATION
+// ═══════════════════════════════════════════════════════════
+document.addEventListener('click', (e) => {
+    const target = e.target.closest('[data-action]');
+    if (!target) return;
+    const action = target.dataset.action;
+    const ds = target.dataset;
+    if (action === 'switch-tab') {
+        const track = TRACKS.find(t => t.name === ds.track);
+        if (track) { currentExam = ""; currentYear = ""; currentCategory = ""; switchTab(track, target); }
+    } else if (action === 'switch-cat') {
+        switchCat(target, ds.panel, ds.cat);
+    } else if (action === 'open-state') {
+        openState(ds.panel, ds.sid, ds.sname);
+    } else if (action === 'load-years') {
+        if (!target.style.opacity || target.style.opacity !== "0.5") loadYears(ds.exam);
+    } else if (action === 'load-papers') {
+        loadPapers(ds.exam, ds.year);
+    } else if (action === 'load-questions') {
+        loadQuestions(ds.id, ds.exam, ds.year);
+    }
+});
 
 // ═══════════════════════════════════════════════════════════
 //  HELPERS

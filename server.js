@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static(__dirname));
 
 // ── MONGOOSE SETUP ──
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://pf3ihub:42eoLwZCRIdRO8Yz@tat-qestion-bank.qjtlk.mongodb.net/quiz_bank?retryWrites=true&w=majority&appName=TAT-Qestion-Bank";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://pf3ihub:42eoLwZCRIdRO8Yz@tat-qestion-bank.qjtlk.mongodb.net/goverment_qb?retryWrites=true&w=majority&appName=TAT-Qestion-Bank";
 
 if (!MONGO_URI) {
   console.error("❌ Error: MONGO_URI is missing. Set it in your environment variables or .env file.");
@@ -79,7 +79,8 @@ const topicSchema = new mongoose.Schema({
   eligibility: String,
   frequency: String,
   question_count: String,
-  year_range: String
+  year_range: String,
+  sub_topic: [String]
 }, { collection: 'topics' });
 
 const Topic = mongoose.model('Topic', topicSchema);
@@ -93,7 +94,8 @@ function mapToCollection(dept) {
     
     // Exact/Specific matches for UPSC sub-exams
     if (d.includes("medical services") || d.includes("cms")) return "upse_cms";
-    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("engineering services") || d.includes("ese") || d.includes("ies") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("capf") || d.includes("geo-scientist")) return "upsc";
+    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("capf") || d.includes("geo-scientist")) return "upsc";
+    if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "engineering_services_examination_(ESE/IES)";
     
     // 1. Precise Banking Matches (HIGHEST PRIORITY)
     if (d.includes("office assistant") || d.includes("rrb clerk") || d.includes("rrb po") || d.includes("officer scale i")) {
@@ -124,6 +126,12 @@ function mapToCollection(dept) {
     if (d.includes("jee advance")) return "jee_advance";
     if (d.includes("jee main") || d.includes("jee")) return "jee_main";
 
+    // 4. Tech Track (DSA)
+    const techTopics = ["arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", "heap", "priority queue", "ai / machine learning", "web development", "software engineering", "programming languages", "operating systems", "cloud & devops", "system design", "databases", "dsa"];
+    if (techTopics.some(t => d.includes(t)) || d.includes("data structure") || d.includes("algorithms")) {
+        return "coding_problems";
+    }
+
     return "topics"; 
 }
 
@@ -145,11 +153,10 @@ app.get("/years", async (req, res) => {
     console.log(`[DEBUG] /years: exam="${exam}", collectionName="${collectionName}"`);
     const Model = getQuestionModel(collectionName);
     
-    // If the collection contains multiple types, we should filter by the requested exam
-    // Exception: dedicated collections for single exams
     const dedicated = [
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
-        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so"
+        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so", "engineering_services_examination_(ESE/IES)",
+        "coding_problems"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -166,6 +173,9 @@ app.get("/years", async (req, res) => {
         }
     }
 
+    if (collectionName === "coding_problems") {
+        return res.json(["Topic Based"]);
+    }
     const years = await Model.distinct("year", filter);
     res.json(years.sort((a,b) => b.localeCompare(a)));
   } catch (err) {
@@ -177,8 +187,13 @@ app.get("/years", async (req, res) => {
 app.get("/papers", async (req, res) => {
   try {
     const { exam, year } = req.query;
-    const Model = getQuestionModel(mapToCollection(exam));
+    const colName = mapToCollection(exam);
+    const Model = getQuestionModel(colName);
     
+    if (colName === "coding_problems") {
+        return res.json([{ _id: exam, pdf_name: null, paper: exam + " - Topic Based" }]);
+    }
+
     const papers = await Model.aggregate([
       { $match: { 
           $and: [
@@ -206,28 +221,49 @@ app.get("/papers", async (req, res) => {
   }
 });
 
-// 4. GET /questions?paper_id=...&exam=UPSC
-app.get("/questions", async (req, res) => {
-  try {
-    const { paper_id, exam, year } = req.query;
-    const Model = getQuestionModel(mapToCollection(exam));
-    
-    let query = { $or: [{ exam_type: paper_id }, { exam: paper_id }] };
-    if (year) {
-      query = {
-        $and: [
-          { $or: [{ exam_type: paper_id }, { exam: paper_id }] },
-          { $or: [{ year: String(year) }, { year: Number(year) }] }
-        ]
-      };
-    }
-    
-    const questions = await Model.find(query);
-    res.json(questions);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
+    // 4. GET /questions?paper_id=...&exam=UPSC
+    app.get("/questions", async (req, res) => {
+      try {
+        const { paper_id, exam, year } = req.query;
+        const colName = mapToCollection(exam);
+        const Model = getQuestionModel(colName);
+        
+        // Special case for Tech Track (uses sub_topic filtering)
+        if (colName === "coding_problems") {
+            const topicMeta = await Topic.findOne({ 
+                $or: [{ exam_name: exam }, { topic: exam }, { category: exam }],
+                track_name: "Tech Track" 
+            });
+            
+            const searchTags = topicMeta ? [topicMeta.exam_name, ...(topicMeta.sub_topic || [])] : [exam];
+            
+            const questions = await Model.find({ 
+                $or: [
+                    { topics: { $in: searchTags } }, 
+                    { topic: { $in: searchTags } },
+                    { role: { $in: searchTags } },
+                    { topics_normalized: { $in: searchTags } }
+                ]
+            }).limit(50);
+            return res.json(questions);
+        }
+
+        let query = { $or: [{ exam_type: paper_id }, { exam: paper_id }] };
+        if (year) {
+          query = {
+            $and: [
+              { $or: [{ exam_type: paper_id }, { exam: paper_id }] },
+              { $or: [{ year: String(year) }, { year: Number(year) }] }
+            ]
+          };
+        }
+        
+        const questions = await Model.find(query);
+        res.json(questions);
+      } catch (err) {
+        res.status(500).json({ error: err.message });
+      }
+    });
 
 // 5. GET /topics?track=...
 app.get("/topics", async (req, res) => {
@@ -246,40 +282,47 @@ async function calculateProgress() {
   isCalculatingProgress = true;
   try {
     const collections = {
-        'upsc': 'Govt Exams Track',
-        'railways': 'Govt Exams Track',
-        'bank_exams': 'Banking Track',
-        'sbi_clerk': 'Banking Track',
-        'sbi_po': 'Banking Track',
+        'defence_afcad': 'Govt Exams Track',
+        'engineering_services_examination_(ESE/IES)': 'Govt Exams Track',
         'ibps_clerk': 'Banking Track',
         'ibps_po': 'Banking Track',
         'ibps_rrb_clerk': 'Banking Track',
         'ibps_rrb_po': 'Banking Track',
         'ibps_rrb_so': 'Banking Track',
-        'jee_main': 'JEE / NEET Track',
         'jee_advance': 'JEE / NEET Track',
-        'neet_ug': 'JEE / NEET Track',
+        'jee_main': 'JEE / NEET Track',
+        'neet_mds': 'JEE / NEET Track',
         'neet_pg': 'JEE / NEET Track',
         'neet_ss': 'JEE / NEET Track',
-        'neet_mds': 'JEE / NEET Track',
-        'defence_afcad': 'Govt Exams Track',
-        'upse_cms': 'Govt Exams Track'
+        'neet_ug': 'JEE / NEET Track',
+        'railways': 'Govt Exams Track',
+        'sbi_clerk': 'Banking Track',
+        'sbi_po': 'Banking Track',
+        'upse_cms': 'Govt Exams Track',
+        'coding_problems': 'Tech Track'
     };
 
     let metric = {
         totalUpdatedYears: 0,
         targetYears: 5985, // 399 exams * 15
+        totalQuestions: 0,
         tracks: {
-            "Govt Exams Track": { updated: 0, target: 0 },
-            "Banking Track": { updated: 0, target: 0 },
-            "JEE / NEET Track": { updated: 0, target: 0 },
-            "Tech Track": { updated: 0, target: 0 }
+            "Govt Exams Track": { updated: 0, target: 0, questions: 0 },
+            "Banking Track": { updated: 0, target: 0, questions: 0 },
+            "JEE / NEET Track": { updated: 0, target: 0, questions: 0 },
+            "Tech Track": { updated: 0, target: 0, questions: 0 }
         },
         exams: {}
     };
 
     for (const [col, trackTitle] of Object.entries(collections)) {
       const Model = getQuestionModel(col);
+      
+      // LIVE QUESTION COUNT
+      const totalQInCol = await Model.countDocuments();
+      console.log(`[DEBUG] DB COUNT for collection "${col}": ${totalQInCol}`);
+      metric.tracks[trackTitle].questions = (metric.tracks[trackTitle].questions || 0) + totalQInCol;
+      metric.totalQuestions += totalQInCol;
       
       const singleExamOverrides = {
         'jee_main': 'JEE Main',
@@ -294,7 +337,8 @@ async function calculateProgress() {
         'sbi_clerk': 'SBI Clerk',
         'sbi_po': 'SBI PO',
         'ibps_clerk': 'IBPS Clerk',
-        'ibps_po': 'IBPS PO'
+        'ibps_po': 'IBPS PO',
+        'engineering_services_examination_(ESE/IES)': 'Engineering Services Examination (ESE/IES)'
       };
 
       if (singleExamOverrides[col]) {
@@ -309,8 +353,6 @@ async function calculateProgress() {
               { $group: { _id: "$_id.exam_name", updated_years: { $sum: 1 } } }
           ]);
           
-          // if (col === 'bank_exams') console.log("Bank individual counts:", aggr);
-          
           aggr.forEach(item => {
               if (item._id) {
                   metric.exams[item._id] = item.updated_years;
@@ -318,8 +360,26 @@ async function calculateProgress() {
                   metric.totalUpdatedYears += item.updated_years;
               }
           });
+          if (col === 'coding_problems') {
+              const techTopics = await Topic.find({ track_name: 'Tech Track' });
+              for (const t of techTopics) {
+                  if (t.exam_name) {
+                      // BUILD SEARCH ARRAY: Exam Name + all its Sub-topics
+                      const searchTags = [t.exam_name, ...(t.sub_topic || [])];
+                      
+                      const c = await Model.countDocuments({ 
+                          $or: [
+                              { topics: { $in: searchTags } }, 
+                              { topic: { $in: searchTags } },
+                              { role: { $in: searchTags } },
+                              { topics_normalized: { $in: searchTags } }
+                          ] 
+                      });
+                      metric.exams[t.exam_name] = c; 
+                  }
+              }
+          }
           
-          // Fallback mapping for display names
           if (col === 'bank_exams') {
               metric.exams["SBI PO"] = metric.exams["SBI"] || 0;
               metric.exams["SBI Clerk"] = metric.exams["SBI"] || 0;
@@ -341,10 +401,16 @@ async function calculateProgress() {
     });
 
     for (const track in trackCounts) {
-      if (track === "Tech Track") continue;
-      metric.tracks[track].target = trackCounts[track] * 15;
+      if (track === "Tech Track") {
+          metric.tracks[track].target = 5000;
+          metric.tracks[track].updated = metric.tracks[track].questions; 
+      } else {
+          metric.tracks[track].target = trackCounts[track] * 15;
+      }
     }
 
+    metric.totalQuestions = Math.round(metric.totalQuestions);
+    console.log("[DEBUG] Final Computed Metric:", JSON.stringify(metric, null, 2));
     cachedProgressData = metric;
   } catch (err) {
     console.error("Error calculating progress in cron task:", err.message);
@@ -409,6 +475,12 @@ app.get("/api/cron-job", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
+  try {
+    await calculateProgress();
+    console.log("Initial progress calculated successfully.");
+  } catch (err) {
+    console.error("Initial progress calculation failed:", err);
+  }
 });

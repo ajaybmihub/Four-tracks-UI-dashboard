@@ -884,9 +884,21 @@
           }
 
           animateValue(`cnt-${info.key}`, 0, count, 1200);
-          if (sumQ > 0) {
-            animateValue(`q-${info.key}`, 0, sumQ, 1400, info.name === "Tech Track" ? "Questions" : undefined);
-            totalQAll += sumQ;
+          
+          let liveTrackQ = 0;
+          if (progressData && progressData.tracks && progressData.tracks[info.name]) {
+              liveTrackQ = progressData.tracks[info.name].questions || 0;
+          }
+          
+          // If live data exists, ignore the local JSON sum (sumQ)
+          const displayQ = liveTrackQ > 0 ? liveTrackQ : sumQ;
+          if (displayQ > 0) {
+            animateValue(`q-${info.key}`, 0, displayQ, 1400, info.name === "Tech Track" ? "Questions" : undefined);
+          }
+          
+          // Only track fallback total if live data hasn't arrived yet
+          if (liveTrackQ === 0) {
+              totalQAll += sumQ;
           }
           totalExamsAll += count;
 
@@ -947,7 +959,14 @@
       await Promise.all(fetches);
 
       animateValue("stat-exams", 0, totalExamsAll, 1200);
-      animateValue("stat-papers", 0, totalQAll, 1400);
+      
+      // STRICT LIVE ENFORCEMENT
+      const liveQ = (progressData && progressData.totalQuestions) ? progressData.totalQuestions : 0;
+      if (liveQ > 0) {
+          animateValue("stat-papers", 0, liveQ, 1400);
+      } else {
+          animateValue("stat-papers", 0, totalQAll, 1400);
+      }
 
       if (progressData) {
         const totalUpdated = progressData.totalUpdatedYears || 0;
@@ -1071,6 +1090,31 @@
           readinessTrendEl.innerHTML = `★ ${totalUpdated} / ${totalTarget} Years Synced`;
           readinessTrendEl.className = "stat-trend " + (progressPct >= 100 ? "trend-up" : "trend-neutral");
         }
+
+        // 🚀 LIVE QUESTION COUNTS UPDATE
+        if (progressData.totalQuestions) {
+           const statPapers = document.getElementById('stat-papers');
+           if (statPapers) {
+             const curVal = statPapers.innerText.replace(/,/g,'');
+             if (parseInt(curVal) !== progressData.totalQuestions) {
+                animateValue("stat-papers", parseInt(curVal) || 0, progressData.totalQuestions, 1000);
+             }
+           }
+        }
+
+        TRACKS_INFO.forEach(info => {
+           if (progressData.tracks && progressData.tracks[info.name]) {
+             const trackProg = progressData.tracks[info.name];
+             const qEl = document.getElementById(`q-${info.key}`);
+             if (qEl && trackProg.questions) {
+                 const curQ = qEl.innerText.replace(/,/g,'').match(/\d+/);
+                 const oldVal = curQ ? parseInt(curQ[0]) : 0;
+                 if (oldVal !== trackProg.questions) {
+                    animateValue(`q-${info.key}`, oldVal, trackProg.questions, 1000, info.name === "Tech Track" ? "Questions" : undefined);
+                 }
+             }
+           }
+        });
       } catch (err) {
         console.error("Auto refresh progress failed:", err);
       }

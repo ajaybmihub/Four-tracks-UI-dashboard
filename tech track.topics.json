@@ -1,0 +1,1848 @@
+[{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b64"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Arrays",
+  "conducting_body": "NO Sub-Domain",
+  "level": "1930",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Array",
+    "Matrix",
+    "Prefix Sum",
+    "Sliding Window",
+    "Two Pointers",
+    "Enumeration",
+    "Counting",
+    "Bucket Sort",
+    "Counting Sort",
+    "Radix Sort",
+    "Quickselect",
+    "Sorting",
+    "Merge Sort",
+    "Divide and Conquer",
+    "Simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b65"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Strings",
+  "conducting_body": "NO Sub-Domain",
+  "level": "944",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "String",
+    "String Matching",
+    "Rolling Hash",
+    "Suffix Array",
+    "Trie",
+    "Hash Function",
+    "Bitmask",
+    "Sliding Window",
+    "Two Pointers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b66"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Hashing",
+  "conducting_body": "NO Sub-Domain",
+  "level": "668",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Hash Table",
+    "Hash Function",
+    "Rolling Hash",
+    "Prefix Sum",
+    "Counting"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b67"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Linked Lists",
+  "conducting_body": "NO Sub-Domain",
+  "level": "170",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Linked List"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b68"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Stack",
+  "conducting_body": "NO Sub-Domain",
+  "level": "174",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Stack",
+    "Monotonic Stack"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b69"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Queue / Deque",
+  "conducting_body": "NO Sub-Domain",
+  "level": "187",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Queue",
+    "Monotonic Queue",
+    "Breadth-First Search"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b6a"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search",
+  "conducting_body": "NO Sub-Domain",
+  "level": "344",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Binary Search",
+    "Divide and Conquer",
+    "Ordered Set",
+    "Prefix Sum"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b6b"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Trees",
+  "conducting_body": "NO Sub-Domain",
+  "level": "373",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Tree",
+    "Binary Tree",
+    "Segment Tree",
+    "Binary Indexed Tree",
+    "Trie",
+    "Minimum Spanning Tree"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b6c"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search Trees (BST)",
+  "conducting_body": "NO Sub-Domain",
+  "level": "79",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Binary Search Tree",
+    "Ordered Set"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b6d"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Graphs",
+  "conducting_body": "NO Sub-Domain",
+  "level": "329",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Graph",
+    "Graph Theory",
+    "Breadth-First Search",
+    "Depth-First Search",
+    "Shortest Path",
+    "Topological Sort",
+    "Strongly Connected Component",
+    "Minimum Spanning Tree",
+    "Union Find",
+    "Line Sweep"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b6e"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Recursion",
+  "conducting_body": "NO Sub-Domain",
+  "level": "146",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Recursion",
+    "Divide and Conquer",
+    "Memoization"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b6f"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Backtracking",
+  "conducting_body": "NO Sub-Domain",
+  "level": "106",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Backtracking",
+    "Combinatorics",
+    "Enumeration",
+    "Game Theory",
+    "Bitmask"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b70"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Dynamic Programming",
+  "conducting_body": "NO Sub-Domain",
+  "level": "617",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Dynamic Programming",
+    "Memoization",
+    "Coin Change Problem",
+    "Combinatorial Optimization",
+    "Optimization",
+    "Counting",
+    "Probability and Statistics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b71"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Greedy Algorithms",
+  "conducting_body": "NO Sub-Domain",
+  "level": "378",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Greedy",
+    "Greedy Algorithms",
+    "Line Sweep",
+    "Minimum Spanning Tree",
+    "Sorting",
+    "Simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b72"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Heap / Priority Queue",
+  "conducting_body": "NO Sub-Domain",
+  "level": "165",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": [
+    "Heap (Priority Queue)",
+    "Shortest Path",
+    "Greedy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b73"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "conducting_body": "ML Algorithms",
+  "level": "208",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b74"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "conducting_body": "Data Processing",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b75"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "conducting_body": "Model Logic",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b76"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "conducting_body": "Frontend Logic",
+  "level": "65",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b77"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "conducting_body": "Backend APIs",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b78"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "conducting_body": "DOM Manipulation",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b79"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "conducting_body": "Code Design",
+  "level": "43",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b7a"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "conducting_body": "OOP Implementation",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b7b"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "conducting_body": "Modular Programming",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b7c"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "conducting_body": "Language Syntax",
+  "level": "87",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b7d"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "conducting_body": "Memory Behavior",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b7e"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "conducting_body": "Language-Specific Problems",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b7f"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "conducting_body": "Process Scheduling",
+  "level": "7",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b80"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "conducting_body": "Threads",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b81"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "conducting_body": "Networking Logic",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b82"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Behavioral / Logical",
+  "conducting_body": "Logical Reasoning",
+  "level": "27",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b83"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Behavioral / Logical",
+  "conducting_body": "Scenario-Based Coding",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b84"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "conducting_body": "Infrastructure Automation",
+  "level": "7",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b85"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "conducting_body": "CI/CD Logic",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b86"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "conducting_body": "Cloud Service Implementation",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b87"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "conducting_body": "Scalable Architecture",
+  "level": "18",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b88"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "conducting_body": "Distributed System Logic",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b89"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "conducting_body": "SQL Queries",
+  "level": "17",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b8a"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "conducting_body": "Schema Design",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98b8b"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "conducting_body": "Query Optimization",
+  "level": "",
+  "frequency": "",
+  "question_count": "",
+  "year_range": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba3"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Arrays",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "1930",
+  "__v": 0,
+  "sub_topic": [
+    "Array",
+    "Matrix",
+    "Prefix Sum",
+    "Sliding Window",
+    "Two Pointers",
+    "Enumeration",
+    "Counting",
+    "Bucket Sort",
+    "Counting Sort",
+    "Radix Sort",
+    "Quickselect",
+    "Sorting",
+    "Merge Sort",
+    "Divide and Conquer",
+    "Simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba4"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Strings",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "944",
+  "__v": 0,
+  "sub_topic": [
+    "String",
+    "String Matching",
+    "Rolling Hash",
+    "Suffix Array",
+    "Trie",
+    "Hash Function",
+    "Bitmask",
+    "Sliding Window",
+    "Two Pointers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba5"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Hashing",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "668",
+  "__v": 0,
+  "sub_topic": [
+    "Hash Table",
+    "Hash Function",
+    "Rolling Hash",
+    "Prefix Sum",
+    "Counting"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba6"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Linked Lists",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "170",
+  "__v": 0,
+  "sub_topic": [
+    "Linked List"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba7"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Stack",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "174",
+  "__v": 0,
+  "sub_topic": [
+    "Stack",
+    "Monotonic Stack"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba8"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Queue / Deque",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "187",
+  "__v": 0,
+  "sub_topic": [
+    "Queue",
+    "Monotonic Queue",
+    "Breadth-First Search"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98ba9"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "344",
+  "__v": 0,
+  "sub_topic": [
+    "Binary Search",
+    "Divide and Conquer",
+    "Ordered Set",
+    "Prefix Sum"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98baa"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Trees",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "373",
+  "__v": 0,
+  "sub_topic": [
+    "Tree",
+    "Binary Tree",
+    "Segment Tree",
+    "Binary Indexed Tree",
+    "Trie",
+    "Minimum Spanning Tree"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bab"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search Trees (BST)",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "79",
+  "__v": 0,
+  "sub_topic": [
+    "Binary Search Tree",
+    "Ordered Set"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bac"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Graphs",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "329",
+  "__v": 0,
+  "sub_topic": [
+    "Graph",
+    "Graph Theory",
+    "Breadth-First Search",
+    "Depth-First Search",
+    "Shortest Path",
+    "Topological Sort",
+    "Strongly Connected Component",
+    "Minimum Spanning Tree",
+    "Union Find",
+    "Line Sweep"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bad"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Recursion",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "146",
+  "__v": 0,
+  "sub_topic": [
+    "Recursion",
+    "Divide and Conquer",
+    "Memoization"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bae"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Backtracking",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "106",
+  "__v": 0,
+  "sub_topic": [
+    "Backtracking",
+    "Combinatorics",
+    "Enumeration",
+    "Game Theory",
+    "Bitmask"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98baf"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Dynamic Programming",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "617",
+  "__v": 0,
+  "sub_topic": [
+    "Dynamic Programming",
+    "Memoization",
+    "Coin Change Problem",
+    "Combinatorial Optimization",
+    "Optimization",
+    "Counting",
+    "Probability and Statistics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb0"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Greedy Algorithms",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "378",
+  "__v": 0,
+  "sub_topic": [
+    "Greedy",
+    "Greedy Algorithms",
+    "Line Sweep",
+    "Minimum Spanning Tree",
+    "Sorting",
+    "Simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb1"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Heap / Priority Queue",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "165",
+  "__v": 0,
+  "sub_topic": [
+    "Heap (Priority Queue)",
+    "Shortest Path",
+    "Greedy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb2"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "eligibility": "ML Algorithms",
+  "question_count": "208",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb3"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "eligibility": "Data Processing",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb4"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "eligibility": "Model Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb5"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "eligibility": "Frontend Logic",
+  "question_count": "65",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb6"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "eligibility": "Backend APIs",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb7"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "eligibility": "DOM Manipulation",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb8"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "eligibility": "Code Design",
+  "question_count": "43",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bb9"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "eligibility": "OOP Implementation",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bba"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "eligibility": "Modular Programming",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bbb"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "eligibility": "Language Syntax",
+  "question_count": "87",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bbc"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "eligibility": "Memory Behavior",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bbd"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "eligibility": "Language-Specific Problems",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bbe"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "eligibility": "Process Scheduling",
+  "question_count": "7",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bbf"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "eligibility": "Threads",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc0"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "eligibility": "Networking Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc1"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Behavioral / Logical",
+  "eligibility": "Logical Reasoning",
+  "question_count": "27",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc2"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Behavioral / Logical",
+  "eligibility": "Scenario-Based Coding",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc3"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "eligibility": "Infrastructure Automation",
+  "question_count": "7",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc4"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "eligibility": "CI/CD Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc5"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "eligibility": "Cloud Service Implementation",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc6"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "eligibility": "Scalable Architecture",
+  "question_count": "18",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc7"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "eligibility": "Distributed System Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc8"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "eligibility": "SQL Queries",
+  "question_count": "17",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bc9"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "eligibility": "Schema Design",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bca"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "eligibility": "Query Optimization",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bcb"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Arrays",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "1930",
+  "__v": 0,
+  "sub_topic": [
+    "Array",
+    "Matrix",
+    "Prefix Sum",
+    "Sliding Window",
+    "Two Pointers",
+    "Enumeration",
+    "Counting",
+    "Bucket Sort",
+    "Counting Sort",
+    "Radix Sort",
+    "Quickselect",
+    "Sorting",
+    "Merge Sort",
+    "Divide and Conquer",
+    "Simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bcc"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Strings",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "944",
+  "__v": 0,
+  "sub_topic": [
+    "String",
+    "String Matching",
+    "Rolling Hash",
+    "Suffix Array",
+    "Trie",
+    "Hash Function",
+    "Bitmask",
+    "Sliding Window",
+    "Two Pointers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bcd"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Hashing",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "668",
+  "__v": 0,
+  "sub_topic": [
+    "Hash Table",
+    "Hash Function",
+    "Rolling Hash",
+    "Prefix Sum",
+    "Counting"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bce"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Linked Lists",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "170",
+  "__v": 0,
+  "sub_topic": [
+    "Linked List"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bcf"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Stack",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "174",
+  "__v": 0,
+  "sub_topic": [
+    "Stack",
+    "Monotonic Stack"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd0"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Queue / Deque",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "187",
+  "__v": 0,
+  "sub_topic": [
+    "Queue",
+    "Monotonic Queue",
+    "Breadth-First Search"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd1"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "344",
+  "__v": 0,
+  "sub_topic": [
+    "Binary Search",
+    "Divide and Conquer",
+    "Ordered Set",
+    "Prefix Sum"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd2"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Trees",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "373",
+  "__v": 0,
+  "sub_topic": [
+    "Tree",
+    "Binary Tree",
+    "Segment Tree",
+    "Binary Indexed Tree",
+    "Trie",
+    "Minimum Spanning Tree"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd3"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search Trees (BST)",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "79",
+  "__v": 0,
+  "sub_topic": [
+    "Binary Search Tree",
+    "Ordered Set"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd4"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Graphs",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "329",
+  "__v": 0,
+  "sub_topic": [
+    "Graph",
+    "Graph Theory",
+    "Breadth-First Search",
+    "Depth-First Search",
+    "Shortest Path",
+    "Topological Sort",
+    "Strongly Connected Component",
+    "Minimum Spanning Tree",
+    "Union Find",
+    "Line Sweep"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd5"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Recursion",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "146",
+  "__v": 0,
+  "sub_topic": [
+    "Recursion",
+    "Divide and Conquer",
+    "Memoization"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd6"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Backtracking",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "106",
+  "__v": 0,
+  "sub_topic": [
+    "Backtracking",
+    "Combinatorics",
+    "Enumeration",
+    "Game Theory",
+    "Bitmask"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd7"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Dynamic Programming",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "617",
+  "__v": 0,
+  "sub_topic": [
+    "Dynamic Programming",
+    "Memoization",
+    "Coin Change Problem",
+    "Combinatorial Optimization",
+    "Optimization",
+    "Counting",
+    "Probability and Statistics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd8"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Greedy Algorithms",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "378",
+  "__v": 0,
+  "sub_topic": [
+    "Greedy",
+    "Greedy Algorithms",
+    "Line Sweep",
+    "Minimum Spanning Tree",
+    "Sorting",
+    "Simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bd9"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Heap / Priority Queue",
+  "eligibility": "NO Sub-Domain",
+  "question_count": "165",
+  "__v": 0,
+  "sub_topic": [
+    "Heap (Priority Queue)",
+    "Shortest Path",
+    "Greedy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bda"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "eligibility": "ML Algorithms",
+  "question_count": "208",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bdb"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "eligibility": "Data Processing",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bdc"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "AI / Machine Learning",
+  "eligibility": "Model Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bdd"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "eligibility": "Frontend Logic",
+  "question_count": "65",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bde"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "eligibility": "Backend APIs",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bdf"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Web Development",
+  "eligibility": "DOM Manipulation",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be0"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "eligibility": "Code Design",
+  "question_count": "43",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be1"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "eligibility": "OOP Implementation",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be2"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Software Engineering",
+  "eligibility": "Modular Programming",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be3"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "eligibility": "Language Syntax",
+  "question_count": "87",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be4"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "eligibility": "Memory Behavior",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be5"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Programming Languages",
+  "eligibility": "Language-Specific Problems",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be6"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "eligibility": "Process Scheduling",
+  "question_count": "7",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be7"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "eligibility": "Threads",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be8"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Operating Systems & Networking",
+  "eligibility": "Networking Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98be9"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Behavioral / Logical",
+  "eligibility": "Logical Reasoning",
+  "question_count": "27",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bea"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Behavioral / Logical",
+  "eligibility": "Scenario-Based Coding",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98beb"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "eligibility": "Infrastructure Automation",
+  "question_count": "7",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bec"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "eligibility": "CI/CD Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bed"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "eligibility": "Cloud Service Implementation",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bee"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "eligibility": "Scalable Architecture",
+  "question_count": "18",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bef"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "eligibility": "Distributed System Logic",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bf0"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "eligibility": "SQL Queries",
+  "question_count": "17",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bf1"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "eligibility": "Schema Design",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+},
+{
+  "_id": {
+    "$oid": "69bbeddc937c8af105d98bf2"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "eligibility": "Query Optimization",
+  "question_count": "",
+  "__v": 0,
+  "sub_topic": []
+}]

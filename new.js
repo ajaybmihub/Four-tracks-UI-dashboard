@@ -82,7 +82,6 @@ function _getUpdated(eName) {
    for (let k in map) {
       const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
       if (keyName === searchName) return map[k];
-      // Improved fuzzy match: check if UI exam name contains the DB id (e.g., "SBI Clerk" contains "SBI")
       if (searchName.includes(keyName) && keyName.length >= 2) return map[k];
       if (keyName.includes(searchName) && searchName.length >= 2) return map[k];
    }
@@ -95,7 +94,6 @@ function _getUpdated(eName) {
 async function loadAllTracks() {
   showLoader();
   try {
-    // Fetch all topics and the live database progress matrix smoothly
     const [resTopic, resProg] = await Promise.all([
         fetch(`${API_BASE}/topics`),
         fetch(`${API_BASE}/api/progress`)
@@ -108,7 +106,6 @@ async function loadAllTracks() {
         apiProgress = await resProg.json();
     }
     
-    // Group them by Track
     TRACKS.forEach(track => {
       loadedData[track.name] = allTopics.filter(t => t.track_name === track.name);
     });
@@ -116,13 +113,9 @@ async function loadAllTracks() {
     init();
   } catch (err) {
     console.error("Failed to load topics from DB:", err);
-    // Fallback logic could go here if needed
   }
 }
 
-// ═══════════════════════════════════════════════════════════
-//  LOADER
-// ═══════════════════════════════════════════════════════════
 function showLoader() {
   contentArea.innerHTML = `
     <div style="display:flex;align-items:center;justify-content:center;flex:1;flex-direction:column;gap:16px;color:var(--text-muted);">
@@ -140,9 +133,6 @@ function showLoader() {
   }
 }
 
-// ═══════════════════════════════════════════════════════════
-//  INIT
-// ═══════════════════════════════════════════════════════════
 function init() {
   let activeTrackName = null;
   const activeTabBtn = document.querySelector('.tab-btn.active');
@@ -165,9 +155,6 @@ function init() {
   }
 }
 
-// ═══════════════════════════════════════════════════════════
-//  RENDER TABS
-// ═══════════════════════════════════════════════════════════
 function renderTabs(activeTrackName) {
   tabsContainer.innerHTML = '';
   TRACKS.forEach((track) => {
@@ -181,68 +168,43 @@ function renderTabs(activeTrackName) {
   });
 }
 
-// ═══════════════════════════════════════════════════════════
-//  RENDER — EXAM-BASED TRACKS
-// ═══════════════════════════════════════════════════════════
 function renderExamTrack(trackName, items) {
   if (!items.length) {
-    contentArea.innerHTML = `
-      <div style="display:flex;align-items:center;justify-content:center;flex:1;color:var(--text-muted);font-size:14px;font-weight:600;">
-        No data available for ${trackName}.
-      </div>`;
+    contentArea.innerHTML = `<div style="display:flex;align-items:center;justify-content:center;flex:1;color:var(--text-muted);font-size:14px;font-weight:600;">No data available for ${trackName}.</div>`;
     return;
   }
-
-  // Use normalized keys (camelCase) from DB/Topic model
   const categories = [...new Set(items.map(d => d.category))];
-
   const activeIdx = categories.indexOf(currentCategory) !== -1 ? categories.indexOf(currentCategory) : 0;
   if (!currentCategory && categories.length > 0) currentCategory = categories[0];
 
-  // ── Left sidebar ──
   let html = `<div class="tab-body"><div class="cat-list"><div class="cat-group-label">Categories</div>`;
-
   categories.forEach((cat, i) => {
     const catItems = items.filter(d => d.category === cat);
     const cfg = getCfg(cat);
-
     let catUpdated = 0;
     catItems.forEach(d => { catUpdated += _getUpdated(d.exam_name || d.topic); });
     const maxCat = catItems.length * 15;
     const catPct = maxCat > 0 ? Math.min(100, Math.round((catUpdated / maxCat) * 100)) : 0;
-
-    html += `
-      <div class="cat-item ${i === activeIdx ? 'active' : ''}" 
-           data-action="switch-cat" 
-           data-panel="${safeid(trackName + '-' + cat)}" 
-           data-cat="${cat}">
+    html += `<div class="cat-item ${i === activeIdx ? 'active' : ''}" data-action="switch-cat" data-panel="${safeid(trackName + '-' + cat)}" data-cat="${cat}">
         <div class="cat-item-left">
           <div class="cat-icon-wrap ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
           <div>
             <div class="cat-name">${cat}</div>
-            <div class="cat-sub-count" style="display:flex;align-items:center;gap:6px;">
-               ${catItems.length} exam${catItems.length !== 1 ? 's' : ''}
-               <span style="color:var(--text-muted); font-size: 8px;">•</span>
-               <span style="color:${catPct > 0 ? '#00e676' : 'var(--text-muted)'}; white-space:nowrap;">${catPct}% Sync</span>
-            </div>
+            <div class="cat-sub-count" style="display:flex;align-items:center;gap:6px;">${catItems.length} exam${catItems.length !== 1 ? 's' : ''}<span style="color:var(--text-muted); font-size: 8px;">•</span><span style="color:${catPct > 0 ? '#00e676' : 'var(--text-muted)'}; white-space:nowrap;">${catPct}% Sync</span></div>
           </div>
         </div>
         <span class="cat-arrow"><svg width="12" height="12"><use href="#ic-chevron"/></svg></span>
       </div>`;
   });
-  html += `</div>`; // end cat-list
+  html += `</div>`;
 
-  // ── Panels ──
   categories.forEach((cat, i) => {
     const catItems = items.filter(d => d.category === cat);
     const cfg = getCfg(cat);
     const panelId = safeid(trackName + '-' + cat);
     const isStatePSC = cat === 'State PSC / State Exams' || cat === 'State PSC';
-
     html += `<div class="sub-panel ${i === activeIdx ? 'active' : ''} ${isStatePSC ? 'sub-panel--state' : ''}" id="${panelId}">`;
-
     if (isStatePSC) {
-      // ─── STATE PSC: two-level state grid → exam cards ───
       const stateMap = new Map();
       catItems.forEach(exam => {
         const name = exam.exam_name || '';
@@ -252,66 +214,17 @@ function renderExamTrack(trackName, items) {
         stateMap.get(stateName).push(exam);
       });
       const states = [...stateMap.keys()];
-
-      // Panel header
-      html += `
-        <div class="sub-panel-header">
-          <div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
-          <div>
-            <div class="sub-panel-title">State PSC / State Exams</div>
-            <div class="sub-panel-desc">${states.length} states · ${catItems.length} exams</div>
-          </div>
-          <div class="sub-panel-count">${states.length} States</div>
-        </div>`;
-
-      // State wrap (scrollable area)
-      html += `<div class="state-wrap" id="sw-${panelId}">`;
-
-      // State search
-      html += `
-        <div class="state-search-wrap">
-          <span class="sstate-ico"><svg width="14" height="14"><use href="#ic-globe"/></svg></span>
-          <input class="state-search" type="text" placeholder="Search state…" oninput="filterStates(this,'${panelId}')">
-        </div>`;
-
-      // State button grid
-      html += `<div class="sgrid" id="sgrid-${panelId}">`;
+      html += `<div class="sub-panel-header"><div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div><div class="sub-panel-title">State PSC / State Exams</div><div class="sub-panel-desc">${states.length} states · ${catItems.length} exams</div></div><div class="sub-panel-count">${states.length} States</div></div><div class="state-wrap" id="sw-${panelId}"><div class="state-search-wrap"><span class="sstate-ico"><svg width="14" height="14"><use href="#ic-globe"/></svg></span><input class="state-search" type="text" placeholder="Search state…" oninput="filterStates(this,'${panelId}')"></div><div class="sgrid" id="sgrid-${panelId}">`;
       states.forEach(state => {
         const count = stateMap.get(state).length;
-        html += `
-          <button class="sbtn" data-state="${state}" data-action="open-state" data-panel="${panelId}" data-sid="${safeid(state)}" data-sname="${state}">
-            <div class="sbtn-icon ic-orange"><svg width="12" height="12"><use href="#ic-globe"/></svg></div>
-            <div>
-              <div class="sbn">${state}</div>
-              <div class="sbc">${count} exams</div>
-            </div>
-          </button>`;
+        html += `<button class="sbtn" data-state="${state}" data-action="open-state" data-panel="${panelId}" data-sid="${safeid(state)}" data-sname="${state}"><div class="sbtn-icon ic-orange"><svg width="12" height="12"><use href="#ic-globe"/></svg></div><div><div class="sbn">${state}</div><div class="sbc">${count} exams</div></div></button>`;
       });
-      html += `</div>`; // end sgrid
-
-      // Per-state exam panels (hidden by default)
+      html += `</div>`;
       states.forEach(state => {
         const stateExams = stateMap.get(state);
         const stateId = safeid(state);
-        html += `
-          <div class="state-exam-panel hidden" id="sep-${panelId}-${stateId}">
-            <div class="se-head">
-              <div class="sub-panel-icon ic-orange" style="width:32px;height:32px;flex-shrink:0;"><svg><use href="#ic-globe"/></svg></div>
-              <div class="se-title">${state}</div>
-              <div class="se-badge">${stateExams.length} exams</div>
-              <button class="se-back" onclick="closeState('${panelId}')">
-                <svg width="12" height="12" style="transform:rotate(180deg);display:block;"><use href="#ic-chevron"/></svg>
-                Back to States
-              </button>
-            </div>
-            <div class="state-search-wrap">
-              <span class="sstate-ico"><svg width="14" height="14"><use href="#ic-globe"/></svg></span>
-              <input class="state-search" type="text" placeholder="Search exams…" oninput="filterStateExams(this,'sep-${panelId}-${stateId}')">
-            </div>
-            <div class="egrid">`;
-
+        html += `<div class="state-exam-panel hidden" id="sep-${panelId}-${stateId}"><div class="se-head"><div class="sub-panel-icon ic-orange" style="width:32px;height:32px;flex-shrink:0;"><svg><use href="#ic-globe"/></svg></div><div class="se-title">${state}</div><div class="se-badge">${stateExams.length} exams</div><button class="se-back" onclick="closeState('${panelId}')"><svg width="12" height="12" style="transform:rotate(180deg);display:block;"><use href="#ic-chevron"/></svg>Back to States</button></div><div class="state-search-wrap"><span class="sstate-ico"><svg width="14" height="14"><use href="#ic-globe"/></svg></span><input class="state-search" type="text" placeholder="Search exams…" oninput="filterStateExams(this,'sep-${panelId}-${stateId}')"></div><div class="egrid">`;
         stateExams.forEach((exam, idx) => {
-          // Strip "StateName - " prefix from display name
           const rawName = exam.exam_name || '';
           const prefix = state + ' - ';
           const displayName = rawName.startsWith(prefix) ? rawName.slice(prefix.length) : rawName;
@@ -321,251 +234,88 @@ function renderExamTrack(trackName, items) {
           const hasY = yr && yr.trim() !== '';
           const delay = (Math.min(idx, 12) * 0.025).toFixed(3);
           const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / 15) * 100));
-
           let bText = 'COMING SOON';
           let bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
-          if (examPct > 0 && examPct < 100) {
-              bText = `SYNCING (${examPct}%)`;
-              bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);';
-          } else if (examPct >= 100) {
-              bText = `READY (100%)`;
-              bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);';
-          }
-          
+          if (examPct > 0 && examPct < 100) { bText = `SYNCING (${examPct}%)`; bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);'; }
+          else if (examPct >= 100) { bText = `READY (100%)`; bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);'; }
           const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-          html += `
-            <a class="ecard" href="javascript:void(0)" 
-               data-action="load-years" 
-               data-exam="${exam.exam_name || exam.topic}" 
-               style="animation-delay:${delay}s; ${disabledStyle}">
-              <div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div>
-              <div class="ebody">
-                <div class="ename">${displayName}</div>
-                <div class="emeta">
-                  <span class="econd">${exam.conducting_body || ''}</span>
-                  <div style="display:flex; gap:6px; align-items:center; margin-top:4px;">
-                     <span class="etag tg-orange">${exam.level || 'State'}</span>
-                     <span class="badge-live" style="${bStyle}">${bText}</span>
-                  </div>
-                </div>
-                <div class="epills">
-                  <span class="epill">${exam.eligibility || 'Varies'}</span>
-                  <span class="epill">${exam.frequency || 'Varies'}</span>
-                </div>
-                ${hasQ ? `
-                <div class="prog-wrap">
-                  <div class="prog-info">
-                    <span class="p-cnt">${qc}</span>
-                    ${hasY ? `<span class="p-yr">${yr}</span>` : ''}
-                  </div>
-                  <div class="prog-bar"><div class="prog-fill" style="width:${examPct}%"></div></div>
-                </div>` : ''}
-              </div>
-              <div class="earrow"><svg width="7" height="7"><use href="#ic-chevron"/></svg></div>
-            </a>`;
+          html += `<a class="ecard" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="animation-delay:${delay}s; ${disabledStyle}"><div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div><div class="ebody"><div class="ename">${displayName}</div><div class="emeta"><span class="econd">${exam.conducting_body || ''}</span><div style="display:flex; gap:6px; align-items:center; margin-top:4px;"><span class="etag tg-orange">${exam.level || 'State'}</span><span class="badge-live" style="${bStyle}">${bText}</span></div></div><div class="epills"><span class="epill">${exam.eligibility || 'Varies'}</span><span class="epill">${exam.frequency || 'Varies'}</span></div>${hasQ ? `<div class="prog-wrap"><div class="prog-info"><span class="p-cnt">${qc}</span>${hasY ? `<span class="p-yr">${yr}</span>` : ''}</div><div class="prog-bar"><div class="prog-fill" style="width:${examPct}%"></div></div></div>` : ''}</div><div class="earrow"><svg width="7" height="7"><use href="#ic-chevron"/></svg></div></a>`;
         });
-
-        html += `</div></div>`; // end egrid + state-exam-panel
+        html += `</div></div>`;
       });
-
-      html += `</div>`; // end state-wrap
-
+      html += `</div>`;
     } else {
-      // ─── STANDARD CATEGORY PANEL ───
-      html += `
-        <div class="sub-panel-header">
-          <div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
-          <div>
-            <div class="sub-panel-title">${cat}</div>
-            <div class="sub-panel-desc">${catItems.length} exam${catItems.length !== 1 ? 's' : ''} in this category</div>
-          </div>
-          <div class="sub-panel-count">${catItems.length} exams</div>
-        </div>
-        <div class="sub-grid">`;
-
+      html += `<div class="sub-panel-header"><div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div><div class="sub-panel-title">${cat}</div><div class="sub-panel-desc">${catItems.length} exam${catItems.length !== 1 ? 's' : ''} in this category</div></div><div class="sub-panel-count">${catItems.length} exams</div></div><div class="sub-grid">`;
       catItems.forEach(exam => {
         const qc   = exam.question_count;
         const yr   = exam.year_range;
         const hasQ = qc && qc.trim() !== '';
         const hasY = yr && yr.trim() !== '';
         const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / 15) * 100));
-
         let bText = 'COMING SOON';
         let bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
-        if (examPct > 0 && examPct < 100) {
-            bText = `SYNCING (${examPct}%)`;
-            bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);';
-        } else if (examPct >= 100) {
-            bText = `READY (100%)`;
-            bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);';
-        }
-        
+        if (examPct > 0 && examPct < 100) { bText = `SYNCING (${examPct}%)`; bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);'; }
+        else if (examPct >= 100) { bText = `READY (100%)`; bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);'; }
         const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-        html += `
-          <a class="sub-card" href="javascript:void(0)" 
-             data-action="load-years" 
-             data-exam="${exam.exam_name || exam.topic}"
-             style="${disabledStyle}">
-            <div class="sub-card-header">
-              <div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
-              <div class="sub-card-body">
-                <div class="sub-card-name">${exam.exam_name || '—'}</div>
-                <div style="display:flex; justify-content:space-between; align-items:center; width:100%;">
-                    <div class="sub-card-tag">${exam.conducting_body || ''}</div>
-                    <span class="badge-live-sm" style="${bStyle}">${bText}</span>
-                </div>
-              </div>
-              <div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div>
-            </div>
-            <div class="sub-card-details">
-              <div class="detail-item">
-                <span class="detail-label">Eligibility</span>
-                <span class="detail-value">${exam.eligibility || '—'}</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Frequency</span>
-                <span class="detail-value">${exam.frequency || '—'}</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Questions</span>
-                <span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? qc : '—'}</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Year Range</span>
-                <span class="detail-value ${hasY ? 'has-data' : ''}">${hasY ? yr : '—'}</span>
-              </div>
-            </div>
-          </a>`;
+        html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="${disabledStyle}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body"><div class="sub-card-name">${exam.exam_name || '—'}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%;"><div class="sub-card-tag">${exam.conducting_body || ''}</div><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details"><div class="detail-item"><span class="detail-label">Eligibility</span><span class="detail-value">${exam.eligibility || '—'}</span></div><div class="detail-item"><span class="detail-label">Frequency</span><span class="detail-value">${exam.frequency || '—'}</span></div><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? qc : '—'}</span></div><div class="detail-item"><span class="detail-label">Year Range</span><span class="detail-value ${hasY ? 'has-data' : ''}">${hasY ? yr : '—'}</span></div></div></a>`;
       });
-
-      html += `</div>`; // end sub-grid
+      html += `</div>`;
     }
-
-    html += `</div>`; // end sub-panel
+    html += `</div>`;
   });
-
-  html += `</div>`; // end tab-body
+  html += `</div>`;
   contentArea.innerHTML = html;
 }
 
-// ═══════════════════════════════════════════════════════════
-//  RENDER — TECH TRACK
-// ═══════════════════════════════════════════════════════════
 function renderTechTrack(rawItems) {
-  const items = rawItems.filter(d =>
-    d.track_name === "Tech Track" &&
-    d.exam_name &&
-    d.exam_name !== "Topics and Domain Covered"
-  );
-
+  const items = rawItems.filter(d => d.track_name === "Tech Track" && d.exam_name && d.exam_name !== "Topics and Domain Covered");
   const topicMap = new Map();
   items.forEach(d => {
     const key = `${d.category}|${d.exam_name}`;
     if (!topicMap.has(key)) {
-      topicMap.set(key, {
-        category: d.category,
-        topic: d.exam_name,
-        questionCount: d.question_count || '',
-        subDomains: [],
-      });
+      topicMap.set(key, { category: d.category, topic: d.exam_name, questionCount: d.question_count || '', subDomains: [], });
     }
     const entry = topicMap.get(key);
-    const sd = (d.eligibility || '').trim();
-    if (sd && sd !== 'NO Sub-Domain' && !entry.subDomains.includes(sd)) {
-      entry.subDomains.push(sd);
-    }
-    if (!entry.questionCount && d.question_count) {
-      entry.questionCount = d.question_count;
-    }
+    entry.questionCount = d.level || d.question_count || '';
+    const sd = (d.conducting_body || '').trim();
+    if (sd && sd !== 'NO Sub-Domain' && !entry.subDomains.includes(sd)) { entry.subDomains.push(sd); }
   });
-
   const topics = [...topicMap.values()];
   const categories = [...new Set(topics.map(t => t.category))];
   const activeIdx = categories.indexOf(currentCategory) !== -1 ? categories.indexOf(currentCategory) : 0;
   if (!currentCategory && categories.length > 0) currentCategory = categories[0];
-
   let html = `<div class="tab-body"><div class="cat-list"><div class="cat-group-label">Sections</div>`;
-
   categories.forEach((cat, i) => {
     const topicsInCat = topics.filter(t => t.category === cat);
     const cfg = getCfg(cat);
-    html += `
-      <div class="cat-item ${i === activeIdx ? 'active' : ''}" onclick="switchCat(this,'${safeid('tech-' + cat)}', '${cat.replace(/'/g, "\\'")}')">
-        <div class="cat-item-left">
-          <div class="cat-icon-wrap ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
-          <div>
-            <div class="cat-name">${cat}</div>
-            <div class="cat-sub-count">${topicsInCat.length} topics</div>
-          </div>
-        </div>
-        <span class="cat-arrow"><svg width="12" height="12"><use href="#ic-chevron"/></svg></span>
-      </div>`;
+    html += `<div class="cat-item ${i === activeIdx ? 'active' : ''}" onclick="switchCat(this,'${safeid('tech-' + cat)}', '${cat.replace(/'/g, "\\'")}')"><div class="cat-item-left"><div class="cat-icon-wrap ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div><div class="cat-name">${cat}</div><div class="cat-sub-count">${topicsInCat.length} topics</div></div></div><span class="cat-arrow"><svg width="12" height="12"><use href="#ic-chevron"/></svg></span></div>`;
   });
   html += `</div>`;
-
   categories.forEach((cat, i) => {
     const topicsInCat = topics.filter(t => t.category === cat);
     const cfg = getCfg(cat);
     const panelId = safeid('tech-' + cat);
-    html += `
-      <div class="sub-panel ${i === activeIdx ? 'active' : ''}" id="${panelId}">
-        <div class="sub-panel-header">
-          <div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
-          <div>
-            <div class="sub-panel-title">${cat}</div>
-            <div class="sub-panel-desc">${topicsInCat.length} topics in this section</div>
-          </div>
-          <div class="sub-panel-count">${topicsInCat.length} topics</div>
-        </div>
-        <div class="sub-grid">`;
-
+    html += `<div class="sub-panel ${i === activeIdx ? 'active' : ''}" id="${panelId}"><div class="sub-panel-header"><div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div><div class="sub-panel-title">${cat}</div><div class="sub-panel-desc">${topicsInCat.length} topics in this section</div></div><div class="sub-panel-count">${topicsInCat.length} topics</div></div><div class="sub-grid">`;
     topicsInCat.forEach(t => {
-      const hasQ = t.questionCount && t.questionCount.trim() !== '';
+      const hasQ = t.questionCount && t.questionCount.trim() !== '' && t.questionCount !== '—';
       const subLabel = t.subDomains.length ? t.subDomains.join(', ') : null;
-      const bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
-      const disabledStyle = "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);";
-
-      html += `
-        <a class="sub-card" href="javascript:void(0)" style="${disabledStyle}">
-          <div class="sub-card-header">
-            <div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div>
-            <div class="sub-card-body" style="width:100%; display:flex; flex-direction:column;">
-              <div class="sub-card-name">${t.topic}</div>
-              <div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top:4px;">
-                  <span class="sub-card-tag">${subLabel || '—'}</span>
-                  <span class="badge-live-sm" style="${bStyle}">INCOMPLETE</span>
-              </div>
-            </div>
-            <div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div>
-          </div>
-          <div class="sub-card-details" style="grid-template-columns:1fr;">
-            <div class="detail-item">
-              <span class="detail-label">Questions</span>
-              <span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? t.questionCount : '—'}</span>
-            </div>
-          </div>
-        </a>`;
+      const qCount = _getUpdated(t.topic);
+      let bText = qCount > 0 ? `${qCount} Questions` : 'COMING SOON';
+      let bStyle = qCount === 0 ? 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);' : 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);';
+      const disabledStyle = qCount === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
+      html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${t.topic}" style="${disabledStyle}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body" style="width:100%; display:flex; flex-direction:column;"><div class="sub-card-name">${t.topic}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top:4px;"><span class="sub-card-tag">${subLabel || '—'}</span><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details" style="grid-template-columns:1fr;"><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value has-data">${qCount > 0 ? qCount : '—'}</span></div></div></a>`;
     });
-
     html += `</div></div>`;
   });
-
   html += `</div>`;
   contentArea.innerHTML = html;
 }
 
-// ═══════════════════════════════════════════════════════════
-//  INTERACTIONS — TABS & CATEGORIES
-// ═══════════════════════════════════════════════════════════
 window.switchTab = function(track, btn) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   const data = loadedData[track.name] || [];
-  if (track.type === 'tech') {
-    renderTechTrack(data);
-  } else {
-    renderExamTrack(track.name, data);
-  }
+  if (track.type === 'tech') renderTechTrack(data); else renderExamTrack(track.name, data);
 };
 
 window.switchCat = function(item, panelId, catName) {
@@ -578,43 +328,23 @@ window.switchCat = function(item, panelId, catName) {
   const panel = document.getElementById(panelId);
   if (panel) {
     panel.classList.add('active');
-    panel.querySelectorAll('.sub-card, .ecard').forEach(c => {
-      c.style.animation = 'none';
-      void c.offsetHeight;
-      c.style.animation = '';
-    });
+    panel.querySelectorAll('.sub-card, .ecard').forEach(c => { c.style.animation = 'none'; void c.offsetHeight; c.style.animation = ''; });
   }
 };
 
-// ═══════════════════════════════════════════════════════════
-//  INTERACTIONS — STATE PSC DRILL-DOWN
-// ═══════════════════════════════════════════════════════════
 window.openState = function(panelId, stateId, stateName) {
   const wrap = document.getElementById(`sw-${panelId}`);
-  // Hide the state grid + search
   wrap.querySelector('.sgrid').classList.add('hidden');
   wrap.querySelector('.state-search-wrap').classList.add('hidden');
-  // Show the state's exam panel
   const sep = document.getElementById(`sep-${panelId}-${stateId}`);
-  if (sep) {
-    sep.classList.remove('hidden');
-    // Re-trigger card animations
-    sep.querySelectorAll('.ecard').forEach(c => {
-      c.style.animation = 'none';
-      void c.offsetHeight;
-      c.style.animation = '';
-    });
-  }
+  if (sep) { sep.classList.remove('hidden'); sep.querySelectorAll('.ecard').forEach(c => { c.style.animation = 'none'; void c.offsetHeight; c.style.animation = ''; }); }
 };
 
 window.closeState = function(panelId) {
   const wrap = document.getElementById(`sw-${panelId}`);
-  // Hide all exam panels
   wrap.querySelectorAll('.state-exam-panel').forEach(p => p.classList.add('hidden'));
-  // Restore state grid
   wrap.querySelector('.sgrid').classList.remove('hidden');
   wrap.querySelector('.state-search-wrap').classList.remove('hidden');
-  // Clear any search text
   const searchInput = wrap.querySelector('.state-search-wrap .state-search');
   if (searchInput) { searchInput.value = ''; filterStates(searchInput, panelId); }
 };
@@ -623,25 +353,15 @@ window.filterStates = function(input, panelId) {
   const q = input.value.toLowerCase();
   const grid = document.getElementById(`sgrid-${panelId}`);
   if (!grid) return;
-  grid.querySelectorAll('.sbtn').forEach(btn => {
-    const name = (btn.dataset.state || '').toLowerCase();
-    btn.style.display = name.includes(q) ? '' : 'none';
-  });
+  grid.querySelectorAll('.sbtn').forEach(btn => { const name = (btn.dataset.state || '').toLowerCase(); btn.style.display = name.includes(q) ? '' : 'none'; });
 };
 
 window.filterStateExams = function(input, sepId) {
   const q = input.value.toLowerCase();
   const sep = document.getElementById(sepId);
   if (!sep) return;
-  sep.querySelectorAll('.ecard').forEach(card => {
-    const name = (card.querySelector('.ename')?.textContent || '').toLowerCase();
-    card.style.display = name.includes(q) ? '' : 'none';
-  });
+  sep.querySelectorAll('.ecard').forEach(card => { const name = (card.querySelector('.ename')?.textContent || '').toLowerCase(); card.style.display = name.includes(q) ? '' : 'none'; });
 };
-
-// ═══════════════════════════════════════════════════════════
-//  NEW API FLOW (EXAM EXPLORER)
-// ═══════════════════════════════════════════════════════════
 
 window.loadYears = async function(exam) {
   currentExam = exam;
@@ -649,41 +369,12 @@ window.loadYears = async function(exam) {
   try {
     const res = await fetch(`${API_BASE}/years?exam=${encodeURIComponent(exam)}`);
     const years = await res.json();
-
     if (!years.length) {
-      contentArea.innerHTML = `
-        <div style="padding: 30px; display: flex; flex-direction: column; height: 100%; width: 100%;">
-          <div class="back-link" onclick="init()" style="align-self: flex-start; z-index: 10;">← Back to Dashboard</div>
-          <div class="minimal-empty-container" style="flex: 1; margin-top: -40px;">
-            <div class="minimal-empty-ui">
-               <h2 class="m-title">Questions for <span>${exam}</span> Coming Soon</h2>
-               <p class="m-desc">Our team is currently preparing the verified question bank for this exam.</p>
-               <button class="empty-btn" onclick="init()" style="padding:10px 20px; font-size:13px; margin-top:10px;">Return to Tracks</button>
-            </div>
-          </div>
-        </div>`;
+      contentArea.innerHTML = `<div style="padding: 30px; display: flex; flex-direction: column; height: 100%; width: 100%;"><div class="back-link" onclick="init()" style="align-self: flex-start; z-index: 10;">← Back to Dashboard</div><div class="minimal-empty-container" style="flex: 1; margin-top: -40px;"><div class="minimal-empty-ui"><h2 class="m-title">Questions for <span>${exam}</span> Coming Soon</h2><p class="m-desc">Our team is currently preparing the verified question bank for this exam.</p><button class="empty-btn" onclick="init()" style="padding:10px 20px; font-size:13px; margin-top:10px;">Return to Tracks</button></div></div></div>`;
       return;
     }
-
-    let html = `
-      <div class="sub-panel active">
-        <div class="header-actions">
-           <div class="back-link" onclick="init()">← Back to ${exam}</div>
-        </div>
-        <div class="sub-panel-header">
-           <div class="sub-panel-icon ic-accent"><svg><use href="#ic-award"/></svg></div>
-           <div>
-             <div class="sub-panel-title">${exam} — Previous Years</div>
-             <div class="sub-panel-desc">Select a year to view available papers</div>
-           </div>
-        </div>
-        <div class="year-grid">`;
-    
-    years.forEach(year => {
-      html += `<div class="year-card" data-action="load-papers" data-exam="${exam}" data-year="${year}">
-        ${year}
-      </div>`;
-    });
+    let html = `<div class="sub-panel active"><div class="header-actions"><div class="back-link" onclick="init()">← Back to ${exam}</div></div><div class="sub-panel-header"><div class="sub-panel-icon ic-accent"><svg><use href="#ic-award"/></svg></div><div><div class="sub-panel-title">${exam} — Previous Years</div><div class="sub-panel-desc">Select a year to view available papers</div></div></div><div class="year-grid">`;
+    years.forEach(year => { html += `<div class="year-card" data-action="load-papers" data-exam="${exam}" data-year="${year}">${year}</div>`; });
     html += `</div></div>`;
     contentArea.innerHTML = html;
   } catch (err) {
@@ -698,33 +389,11 @@ window.loadPapers = async function(exam, year) {
   try {
     const res = await fetch(`${API_BASE}/papers?exam=${encodeURIComponent(exam)}&year=${year}`);
     const papers = await res.json();
-
-    let html = `
-      <div class="sub-panel active">
-        <div class="header-actions">
-           <div class="back-link" onclick="loadYears('${exam.replace(/'/g, "\\'")}')">← Change Year</div>
-        </div>
-        <div class="sub-panel-header">
-           <div class="sub-panel-icon ic-accent"><svg><use href="#ic-courses"/></svg></div>
-           <div>
-             <div class="sub-panel-title">${exam} — ${year} Papers</div>
-             <div class="sub-panel-desc">Select a paper to take the test</div>
-           </div>
-        </div>
-        <div class="paper-grid">`;
-
-    papers.forEach(p => {
-      html += `
-        <div class="paper-card" data-action="load-questions" data-id="${p._id}" data-exam="${exam}" data-year="${year}">
-          <h4>${p.paper}</h4>
-          <p>${p.pdf_name}</p>
-        </div>`;
-    });
+    let html = `<div class="sub-panel active"><div class="header-actions"><div class="back-link" onclick="loadYears('${exam.replace(/'/g, "\\\\'")}')">← Change Year</div></div><div class="sub-panel-header"><div class="sub-panel-icon ic-accent"><svg><use href="#ic-courses"/></svg></div><div><div class="sub-panel-title">${exam} — ${year} Papers</div><div class="sub-panel-desc">Select a paper to take the test</div></div></div><div class="paper-grid">`;
+    papers.forEach(p => { html += `<div class="paper-card" data-action="load-questions" data-id="${p._id}" data-exam="${exam}" data-year="${year}"><h4>${p.paper}</h4><p>${p.pdf_name}</p></div>`; });
     html += `</div></div>`;
     contentArea.innerHTML = html;
-  } catch (err) {
-    console.error(err);
-  }
+  } catch (err) { console.error(err); }
 };
 
 window.loadQuestions = async function(paper_id, exam = currentExam, year = currentYear) {
@@ -732,117 +401,30 @@ window.loadQuestions = async function(paper_id, exam = currentExam, year = curre
   try {
     const res = await fetch(`${API_BASE}/questions?paper_id=${paper_id}&exam=${encodeURIComponent(exam)}&year=${encodeURIComponent(year)}`);
     const questions = await res.json();
-
-    let html = `
-      <div class="sub-panel active" style="overflow-y:auto; position:relative;">
-        <div class="header-actions" style="position:sticky; top:-26px; background:var(--bg-card); z-index:10; padding:18px 30px; border-bottom:1px solid var(--border); margin:-26px -30px 24px -30px; display:flex; justify-content:space-between; align-items:center;">
-           <div class="back-link" onclick="loadPapers('${currentExam.replace(/'/g, "\\'")}', ${currentYear})">← Back to Papers</div>
-           
-           <div style="display:flex; gap:20px; align-items:center;">
-             <button class="show-answer-btn" id="global-toggle" onclick="toggleAllAnswers()">Show All Answers</button>
-           </div>
-        </div>
-        
-        <div class="question-container" style="padding:0 30px 30px 30px;">
-          <div style="margin-bottom:24px;">
-            <h2 style="font-size:24px; font-weight:800; color:var(--text-primary); margin-bottom:4px;">${currentExam}</h2>
-            <p style="color:var(--text-muted); font-size:14px;">${currentYear} · ${questions.length} Questions</p>
-          </div>
-          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: start;">`;
-
+    let html = `<div class="sub-panel active" style="overflow-y:auto; position:relative;"><div class="header-actions" style="position:sticky; top:-26px; background:var(--bg-card); z-index:10; padding:18px 30px; border-bottom:1px solid var(--border); margin:-26px -30px 24px -30px; display:flex; justify-content:space-between; align-items:center;"><div class="back-link" onclick="loadPapers('${currentExam.replace(/'/g, "\\\\'")}', ${currentYear})">← Back to Papers</div><div style="display:flex; gap:20px; align-items:center;"><button class="show-answer-btn" id="global-toggle" onclick="toggleAllAnswers()">Show All Answers</button></div></div><div class="question-container" style="padding:0 30px 30px 30px;"><div style="margin-bottom:24px;"><h2 style="font-size:24px; font-weight:800; color:var(--text-primary); margin-bottom:4px;">${currentExam}</h2><p style="color:var(--text-muted); font-size:14px;">${currentYear} · ${questions.length} Questions</p></div><div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: start;">`;
     questions.forEach((q, i) => {
-      html += `
-        <div class="question-card" style="margin-bottom:0; height:100%; display:flex; flex-direction:column;">
-          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px; gap:12px; flex-wrap:wrap;">
-             <div class="diff ${q.difficulty === 'Easy' ? 'diff-easy' : q.difficulty === 'Hard' ? 'diff-hard' : 'diff-medium'}">${q.difficulty}</div>
-             <div style="font-size:11px; color:var(--text-muted); font-weight:600; text-align:right;">Subject: ${q.subject}</div>
-          </div>
-          <h4 style="line-height:1.5; font-size: 15px; margin-bottom: 20px;">Q${i + 1}. ${q.question}</h4>
-          <div class="options-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: auto;">
-            ${Object.entries(q.option || {}).map(([key, val]) => `
-              <div class="paper-option" style="color: var(--text-secondary); font-size: 13.5px; line-height: 1.5; padding: 12px 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; display: flex;">
-                <strong style="color: var(--text-primary); margin-right: 8px; min-width: 18px;">${key}.</strong> <span style="flex:1;">${val}</span>
-              </div>
-            `).join("")}
-          </div>
-          <div class="answer-box" style="margin-top: 20px;">
-             <button class="show-answer-btn q-ans-btn" onclick="toggleAnswer(this)" style="width:100%;">Show Answer</button>
-             <div class="explanation hidden" style="margin-top: 12px;">
-                <div style="font-weight:800; color:var(--green); margin-bottom:8px; display:flex; align-items:center; gap:8px;">
-                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-                   Correct Answer: ${q.answer}
-                </div>
-                <div style="color:var(--text-secondary); font-size: 13.5px; line-height: 1.6;">${q.explanation}</div>
-             </div>
-          </div>
-        </div>`;
+      html += `<div class="question-card" style="margin-bottom:0; height:100%; display:flex; flex-direction:column;"><div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px; gap:12px; flex-wrap:wrap;"><div class="diff ${q.difficulty === 'Easy' ? 'diff-easy' : q.difficulty === 'Hard' ? 'diff-hard' : 'diff-medium'}">${q.difficulty}</div><div style="font-size:11px; color:var(--text-muted); font-weight:600; text-align:right;">Subject: ${q.subject}</div></div><h4 style="line-height:1.5; font-size: 15px; margin-bottom: 20px;">Q${i + 1}. ${q.question}</h4><div class="options-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: auto;">${Object.entries(q.option || {}).map(([key, val]) => `<div class="paper-option" style="color: var(--text-secondary); font-size: 13.5px; line-height: 1.5; padding: 12px 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; display: flex;"><strong style="color: var(--text-primary); margin-right: 8px; min-width: 18px;">${key}.</strong> <span style="flex:1;">${val}</span></div>`).join("")}</div><div class="answer-box" style="margin-top: 20px;"><button class="show-answer-btn q-ans-btn" onclick="toggleAnswer(this)" style="width:100%;">Show Answer</button><div class="explanation hidden" style="margin-top: 12px;"><div style="font-weight:800; color:var(--green); margin-bottom:8px; display:flex; align-items:center; gap:8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Correct Answer: ${q.answer}</div><div style="color:var(--text-secondary); font-size: 13.5px; line-height: 1.6;">${q.explanation}</div></div></div></div>`;
     });
-
     html += `</div></div></div>`;
     contentArea.innerHTML = html;
-
-  } catch (err) {
-    console.error(err);
-  }
+  } catch (err) { console.error(err); }
 };
 
-window.selectOption = function(el) {
-    el.parentElement.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
-    el.classList.add('selected');
-};
+window.toggleAnswer = function(btn) { const exp = btn.nextElementSibling; exp.classList.toggle('hidden'); btn.innerText = exp.classList.contains('hidden') ? 'Show Answer' : 'Hide Answer'; };
+window.toggleAllAnswers = function() { const btn = document.getElementById('global-toggle'); const allExplanations = document.querySelectorAll('.explanation'); const show = btn.innerText === 'Show All Answers'; allExplanations.forEach(exp => { if (show) exp.classList.remove('hidden'); else exp.classList.add('hidden'); exp.previousElementSibling.innerText = show ? 'Hide Answer' : 'Show Answer'; }); btn.innerText = show ? 'Hide All Answers' : 'Show All Answers'; };
 
-window.toggleAnswer = function(btn) {
-    const exp = btn.nextElementSibling;
-    exp.classList.toggle('hidden');
-    btn.innerText = exp.classList.contains('hidden') ? 'Show Answer' : 'Hide Answer';
-};
-
-window.toggleAllAnswers = function() {
-    const btn = document.getElementById('global-toggle');
-    const allExplanations = document.querySelectorAll('.explanation');
-    const show = btn.innerText === 'Show All Answers';
-    
-    allExplanations.forEach(exp => {
-        if (show) exp.classList.remove('hidden');
-        else exp.classList.add('hidden');
-        exp.previousElementSibling.innerText = show ? 'Hide Answer' : 'Show Answer';
-    });
-    
-    btn.innerText = show ? 'Hide All Answers' : 'Show All Answers';
-};
-
-// ═══════════════════════════════════════════════════════════
-//  GLOBAL EVENT DELEGATION
-// ═══════════════════════════════════════════════════════════
 document.addEventListener('click', (e) => {
     const target = e.target.closest('[data-action]');
     if (!target) return;
     const action = target.dataset.action;
     const ds = target.dataset;
-    if (action === 'switch-tab') {
-        const track = TRACKS.find(t => t.name === ds.track);
-        if (track) { currentExam = ""; currentYear = ""; currentCategory = ""; switchTab(track, target); }
-    } else if (action === 'switch-cat') {
-        switchCat(target, ds.panel, ds.cat);
-    } else if (action === 'open-state') {
-        openState(ds.panel, ds.sid, ds.sname);
-    } else if (action === 'load-years') {
-        if (!target.style.opacity || target.style.opacity !== "0.5") loadYears(ds.exam);
-    } else if (action === 'load-papers') {
-        loadPapers(ds.exam, ds.year);
-    } else if (action === 'load-questions') {
-        loadQuestions(ds.id, ds.exam, ds.year);
-    }
+    if (action === 'switch-tab') { const track = TRACKS.find(t => t.name === ds.track); if (track) { currentExam = ""; currentYear = ""; currentCategory = ""; switchTab(track, target); } }
+    else if (action === 'switch-cat') switchCat(target, ds.panel, ds.cat);
+    else if (action === 'open-state') openState(ds.panel, ds.sid, ds.sname);
+    else if (action === 'load-years') { if (!target.style.opacity || target.style.opacity !== "0.5") loadYears(ds.exam); }
+    else if (action === 'load-papers') loadPapers(ds.exam, ds.year);
+    else if (action === 'load-questions') loadQuestions(ds.id, ds.exam, ds.year);
 });
 
-// ═══════════════════════════════════════════════════════════
-//  HELPERS
-// ═══════════════════════════════════════════════════════════
-function safeid(str) {
-  return str.replace(/[^a-zA-Z0-9]/g, '-');
-}
-
-// ═══════════════════════════════════════════════════════════
-//  BOOT
-// ═══════════════════════════════════════════════════════════
+function safeid(str) { return str.replace(/[^a-zA-Z0-9]/g, '-'); }
 loadAllTracks();

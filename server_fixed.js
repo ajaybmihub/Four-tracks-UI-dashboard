@@ -81,6 +81,7 @@ async function resolveCollectionName(examName) {
     if (d.includes("neet ss")) return "neet_ss";
     if (d.includes("neet pg")) return "neet_pg";
     if (d.includes("neet")) return "neet_ug";
+    if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "engineering_services_examination_(ESE/IES)";
     if (d.includes("afcat")) return "defence_afcad";
     if (d.includes("jee advance")) return "jee_advance";
     if (d.includes("jee main") || d.includes("jee")) return "jee_main";
@@ -106,7 +107,7 @@ app.get("/years", async (req, res) => {
     const colName = await resolveCollectionName(exam);
     const Model = getQuestionModel(colName);
     
-    const dedicated = ["jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds", "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so"];
+    const dedicated = ["jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds", "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so", "engineering_services_examination_(ESE/IES)"];
     let filter = { year: { $gte: "1900" } };
     
     if (exam && !dedicated.includes(colName)) {
@@ -129,7 +130,7 @@ app.get("/questions", async (req, res) => {
     const colName = await resolveCollectionName(exam);
     const Model = getQuestionModel(colName);
     
-    const dedicated = ["jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds", "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so"];
+    const dedicated = ["jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds", "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so", "engineering_services_examination_(ESE/IES)"];
     let filter = { year: year };
     
     if (exam && !dedicated.includes(colName)) {

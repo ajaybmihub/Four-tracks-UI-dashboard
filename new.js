@@ -88,6 +88,22 @@ function _getUpdated(eName) {
    return 0;
 }
 
+// Helper: get per-exam year-range target from server (falls back to 15)
+function _getTarget(eName) {
+   if (!apiProgress || !apiProgress.examTargets || !eName) return 15;
+   const map = apiProgress.examTargets;
+   if (map[eName]) return map[eName];
+   const searchName = eName.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+   for (let k in map) {
+      const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+      if (keyName === searchName) return map[k];
+      if (searchName.includes(keyName) && keyName.length >= 2) return map[k];
+      if (keyName.includes(searchName) && searchName.length >= 2) return map[k];
+   }
+   // Fall back: parse year_range string directly if available in loaded data
+   return 15;
+}
+
 // ═══════════════════════════════════════════════════════════
 //  FETCH ALL JSON FILES IN PARALLEL
 // ═══════════════════════════════════════════════════════════
@@ -183,7 +199,7 @@ function renderExamTrack(trackName, items) {
     const cfg = getCfg(cat);
     let catUpdated = 0;
     catItems.forEach(d => { catUpdated += _getUpdated(d.exam_name || d.topic); });
-    const maxCat = catItems.length * 15;
+    const maxCat = catItems.reduce((sum, d) => sum + _getTarget(d.exam_name || d.topic), 0);
     const catPct = maxCat > 0 ? Math.min(100, Math.round((catUpdated / maxCat) * 100)) : 0;
     html += `<div class="cat-item ${i === activeIdx ? 'active' : ''}" data-action="switch-cat" data-panel="${safeid(trackName + '-' + cat)}" data-cat="${cat}">
         <div class="cat-item-left">
@@ -233,13 +249,13 @@ function renderExamTrack(trackName, items) {
           const hasQ = qc && qc.trim() !== '';
           const hasY = yr && yr.trim() !== '';
           const delay = (Math.min(idx, 12) * 0.025).toFixed(3);
-          const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / 15) * 100));
+          const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / _getTarget(exam.exam_name || exam.topic)) * 100));
           let bText = 'COMING SOON';
           let bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
           if (examPct > 0 && examPct < 100) { bText = `SYNCING (${examPct}%)`; bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);'; }
           else if (examPct >= 100) { bText = `READY (100%)`; bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);'; }
-          const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-          html += `<a class="ecard" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="animation-delay:${delay}s; ${disabledStyle}"><div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div><div class="ebody"><div class="ename">${displayName}</div><div class="emeta"><span class="econd">${exam.conducting_body || ''}</span><div style="display:flex; gap:6px; align-items:center; margin-top:4px;"><span class="etag tg-orange">${exam.level || 'State'}</span><span class="badge-live" style="${bStyle}">${bText}</span></div></div><div class="epills"><span class="epill">${exam.eligibility || 'Varies'}</span><span class="epill">${exam.frequency || 'Varies'}</span></div>${hasQ ? `<div class="prog-wrap"><div class="prog-info"><span class="p-cnt">${qc}</span>${hasY ? `<span class="p-yr">${yr}</span>` : ''}</div><div class="prog-bar"><div class="prog-fill" style="width:${examPct}%"></div></div></div>` : ''}</div><div class="earrow"><svg width="7" height="7"><use href="#ic-chevron"/></svg></div></a>`;
+          
+          html += `<a class="ecard" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="animation-delay:${delay}s;"><div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div><div class="ebody"><div class="ename">${displayName}</div><div class="emeta"><span class="econd">${exam.conducting_body || ''}</span><div style="display:flex; gap:6px; align-items:center; margin-top:4px;"><span class="etag tg-orange">${exam.level || 'State'}</span><span class="badge-live" style="${bStyle}">${bText}</span></div></div><div class="epills"><span class="epill">${exam.eligibility || 'Varies'}</span><span class="epill">${exam.frequency || 'Varies'}</span></div>${hasQ ? `<div class="prog-wrap"><div class="prog-info"><span class="p-cnt">${qc}</span>${hasY ? `<span class="p-yr">${yr}</span>` : ''}</div><div class="prog-bar"><div class="prog-fill" style="width:${examPct}%"></div></div></div>` : ''}</div><div class="earrow"><svg width="7" height="7"><use href="#ic-chevron"/></svg></div></a>`;
         });
         html += `</div></div>`;
       });
@@ -251,13 +267,13 @@ function renderExamTrack(trackName, items) {
         const yr   = exam.year_range;
         const hasQ = qc && qc.trim() !== '';
         const hasY = yr && yr.trim() !== '';
-        const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / 15) * 100));
+        const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / _getTarget(exam.exam_name || exam.topic)) * 100));
         let bText = 'COMING SOON';
         let bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
         if (examPct > 0 && examPct < 100) { bText = `SYNCING (${examPct}%)`; bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);'; }
         else if (examPct >= 100) { bText = `READY (100%)`; bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);'; }
-        const disabledStyle = examPct === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-        html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="${disabledStyle}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body"><div class="sub-card-name">${exam.exam_name || '—'}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%;"><div class="sub-card-tag">${exam.conducting_body || ''}</div><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details"><div class="detail-item"><span class="detail-label">Eligibility</span><span class="detail-value">${exam.eligibility || '—'}</span></div><div class="detail-item"><span class="detail-label">Frequency</span><span class="detail-value">${exam.frequency || '—'}</span></div><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? qc : '—'}</span></div><div class="detail-item"><span class="detail-label">Year Range</span><span class="detail-value ${hasY ? 'has-data' : ''}">${hasY ? yr : '—'}</span></div></div></a>`;
+        
+        html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body"><div class="sub-card-name">${exam.exam_name || '—'}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%;"><div class="sub-card-tag">${exam.conducting_body || ''}</div><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details"><div class="detail-item"><span class="detail-label">Eligibility</span><span class="detail-value">${exam.eligibility || '—'}</span></div><div class="detail-item"><span class="detail-label">Frequency</span><span class="detail-value">${exam.frequency || '—'}</span></div><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? qc : '—'}</span></div><div class="detail-item"><span class="detail-label">Year Range</span><span class="detail-value ${hasY ? 'has-data' : ''}">${hasY ? yr : '—'}</span></div></div></a>`;
       });
       html += `</div>`;
     }
@@ -302,8 +318,8 @@ function renderTechTrack(rawItems) {
       const qCount = _getUpdated(t.topic);
       let bText = qCount > 0 ? `${qCount} Questions` : 'COMING SOON';
       let bStyle = qCount === 0 ? 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);' : 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);';
-      const disabledStyle = qCount === 0 ? "cursor: not-allowed; opacity: 0.5; filter: grayscale(1);" : "";
-      html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${t.topic}" style="${disabledStyle}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body" style="width:100%; display:flex; flex-direction:column;"><div class="sub-card-name">${t.topic}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top:4px;"><span class="sub-card-tag">${subLabel || '—'}</span><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details" style="grid-template-columns:1fr;"><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value has-data">${qCount > 0 ? qCount : '—'}</span></div></div></a>`;
+      
+      html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${t.topic}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body" style="width:100%; display:flex; flex-direction:column;"><div class="sub-card-name">${t.topic}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top:4px;"><span class="sub-card-tag">${subLabel || '—'}</span><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details" style="grid-template-columns:1fr;"><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value has-data">${qCount > 0 ? qCount : '—'}</span></div></div></a>`;
     });
     html += `</div></div>`;
   });
@@ -367,14 +383,71 @@ window.loadYears = async function(exam) {
   currentExam = exam;
   showLoader();
   try {
-    const res = await fetch(`${API_BASE}/years?exam=${encodeURIComponent(exam)}`);
-    const years = await res.json();
-    if (!years.length) {
+    // Fetch both the synced years (from DB) and topic metadata in parallel
+    const [yearsRes, metaRes] = await Promise.all([
+      fetch(`${API_BASE}/years?exam=${encodeURIComponent(exam)}`),
+      fetch(`${API_BASE}/topic-meta?exam=${encodeURIComponent(exam)}`)
+    ]);
+    const syncedYears = await yearsRes.json();         // years we actually have data for
+    const meta       = await metaRes.json();           // { year_range, not_conducted }
+
+    // Parse not_conducted list: "2018, 2019" → Set { "2018", "2019" }
+    const notConductedSet = new Set(
+      (meta.not_conducted || '').split(',').map(y => y.trim()).filter(Boolean)
+    );
+
+    // Expand year_range to a full list: "2025 - 2017" → [2025,2024,...,2017]
+    let allYears = [];
+    if (meta.year_range) {
+      // Handle multi-segment ranges: "2025-2023, 2021-2020"
+      const segments = meta.year_range.split(',');
+      segments.forEach(seg => {
+        const parts = seg.match(/(\d{4})/g);
+        if (parts && parts.length >= 2) {
+          const a = parseInt(parts[0]), b = parseInt(parts[1]);
+          const lo = Math.min(a, b), hi = Math.max(a, b);
+          for (let y = hi; y >= lo; y--) allYears.push(String(y));
+        } else if (parts && parts.length === 1) {
+          allYears.push(parts[0]);
+        }
+      });
+    }
+
+    // If no year_range in topics, fall back to just synced years
+    if (!allYears.length) allYears = [...syncedYears];
+    const syncedSet = new Set(syncedYears.map(String));
+
+    const hasAny = allYears.length > 0;
+    if (!hasAny) {
       contentArea.innerHTML = `<div style="padding: 30px; display: flex; flex-direction: column; height: 100%; width: 100%;"><div class="back-link" onclick="init()" style="align-self: flex-start; z-index: 10;">← Back to Dashboard</div><div class="minimal-empty-container" style="flex: 1; margin-top: -40px;"><div class="minimal-empty-ui"><h2 class="m-title">Questions for <span>${exam}</span> Coming Soon</h2><p class="m-desc">Our team is currently preparing the verified question bank for this exam.</p><button class="empty-btn" onclick="init()" style="padding:10px 20px; font-size:13px; margin-top:10px;">Return to Tracks</button></div></div></div>`;
       return;
     }
+
     let html = `<div class="sub-panel active"><div class="header-actions"><div class="back-link" onclick="init()">← Back to ${exam}</div></div><div class="sub-panel-header"><div class="sub-panel-icon ic-accent"><svg><use href="#ic-award"/></svg></div><div><div class="sub-panel-title">${exam} — Previous Years</div><div class="sub-panel-desc">Select a year to view available papers</div></div></div><div class="year-grid">`;
-    years.forEach(year => { html += `<div class="year-card" data-action="load-papers" data-exam="${exam}" data-year="${year}">${year}</div>`; });
+
+    allYears.forEach(year => {
+      const yStr = String(year);
+      const isNotConducted = notConductedSet.has(yStr);
+      const isSynced       = syncedSet.has(yStr);
+
+      if (isNotConducted) {
+        // Grey out, no click, "Not Conducted" badge
+        html += `<div class="year-card year-card--not-conducted" title="${exam} ${yStr} was not conducted">
+          <span class="year-card__year">${yStr}</span>
+          <span class="year-card__badge">Not Conducted</span>
+        </div>`;
+      } else if (isSynced) {
+        // Normal clickable card
+        html += `<div class="year-card" data-action="load-papers" data-exam="${exam}" data-year="${yStr}">${yStr}</div>`;
+      } else {
+        // Year in range but no data yet — show as "Coming Soon"
+        html += `<div class="year-card year-card--pending" title="Data for ${yStr} coming soon">
+          <span class="year-card__year">${yStr}</span>
+          <span class="year-card__badge">Coming Soon</span>
+        </div>`;
+      }
+    });
+
     html += `</div></div>`;
     contentArea.innerHTML = html;
   } catch (err) {
@@ -382,6 +455,7 @@ window.loadYears = async function(exam) {
     contentArea.innerHTML = `<div style="padding:40px;color:var(--red);">API Server is not responding. Make sure 'server.js' is running on port 5000.</div>`;
   }
 };
+
 
 window.loadPapers = async function(exam, year) {
   currentYear = year;
@@ -421,7 +495,7 @@ document.addEventListener('click', (e) => {
     if (action === 'switch-tab') { const track = TRACKS.find(t => t.name === ds.track); if (track) { currentExam = ""; currentYear = ""; currentCategory = ""; switchTab(track, target); } }
     else if (action === 'switch-cat') switchCat(target, ds.panel, ds.cat);
     else if (action === 'open-state') openState(ds.panel, ds.sid, ds.sname);
-    else if (action === 'load-years') { if (!target.style.opacity || target.style.opacity !== "0.5") loadYears(ds.exam); }
+    else if (action === 'load-years') loadYears(ds.exam);
     else if (action === 'load-papers') loadPapers(ds.exam, ds.year);
     else if (action === 'load-questions') loadQuestions(ds.id, ds.exam, ds.year);
 });

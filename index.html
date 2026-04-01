@@ -661,8 +661,8 @@
 
     <div class="stat-card">
       <span class="stat-label">Readiness Index</span>
-      <div class="stat-value skeleton"></div>
-      <div class="stat-trend trend-neutral skeleton"></div>
+      <div class="stat-value skeleton" id="stat-readiness"></div>
+      <div class="stat-trend trend-neutral skeleton" id="stat-readiness-trend"></div>
     </div>
   </div>
 
@@ -969,22 +969,7 @@
       }
 
       if (progressData) {
-        const totalUpdated = progressData.totalUpdatedYears || 0;
-        const totalTarget = progressData.targetYears || 5985;
-        const progressPct = ((totalUpdated / totalTarget) * 100).toFixed(1);
-
-        const readinessValueEl = document.querySelectorAll('.stat-card .stat-value')[2];
-        const readinessTrendEl = document.querySelectorAll('.stat-card .stat-trend')[2];
-
-        if (readinessValueEl) {
-          animateValue("stat-readiness", 0, progressPct, 1500, '%');
-          // Since animateValue overwrites format and handles ints, we explicitly set the smooth innerHTML here:
-          readinessValueEl.innerHTML = progressPct + "%";
-        }
-        if (readinessTrendEl) {
-          readinessTrendEl.innerHTML = `★ ${totalUpdated} / ${totalTarget} Years Synced`;
-          readinessTrendEl.className = "stat-trend " + (progressPct >= 100 ? "trend-up" : "trend-neutral");
-        }
+        updateReadinessUI(progressData);
       }
 
       // Render Quick Notes
@@ -1012,6 +997,27 @@
         `;
           qnGrid.appendChild(qDiv);
         });
+      }
+    }
+
+    // ── READINESS UI UPDATER ──
+    function updateReadinessUI(progressData) {
+      const totalUpdated = progressData.totalUpdatedYears || 0;
+      const totalTarget  = progressData.targetYears || 1;
+      const pct = Math.min(100, (totalUpdated / totalTarget) * 100);
+      const pctStr = pct.toFixed(1) + '%';
+
+      const valEl   = document.getElementById('stat-readiness');
+      const trendEl = document.getElementById('stat-readiness-trend');
+
+      if (valEl) {
+        valEl.classList.remove('skeleton');
+        valEl.textContent = pctStr;
+      }
+      if (trendEl) {
+        trendEl.classList.remove('skeleton');
+        trendEl.innerHTML = `★ ${totalUpdated.toLocaleString()} / ${totalTarget.toLocaleString()} Years Synced`;
+        trendEl.className = 'stat-trend ' + (pct >= 100 ? 'trend-up' : 'trend-neutral');
       }
     }
 
@@ -1076,20 +1082,7 @@
           }
         });
 
-        const totalUpdated = progressData.totalUpdatedYears || 0;
-        const totalTarget = progressData.targetYears || 5985;
-        const progressPct = ((totalUpdated / totalTarget) * 100).toFixed(1);
-
-        const readinessValueEl = document.querySelectorAll('.stat-card .stat-value')[2];
-        const readinessTrendEl = document.querySelectorAll('.stat-card .stat-trend')[2];
-
-        if (readinessValueEl) {
-          readinessValueEl.innerHTML = progressPct + "%";
-        }
-        if (readinessTrendEl) {
-          readinessTrendEl.innerHTML = `★ ${totalUpdated} / ${totalTarget} Years Synced`;
-          readinessTrendEl.className = "stat-trend " + (progressPct >= 100 ? "trend-up" : "trend-neutral");
-        }
+        updateReadinessUI(progressData);
 
         // 🚀 LIVE QUESTION COUNTS UPDATE
         if (progressData.totalQuestions) {

@@ -80,6 +80,7 @@ const topicSchema = new mongoose.Schema({
   frequency: String,
   question_count: String,
   year_range: String,
+  not_conducted: String,   // e.g. "2018, 2019" — years in range when exam was NOT held
   sub_topic: [String]
 }, { collection: 'topics' });
 
@@ -276,6 +277,25 @@ app.get("/topics", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+// 5b. GET /topic-meta?exam=NEET+SS  → returns year_range + not_conducted for a single exam
+app.get("/topic-meta", async (req, res) => {
+  try {
+    const { exam } = req.query;
+    if (!exam) return res.status(400).json({ error: 'exam param required' });
+    const doc = await Topic.findOne(
+      { exam_name: exam },
+      { year_range: 1, not_conducted: 1 }
+    ).lean();
+    if (!doc) return res.json({ year_range: '', not_conducted: '' });
+    res.json({
+      year_range: doc.year_range || '',
+      not_conducted: doc.not_conducted || ''
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
 // 6. GET /api/progress
 async function calculateProgress() {
   if (isCalculatingProgress) return;
@@ -302,9 +322,38 @@ async function calculateProgress() {
         'coding_problems': 'Tech Track'
     };
 
+    // Build a lookup map: exam_name → year span from the topics collection
+    // year_range can be: "2025 - 2017" (reversed), "2022-2024", or "2025-2023, 2021-2020, 2017-2014" (multi-segment)
+    // Tech Track is EXCLUDED — it uses question count, not year-based progress
+    const topicYearRangeMap = {};
+    const allTopicDocs = await Topic.find({ track_name: { $ne: 'Tech Track' } }, { exam_name: 1, year_range: 1 }).lean();
+    allTopicDocs.forEach(doc => {
+        if (doc.exam_name && doc.year_range) {
+            const rangeStr = doc.year_range.toString();
+            const segments = rangeStr.split(',');
+            let totalSpan = 0;
+            segments.forEach(seg => {
+                const parts = seg.match(/(\d{4})/g);
+                if (parts && parts.length >= 2) {
+                    const a = parseInt(parts[0]);
+                    const b = parseInt(parts[1]);
+                    totalSpan += Math.abs(a - b) + 1;
+                } else if (parts && parts.length === 1) {
+                    totalSpan += 1;
+                }
+            });
+            if (totalSpan > 0) {
+                topicYearRangeMap[doc.exam_name] = totalSpan;
+            }
+        }
+    });
+
+    // Grand total target = sum of ALL non-Tech-Track exam year spans (includes exams with no data yet)
+    const grandTotalTarget = Object.values(topicYearRangeMap).reduce((sum, s) => sum + s, 0);
+
     let metric = {
         totalUpdatedYears: 0,
-        targetYears: 5985, // 399 exams * 15
+        targetYears: grandTotalTarget, // grand total of ALL non-Tech-Track exam year spans
         totalQuestions: 0,
         tracks: {
             "Govt Exams Track": { updated: 0, target: 0, questions: 0 },
@@ -312,7 +361,8 @@ async function calculateProgress() {
             "JEE / NEET Track": { updated: 0, target: 0, questions: 0 },
             "Tech Track": { updated: 0, target: 0, questions: 0 }
         },
-        exams: {}
+        exams: {},
+        examTargets: {} // per-exam target for frontend card display
     };
 
     for (const [col, trackTitle] of Object.entries(collections)) {
@@ -342,11 +392,16 @@ async function calculateProgress() {
       };
 
       if (singleExamOverrides[col]) {
+          const examLabel = singleExamOverrides[col];
           const years = (await Model.distinct("year")).filter(y => y && String(y).trim() !== "");
           const count = years.length;
-          metric.exams[singleExamOverrides[col]] = count;
+          const examTarget = topicYearRangeMap[examLabel] || 15;
+          metric.exams[examLabel] = count;
+          metric.examTargets[examLabel] = examTarget;
           metric.tracks[trackTitle].updated += count;
+          metric.tracks[trackTitle].target += examTarget; // per-track target for track-level %
           metric.totalUpdatedYears += count;
+          // NOTE: metric.targetYears is the grand total set upfront — do NOT add here
       } else {
           const aggr = await Model.aggregate([
               { $group: { _id: { exam_name: { $ifNull: ["$exam_type", "$exam"] }, year: "$year" } } },
@@ -355,9 +410,13 @@ async function calculateProgress() {
           
           aggr.forEach(item => {
               if (item._id) {
+                  const examTarget = topicYearRangeMap[item._id] || 15;
                   metric.exams[item._id] = item.updated_years;
+                  metric.examTargets[item._id] = examTarget;
                   metric.tracks[trackTitle].updated += item.updated_years;
+                  metric.tracks[trackTitle].target += examTarget; // per-track target for track-level %
                   metric.totalUpdatedYears += item.updated_years;
+                  // NOTE: metric.targetYears is the grand total set upfront — do NOT add here
               }
           });
           if (col === 'coding_problems') {
@@ -392,22 +451,27 @@ async function calculateProgress() {
       }
     }
 
-    const allTopics = await Topic.find({});
-    let trackCounts = { "Govt Exams Track": 0, "Banking Track": 0, "JEE / NEET Track": 0, "Tech Track": 24 };
-    allTopics.forEach(t => {
-      if (t.track_name && trackCounts.hasOwnProperty(t.track_name) && t.track_name !== "Tech Track") {
-          trackCounts[t.track_name]++;
+    // Compute per-track grand targets from ALL topics in that track (not just those with data)
+    const perTrackGrandTarget = { "Govt Exams Track": 0, "Banking Track": 0, "JEE / NEET Track": 0 };
+    const allNonTechTopics = await Topic.find(
+      { track_name: { $ne: 'Tech Track' }, year_range: { $ne: '' } },
+      { track_name: 1, exam_name: 1, year_range: 1 }
+    ).lean();
+    allNonTechTopics.forEach(doc => {
+      if (doc.track_name && doc.year_range && perTrackGrandTarget.hasOwnProperty(doc.track_name)) {
+        const span = topicYearRangeMap[doc.exam_name] || 0;
+        perTrackGrandTarget[doc.track_name] += span;
       }
     });
-
-    for (const track in trackCounts) {
-      if (track === "Tech Track") {
-          metric.tracks[track].target = 5000;
-          metric.tracks[track].updated = metric.tracks[track].questions; 
-      } else {
-          metric.tracks[track].target = trackCounts[track] * 15;
-      }
+    // Override per-track targets with grand totals
+    for (const [trackName, grandTarget] of Object.entries(perTrackGrandTarget)) {
+      if (grandTarget > 0) metric.tracks[trackName].target = grandTarget;
     }
+
+    // Tech Track uses question count vs 5000 target (not year-based)
+    metric.tracks["Tech Track"].target = 5000;
+    metric.tracks["Tech Track"].updated = metric.tracks["Tech Track"].questions;
+
 
     metric.totalQuestions = Math.round(metric.totalQuestions);
     console.log("[DEBUG] Final Computed Metric:", JSON.stringify(metric, null, 2));

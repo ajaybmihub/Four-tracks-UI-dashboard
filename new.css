@@ -883,39 +883,83 @@ body {
     animation: fadeIn 0.4s var(--ease);
 }
 .year-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
-    padding: 24px 16px;
+    padding: 14px 10px;
     text-align: center;
     cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-primary);
     transition: all 0.2s var(--ease);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
+    min-height: 80px;
 }
+
 .year-card:hover {
-    background: var(--accent-dim);
-    border-color: var(--accent-border);
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(255,45,85,0.2);
-    color: var(--accent);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-.year-card::after {
-    content: 'View Papers';
-    font-size: 10px;
-    font-weight: 600;
+
+.year-card__year {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.2s;
+}
+
+.year-card:hover .year-card__year {
+    color: #fff;
+}
+
+.year-card__badge {
+    font-size: 9px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: var(--text-muted);
-    opacity: 0;
-    transition: opacity 0.2s;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.4);
 }
-.year-card:hover::after { opacity: 1; }
+
+/* 🟢 SYNCED (Normal) */
+.year-card:not(.year-card--not-conducted):not(.year-card--pending) {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+/* 🔴 NOT CONDUCTED */
+.year-card--not-conducted {
+    border-style: dashed;
+    border-color: rgba(255, 77, 77, 0.2);
+    opacity: 0.7;
+}
+
+.year-card--not-conducted .year-card__year {
+    color: rgba(255, 77, 77, 0.4);
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 77, 77, 0.3);
+}
+
+.year-card--not-conducted .year-card__badge {
+    background: rgba(255, 77, 77, 0.1);
+    color: #ff4d4d;
+}
+
+/* ⚪ PENDING / COMING SOON */
+.year-card--pending {
+    border-style: dashed;
+    border-color: rgba(255, 255, 255, 0.1);
+    opacity: 0.6;
+}
+
+.year-card--pending .year-card__year {
+    color: rgba(255, 255, 255, 0.3);
+}
+
 
 /* ── PAPER CARDS ── */
 .paper-grid {

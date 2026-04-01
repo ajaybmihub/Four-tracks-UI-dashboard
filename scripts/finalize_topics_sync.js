@@ -39,8 +39,11 @@ const MAPPINGS = {
     "RRB ALP (Assistant Loco Pilot)": "RRB ALP",
     "RRB Technician (Grades 1 & 3)": "RRB Technician",
     "RPF Constable": "RPF Constable",
-    "RPF Sub-Inspector (SI)": "RPF SI",
-    "AFCAT (Air Force Common Admission Test)": "AFCAT",
+    "RPF Sub-Inspector (SI)": "RPF Sub-Inspector (SI)",
+    "AFCAT": "AFCAT",
+    "Indian Army Agniveer": "Indian Army Agniveer",
+    "Coast Guard Navik / Yantrik": "Coast Guard Navik / Yantrik",
+    "Military Nursing Service (MNS)": "Military Nursing Service (MNS)",
 
     "IBPS PO": "IBPS PO",
     "IBPS Clerk": "IBPS Clerk",

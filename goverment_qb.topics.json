@@ -14,13 +14,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "2025 papers pending official upload; CSAT is qualifying",
-    "exam_stages": {
-      "stage_1": "Prelims – MCQ (GS Paper I + CSAT Paper II)",
-      "stage_2": "Mains – Written (9 papers: Essay, GS I–IV, Optional I–II, Language papers)",
-      "stage_3": "Personality Test / Interview"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -37,13 +31,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Prelims is common with CSE; separate Mains for IFoS",
-    "exam_stages": {
-      "stage_1": "Prelims – MCQ (shared with CSE Prelims)",
-      "stage_2": "Mains – Written (6 papers: General English, General Knowledge, 2 Optional subjects × 2 papers each)",
-      "stage_3": "Personality Test / Interview"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -60,13 +48,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Pattern revised from 2017 onwards (Prelims added); 2015–2016 had only Written + Interview",
-    "exam_stages": {
-      "stage_1": "Prelims – MCQ (Paper I: GS & Engg. Aptitude; Paper II: Engineering discipline)",
-      "stage_2": "Mains – Written (Paper I & Paper II: Engineering discipline, conventional/descriptive)",
-      "stage_3": "Personality Test / Interview"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -80,16 +62,10 @@
     "eligibility": "Graduate/12th",
     "frequency": "Twice a Year",
     "question_count": "6,800",
-    "year_range": "2015-2025 (2 cycles/year: CDS I & CDS II)",
+    "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Two cycles per year; Mathematics paper not required for OTA entry",
-    "exam_stages": {
-      "stage_1": "Written – MCQ (English, GK, Elementary Mathematics; OTA: English + GK only)",
-      "stage_2": "SSB Interview (conducted by MoD, not UPSC)",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -103,16 +79,10 @@
     "eligibility": "12th",
     "frequency": "Twice a Year",
     "question_count": "6,870",
-    "year_range": "2015-2025 (2 cycles/year: NDA I & NDA II)",
+    "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Two cycles per year; females eligible from 2022 onwards (SC order)",
-    "exam_stages": {
-      "stage_1": "Written – MCQ (Mathematics + General Ability Test)",
-      "stage_2": "SSB Interview (conducted by MoD, not UPSC)",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -129,13 +99,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Single-day written exam (both papers); no Mains written stage",
-    "exam_stages": {
-      "stage_1": "Written – MCQ (Paper I & Paper II: clinical medicine, surgery, gynaecology, etc.)",
-      "stage_2": "Personality Test / Interview",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -152,13 +116,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "IES: 6 papers (Gen. English, Gen. Studies, Economics I–IV); ISS: 6 papers (Gen. English, Gen. Studies, Statistics I–IV)",
-    "exam_stages": {
-      "stage_1": "Written – Both (General English & General Studies: MCQ; Economics/Statistics papers: Written/Descriptive)",
-      "stage_2": "Personality Test / Interview",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -175,13 +133,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2020",
-    "remarks": "Renamed from 'Geologist Examination' to 'Combined Geo-Scientist Examination' from 2020; papers for 2015–2019 are under old name",
-    "exam_stages": {
-      "stage_1": "Prelims – MCQ (Paper I: General Studies; Paper II: discipline-specific)",
-      "stage_2": "Mains – Written (3 discipline-specific descriptive papers)",
-      "stage_3": "Personality Test / Interview"
-    }
+    "not_conducted": "2020"
   },
   {
     "_id": {
@@ -198,13 +150,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2016, 2018, 2020, 2021",
-    "remarks": "Not conducted every year; recruitment driven by vacancy notifications; 2020 exam held in 2021",
-    "exam_stages": {
-      "stage_1": "Written – MCQ (General English, Indian Freedom Struggle, Current Events, Indian Polity, General Accounting Principles, Industrial Relations & Labour Laws, etc.)",
-      "stage_2": "Interview / Skill Test",
-      "stage_3": "N/A"
-    }
+    "not_conducted": "2016, 2018, 2020, 2021"
   },
   {
     "_id": {
@@ -221,13 +167,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Paper I is MCQ; Paper II is descriptive/written — both on same day",
-    "exam_stages": {
-      "stage_1": "Written – Both (Paper I: MCQ – General Ability & Intelligence; Paper II: Descriptive – Essay, Précis, Comprehension)",
-      "stage_2": "Physical Standards / Physical Efficiency Test (PET)",
-      "stage_3": "Interview / Personality Test"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -244,13 +184,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Pattern revised in 2022: Tier III is now descriptive pen-and-paper; Tier IV (Skill Test/CPT) is qualifying. Prior to 2022, 4 Tiers existed. 2020 exam delayed to 2021 due to COVID-19.",
-    "exam_stages": {
-      "stage_1": "Tier I – MCQ (General Intelligence & Reasoning, General Awareness, Quantitative Aptitude, English Comprehension)",
-      "stage_2": "Tier II – MCQ (Paper I: Mathematical Abilities + Reasoning; Paper II: English Language & Comprehension; Paper III: Statistics / General Studies – Finance & Economics as applicable)",
-      "stage_3": "Tier III – Written/Descriptive (Essay, Letter, Precis in English/Hindi) + Skill Test / Document Verification"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -267,13 +201,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "DEO is not a separate exam — it is a post category within CHSL. Skill test speed requirement: 8,000 key depressions/hour for DEO; 15,000 for DEO Grade A (CAG). Conducted alongside LDC/JSA posts.",
-    "exam_stages": {
-      "stage_1": "Tier I – MCQ (same as CHSL: General Intelligence, English, Quantitative Aptitude, General Awareness)",
-      "stage_2": "Tier II – MCQ + DEO Skill Test (Data Entry Speed Test: 8,000 key depressions/hour – Qualifying)",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -290,13 +218,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2016, 2020, 2021",
-    "remarks": "Paper II is qualifying (marks not counted in merit). Pattern revised in 2021: Paper I is now fully MCQ-based computer exam. Havaldar posts included from 2022.",
-    "exam_stages": {
-      "stage_1": "Paper I – MCQ (Numerical & Mathematical Ability, Reasoning & Problem Solving, General Awareness, English Language & Comprehension)",
-      "stage_2": "Paper II – Written/Descriptive (Short Essay / Letter in English or any language in 8th Schedule) — Qualifying only",
-      "stage_3": "N/A"
-    }
+    "not_conducted": "2016, 2020, 2021"
   },
   {
     "_id": {
@@ -313,13 +235,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2016, 2017, 2022, 2021",
-    "remarks": "Recruitment is need/vacancy based; not held every year. 2018-19 recruitment was a mega cycle. PET/PST conducted by CAPFs/SSB, not SSC.",
-    "exam_stages": {
-      "stage_1": "CBT (Computer Based Test) – MCQ (General Intelligence & Reasoning, General Knowledge & Awareness, Elementary Mathematics, English/Hindi)",
-      "stage_2": "Physical Efficiency Test (PET) & Physical Standard Test (PST) – Qualifying",
-      "stage_3": "Medical Examination + Document Verification"
-    }
+    "not_conducted": "2016, 2017, 2021, 2022"
   },
   {
     "_id": {
@@ -336,13 +252,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Streams: Civil & Structural, Electrical, Mechanical. Paper II is conventional/descriptive. 2020 delayed to 2021. Both papers on same day in recent years.",
-    "exam_stages": {
-      "stage_1": "Paper I – MCQ (General Intelligence & Reasoning, General Awareness, Part A: General Engineering – Civil/Electrical/Mechanical as per post)",
-      "stage_2": "Paper II – Written/Descriptive (Conventional: Civil & Structural / Electrical / Mechanical Engineering as per post)",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -356,9 +266,10 @@
     "eligibility": "Graduate",
     "frequency": "Annual",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2020, 2021"
   },
   {
     "_id": {
@@ -375,13 +286,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Skill test is qualifying; final merit on written exam marks only. Grade C: Group 'B' Non-Gazetted; Grade D: Group 'C'. 2020 delayed to 2021.",
-    "exam_stages": {
-      "stage_1": "Written Exam – MCQ (General Intelligence & Reasoning, General Awareness, English Language & Comprehension)",
-      "stage_2": "Skill Test – Stenography Speed Test (80 wpm for Grade D; 100 wpm for Grade C) – Qualifying",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -395,9 +300,10 @@
     "eligibility": "10th/12th/Graduate",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2016"
   },
   {
     "_id": {
@@ -411,9 +317,10 @@
     "eligibility": "12th",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -622,13 +529,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2016, 2017, 2018, 2015, 2022, 2021, 2024, 2025",
-    "remarks": "Mega recruitment cycles: 2015–16 (35,000+ posts), 2019–21 (35,208 posts), 2024–25 (11,558 posts notified). Not an annual exam — cycle-based. Graduate & Undergraduate post categories notified together. 2022 protest-related re-exam controversy.",
-    "exam_stages": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Awareness)",
-      "stage_2": "CBT 2 – MCQ (Mathematics, General Intelligence & Reasoning, General Awareness – higher difficulty; post-specific)",
-      "stage_3": "Skill Test / Typing Test / CBAT (post-specific, qualifying) + Document Verification"
-    }
+    "not_conducted": "2015, 2016, 2017, 2018, 2021, 2022, 2024, 2025"
   },
   {
     "_id": {
@@ -645,13 +546,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2015, 2016, 2017, 2020, 2022, 2023, 2018, 2024",
-    "remarks": "Disciplines: Civil, Electrical, Mechanical, Electronics & Communication, IT, Depot Material Superintendent, Chemical & Metallurgical Assistant, etc. CBT 2 is discipline-specific. Recruitment is vacancy-driven, not annual.",
-    "exam_stages": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Awareness, General Science)",
-      "stage_2": "CBT 2 – MCQ (Physics & Chemistry, Basics of Computers & Applications, Basics of Environment & Pollution Control, Technical Abilities – discipline specific)",
-      "stage_3": "Document Verification + Medical Examination"
-    }
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2022, 2023, 2024"
   },
   {
     "_id": {
@@ -668,13 +563,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2023, 2025",
-    "remarks": "Mega cycle 2018–19: 1,03,769 posts — largest single RRB recruitment. 2022 cycle: 1,03,769 posts again. No written descriptive stage. PET is qualifying only. Minimum 10th pass eligibility.",
-    "exam_stages": {
-      "stage_1": "CBT – MCQ (Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs)",
-      "stage_2": "Physical Efficiency Test (PET) – Qualifying (running, weight lifting tasks gender/category specific)",
-      "stage_3": "Medical Examination + Document Verification"
-    }
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2023, 2025"
   },
   {
     "_id": {
@@ -691,13 +580,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024",
-    "remarks": "ALP and Technician notified together in same cycle. CBT 2 Part B (trade syllabus) is qualifying — marks not counted in merit. CBAT required only for ALP post. ITI/Diploma required for eligibility.",
-    "exam_stages": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs)",
-      "stage_2": "CBT 2 – MCQ: Part A (General topics) + Part B (Trade/Discipline specific — qualifying)",
-      "stage_3": "CBAT (Computer Based Aptitude Test, qualifying) + Document Verification + Medical"
-    }
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "_id": {
@@ -714,13 +597,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023",
-    "remarks": "Technician Grade 1 requires CBT 2 (discipline-specific); Grade 3 does not. Notified alongside ALP in same recruitment cycle. ITI qualification required.",
-    "exam_stages": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs)",
-      "stage_2": "CBT 2 – MCQ (General topics + Trade/Discipline specific) — for Grade 1 only; Grade 3 shortlisted from CBT 1 only",
-      "stage_3": "Document Verification + Medical Examination"
-    }
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023"
   },
   {
     "_id": {
@@ -737,13 +614,7 @@
     "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025",
-    "remarks": "Conducted by Railway Recruitment Boards under Railway Protection Force. Mega cycle 2018: 9,739 posts. 2024 cycle: 4,660 posts. PET includes 1600m/800m run, long jump, high jump (gender specific).",
-    "exam_stages": {
-      "stage_1": "CBT – MCQ (General Awareness, Arithmetic, General Intelligence & Reasoning)",
-      "stage_2": "Physical Efficiency Test (PET) & Physical Measurement Test (PMT) – Qualifying",
-      "stage_3": "Medical Examination + Document Verification"
-    }
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025"
   },
   {
     "_id": {
@@ -757,9 +628,10 @@
     "eligibility": "12th/Graduate",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025"
   },
   {
     "_id": {
@@ -869,16 +741,10 @@
     "eligibility": "Graduate/12th",
     "frequency": "Twice a Year",
     "question_count": "3,500",
-    "year_range": "2015-2025 (2 cycles/year: AFCAT 1 & AFCAT 2)",
+    "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "Two cycles per year (Feb & Aug approximately). EKT only for Technical branch candidates. Flying branch candidates do CPSS (Computerised Pilot Selection System) at AFSB. Commissioned officer entry. NDA/CDSE entries are separate from AFCAT.",
-    "exam_stages": {
-      "stage_1": "AFCAT Written – MCQ (General Awareness, Verbal Ability in English, Numerical Ability, Reasoning & Military Aptitude) + EKT – MCQ for Technical branch (Engineering Knowledge Test: Mechanical / Electronics & Communication / Electrical & Instrumentation)",
-      "stage_2": "AFSB Interview (Air Force Selection Board: Stage 1 – OIR & PPDT; Stage 2 – Psychological tests, GTO, Interview)",
-      "stage_3": "Medical Examination"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -892,9 +758,10 @@
     "eligibility": "12th",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2020, 2022, 2023"
   },
   {
     "_id": {
@@ -908,9 +775,10 @@
     "eligibility": "12th",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2020, 2022, 2023"
   },
   {
     "_id": {
@@ -924,9 +792,10 @@
     "eligibility": "10th/12th",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2022-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2022"
   },
   {
     "_id": {
@@ -940,16 +809,10 @@
     "eligibility": "Graduate",
     "frequency": "Annual",
     "question_count": "",
-    "year_range": "2015-2025 (1-2 notifications/year)",
+    "year_range": "2015-2025",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2020, 2021",
-    "remarks": "Graduate-level entry for civilians already employed. Candidates must be employed / self-employed. Not a full-time military service — part-time commissioned officer role. Exam conducted by HQ Integrated Defence Staff. Two papers, both MCQ.",
-    "exam_stages": {
-      "stage_1": "Written – MCQ (Paper I: Reasoning & Elementary Mathematics; Paper II: General Knowledge & English)",
-      "stage_2": "SSB Interview (Services Selection Board: Stage 1 – OIR & PPDT; Stage 2 – Psych, GTO, Interview)",
-      "stage_3": "Medical Examination"
-    }
+    "not_conducted": "2020, 2021"
   },
   {
     "_id": {
@@ -963,9 +826,10 @@
     "eligibility": "10th/12th/Graduate",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2020, 2021"
   },
   {
     "_id": {
@@ -979,9 +843,10 @@
     "eligibility": "Nursing Qualification",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2025 - 2010",
+    "year_range": "2015-2025",
     "__v": 0,
-    "sub_topic": []
+    "sub_topic": [],
+    "not_conducted": "2020, 2021, 2022"
   },
   {
     "_id": {
@@ -6815,13 +6680,7 @@
     "__v": 0,
     "collection_name": "ibps_po",
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "Prelims MCQ (QA, Res, Eng)",
-      "stage_2": "Mains MCQ + Descriptive",
-      "stage_3": "Interview"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -6839,13 +6698,7 @@
     "__v": 0,
     "collection_name": "ibps_clerk",
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "Prelims MCQ",
-      "stage_2": "Mains MCQ",
-      "stage_3": "N/A"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -6859,17 +6712,11 @@
     "eligibility": "Graduate",
     "frequency": "Annual",
     "question_count": "972",
-    "year_range": "",
+    "year_range": "2015-2024",
     "__v": 0,
     "collection_name": "ibps_rrb_po",
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -6883,17 +6730,11 @@
     "eligibility": "12th/Graduate",
     "frequency": "Annual",
     "question_count": "972",
-    "year_range": "",
+    "year_range": "2015-2024",
     "__v": 0,
     "collection_name": "ibps_rrb_clerk",
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -6907,17 +6748,11 @@
     "eligibility": "Graduate",
     "frequency": "Varies",
     "question_count": "972",
-    "year_range": "",
+    "year_range": "2015-2025",
     "__v": 0,
     "collection_name": "ibps_rrb_so",
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -6935,13 +6770,7 @@
     "__v": 0,
     "collection_name": "sbi_po",
     "sub_topic": [],
-    "not_conducted": "",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "Prelims MCQ",
-      "stage_2": "Mains MCQ + Descriptive",
-      "stage_3": "Psychometric Test + Group Exercise + Interview"
-    }
+    "not_conducted": ""
   },
   {
     "_id": {
@@ -6959,13 +6788,7 @@
     "__v": 0,
     "collection_name": "sbi_clerk",
     "sub_topic": [],
-    "not_conducted": "2016, 2017",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "Prelims MCQ",
-      "stage_2": "Mains MCQ",
-      "stage_3": "Local Language Test (if applicable)"
-    }
+    "not_conducted": "2016, 2017"
   },
   {
     "_id": {
@@ -7081,16 +6904,10 @@
     "eligibility": "Graduate",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2012-2024 (annual via IBPS CRP RRB)",
+    "year_range": "2012-2024",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2020, 2021",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "Phase II: MCQ (Mains – Obj.)",
-      "stage_2": "— (No Stage 3; merit-based)",
-      "stage_3": ""
-    }
+    "not_conducted": "2020, 2021"
   },
   {
     "_id": {
@@ -7121,16 +6938,10 @@
     "eligibility": "Graduate",
     "frequency": "Varies",
     "question_count": "",
-    "year_range": "2012-2024 (annual via IBPS CRP RRB)",
+    "year_range": "2012-2024",
     "__v": 0,
     "sub_topic": [],
-    "not_conducted": "2020, 2021",
-    "remarks": "",
-    "exam_stages": {
-      "stage_1": "— (No Stage 2)",
-      "stage_2": "— (No Stage 3)",
-      "stage_3": ""
-    }
+    "not_conducted": "2020, 2021"
   },
   {
     "_id": {

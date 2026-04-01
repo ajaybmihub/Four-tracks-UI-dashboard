@@ -4,495 +4,288 @@
     "exam_name": "Civil Services Examination (CSE)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Prelims – MCQ (GS Paper I + CSAT Paper II)",
-      "stage_2": "Mains – Written (9 papers: Essay, GS I–IV, Optional I–II, Language papers)",
-      "stage_3": "Personality Test / Interview"
-    },
-    "remarks": "2025 papers pending official upload; CSAT is qualifying"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "indian-forest-service--ifos-",
     "exam_name": "Indian Forest Service (IFoS)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Prelims – MCQ (shared with CSE Prelims)",
-      "stage_2": "Mains – Written (6 papers: General English, General Knowledge, 2 Optional subjects × 2 papers each)",
-      "stage_3": "Personality Test / Interview"
-    },
-    "remarks": "Prelims is common with CSE; separate Mains for IFoS"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "engineering-services-examination--ese---ies-",
     "exam_name": "Engineering Services Examination (ESE / IES)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Prelims – MCQ (Paper I: GS & Engg. Aptitude; Paper II: Engineering discipline)",
-      "stage_2": "Mains – Written (Paper I & Paper II: Engineering discipline, conventional/descriptive)",
-      "stage_3": "Personality Test / Interview"
-    },
-    "remarks": "Pattern revised from 2017 onwards (Prelims added); 2015–2016 had only Written + Interview"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "combined-defence-services--cds-",
     "exam_name": "Combined Defence Services (CDS)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (2 cycles/year: CDS I & CDS II)",
-    "not_conducted": "None (both cycles held every year)",
-    "paper_availability": "2015 I&II, 2016 I&II, 2017 I&II, 2018 I&II, 2019 I&II, 2020 I&II, 2021 I&II, 2022 I&II, 2023 I&II, 2024 I&II",
-    "pattern": {
-      "stage_1": "Written – MCQ (English, GK, Elementary Mathematics; OTA: English + GK only)",
-      "stage_2": "SSB Interview (conducted by MoD, not UPSC)",
-      "stage_3": "N/A"
-    },
-    "remarks": "Two cycles per year; Mathematics paper not required for OTA entry"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015 I&II, 2016 I&II, 2017 I&II, 2018 I&II, 2019 I&II, 2020 I&II, 2021 I&II, 2022 I&II, 2023 I&II, 2024 I&II"
   },
   {
     "exam_id": "national-defence-academy---naval-academy--nda---na-",
     "exam_name": "National Defence Academy & Naval Academy (NDA & NA)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (2 cycles/year: NDA I & NDA II)",
-    "not_conducted": "None (both cycles held every year)",
-    "paper_availability": "2015 I&II, 2016 I&II, 2017 I&II, 2018 I&II, 2019 I&II, 2020 I&II, 2021 I&II, 2022 I&II, 2023 I&II, 2024 I&II",
-    "pattern": {
-      "stage_1": "Written – MCQ (Mathematics + General Ability Test)",
-      "stage_2": "SSB Interview (conducted by MoD, not UPSC)",
-      "stage_3": "N/A"
-    },
-    "remarks": "Two cycles per year; females eligible from 2022 onwards (SC order)"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015 I&II, 2016 I&II, 2017 I&II, 2018 I&II, 2019 I&II, 2020 I&II, 2021 I&II, 2022 I&II, 2023 I&II, 2024 I&II"
   },
   {
     "exam_id": "combined-medical-services--cms-",
     "exam_name": "Combined Medical Services (CMS)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Written – MCQ (Paper I & Paper II: clinical medicine, surgery, gynaecology, etc.)",
-      "stage_2": "Personality Test / Interview",
-      "stage_3": "N/A"
-    },
-    "remarks": "Single-day written exam (both papers); no Mains written stage"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "indian-economic-service---indian-statistical-service--ies-iss-",
     "exam_name": "Indian Economic Service / Indian Statistical Service (IES/ISS)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Written – Both (General English & General Studies: MCQ; Economics/Statistics papers: Written/Descriptive)",
-      "stage_2": "Personality Test / Interview",
-      "stage_3": "N/A"
-    },
-    "remarks": "IES: 6 papers (Gen. English, Gen. Studies, Economics I–IV); ISS: 6 papers (Gen. English, Gen. Studies, Statistics I–IV)"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "combined-geo-scientist-examination",
     "exam_name": "Combined Geo-Scientist Examination",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year; exam renamed/restructured in 2020 from Geologist Exam)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Prelims – MCQ (Paper I: General Studies; Paper II: discipline-specific)",
-      "stage_2": "Mains – Written (3 discipline-specific descriptive papers)",
-      "stage_3": "Personality Test / Interview"
-    },
-    "remarks": "Renamed from 'Geologist Examination' to 'Combined Geo-Scientist Examination' from 2020; papers for 2015–2019 are under old name"
+    "year_range": "2015-2025",
+    "not_conducted": "2020",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "epfo---enforcement-officer---accounts-officer",
     "exam_name": "EPFO – Enforcement Officer / Accounts Officer",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2016, 2018 – Not conducted; 2020 – Deferred to 2021 (COVID-19)",
-    "paper_availability": "2015, 2017, 2019, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Written – MCQ (General English, Indian Freedom Struggle, Current Events, Indian Polity, General Accounting Principles, Industrial Relations & Labour Laws, etc.)",
-      "stage_2": "Interview / Skill Test",
-      "stage_3": "N/A"
-    },
-    "remarks": "Not conducted every year; recruitment driven by vacancy notifications; 2020 exam held in 2021"
+    "year_range": "2015-2025",
+    "not_conducted": "2016, 2018, 2020, 2021",
+    "paper_availability": "2015, 2017, 2019, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "central-armed-police-forces---assistant-commandant--capf-ac-",
     "exam_name": "Central Armed Police Forces – Assistant Commandant (CAPF AC)",
     "category": "UPSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Written – Both (Paper I: MCQ – General Ability & Intelligence; Paper II: Descriptive – Essay, Précis, Comprehension)",
-      "stage_2": "Physical Standards / Physical Efficiency Test (PET)",
-      "stage_3": "Interview / Personality Test"
-    },
-    "remarks": "Paper I is MCQ; Paper II is descriptive/written — both on same day"
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "combined-graduate-level--cgl-",
-    "exam_name": "Combined Graduate Level (CGL)",
+    "exam_id": "ssc-combined-graduate-level--cgl-",
+    "exam_name": "SSC Combined Graduate Level (CGL)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Tier I – MCQ (General Intelligence & Reasoning, General Awareness, Quantitative Aptitude, English Comprehension)",
-      "stage_2": "Tier II – MCQ (Paper I: Mathematical Abilities + Reasoning; Paper II: English Language & Comprehension; Paper III: Statistics / General Studies – Finance & Economics as applicable)",
-      "stage_3": "Tier III – Written/Descriptive (Essay, Letter, Precis in English/Hindi) + Skill Test / Document Verification"
-    },
-    "remarks": "Pattern revised in 2022: Tier III is now descriptive pen-and-paper; Tier IV (Skill Test/CPT) is qualifying. Prior to 2022, 4 Tiers existed. 2020 exam delayed to 2021 due to COVID-19."
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "combined-higher-secondary-level--chsl-",
-    "exam_name": "Combined Higher Secondary Level (CHSL)",
+    "exam_id": "ssc-combined-higher-secondary-level--chsl-",
+    "exam_name": "SSC Combined Higher Secondary Level (CHSL)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Tier I – MCQ (General Intelligence, English Language, Quantitative Aptitude, General Awareness)",
-      "stage_2": "Tier II – Both: Section I MCQ (Math + Reasoning + English + GK) + Section II Skill Test / Typing Test (qualifying)",
-      "stage_3": "N/A"
-    },
-    "remarks": "Pattern revised in 2023: Tier II now includes MCQ sections plus Skill/Typing test in same sitting. Previously Tier II was descriptive. 2020 exam delayed to 2021."
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "multi-tasking-staff--mts-",
-    "exam_name": "Multi Tasking Staff (MTS)",
+    "exam_id": "ssc-multi-tasking-staff--mts-",
+    "exam_name": "SSC Multi Tasking Staff (MTS)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2016 – Not conducted separately (merged cycle); 2020 – Deferred to 2021 (COVID-19)",
-    "paper_availability": "2015, 2017, 2018, 2019, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Paper I – MCQ (Numerical & Mathematical Ability, Reasoning & Problem Solving, General Awareness, English Language & Comprehension)",
-      "stage_2": "Paper II – Written/Descriptive (Short Essay / Letter in English or any language in 8th Schedule) — Qualifying only",
-      "stage_3": "N/A"
-    },
-    "remarks": "Paper II is qualifying (marks not counted in merit). Pattern revised in 2021: Paper I is now fully MCQ-based computer exam. Havaldar posts included from 2022."
+    "year_range": "2015-2025",
+    "not_conducted": "2016, 2020, 2021",
+    "paper_availability": "2015, 2017, 2018, 2019, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "gd-constable",
-    "exam_name": "GD Constable",
+    "exam_id": "ssc-gd-constable",
+    "exam_name": "SSC GD Constable",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2016 – Not conducted; 2017 – Not conducted; 2022 – Not conducted (merged with 2021 cycle)",
-    "paper_availability": "2015, 2018, 2019, 2021, 2023, 2024",
-    "pattern": {
-      "stage_1": "CBT (Computer Based Test) – MCQ (General Intelligence & Reasoning, General Knowledge & Awareness, Elementary Mathematics, English/Hindi)",
-      "stage_2": "Physical Efficiency Test (PET) & Physical Standard Test (PST) – Qualifying",
-      "stage_3": "Medical Examination + Document Verification"
-    },
-    "remarks": "Recruitment is need/vacancy based; not held every year. 2018-19 recruitment was a mega cycle. PET/PST conducted by CAPFs/SSB, not SSC."
+    "year_range": "2015-2025",
+    "not_conducted": "2016, 2017, 2021, 2022",
+    "paper_availability": "2015, 2018, 2019, 2021, 2023, 2024"
   },
   {
-    "exam_id": "junior-engineer--je-",
-    "exam_name": "Junior Engineer (JE)",
+    "exam_id": "ssc-junior-engineer--je-",
+    "exam_name": "SSC Junior Engineer (JE)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Paper I – MCQ (General Intelligence & Reasoning, General Awareness, Part A: General Engineering – Civil/Electrical/Mechanical as per post)",
-      "stage_2": "Paper II – Written/Descriptive (Conventional: Civil & Structural / Electrical / Mechanical Engineering as per post)",
-      "stage_3": "N/A"
-    },
-    "remarks": "Streams: Civil & Structural, Electrical, Mechanical. Paper II is conventional/descriptive. 2020 delayed to 2021. Both papers on same day in recent years."
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "cpo---sub-inspector--si--in-delhi-police---capfs",
-    "exam_name": "CPO – Sub-Inspector (SI) in Delhi Police / CAPFs",
+    "exam_id": "ssc-cpo--si-",
+    "exam_name": "SSC CPO (SI)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2020 – Deferred to 2021 (COVID-19)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Paper I – MCQ (General Intelligence & Reasoning, General Knowledge & Awareness, Quantitative Aptitude, English Comprehension)",
-      "stage_2": "Physical Endurance Test (PET) / Medical Exam – Qualifying",
-      "stage_3": "Paper II – MCQ (English Language & Comprehension) + Final Medical"
-    },
-    "remarks": "Paper I and Paper II both MCQ (CBT). PET between Paper I and II is qualifying. Final merit based on Paper I + Paper II combined."
+    "year_range": "2015-2025",
+    "not_conducted": "2020, 2021",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "stenographer-grade-c---d",
-    "exam_name": "Stenographer Grade C & D",
+    "exam_id": "ssc-stenographer-grade-c---d",
+    "exam_name": "SSC Stenographer Grade C & D",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (conducted every year)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Written Exam – MCQ (General Intelligence & Reasoning, General Awareness, English Language & Comprehension)",
-      "stage_2": "Skill Test – Stenography Speed Test (80 wpm for Grade D; 100 wpm for Grade C) – Qualifying",
-      "stage_3": "N/A"
-    },
-    "remarks": "Skill test is qualifying; final merit on written exam marks only. Grade C: Group 'B' Non-Gazetted; Grade D: Group 'C'. 2020 delayed to 2021."
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "selection-post--phase-wise-",
-    "exam_name": "Selection Post (Phase-wise)",
+    "exam_id": "ssc-selection-post--phase-wise-",
+    "exam_name": "SSC Selection Post (Phase-wise)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "Phase IV (2016) – Phase XII (2025)",
-    "not_conducted": "Phase I–III data before 2016 not in scope; no missing phases from Phase IV onwards",
-    "paper_availability": "Phase IV (2016), Phase V (2017), Phase VI (2018), Phase VII (2019), Phase VIII (2020), Phase IX (2021), Phase X (2022), Phase XI (2023), Phase XII (2024–25)",
-    "pattern": {
-      "stage_1": "CBT – MCQ (General Intelligence, English Language, Quantitative Aptitude, General Awareness; difficulty varies by post – Matriculation / Higher Secondary / Graduation level)",
-      "stage_2": "Document Verification / Skill Test (post-specific, qualifying)",
-      "stage_3": "N/A"
-    },
-    "remarks": "One phase per year. No written/descriptive stage; purely CBT MCQ. Post categories vary: 10th pass, 12th pass, or Graduate level posts notified together."
+    "year_range": "2015-2025",
+    "not_conducted": "2016",
+    "paper_availability": "Phase IV (2016), Phase V (2017), Phase VI (2018), Phase VII (2019), Phase VIII (2020), Phase IX (2021), Phase X (2022), Phase XI (2023), Phase XII (2024–25)"
   },
   {
-    "exam_id": "chsl---data-entry-operator--deo-",
-    "exam_name": "CHSL – Data Entry Operator (DEO)",
+    "exam_id": "ssc-chsl-deo--data-entry-operator-",
+    "exam_name": "SSC CHSL DEO (Data Entry Operator)",
     "category": "SSC",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "None (DEO is a post under CHSL; conducted every year with CHSL)",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Tier I – MCQ (same as CHSL: General Intelligence, English, Quantitative Aptitude, General Awareness)",
-      "stage_2": "Tier II – MCQ + DEO Skill Test (Data Entry Speed Test: 8,000 key depressions/hour – Qualifying)",
-      "stage_3": "N/A"
-    },
-    "remarks": "DEO is not a separate exam — it is a post category within CHSL. Skill test speed requirement: 8,000 key depressions/hour for DEO; 15,000 for DEO Grade A (CAG). Conducted alongside LDC/JSA posts."
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
   },
   {
-    "exam_id": "rrb-ntpc--non-technical-popular-categories-",
-    "exam_name": "RRB NTPC (Non-Technical Popular Categories)",
+    "exam_id": "rrb-ntpc",
+    "exam_name": "RRB NTPC",
     "category": "Railways (RRB)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2016, 2017, 2018 – Not conducted (2015 cycle results pending); 2022 – Not conducted (2021 cycle ongoing); 2024 – Not conducted (2024 notification issued, exam pending in 2025)",
-    "paper_availability": "2015–16 cycle, 2019–20 cycle (CBT 1 & 2 papers available), 2021–22 cycle (CBT 1 & 2 papers available)",
-    "pattern": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Awareness)",
-      "stage_2": "CBT 2 – MCQ (Mathematics, General Intelligence & Reasoning, General Awareness – higher difficulty; post-specific)",
-      "stage_3": "Skill Test / Typing Test / CBAT (post-specific, qualifying) + Document Verification"
-    },
-    "remarks": "Mega recruitment cycles: 2015–16 (35,000+ posts), 2019–21 (35,208 posts), 2024–25 (11,558 posts notified). Not an annual exam — cycle-based. Graduate & Undergraduate post categories notified together. 2022 protest-related re-exam controversy."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2021, 2022, 2024, 2025",
+    "paper_availability": "2015–16 cycle, 2019–20 cycle (CBT 1 & 2 papers available), 2021–22 cycle (CBT 1 & 2 papers available)"
   },
   {
-    "exam_id": "rrb-je--junior-engineer-",
-    "exam_name": "RRB JE (Junior Engineer)",
+    "exam_id": "rrb-je",
+    "exam_name": "RRB JE",
     "category": "Railways (RRB)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2015, 2016, 2017, 2020, 2022, 2023 – Not conducted (gap between 2018-19 cycle and 2024 cycle)",
-    "paper_availability": "2014–15 cycle (limited), 2018–19 cycle (CBT 1 & 2 papers available), 2024 cycle (ongoing)",
-    "pattern": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Awareness, General Science)",
-      "stage_2": "CBT 2 – MCQ (Physics & Chemistry, Basics of Computers & Applications, Basics of Environment & Pollution Control, Technical Abilities – discipline specific)",
-      "stage_3": "Document Verification + Medical Examination"
-    },
-    "remarks": "Disciplines: Civil, Electrical, Mechanical, Electronics & Communication, IT, Depot Material Superintendent, Chemical & Metallurgical Assistant, etc. CBT 2 is discipline-specific. Recruitment is vacancy-driven, not annual."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2022, 2023, 2024",
+    "paper_availability": "2014–15 cycle (limited), 2018–19 cycle (CBT 1 & 2 papers available), 2024 cycle (ongoing)"
   },
   {
-    "exam_id": "rrb-group-d--level-1-posts-",
-    "exam_name": "RRB Group D (Level 1 Posts)",
+    "exam_id": "rrb-group-d",
+    "exam_name": "RRB Group D",
     "category": "Railways (RRB)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2015, 2016, 2017 – Not conducted (2018 mega cycle covered backlog); 2020, 2021 – Not conducted (2018 cycle results still processing); 2023 – Not conducted; 2025 – Notification issued, exam pending",
-    "paper_availability": "2018–19 cycle (CBT papers available), 2022 cycle (CBT papers available)",
-    "pattern": {
-      "stage_1": "CBT – MCQ (Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs)",
-      "stage_2": "Physical Efficiency Test (PET) – Qualifying (running, weight lifting tasks gender/category specific)",
-      "stage_3": "Medical Examination + Document Verification"
-    },
-    "remarks": "Mega cycle 2018–19: 1,03,769 posts — largest single RRB recruitment. 2022 cycle: 1,03,769 posts again. No written descriptive stage. PET is qualifying only. Minimum 10th pass eligibility."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2023, 2025",
+    "paper_availability": "2018–19 cycle (CBT papers available), 2022 cycle (CBT papers available)"
   },
   {
-    "exam_id": "rrb-alp--assistant-loco-pilot-",
-    "exam_name": "RRB ALP (Assistant Loco Pilot)",
+    "exam_id": "rrb-alp",
+    "exam_name": "RRB ALP",
     "category": "Railways (RRB)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2015, 2016, 2017 – Not conducted (2018 mega cycle); 2020, 2021, 2022, 2023 – Not conducted (2018 cycle results & 2024 notification gap)",
-    "paper_availability": "2018–19 cycle (CBT 1 & 2 Part A & B papers available), 2024 cycle (ongoing/pending)",
-    "pattern": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs)",
-      "stage_2": "CBT 2 – MCQ: Part A (General topics) + Part B (Trade/Discipline specific — qualifying)",
-      "stage_3": "CBAT (Computer Based Aptitude Test, qualifying) + Document Verification + Medical"
-    },
-    "remarks": "ALP and Technician notified together in same cycle. CBT 2 Part B (trade syllabus) is qualifying — marks not counted in merit. CBAT required only for ALP post. ITI/Diploma required for eligibility."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024",
+    "paper_availability": "2018–19 cycle (CBT 1 & 2 Part A & B papers available), 2024 cycle (ongoing/pending)"
   },
   {
-    "exam_id": "rrb-technician--grades-1---3-",
-    "exam_name": "RRB Technician (Grades 1 & 3)",
+    "exam_id": "rrb-technician",
+    "exam_name": "RRB Technician",
     "category": "Railways (RRB)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2015, 2016, 2017 – Not conducted (2018 mega cycle); 2020, 2021, 2022, 2023 – Not conducted (gap years)",
-    "paper_availability": "2018–19 cycle (CBT papers available), 2024 cycle (ongoing/pending)",
-    "pattern": {
-      "stage_1": "CBT 1 – MCQ (Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs)",
-      "stage_2": "CBT 2 – MCQ (General topics + Trade/Discipline specific) — for Grade 1 only; Grade 3 shortlisted from CBT 1 only",
-      "stage_3": "Document Verification + Medical Examination"
-    },
-    "remarks": "Technician Grade 1 requires CBT 2 (discipline-specific); Grade 3 does not. Notified alongside ALP in same recruitment cycle. ITI qualification required."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023",
+    "paper_availability": "2018–19 cycle (CBT papers available), 2024 cycle (ongoing/pending)"
   },
   {
     "exam_id": "rpf-constable",
     "exam_name": "RPF Constable",
     "category": "Railways (RPF)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2015, 2016, 2017 – Not conducted (2018 mega cycle); 2020, 2021, 2022 – Not conducted (2018 cycle + gap); 2025 – Notification issued, exam pending",
-    "paper_availability": "2018–19 cycle (CBT papers available), 2024 cycle (papers available)",
-    "pattern": {
-      "stage_1": "CBT – MCQ (General Awareness, Arithmetic, General Intelligence & Reasoning)",
-      "stage_2": "Physical Efficiency Test (PET) & Physical Measurement Test (PMT) – Qualifying",
-      "stage_3": "Medical Examination + Document Verification"
-    },
-    "remarks": "Conducted by Railway Recruitment Boards under Railway Protection Force. Mega cycle 2018: 9,739 posts. 2024 cycle: 4,660 posts. PET includes 1600m/800m run, long jump, high jump (gender specific)."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025",
+    "paper_availability": "2018–19 cycle (CBT papers available), 2024 cycle (papers available)"
   },
   {
     "exam_id": "rpf-sub-inspector--si-",
     "exam_name": "RPF Sub-Inspector (SI)",
     "category": "Railways (RPF)",
     "track": "Govt Exams",
-    "year_range": "2015–2025",
-    "not_conducted": "2015, 2016, 2017 – Not conducted (2018 mega cycle); 2020, 2021, 2022 – Not conducted (gap years); 2025 – Notification issued, exam pending",
-    "paper_availability": "2018–19 cycle (CBT papers available), 2024 cycle (papers available)",
-    "pattern": {
-      "stage_1": "CBT – MCQ (General Awareness, Arithmetic, General Intelligence & Reasoning)",
-      "stage_2": "Physical Efficiency Test (PET) & Physical Measurement Test (PMT) – Qualifying",
-      "stage_3": "Medical Examination + Document Verification"
-    },
-    "remarks": "Graduate-level eligibility (unlike Constable which is 10th pass). Same CBT pattern as RPF Constable but separate merit list. 2018 cycle: 1,120 posts. 2024 cycle: 452 posts. Notified alongside RPF Constable."
+    "year_range": "2015-2025",
+    "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025",
+    "paper_availability": "2018–19 cycle (CBT papers available), 2024 cycle (papers available)"
   },
   {
-    "exam_id": "afcat--air-force-common-admission-test-",
-    "exam_name": "AFCAT (Air Force Common Admission Test)",
+    "exam_id": "afcat",
+    "exam_name": "AFCAT",
     "category": "Defence (IAF)",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (2 cycles/year: AFCAT 1 & AFCAT 2)",
-    "not_conducted": "None (both cycles held every year)",
-    "paper_availability": "2015-1&2, 2016-1&2, 2017-1&2, 2018-1&2, 2019-1&2, 2020-1&2, 2021-1&2, 2022-1&2, 2023-1&2, 2024-1&2",
-    "pattern": {
-      "stage_1": "AFCAT Written – MCQ (General Awareness, Verbal Ability in English, Numerical Ability, Reasoning & Military Aptitude) + EKT – MCQ for Technical branch (Engineering Knowledge Test: Mechanical / Electronics & Communication / Electrical & Instrumentation)",
-      "stage_2": "AFSB Interview (Air Force Selection Board: Stage 1 – OIR & PPDT; Stage 2 – Psychological tests, GTO, Interview)",
-      "stage_3": "Medical Examination"
-    },
-    "remarks": "Two cycles per year (Feb & Aug approximately). EKT only for Technical branch candidates. Flying branch candidates do CPSS (Computerised Pilot Selection System) at AFSB. Commissioned officer entry. NDA/CDSE entries are separate from AFCAT."
+    "year_range": "2015-2025",
+    "not_conducted": "",
+    "paper_availability": "2015-1&2, 2016-1&2, 2017-1&2, 2018-1&2, 2019-1&2, 2020-1&2, 2021-1&2, 2022-1&2, 2023-1&2, 2024-1&2"
   },
   {
-    "exam_id": "indian-navy-ssr--senior-secondary-recruit---sailor-",
-    "exam_name": "Indian Navy SSR (Senior Secondary Recruit – Sailor)",
+    "exam_id": "indian-navy-aa",
+    "exam_name": "Indian Navy AA",
     "category": "Defence (Indian Navy)",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (2 cycles/year: Feb & Aug batches)",
-    "not_conducted": "2020-Aug – Cancelled (COVID-19); 2023 – Recruitment moved to Agniveer SSR scheme only; SSR as a standalone entry discontinued after 2022",
-    "paper_availability": "2015 to 2022 (Feb & Aug cycles; papers available online)",
-    "pattern": {
-      "stage_1": "Written – MCQ (English, Science, Mathematics, General Knowledge)",
-      "stage_2": "Physical Fitness Test (PFT) – Qualifying",
-      "stage_3": "Medical Examination + Merit List"
-    },
-    "remarks": "SSR entry discontinued as a separate scheme after Agnipath rollout (2022). From 2022–23 onwards, replaced by Agniveer SSR. 10+2 PCM eligibility. No interview stage. Selection purely on written merit + PFT."
+    "year_range": "2015-2025",
+    "not_conducted": "2020, 2022, 2023",
+    "paper_availability": "2015 to 2022 (Feb & Aug cycles; papers available online)"
   },
   {
-    "exam_id": "indian-navy-aa--artificer-apprentice---sailor-",
-    "exam_name": "Indian Navy AA (Artificer Apprentice – Sailor)",
-    "category": "Defence (Indian Navy)",
-    "track": "Govt Exams",
-    "year_range": "2015–2025 (2 cycles/year: Feb & Aug batches)",
-    "not_conducted": "2020-Aug – Cancelled (COVID-19); 2023 – Recruitment moved to Agniveer MR/SSR scheme; AA as standalone entry discontinued after 2022",
-    "paper_availability": "2015 to 2022 (Feb & Aug cycles; papers available online)",
-    "pattern": {
-      "stage_1": "Written – MCQ (English, Science, Mathematics, General Knowledge)",
-      "stage_2": "Physical Fitness Test (PFT) – Qualifying",
-      "stage_3": "Medical Examination + Merit List"
-    },
-    "remarks": "AA entry discontinued as a separate scheme after Agnipath rollout (2022). From 2022–23 onwards, integrated into Agniveer schemes. 10+2 PCM eligibility. Higher technical aptitude requirement than SSR. No interview stage."
-  },
-  {
-    "exam_id": "agnipath---agniveer--army--navy--air-force-",
-    "exam_name": "Agnipath – Agniveer (Army, Navy, Air Force)",
+    "exam_id": "indian-army-agniveer",
+    "exam_name": "Indian Army Agniveer",
     "category": "Defence (Army / Navy / Air Force)",
     "track": "Govt Exams",
-    "year_range": "2022–2025 (launched June 2022; annual cycles)",
-    "not_conducted": "None (annual cycle since launch in 2022)",
-    "paper_availability": "2022 (Army CEE, Navy, AF papers available), 2023 (papers available), 2024 (papers available)",
-    "pattern": {
-      "stage_1": "Army: CEE – MCQ (General Knowledge, General Science, Maths, Reasoning – trade/category specific) Navy Agniveer SSR/MR: MCQ (Science, Maths, English, GK) AF Agniveer: MCQ (Reasoning & General Awareness + Phase 2 trade test)",
-      "stage_2": "Physical Fitness Test (PFT) / Physical Measurement – Qualifying (all three services)",
-      "stage_3": "Medical Examination + Document Verification"
-    },
-    "remarks": "Agnipath Scheme launched June 2022 replacing regular soldier/sailor/airman recruitment. 4-year service tenure; 25% retained permanently. Army has category-wise CEE (Sol GD, Sol Tech, Sol Clerk, Sol NA, etc.). Navy: Agniveer SSR & MR. AF: Agniveer Vayu. Separate notifications per service. Scheme under political review as of 2024–25."
+    "year_range": "2022-2025",
+    "not_conducted": "2022",
+    "paper_availability": "2022 (Army CEE, Navy, AF papers available), 2023 (papers available), 2024 (papers available)"
   },
   {
     "exam_id": "territorial-army-officer",
     "exam_name": "Territorial Army Officer",
     "category": "Defence (Army)",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (1–2 notifications/year)",
-    "not_conducted": "2020 – Deferred to 2021 (COVID-19); some years only 1 cycle instead of 2",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024 (papers available online)",
-    "pattern": {
-      "stage_1": "Written – MCQ (Paper I: Reasoning & Elementary Mathematics; Paper II: General Knowledge & English)",
-      "stage_2": "SSB Interview (Services Selection Board: Stage 1 – OIR & PPDT; Stage 2 – Psych, GTO, Interview)",
-      "stage_3": "Medical Examination"
-    },
-    "remarks": "Graduate-level entry for civilians already employed. Candidates must be employed / self-employed. Not a full-time military service — part-time commissioned officer role. Exam conducted by HQ Integrated Defence Staff. Two papers, both MCQ."
+    "year_range": "2015-2025",
+    "not_conducted": "2020, 2021",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024 (papers available online)"
   },
   {
-    "exam_id": "coast-guard-navik--gd---db----yantrik",
-    "exam_name": "Coast Guard Navik (GD & DB) / Yantrik",
+    "exam_id": "coast-guard-navik---yantrik",
+    "exam_name": "Coast Guard Navik / Yantrik",
     "category": "Defence (Coast Guard)",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (2 cycles/year: January & July batches approximately)",
-    "not_conducted": "2020 – 1 cycle cancelled (COVID-19); 2021 – Delayed cycles",
-    "paper_availability": "2015–16 to 2024 (batch-wise papers available; some shifts memory-based)",
-    "pattern": {
-      "stage_1": "Written – MCQ (English, Science, Maths, Reasoning, GK / Current Affairs — Navik GD & DB; additional technical for Yantrik)",
-      "stage_2": "Physical Fitness Test (PFT) + Physical Measurement Test – Qualifying",
-      "stage_3": "Medical Examination + Document Verification"
-    },
-    "remarks": "Three posts: Navik General Duty (10+2 PCM), Navik Domestic Branch (10th pass), Yantrik (Diploma in Mech/Electrical/Electronics Engg). Yantrik written includes technical subjects. Recruited under Indian Coast Guard, Ministry of Defence. Two cycles/year approximately."
+    "year_range": "2015-2025",
+    "not_conducted": "2020, 2021",
+    "paper_availability": "2015–16 to 2024 (batch-wise papers available; some shifts memory-based)"
   },
   {
-    "exam_id": "military-nursing-service--mns----lieutenant",
-    "exam_name": "Military Nursing Service (MNS) – Lieutenant",
+    "exam_id": "military-nursing-service--mns-",
+    "exam_name": "Military Nursing Service (MNS)",
     "category": "Defence (Army / Military)",
     "track": "Govt Exams",
-    "year_range": "2015–2025 (1 cycle/year)",
-    "not_conducted": "2020 – Deferred to 2021 (COVID-19); 2022 – Limited vacancies, delayed notification",
-    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024 (papers available online)",
-    "pattern": {
-      "stage_1": "Written – MCQ (General English, General Intelligence, General Science, Nursing & related subjects)",
-      "stage_2": "Interview / Psychological Assessment (Army HQ)",
-      "stage_3": "Medical Examination"
-    },
-    "remarks": "B.Sc. Nursing eligibility required. Commissioned as Lieutenant in Army Medical Corps. Conducted by Army HQ / DGAFMS. Female candidates only. Approx 200–400 vacancies per year. Bond period applies after selection."
+    "year_range": "2015-2025",
+    "not_conducted": "2020, 2021, 2022",
+    "paper_availability": "2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024 (papers available online)"
   },
   {
     "exam_id": "ibps-po",
@@ -500,14 +293,8 @@
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
     "year_range": "2015-2024",
-    "not_conducted": "No gaps in range",
-    "paper_availability": "Available for all years",
-    "pattern": {
-      "stage_1": "Prelims MCQ (QA, Res, Eng)",
-      "stage_2": "Mains MCQ + Descriptive",
-      "stage_3": "Interview"
-    },
-    "remarks": ""
+    "not_conducted": "",
+    "paper_availability": "Available for all years"
   },
   {
     "exam_id": "ibps-clerk",
@@ -515,59 +302,35 @@
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
     "year_range": "2015-2024",
-    "not_conducted": "No gaps in range",
-    "paper_availability": "Available for all years",
-    "pattern": {
-      "stage_1": "Prelims MCQ",
-      "stage_2": "Mains MCQ",
-      "stage_3": "N/A"
-    },
-    "remarks": ""
+    "not_conducted": "",
+    "paper_availability": "Available for all years"
   },
   {
-    "exam_id": "ibps-rrb-officer-scale-i",
-    "exam_name": "IBPS RRB Officer Scale I",
+    "exam_id": "ibps-rrb-officer-scale-i--po-",
+    "exam_name": "IBPS RRB Officer Scale I (PO)",
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
-    "year_range": "",
+    "year_range": "2015-2024",
     "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
+    "paper_availability": "Available for all years"
   },
   {
-    "exam_id": "ibps-rrb-office-assistant",
-    "exam_name": "IBPS RRB Office Assistant",
+    "exam_id": "ibps-rrb-office-assistant--clerk-",
+    "exam_name": "IBPS RRB Office Assistant (Clerk)",
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
-    "year_range": "",
+    "year_range": "2015-2024",
     "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
+    "paper_availability": "Available for all years"
   },
   {
-    "exam_id": "ibps-so",
-    "exam_name": "IBPS SO",
+    "exam_id": "ibps-specialist-officer--so-",
+    "exam_name": "IBPS Specialist Officer (SO)",
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
-    "year_range": "",
+    "year_range": "2015-2025",
     "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
+    "paper_availability": "Available for all years"
   },
   {
     "exam_id": "sbi-po",
@@ -575,14 +338,8 @@
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
     "year_range": "2015-2024",
-    "not_conducted": "No gaps in range",
-    "paper_availability": "Available for all years",
-    "pattern": {
-      "stage_1": "Prelims MCQ",
-      "stage_2": "Mains MCQ + Descriptive",
-      "stage_3": "Psychometric Test + Group Exercise + Interview"
-    },
-    "remarks": ""
+    "not_conducted": "",
+    "paper_availability": "Available for all years"
   },
   {
     "exam_id": "sbi-clerk",
@@ -590,148 +347,34 @@
     "category": "Banking (IBPS/SBI)",
     "track": "Banking Track",
     "year_range": "2015-2024",
-    "not_conducted": "2016, 2017 (Not conducted)",
-    "paper_availability": "Available",
-    "pattern": {
-      "stage_1": "Prelims MCQ",
-      "stage_2": "Mains MCQ",
-      "stage_3": "Local Language Test (if applicable)"
-    },
-    "remarks": ""
+    "not_conducted": "2016, 2017",
+    "paper_availability": "Available"
   },
   {
     "exam_id": "ibps-rrb-office-assistant--variant-4---multipurpose-",
     "exam_name": "IBPS RRB Office Assistant (Variant 4 – Multipurpose)",
     "category": "IPPB / Regional Rural Banks (RBI-linked Recruitment)",
     "track": "Banking Track",
-    "year_range": "2012–2024 (annual via IBPS CRP RRB)",
-    "not_conducted": "2020 (COVID – held in 2021) No other major gaps",
-    "paper_availability": "2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "Phase II: MCQ (Mains – Obj.)",
-      "stage_2": "— (No Stage 3; merit-based)",
-      "stage_3": ""
-    },
-    "remarks": ""
+    "year_range": "2012-2024",
+    "not_conducted": "2020, 2021",
+    "paper_availability": "2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "ibps-rrb-officer-scale-ii--variant-5---specialist-",
     "exam_name": "IBPS RRB Officer Scale-II (Variant 5 – Specialist)",
     "category": "IPPB / Regional Rural Banks (RBI-linked Recruitment)",
     "track": "Banking Track",
-    "year_range": "2012–2024 (annual via IBPS CRP RRB)",
-    "not_conducted": "2020 (COVID – held in 2021) No other major gaps",
-    "paper_availability": "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "— (No Stage 2)",
-      "stage_2": "— (No Stage 3)",
-      "stage_3": ""
-    },
-    "remarks": ""
+    "year_range": "2012-2024",
+    "not_conducted": "2020, 2021",
+    "paper_availability": "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024"
   },
   {
     "exam_id": "ibps-rrb-officer-scale-iii--variant-5---senior-manager-",
     "exam_name": "IBPS RRB Officer Scale-III (Variant 5 – Senior Manager)",
     "category": "IPPB / Regional Rural Banks (RBI-linked Recruitment)",
     "track": "Banking Track",
-    "year_range": "2012–2024 (annual via IBPS CRP RRB)",
-    "not_conducted": "2020 (COVID – held in 2021) No other major gaps",
-    "paper_availability": "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024",
-    "pattern": {
-      "stage_1": "— (No Stage 2)",
-      "stage_2": "— (No Stage 3)",
-      "stage_3": ""
-    },
-    "remarks": ""
-  },
-  {
-    "exam_id": "multiple-choice---objective-type---computer-based-or-omr",
-    "exam_name": "Multiple Choice / Objective type – computer-based or OMR",
-    "category": "MCQ / Obj.",
-    "track": "Banking Track",
-    "year_range": "",
-    "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
-  },
-  {
-    "exam_id": "conventional-written-answers--essay--or-descriptive-papers--pen---paper-",
-    "exam_name": "Conventional written answers, essay, or descriptive papers (pen & paper)",
-    "category": "Written / Descriptive",
-    "track": "Banking Track",
-    "year_range": "",
-    "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
-  },
-  {
-    "exam_id": "combination-of-mcq--part-a----descriptive--part-b--in-same-paper",
-    "exam_name": "Combination of MCQ (Part A) + Descriptive (Part B) in same paper",
-    "category": "Both",
-    "track": "Banking Track",
-    "year_range": "",
-    "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
-  },
-  {
-    "exam_id": "personal-interview---panel-interview-round",
-    "exam_name": "Personal Interview / Panel Interview round",
-    "category": "Interview",
-    "track": "Banking Track",
-    "year_range": "",
-    "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
-  },
-  {
-    "exam_id": "most-exams-deferred---cancelled-in-2020--cycles-resumed-in-2021",
-    "exam_name": "Most exams deferred / cancelled in 2020; cycles resumed in 2021",
-    "category": "COVID gap (2020)",
-    "track": "Banking Track",
-    "year_range": "",
-    "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
-  },
-  {
-    "exam_id": "stage-not-applicable-for-this-exam",
-    "exam_name": "Stage not applicable for this exam",
-    "category": "—",
-    "track": "Banking Track",
-    "year_range": "",
-    "not_conducted": "",
-    "paper_availability": "",
-    "pattern": {
-      "stage_1": "",
-      "stage_2": "",
-      "stage_3": ""
-    },
-    "remarks": ""
+    "year_range": "2012-2024",
+    "not_conducted": "2020, 2021",
+    "paper_availability": "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024"
   }
 ]

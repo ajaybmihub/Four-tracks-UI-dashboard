@@ -533,9 +533,29 @@ async function calculateProgress() {
         perTrackGrandTarget[doc.track_name] += span;
       }
     });
+
     for (const [trackName, grandTarget] of Object.entries(perTrackGrandTarget)) {
       if (grandTarget > 0) metric.tracks[trackName].target = grandTarget;
     }
+
+    // 🚀 NEW: Dynamic Track Summary for Table View
+    metric.trackSummary = Object.entries(metric.tracks).map(([name, data]) => {
+        const raw = data.updated || 0;
+        const target = data.target || 0;
+        const need = Math.max(0, target - raw);
+        const exams = data.exams || 0;
+        
+        // Completion heuristic: Use the sync ratio to estimate "Completed" milestones
+        const completed = Math.round((raw / (target || 1)) * (name === "Tech Track" ? 1 : 5)); 
+
+        return {
+            name: name.replace(" Track", ""),
+            totalExams: exams,
+            raw: raw,
+            need: need,
+            completed: completed
+        };
+    });
 
     metric.totalQuestions = Math.round(metric.totalQuestions);
     cachedProgressData = metric;

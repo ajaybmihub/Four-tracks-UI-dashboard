@@ -161,7 +161,7 @@
     /* ── TOP STATS ── */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 20px;
       max-width: 100%;
       margin: 0 auto 40px;
@@ -235,7 +235,8 @@
     .cat-reports {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 24px;
+      gap: 32px;
+      margin-bottom: 60px;
     }
 
     /* ── TRACK CARDS ── */
@@ -426,75 +427,6 @@
       border-color: rgba(255, 214, 0, 0.2);
     }
 
-    /* ── QUICK NOTES ── */
-    .quick-notes {
-      max-width: 100%;
-      margin: 60px auto 0;
-      animation: fadeUp 0.6s 0.3s var(--ease) both;
-    }
-
-    .qn-header {
-      margin-bottom: 24px;
-    }
-
-    .qn-title {
-      font-size: 20px;
-      font-weight: 800;
-      color: #fff;
-      letter-spacing: -0.3px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .qn-title::before {
-      content: '';
-      width: 4px;
-      height: 18px;
-      background: var(--accent);
-      border-radius: 4px;
-    }
-
-    .qn-sub {
-      font-size: 13.5px;
-      color: var(--text-muted);
-      margin-top: 6px;
-      font-weight: 500;
-    }
-
-    .qn-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 24px;
-    }
-
-    .qn-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 24px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    }
-
-    .qn-card-title {
-      font-size: 15px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 16px;
-      letter-spacing: -0.2px;
-    }
-
-    .qn-pill {
-      display: inline-block;
-      padding: 6px 12px;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: 8px;
-      font-size: 11px;
-      font-weight: 600;
-      color: var(--text-secondary);
-      margin: 0 6px 8px 0;
-    }
 
     @media (max-width: 1400px) {
       .dashboard-main {
@@ -574,6 +506,111 @@
       border-radius: 4px;
       margin-top: 10px;
     }
+
+    /* ── TRACK SUMMARY TABLE ── */
+    .summary-table-wrapper {
+        margin: 0 0 40px;
+        padding: 24px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow-x: auto;
+        backdrop-filter: blur(10px);
+    }
+    .summary-table {
+        width: 100%;
+        border-collapse: collapse;
+        color: var(--text-primary);
+        font-size: 14px;
+    }
+    .summary-table th {
+        padding: 16px;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 1px;
+        border-bottom: 1px solid var(--border);
+    }
+    .summary-table th:not(:first-child), 
+    .summary-table td:not(:first-child) {
+        text-align: center;
+    }
+    .summary-table th:first-child,
+    .summary-table td:first-child {
+        text-align: left;
+    }
+    .summary-table td {
+        padding: 18px 16px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        vertical-align: middle;
+    }
+    .summary-table tr:hover td {
+        background: rgba(255,255,255,0.02);
+    }
+    .summary-table tr:last-child td {
+        border-bottom: none;
+    }
+    .track-name-cell {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+    }
+    .track-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .track-icon.banking { background: rgba(0, 230, 118, 0.15); color: #00e676; }
+    .track-icon.govt { background: rgba(255, 145, 0, 0.15); color: #ff9100; }
+    .track-icon.jee { background: rgba(0, 229, 255, 0.15); color: #00e5ff; }
+    .track-icon.tech { background: rgba(168, 85, 247, 0.15); color: #a855f7; }
+    
+    .count-pill {
+        padding: 4px 10px;
+        background: rgba(255,255,255,0.05);
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text-secondary);
+    }
+    .grand-total-row {
+        background: rgba(255,255,255,0.03);
+        font-weight: 700;
+        color: #fff;
+    }
+
+    /* ── SECTION HEADERS ── */
+    .qn-header {
+      margin-bottom: 24px;
+      padding-left: 4px;
+    }
+    .qn-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .qn-title::before {
+      content: '';
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 4px;
+    }
+    .qn-sub {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-top: 6px;
+      font-weight: 500;
+    }
   </style>
 </head>
 
@@ -649,14 +686,20 @@
   <div class="stats-grid">
     <div class="stat-card">
       <span class="stat-label">Total Exams</span>
-      <div class="stat-value skeleton" id="stat-exams"></div>
-      <div class="stat-trend trend-up">+24 Topics</div>
+      <div class="stat-value" id="stat-exams">13 / 396</div>
+      <div class="stat-trend trend-up" id="stat-exams-trend">+21 Topics</div>
+    </div>
+
+    <div class="stat-card">
+      <span class="stat-label">Raw Data</span>
+      <div class="stat-value" id="stat-raw-data">116</div>
+      <div class="stat-trend" style="color: var(--text-muted)">Exams</div>
     </div>
 
     <div class="stat-card">
       <span class="stat-label">Total Questions</span>
       <div class="stat-value skeleton" id="stat-papers"></div>
-      <div class="stat-trend trend-neutral">2010 - 2025</div>
+      <div class="stat-trend trend-neutral" id="stat-papers-trend">Scanning...</div>
     </div>
 
     <div class="stat-card">
@@ -784,15 +827,87 @@
     </div>
   </main>
 
-  <div class="quick-notes">
-    <div class="qn-header">
-      <div class="qn-title">Track Collections</div>
-      <div class="qn-sub">A quick overview of categories inside each track</div>
+  <!-- 🚀 TRACK SUMMARY TABLE (REPOSITIONED BELOW CARDS) -->
+  <div class="section-container" style="margin-top: 60px; margin-bottom: 60px; width: 100%; padding: 0;">
+    <div class="qn-header" style="margin-bottom: 24px;">
+        <div class="qn-title">Track Summary</div>
+        <div class="qn-sub">Curriculum maturity and synchronization roadmap</div>
     </div>
-    <div class="qn-grid" id="qn-grid">
-      <!-- Dynamic categories load here -->
+    <div class="summary-table-wrapper">
+        <table class="summary-table">
+            <thead>
+                <tr>
+                    <th>Track</th>
+                    <th>Total Exams / Topics</th>
+                    <th>Raw Data (Synced)</th>
+                    <th>Raw Data Need</th>
+                    <th>Completed</th>
+                </tr>
+            </thead>
+            <tbody id="track-summary-body">
+                <!-- STATIC DATA PROVIDED BY USER -->
+                <tr>
+                    <td>
+                        <div class="track-name-cell">
+                            <div class="track-icon banking"><i class="fas fa-university"></i></div>
+                            Banking Track
+                        </div>
+                    </td>
+                    <td><span class="count-pill">17</span></td>
+                    <td>7</td>
+                    <td><span style="color: var(--text-muted)">10</span></td>
+                    <td style="color: var(--accent); font-weight: 700;">5</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="track-name-cell">
+                            <div class="track-icon govt"><i class="fas fa-landmark"></i></div>
+                            Govt Exams Track
+                        </div>
+                    </td>
+                    <td><span class="count-pill">352</span></td>
+                    <td>102</td>
+                    <td><span style="color: var(--text-muted)">283</span></td>
+                    <td style="color: var(--accent); font-weight: 700;">2</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="track-name-cell">
+                            <div class="track-icon jee"><i class="fas fa-atom"></i></div>
+                            JEE / NEET Track
+                        </div>
+                    </td>
+                    <td><span class="count-pill">6</span></td>
+                    <td>6</td>
+                    <td><span style="color: var(--text-muted)">0</span></td>
+                    <td style="color: var(--accent); font-weight: 700;">5</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="track-name-cell">
+                            <div class="track-icon tech"><i class="fas fa-microchip"></i></div>
+                            Tech Track
+                        </div>
+                    </td>
+                    <td><span class="count-pill">21</span></td>
+                    <td>1</td>
+                    <td><span style="color: var(--text-muted)">20</span></td>
+                    <td style="color: var(--accent); font-weight: 700;">1</td>
+                </tr>
+            </tbody>
+            <tfoot id="track-summary-foot">
+                <tr class="grand-total-row">
+                    <td>📊 GRAND TOTAL</td>
+                    <td>396</td>
+                    <td>116</td>
+                    <td>313</td>
+                    <td>13</td>
+                </tr>
+            </tfoot>
+        </table>
     </div>
   </div>
+
 
   <script>
     function animateValue(id, start, end, duration, formatStr = false) {
@@ -928,7 +1043,6 @@
       await Promise.all(fetches);
 
       if (progressData) {
-        animateValue("stat-exams", 0, progressData.totalExams || 0, 1200);
         const examLabel = document.querySelector('#stat-exams + .stat-trend');
         if (examLabel) {
             const techCount = (progressData.tracks["Tech Track"] && progressData.tracks["Tech Track"].exams) || 21;
@@ -944,32 +1058,6 @@
         updateReadinessUI(progressData);
       }
 
-      // Render Quick Notes
-      const qnGrid = document.getElementById('qn-grid');
-      if (qnGrid) {
-        qnGrid.innerHTML = '';
-        results.forEach(res => {
-          if (!res) return;
-          let colorVar = "var(--blue)";
-          if (res.info.key === 'govt') colorVar = "var(--orange)";
-          if (res.info.key === 'banking') colorVar = "var(--green)";
-          if (res.info.key === 'tech') colorVar = "var(--purple)";
-
-          // Show up to 10 distinct categories, bundle the rest
-          let catsToShow = res.cats.slice(0, 10);
-          if (res.cats.length > 10) catsToShow.push(`+${res.cats.length - 10} More`);
-
-          const pills = catsToShow.map(c => `<span class="qn-pill">${c}</span>`).join('');
-
-          const qDiv = document.createElement('div');
-          qDiv.className = 'qn-card';
-          qDiv.innerHTML = `
-          <div class="qn-card-title" style="color:${colorVar}">${res.info.name}</div>
-          <div>${pills || '<span class="qn-pill">All Topics</span>'}</div>
-        `;
-          qnGrid.appendChild(qDiv);
-        });
-      }
     }
 
     // ── READINESS UI UPDATER ──

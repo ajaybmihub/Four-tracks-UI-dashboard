@@ -399,6 +399,13 @@ window.filterStateExams = function(input, sepId) {
 
 window.loadYears = async function(exam) {
   currentExam = exam;
+  
+  // Tech Track topics skip years/papers selection
+  const isTech = (loadedData["Tech Track"] || []).some(t => (t.topic || t.exam_name) === exam);
+  if (isTech) {
+    return loadQuestions('tech-topic', exam, 'Topic-Based Selection');
+  }
+
   showLoader();
   try {
     // Fetch both the synced years (from DB) and topic metadata in parallel
@@ -504,8 +511,18 @@ window.loadQuestions = async function(paper_id, exam = currentExam, year = curre
     const questions = await qRes.json();
     const papers    = await pRes.json();
     const multiPaper = papers.length > 1;
+    const isTech = year === 'Topic-Based Selection';
 
-    let html = `<div class="sub-panel active" style="overflow-y:auto; position:relative;"><div class="header-actions" style="position:sticky; top:-26px; background:var(--bg-card); z-index:10; padding:18px 30px; border-bottom:1px solid var(--border); margin:-26px -30px 24px -30px; display:flex; justify-content:space-between; align-items:center;"><div class="back-link" onclick="${multiPaper ? `loadPapers('${currentExam.replace(/'/g, "\\\\'")}', ${currentYear})` : `loadYears('${currentExam.replace(/'/g, "\\\\'")}')`}">← ${multiPaper ? 'Back to Papers' : 'Back to Years'}</div><div style="display:flex; gap:20px; align-items:center;"><button class="show-answer-btn" id="global-toggle" onclick="toggleAllAnswers()">Show All Answers</button></div></div><div class="question-container" style="padding:0 30px 30px 30px;"><div style="margin-bottom:24px;"><h2 style="font-size:24px; font-weight:800; color:var(--text-primary); margin-bottom:4px;">${currentExam}</h2><p style="color:var(--text-muted); font-size:14px;">${currentYear} · ${questions.length} Questions</p></div><div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: start;">`;
+    // Show Tech Coming Soon if no questions found for a tech topic
+    if (isTech && questions.length === 0) {
+       contentArea.innerHTML = `<div style="padding: 30px; display: flex; flex-direction: column; height: 100%; width: 100%;"><div class="back-link" onclick="init()" style="align-self: flex-start; z-index: 10;">← Back to Dashboard</div><div class="minimal-empty-container" style="flex: 1; margin-top: -40px;"><div class="minimal-empty-ui"><h2 class="m-title">Questions for <span>${exam}</span> Coming Soon</h2><p class="m-desc">Our team is currently preparing the verified question bank for this topic.</p><button class="empty-btn" onclick="init()" style="padding:10px 20px; font-size:13px; margin-top:10px;">Return to Tracks</button></div></div></div>`;
+       return;
+    }
+
+    let backAction = isTech ? `init()` : (multiPaper ? `loadPapers('${currentExam.replace(/'/g, "\\\\'")}', ${currentYear})` : `loadYears('${currentExam.replace(/'/g, "\\\\'")}')`);
+    let backText = isTech ? 'Back to Dashboard' : (multiPaper ? 'Back to Papers' : 'Back to Years');
+
+    let html = `<div class="sub-panel active" style="overflow-y:auto; position:relative;"><div class="header-actions" style="position:sticky; top:-26px; background:var(--bg-card); z-index:10; padding:18px 30px; border-bottom:1px solid var(--border); margin:-26px -30px 24px -30px; display:flex; justify-content:space-between; align-items:center;"><div class="back-link" onclick="${backAction}">← ${backText}</div><div style="display:flex; gap:20px; align-items:center;"><button class="show-answer-btn" id="global-toggle" onclick="toggleAllAnswers()">Show All Answers</button></div></div><div class="question-container" style="padding:0 30px 30px 30px;"><div style="margin-bottom:24px;"><h2 style="font-size:24px; font-weight:800; color:var(--text-primary); margin-bottom:4px;">${currentExam}</h2><p style="color:var(--text-muted); font-size:14px;">${year} · ${questions.length} Questions</p></div><div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: start;">`;
     questions.forEach((q, i) => {
       html += `<div class="question-card" style="margin-bottom:0; height:100%; display:flex; flex-direction:column;"><div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px; gap:12px; flex-wrap:wrap;"><div class="diff ${q.difficulty === 'Easy' ? 'diff-easy' : q.difficulty === 'Hard' ? 'diff-hard' : 'diff-medium'}">${q.difficulty}</div><div style="font-size:11px; color:var(--text-muted); font-weight:600; text-align:right;">Subject: ${q.subject}</div></div><h4 style="line-height:1.5; font-size: 15px; margin-bottom: 20px;">Q${i + 1}. ${q.question}</h4><div class="options-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: auto;">${Object.entries(q.option || {}).map(([key, val]) => `<div class="paper-option" style="color: var(--text-secondary); font-size: 13.5px; line-height: 1.5; padding: 12px 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; display: flex;"><strong style="color: var(--text-primary); margin-right: 8px; min-width: 18px;">${key}.</strong> <span style="flex:1;">${val}</span></div>`).join("")}</div><div class="answer-box" style="margin-top: 20px;"><button class="show-answer-btn q-ans-btn" onclick="toggleAnswer(this)" style="width:100%;">Show Answer</button><div class="explanation hidden" style="margin-top: 12px;"><div style="font-weight:800; color:var(--green); margin-bottom:8px; display:flex; align-items:center; gap:8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Correct Answer: ${q.answer}</div><div style="color:var(--text-secondary); font-size: 13.5px; line-height: 1.6;">${q.explanation}</div></div></div></div>`;
     });

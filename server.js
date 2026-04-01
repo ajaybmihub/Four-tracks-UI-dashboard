@@ -128,7 +128,7 @@ function mapToCollection(dept) {
     if (d.includes("jee main") || d.includes("jee")) return "jee_main";
 
     // 4. Tech Track (DSA)
-    const techTopics = ["arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", "heap", "priority queue", "ai / machine learning", "web development", "software engineering", "programming languages", "operating systems", "cloud & devops", "system design", "databases", "dsa"];
+    const techTopics = ["arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", "heap", "priority queue", "ai / machine learning", "web development", "software engineering", "programming languages", "operating systems", "cloud & devops", "system design", "databases", "dsa", "core programming", "backend development", "debugging & optimization"];
     if (techTopics.some(t => d.includes(t)) || d.includes("data structure") || d.includes("algorithms")) {
         return "coding_problems";
     }
@@ -302,23 +302,43 @@ async function calculateProgress() {
   isCalculatingProgress = true;
   try {
     const collections = {
-        'defence_afcad': 'Govt Exams Track',
+        // Govt Exams Track
+        'upsc': 'Govt Exams Track',
+        'ssc': 'Govt Exams Track',
+        'railways': 'Govt Exams Track',
+        'defence': 'Govt Exams Track',
         'engineering_services_examination_(ESE/IES)': 'Govt Exams Track',
-        'ibps_clerk': 'Banking Track',
+        'upse_cms': 'Govt Exams Track',
+        'state_psc_state_exams': 'Govt Exams Track',
+        'central_police': 'Govt Exams Track',
+        'teaching': 'Govt Exams Track',
+        'judiciary': 'Govt Exams Track',
+        'healthcare': 'Govt Exams Track',
+        'psu': 'Govt Exams Track',
+        'technical': 'Govt Exams Track',
+        'defence_afcad': 'Govt Exams Track',
+        'state_generic': 'Govt Exams Track',
+
+        // Banking Track
+        'bank_exams': 'Banking Track',
         'ibps_po': 'Banking Track',
-        'ibps_rrb_clerk': 'Banking Track',
+        'ibps_clerk': 'Banking Track',
         'ibps_rrb_po': 'Banking Track',
+        'ibps_rrb_clerk': 'Banking Track',
         'ibps_rrb_so': 'Banking Track',
+        'sbi_po': 'Banking Track',
+        'sbi_clerk': 'Banking Track',
+        'insurance': 'Banking Track',
+
+        // JEE / NEET Track
         'jee_advance': 'JEE / NEET Track',
         'jee_main': 'JEE / NEET Track',
         'neet_mds': 'JEE / NEET Track',
         'neet_pg': 'JEE / NEET Track',
         'neet_ss': 'JEE / NEET Track',
         'neet_ug': 'JEE / NEET Track',
-        'railways': 'Govt Exams Track',
-        'sbi_clerk': 'Banking Track',
-        'sbi_po': 'Banking Track',
-        'upse_cms': 'Govt Exams Track',
+
+        // Tech Track
         'coding_problems': 'Tech Track'
     };
 
@@ -355,16 +375,35 @@ async function calculateProgress() {
         totalUpdatedYears: 0,
         targetYears: grandTotalTarget, 
         totalQuestions: 0,
+        totalExams: 0,
+        totalTopics: 0,
+        minYear: 2100,
+        maxYear: 0,
         tracks: {
-            "Govt Exams Track": { updated: 0, target: 0, questions: 0 },
-            "Banking Track": { updated: 0, target: 0, questions: 0 },
-            "JEE / NEET Track": { updated: 0, target: 0, questions: 0 },
-            "Tech Track": { updated: 0, target: 0, questions: 0 }
+            "Govt Exams Track": { updated: 0, target: 0, questions: 0, exams: 0 },
+            "Banking Track": { updated: 0, target: 0, questions: 0, exams: 0 },
+            "JEE / NEET Track": { updated: 0, target: 0, questions: 0, exams: 0 },
+            "Tech Track": { updated: 0, target: 0, questions: 0, exams: 0 }
         },
         exams: {},         // stores year counts
         examTargets: {},    // stores year targets
         examQuestionCounts: {} // stores exact LIVE question counts
     };
+
+    // 🚀 FIXED: Use Topic collection (Roadmap) for the authoritative exam and topic counts
+    const totalRoadmapExams = await Topic.countDocuments(); 
+    metric.totalExams = totalRoadmapExams;
+    metric.totalTopics = totalRoadmapExams; // In this context, Exams and Topics are the roadmap items
+
+    // 🚀 FIXED: Set Tech Track progress targets (Questions-based)
+    metric.tracks["Tech Track"].target = 5000; 
+    metric.tracks["Tech Track"].updated = 0;   
+    
+    // Calculate per-track exam roadmap counts
+    metric.tracks["Govt Exams Track"].exams = await Topic.countDocuments({ track_name: 'Govt Exams Track' });
+    metric.tracks["Banking Track"].exams = await Topic.countDocuments({ track_name: 'Banking Track' });
+    metric.tracks["JEE / NEET Track"].exams = await Topic.countDocuments({ track_name: 'JEE / NEET Track' });
+    metric.tracks["Tech Track"].exams = await Topic.countDocuments({ track_name: 'Tech Track' });
 
     for (const [col, trackTitle] of Object.entries(collections)) {
       const Model = getQuestionModel(col);
@@ -372,6 +411,18 @@ async function calculateProgress() {
       const totalQInCol = await Model.countDocuments();
       metric.tracks[trackTitle].questions = (metric.tracks[trackTitle].questions || 0) + totalQInCol;
       metric.totalQuestions += totalQInCol;
+      
+      if (trackTitle === "Tech Track") {
+          metric.tracks[trackTitle].updated = totalQInCol; // Use questions as progress measure
+      }
+      
+      // Year Range Calculation (Scanning all available year fields)
+      const years = (await Model.distinct("year")).filter(y => y && !isNaN(y));
+      years.forEach(y => {
+        const yr = parseInt(y);
+        if (yr < metric.minYear) metric.minYear = yr;
+        if (yr > metric.maxYear) metric.maxYear = yr;
+      });
       
       const singleExamOverrides = {
         'jee_main': 'JEE Main',
@@ -397,7 +448,7 @@ async function calculateProgress() {
           const examTarget = topicYearRangeMap[examLabel] || 15;
           metric.exams[examLabel] = count;
           metric.examTargets[examLabel] = examTarget;
-          metric.examQuestionCounts[examLabel] = totalQInCol; // Direct count for single-exam collections
+          metric.examQuestionCounts[examLabel] = totalQInCol; 
           metric.tracks[trackTitle].updated += count;
           metric.tracks[trackTitle].target += examTarget;
           metric.totalUpdatedYears += count;
@@ -471,9 +522,6 @@ async function calculateProgress() {
     for (const [trackName, grandTarget] of Object.entries(perTrackGrandTarget)) {
       if (grandTarget > 0) metric.tracks[trackName].target = grandTarget;
     }
-
-    metric.tracks["Tech Track"].target = 5000;
-    metric.tracks["Tech Track"].updated = metric.tracks["Tech Track"].questions;
 
     metric.totalQuestions = Math.round(metric.totalQuestions);
     cachedProgressData = metric;

@@ -88,7 +88,7 @@ function _getUpdated(eName) {
    return 0;
 }
 
-// Helper: get per-exam year-range target from server (falls back to 15)
+// Helper: get per-exam target year count
 function _getTarget(eName) {
    if (!apiProgress || !apiProgress.examTargets || !eName) return 15;
    const map = apiProgress.examTargets;
@@ -100,8 +100,23 @@ function _getTarget(eName) {
       if (searchName.includes(keyName) && keyName.length >= 2) return map[k];
       if (keyName.includes(searchName) && searchName.length >= 2) return map[k];
    }
-   // Fall back: parse year_range string directly if available in loaded data
    return 15;
+}
+
+// Helper: get per-exam LIVE question count from server
+function _getQuestionCount(eName, staticFallback) {
+    if (!apiProgress || !apiProgress.examQuestionCounts || !eName) return staticFallback || "—";
+    const map = apiProgress.examQuestionCounts;
+    if (map[eName]) return map[eName].toLocaleString();
+
+    const searchName = eName.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+    for (let k in map) {
+      const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+      if (keyName === searchName) return map[k].toLocaleString();
+      if (searchName.includes(keyName) && keyName.length >= 5) return map[k].toLocaleString();
+      if (keyName.includes(searchName) && searchName.length >= 5) return map[k].toLocaleString();
+    }
+    return staticFallback || "—";
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -244,18 +259,19 @@ function renderExamTrack(trackName, items) {
           const rawName = exam.exam_name || '';
           const prefix = state + ' - ';
           const displayName = rawName.startsWith(prefix) ? rawName.slice(prefix.length) : rawName;
-          const qc   = exam.question_count;
-          const yr   = exam.year_range;
-          const hasQ = qc && qc.trim() !== '';
+          const qc = exam.question_count;
+          const yr = exam.year_range;
+          const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / _getTarget(exam.exam_name || exam.topic)) * 100));
+          const liveQC = _getQuestionCount(exam.exam_name || exam.topic, qc);
+          const hasQ = examPct > 0 && liveQC && liveQC !== '—';
           const hasY = yr && yr.trim() !== '';
           const delay = (Math.min(idx, 12) * 0.025).toFixed(3);
-          const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / _getTarget(exam.exam_name || exam.topic)) * 100));
           let bText = 'COMING SOON';
           let bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
           if (examPct > 0 && examPct < 100) { bText = `SYNCING (${examPct}%)`; bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);'; }
           else if (examPct >= 100) { bText = `READY (100%)`; bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);'; }
           
-          html += `<a class="ecard" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="animation-delay:${delay}s;"><div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div><div class="ebody"><div class="ename">${displayName}</div><div class="emeta"><span class="econd">${exam.conducting_body || ''}</span><div style="display:flex; gap:6px; align-items:center; margin-top:4px;"><span class="etag tg-orange">${exam.level || 'State'}</span><span class="badge-live" style="${bStyle}">${bText}</span></div></div><div class="epills"><span class="epill">${exam.eligibility || 'Varies'}</span><span class="epill">${exam.frequency || 'Varies'}</span></div>${hasQ ? `<div class="prog-wrap"><div class="prog-info"><span class="p-cnt">${qc}</span>${hasY ? `<span class="p-yr">${yr}</span>` : ''}</div><div class="prog-bar"><div class="prog-fill" style="width:${examPct}%"></div></div></div>` : ''}</div><div class="earrow"><svg width="7" height="7"><use href="#ic-chevron"/></svg></div></a>`;
+          html += `<a class="ecard" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}" style="animation-delay:${delay}s;"><div class="eico ${cfg.color}"><svg width="17" height="17"><use href="#${cfg.icon}"/></svg></div><div class="ebody"><div class="ename">${displayName}</div><div class="emeta"><span class="econd">${exam.conducting_body || ''}</span><div style="display:flex; gap:6px; align-items:center; margin-top:4px;"><span class="etag tg-orange">${exam.level || 'State'}</span><span class="badge-live" style="${bStyle}">${bText}</span></div></div><div class="epills"><span class="epill">${exam.eligibility || 'Varies'}</span><span class="epill">${exam.frequency || 'Varies'}</span></div>${hasQ ? `<div class="prog-wrap"><div class="prog-info"><span class="p-cnt">${liveQC}</span>${hasY ? `<span class="p-yr">${yr}</span>` : ''}</div><div class="prog-bar"><div class="prog-fill" style="width:${examPct}%"></div></div></div>` : ''}</div><div class="earrow"><svg width="7" height="7"><use href="#ic-chevron"/></svg></div></a>`;
         });
         html += `</div></div>`;
       });
@@ -263,17 +279,18 @@ function renderExamTrack(trackName, items) {
     } else {
       html += `<div class="sub-panel-header"><div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div><div class="sub-panel-title">${cat}</div><div class="sub-panel-desc">${catItems.length} exam${catItems.length !== 1 ? 's' : ''} in this category</div></div><div class="sub-panel-count">${catItems.length} exams</div></div><div class="sub-grid">`;
       catItems.forEach(exam => {
-        const qc   = exam.question_count;
-        const yr   = exam.year_range;
-        const hasQ = qc && qc.trim() !== '';
-        const hasY = yr && yr.trim() !== '';
+        const qc = exam.question_count;
+        const yr = exam.year_range;
         const examPct = Math.min(100, Math.round((_getUpdated(exam.exam_name || exam.topic) / _getTarget(exam.exam_name || exam.topic)) * 100));
+        const liveQC = _getQuestionCount(exam.exam_name || exam.topic, qc);
+        const hasQ = examPct > 0 && liveQC && liveQC !== '—';
+        const hasY = yr && yr.trim() !== '';
         let bText = 'COMING SOON';
         let bStyle = 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);';
         if (examPct > 0 && examPct < 100) { bText = `SYNCING (${examPct}%)`; bStyle = 'background: rgba(255, 145, 0, 0.1); color: #ff9100; border: 1px solid rgba(255, 145, 0, 0.2);'; }
         else if (examPct >= 100) { bText = `READY (100%)`; bStyle = 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);'; }
         
-        html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body"><div class="sub-card-name">${exam.exam_name || '—'}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%;"><div class="sub-card-tag">${exam.conducting_body || ''}</div><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details"><div class="detail-item"><span class="detail-label">Eligibility</span><span class="detail-value">${exam.eligibility || '—'}</span></div><div class="detail-item"><span class="detail-label">Frequency</span><span class="detail-value">${exam.frequency || '—'}</span></div><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? qc : '—'}</span></div><div class="detail-item"><span class="detail-label">Year Range</span><span class="detail-value ${hasY ? 'has-data' : ''}">${hasY ? yr : '—'}</span></div></div></a>`;
+        html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${exam.exam_name || exam.topic}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body"><div class="sub-card-name">${exam.exam_name || '—'}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%;"><div class="sub-card-tag">${exam.conducting_body || ''}</div><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details"><div class="detail-item"><span class="detail-label">Eligibility</span><span class="detail-value">${exam.eligibility || '—'}</span></div><div class="detail-item"><span class="detail-label">Frequency</span><span class="detail-value">${exam.frequency || '—'}</span></div><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? liveQC : '—'}</span></div><div class="detail-item"><span class="detail-label">Year Range</span><span class="detail-value ${hasY ? 'has-data' : ''}">${hasY ? yr : '—'}</span></div></div></a>`;
       });
       html += `</div>`;
     }
@@ -313,13 +330,14 @@ function renderTechTrack(rawItems) {
     const panelId = safeid('tech-' + cat);
     html += `<div class="sub-panel ${i === activeIdx ? 'active' : ''}" id="${panelId}"><div class="sub-panel-header"><div class="sub-panel-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div><div class="sub-panel-title">${cat}</div><div class="sub-panel-desc">${topicsInCat.length} topics in this section</div></div><div class="sub-panel-count">${topicsInCat.length} topics</div></div><div class="sub-grid">`;
     topicsInCat.forEach(t => {
-      const hasQ = t.questionCount && t.questionCount.trim() !== '' && t.questionCount !== '—';
-      const subLabel = t.subDomains.length ? t.subDomains.join(', ') : null;
       const qCount = _getUpdated(t.topic);
+      const liveQC = _getQuestionCount(t.topic, t.questionCount);
+      const hasQ = qCount > 0 && liveQC && liveQC !== '—';
+      const subLabel = t.subDomains.length ? t.subDomains.join(', ') : null;
       let bText = qCount > 0 ? `${qCount} Questions` : 'COMING SOON';
       let bStyle = qCount === 0 ? 'background: rgba(255, 77, 77, 0.1); color: #ff4d4d; border: 1px solid rgba(255, 77, 77, 0.2);' : 'background: rgba(0, 230, 118, 0.1); color: #00e676; border: 1px solid rgba(0, 230, 118, 0.2);';
       
-      html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${t.topic}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body" style="width:100%; display:flex; flex-direction:column;"><div class="sub-card-name">${t.topic}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top:4px;"><span class="sub-card-tag">${subLabel || '—'}</span><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details" style="grid-template-columns:1fr;"><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value has-data">${qCount > 0 ? qCount : '—'}</span></div></div></a>`;
+      html += `<a class="sub-card" href="javascript:void(0)" data-action="load-years" data-exam="${t.topic}"><div class="sub-card-header"><div class="sub-card-icon ${cfg.color}"><svg><use href="#${cfg.icon}"/></svg></div><div class="sub-card-body" style="width:100%; display:flex; flex-direction:column;"><div class="sub-card-name">${t.topic}</div><div style="display:flex; justify-content:space-between; align-items:center; width:100%; margin-top:4px;"><span class="sub-card-tag">${subLabel || '—'}</span><span class="badge-live-sm" style="${bStyle}">${bText}</span></div></div><div class="sub-card-arrow"><svg><use href="#ic-chevron"/></svg></div></div><div class="sub-card-details" style="grid-template-columns:1fr;"><div class="detail-item"><span class="detail-label">Questions</span><span class="detail-value ${hasQ ? 'has-data' : ''}">${hasQ ? liveQC : '—'}</span></div></div></a>`;
     });
     html += `</div></div>`;
   });
@@ -463,6 +481,12 @@ window.loadPapers = async function(exam, year) {
   try {
     const res = await fetch(`${API_BASE}/papers?exam=${encodeURIComponent(exam)}&year=${year}`);
     const papers = await res.json();
+    
+    // Auto-skip if only 1 paper
+    if (papers.length === 1) {
+      return loadQuestions(papers[0]._id, exam, year);
+    }
+
     let html = `<div class="sub-panel active"><div class="header-actions"><div class="back-link" onclick="loadYears('${exam.replace(/'/g, "\\\\'")}')">← Change Year</div></div><div class="sub-panel-header"><div class="sub-panel-icon ic-accent"><svg><use href="#ic-courses"/></svg></div><div><div class="sub-panel-title">${exam} — ${year} Papers</div><div class="sub-panel-desc">Select a paper to take the test</div></div></div><div class="paper-grid">`;
     papers.forEach(p => { html += `<div class="paper-card" data-action="load-questions" data-id="${p._id}" data-exam="${exam}" data-year="${year}"><h4>${p.paper}</h4><p>${p.pdf_name}</p></div>`; });
     html += `</div></div>`;
@@ -473,9 +497,15 @@ window.loadPapers = async function(exam, year) {
 window.loadQuestions = async function(paper_id, exam = currentExam, year = currentYear) {
   showLoader();
   try {
-    const res = await fetch(`${API_BASE}/questions?paper_id=${paper_id}&exam=${encodeURIComponent(exam)}&year=${encodeURIComponent(year)}`);
-    const questions = await res.json();
-    let html = `<div class="sub-panel active" style="overflow-y:auto; position:relative;"><div class="header-actions" style="position:sticky; top:-26px; background:var(--bg-card); z-index:10; padding:18px 30px; border-bottom:1px solid var(--border); margin:-26px -30px 24px -30px; display:flex; justify-content:space-between; align-items:center;"><div class="back-link" onclick="loadPapers('${currentExam.replace(/'/g, "\\\\'")}', ${currentYear})">← Back to Papers</div><div style="display:flex; gap:20px; align-items:center;"><button class="show-answer-btn" id="global-toggle" onclick="toggleAllAnswers()">Show All Answers</button></div></div><div class="question-container" style="padding:0 30px 30px 30px;"><div style="margin-bottom:24px;"><h2 style="font-size:24px; font-weight:800; color:var(--text-primary); margin-bottom:4px;">${currentExam}</h2><p style="color:var(--text-muted); font-size:14px;">${currentYear} · ${questions.length} Questions</p></div><div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: start;">`;
+    const [qRes, pRes] = await Promise.all([
+      fetch(`${API_BASE}/questions?paper_id=${paper_id}&exam=${encodeURIComponent(exam)}&year=${encodeURIComponent(year)}`),
+      fetch(`${API_BASE}/papers?exam=${encodeURIComponent(exam)}&year=${year}`)
+    ]);
+    const questions = await qRes.json();
+    const papers    = await pRes.json();
+    const multiPaper = papers.length > 1;
+
+    let html = `<div class="sub-panel active" style="overflow-y:auto; position:relative;"><div class="header-actions" style="position:sticky; top:-26px; background:var(--bg-card); z-index:10; padding:18px 30px; border-bottom:1px solid var(--border); margin:-26px -30px 24px -30px; display:flex; justify-content:space-between; align-items:center;"><div class="back-link" onclick="${multiPaper ? `loadPapers('${currentExam.replace(/'/g, "\\\\'")}', ${currentYear})` : `loadYears('${currentExam.replace(/'/g, "\\\\'")}')`}">← ${multiPaper ? 'Back to Papers' : 'Back to Years'}</div><div style="display:flex; gap:20px; align-items:center;"><button class="show-answer-btn" id="global-toggle" onclick="toggleAllAnswers()">Show All Answers</button></div></div><div class="question-container" style="padding:0 30px 30px 30px;"><div style="margin-bottom:24px;"><h2 style="font-size:24px; font-weight:800; color:var(--text-primary); margin-bottom:4px;">${currentExam}</h2><p style="color:var(--text-muted); font-size:14px;">${currentYear} · ${questions.length} Questions</p></div><div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: start;">`;
     questions.forEach((q, i) => {
       html += `<div class="question-card" style="margin-bottom:0; height:100%; display:flex; flex-direction:column;"><div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px; gap:12px; flex-wrap:wrap;"><div class="diff ${q.difficulty === 'Easy' ? 'diff-easy' : q.difficulty === 'Hard' ? 'diff-hard' : 'diff-medium'}">${q.difficulty}</div><div style="font-size:11px; color:var(--text-muted); font-weight:600; text-align:right;">Subject: ${q.subject}</div></div><h4 style="line-height:1.5; font-size: 15px; margin-bottom: 20px;">Q${i + 1}. ${q.question}</h4><div class="options-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: auto;">${Object.entries(q.option || {}).map(([key, val]) => `<div class="paper-option" style="color: var(--text-secondary); font-size: 13.5px; line-height: 1.5; padding: 12px 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; display: flex;"><strong style="color: var(--text-primary); margin-right: 8px; min-width: 18px;">${key}.</strong> <span style="flex:1;">${val}</span></div>`).join("")}</div><div class="answer-box" style="margin-top: 20px;"><button class="show-answer-btn q-ans-btn" onclick="toggleAnswer(this)" style="width:100%;">Show Answer</button><div class="explanation hidden" style="margin-top: 12px;"><div style="font-weight:800; color:var(--green); margin-bottom:8px; display:flex; align-items:center; gap:8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Correct Answer: ${q.answer}</div><div style="color:var(--text-secondary); font-size: 13.5px; line-height: 1.6;">${q.explanation}</div></div></div></div>`;
     });

@@ -353,7 +353,7 @@ async function calculateProgress() {
 
     let metric = {
         totalUpdatedYears: 0,
-        targetYears: grandTotalTarget, // grand total of ALL non-Tech-Track exam year spans
+        targetYears: grandTotalTarget, 
         totalQuestions: 0,
         tracks: {
             "Govt Exams Track": { updated: 0, target: 0, questions: 0 },
@@ -361,16 +361,15 @@ async function calculateProgress() {
             "JEE / NEET Track": { updated: 0, target: 0, questions: 0 },
             "Tech Track": { updated: 0, target: 0, questions: 0 }
         },
-        exams: {},
-        examTargets: {} // per-exam target for frontend card display
+        exams: {},         // stores year counts
+        examTargets: {},    // stores year targets
+        examQuestionCounts: {} // stores exact LIVE question counts
     };
 
     for (const [col, trackTitle] of Object.entries(collections)) {
       const Model = getQuestionModel(col);
       
-      // LIVE QUESTION COUNT
       const totalQInCol = await Model.countDocuments();
-      console.log(`[DEBUG] DB COUNT for collection "${col}": ${totalQInCol}`);
       metric.tracks[trackTitle].questions = (metric.tracks[trackTitle].questions || 0) + totalQInCol;
       metric.totalQuestions += totalQInCol;
       
@@ -398,11 +397,12 @@ async function calculateProgress() {
           const examTarget = topicYearRangeMap[examLabel] || 15;
           metric.exams[examLabel] = count;
           metric.examTargets[examLabel] = examTarget;
+          metric.examQuestionCounts[examLabel] = totalQInCol; // Direct count for single-exam collections
           metric.tracks[trackTitle].updated += count;
-          metric.tracks[trackTitle].target += examTarget; // per-track target for track-level %
+          metric.tracks[trackTitle].target += examTarget;
           metric.totalUpdatedYears += count;
-          // NOTE: metric.targetYears is the grand total set upfront — do NOT add here
       } else {
+          // Process multi-exam collections (upsc, railways, bank_exams)
           const aggr = await Model.aggregate([
               { $group: { _id: { exam_name: { $ifNull: ["$exam_type", "$exam"] }, year: "$year" } } },
               { $group: { _id: "$_id.exam_name", updated_years: { $sum: 1 } } }
@@ -414,18 +414,24 @@ async function calculateProgress() {
                   metric.exams[item._id] = item.updated_years;
                   metric.examTargets[item._id] = examTarget;
                   metric.tracks[trackTitle].updated += item.updated_years;
-                  metric.tracks[trackTitle].target += examTarget; // per-track target for track-level %
+                  metric.tracks[trackTitle].target += examTarget;
                   metric.totalUpdatedYears += item.updated_years;
-                  // NOTE: metric.targetYears is the grand total set upfront — do NOT add here
               }
           });
+
+          // CALCULATE REAL QUESTION COUNTS per exam for these collections
+          const qAggr = await Model.aggregate([
+            { $group: { _id: { $ifNull: ["$exam_type", "$exam"] }, count: { $sum: 1 } } }
+          ]);
+          qAggr.forEach(item => {
+            if (item._id) metric.examQuestionCounts[item._id] = item.count;
+          });
+
           if (col === 'coding_problems') {
               const techTopics = await Topic.find({ track_name: 'Tech Track' });
               for (const t of techTopics) {
                   if (t.exam_name) {
-                      // BUILD SEARCH ARRAY: Exam Name + all its Sub-topics
                       const searchTags = [t.exam_name, ...(t.sub_topic || [])];
-                      
                       const c = await Model.countDocuments({ 
                           $or: [
                               { topics: { $in: searchTags } }, 
@@ -435,23 +441,22 @@ async function calculateProgress() {
                           ] 
                       });
                       metric.exams[t.exam_name] = c; 
+                      metric.examQuestionCounts[t.exam_name] = c; 
                   }
               }
           }
           
           if (col === 'bank_exams') {
-              metric.exams["SBI PO"] = metric.exams["SBI"] || 0;
-              metric.exams["SBI Clerk"] = metric.exams["SBI"] || 0;
-              metric.exams["IBPS PO"] = metric.exams["IBPS"] || 0;
-              metric.exams["IBPS Clerk"] = metric.exams["IBPS"] || 0;
-              metric.exams["IBPS RRB Officer Scale I (PO)"] = metric.exams["IBPS"] || 0;
-              metric.exams["IBPS RRB Office Assistant (Clerk)"] = metric.exams["IBPS"] || 0;
-              metric.exams["IBPS Specialist Officer (SO)"] = metric.exams["IBPS"] || 0;
+              const bGroups = ["SBI PO", "SBI Clerk", "IBPS PO", "IBPS Clerk", "IBPS RRB Officer Scale I (PO)", "IBPS RRB Office Assistant (Clerk)", "IBPS Specialist Officer (SO)"];
+              bGroups.forEach(g => {
+                const base = g.split(' ')[0]; // SBI or IBPS
+                metric.exams[g] = metric.exams[base] || 0;
+                metric.examQuestionCounts[g] = metric.examQuestionCounts[base] || 0;
+              });
           }
       }
     }
 
-    // Compute per-track grand targets from ALL topics in that track (not just those with data)
     const perTrackGrandTarget = { "Govt Exams Track": 0, "Banking Track": 0, "JEE / NEET Track": 0 };
     const allNonTechTopics = await Topic.find(
       { track_name: { $ne: 'Tech Track' }, year_range: { $ne: '' } },
@@ -463,18 +468,14 @@ async function calculateProgress() {
         perTrackGrandTarget[doc.track_name] += span;
       }
     });
-    // Override per-track targets with grand totals
     for (const [trackName, grandTarget] of Object.entries(perTrackGrandTarget)) {
       if (grandTarget > 0) metric.tracks[trackName].target = grandTarget;
     }
 
-    // Tech Track uses question count vs 5000 target (not year-based)
     metric.tracks["Tech Track"].target = 5000;
     metric.tracks["Tech Track"].updated = metric.tracks["Tech Track"].questions;
 
-
     metric.totalQuestions = Math.round(metric.totalQuestions);
-    console.log("[DEBUG] Final Computed Metric:", JSON.stringify(metric, null, 2));
     cachedProgressData = metric;
   } catch (err) {
     console.error("Error calculating progress in cron task:", err.message);

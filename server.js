@@ -584,6 +584,7 @@ app.get("/api/cron-job", async (req, res) => {
     return res.status(403).json({ error: "Unauthorized" });
   }
 
+  try {
     // Check if a calculation is already running to avoid overlaps
     if (isCalculatingProgress) {
         return res.status(200).json({ 

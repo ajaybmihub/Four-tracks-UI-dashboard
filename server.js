@@ -342,6 +342,20 @@ async function calculateProgress() {
         'coding_problems': 'Tech Track'
     };
 
+    // ── ROOT HEALTH CHECK ──
+    app.get("/", (req, res) => {
+      res.status(200).send(`
+        <div style="font-family: sans-serif; padding: 40px; background: #0f172a; color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          <h1 style="color: #38bdf8;">🚀 Server is Live!</h1>
+          <p>Course Explorer Analytics Backend is running.</p>
+          <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin-top: 20px;">
+            <p><strong>DB Status:</strong> ${mongoose.connection.readyState === 1 ? '✅ Connected' : '⏳ Connecting...'}</p>
+            <p><strong>Last Sync:</strong> ${cachedProgressData ? new Date().toLocaleTimeString() : 'Pending...'}</p>
+          </div>
+        </div>
+      `);
+    });
+
     // Build a lookup map: exam_name → year span from the topics collection
     // year_range can be: "2025 - 2017" (reversed), "2022-2024", or "2025-2023, 2021-2020, 2017-2014" (multi-segment)
     // Tech Track is EXCLUDED — it uses question count, not year-based progress
@@ -570,8 +584,14 @@ app.get("/api/cron-job", async (req, res) => {
     return res.status(403).json({ error: "Unauthorized" });
   }
 
-  try {
-    console.log("External Cron triggered at:", new Date());
+    // Check if a calculation is already running to avoid overlaps
+    if (isCalculatingProgress) {
+        return res.status(200).json({ 
+            success: true, 
+            message: "⚠️ Sync is already in progress locally. Cron triggered acknowledgment.",
+            time: new Date()
+        });
+    }
 
     // Execute the database progress aggregation
     await calculateProgress();

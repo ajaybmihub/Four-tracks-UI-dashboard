@@ -78,10 +78,10 @@ function _getUpdated(eName) {
    const map = apiProgress.exams;
    if (map[eName]) return map[eName];
 
-   const searchName = eName.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+   const searchName = eName.toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
    
    for (let k in map) {
-      const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+      const keyName = k.toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
       if (keyName === searchName) return map[k];
       if (searchName.includes(keyName) && keyName.length >= 2) return map[k];
       if (keyName.includes(searchName) && searchName.length >= 2) return map[k];
@@ -94,9 +94,9 @@ function _getTarget(eName) {
    if (!apiProgress || !apiProgress.examTargets || !eName) return 15;
    const map = apiProgress.examTargets;
    if (map[eName]) return map[eName];
-   const searchName = eName.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+   const searchName = eName.toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
    for (let k in map) {
-      const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+      const keyName = k.toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
       if (keyName === searchName) return map[k];
       if (searchName.includes(keyName) && keyName.length >= 2) return map[k];
       if (keyName.includes(searchName) && searchName.length >= 2) return map[k];
@@ -110,9 +110,9 @@ function _getQuestionCount(eName, staticFallback) {
     const map = apiProgress.examQuestionCounts;
     if (map[eName]) return map[eName].toLocaleString();
 
-    const searchName = eName.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+    const searchName = eName.toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
     for (let k in map) {
-      const keyName = k.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+      const keyName = k.toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
       if (keyName === searchName) return map[k].toLocaleString();
       if (searchName.includes(keyName) && keyName.length >= 5) return map[k].toLocaleString();
       if (keyName.includes(searchName) && searchName.length >= 5) return map[k].toLocaleString();

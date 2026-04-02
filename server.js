@@ -639,7 +639,3 @@ app.listen(PORT, async () => {
     console.error("Initial progress calculation failed:", err);
   }
 });
-  } catch (err) {
-    console.error("Initial progress calculation failed:", err);
-  }
-});

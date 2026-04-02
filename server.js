@@ -122,6 +122,7 @@ function mapToCollection(dept) {
     
     // Defence
     if (d.includes("afcat") || d.includes("defence_afcad") || d.includes("afcad")) return "defence_afcad";
+    if (d.includes("defence") || d.includes("army") || d.includes("navy") || d.includes("air force") || d.includes("coast guard") || d.includes("agniveer")) return "defence";
     
     // JEE sub-variants
     if (d.includes("jee advance")) return "jee_advance";
@@ -634,6 +635,10 @@ app.listen(PORT, async () => {
   try {
     await calculateProgress();
     console.log("Initial progress calculated successfully.");
+  } catch (err) {
+    console.error("Initial progress calculation failed:", err);
+  }
+});
   } catch (err) {
     console.error("Initial progress calculation failed:", err);
   }

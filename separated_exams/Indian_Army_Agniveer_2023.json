@@ -1,0 +1,3626 @@
+[
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Awards and Honors",
+    "subtopic": "Jnanpith Award",
+    "difficulty": "Easy",
+    "question": "Who was the first recipient of Jnanpith Award?",
+    "option": {
+      "A": "Amitav Ghosh",
+      "B": "Mahadevi Verma",
+      "C": "Krishna Sobti",
+      "D": "G. Sankara Kurup"
+    },
+    "answer": "D",
+    "explanation": "G. Sankara Kurup was the first recipient of the Jnanpith Award in 1965 for his contribution to Malayalam literature.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec29cd3812d1cb7f10"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Polity",
+    "subtopic": "Cabinet Ministers",
+    "difficulty": "Easy",
+    "question": "Which of the following was the first Law Minister of Independent India?",
+    "option": {
+      "A": "Jawaharlal Nehru",
+      "B": "Abul Kalam Azad",
+      "C": "Bhimrao Ramji Ambedkar",
+      "D": "Asaf Ali"
+    },
+    "answer": "C",
+    "explanation": "Dr. Bhimrao Ramji Ambedkar served as the first Law and Justice Minister of Independent India in the cabinet of Jawaharlal Nehru.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec3718c91ab9f7558b"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Physical Geography",
+    "subtopic": "Himalayan Ranges",
+    "difficulty": "Easy",
+    "question": "The northern most mountain range in Himalayas",
+    "option": {
+      "A": "Himadri",
+      "B": "Shivalik",
+      "C": "Mahabharatha ranges",
+      "D": "Pir Panjal"
+    },
+    "answer": "A",
+    "explanation": "The Himadri, also known as the Greater Himalayas, is the northernmost and the highest range of the Himalayas.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecabb36136a720b520"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Indian Parliament",
+    "subtopic": "Houses of Parliament",
+    "difficulty": "Easy",
+    "question": "Upper House of the Indian Parliament is also known as _____.",
+    "option": {
+      "A": "Rajya Sabha",
+      "B": "Vidhan Sabha",
+      "C": "Vidhan Parishad",
+      "D": "Lok Sabha"
+    },
+    "answer": "A",
+    "explanation": "The Rajya Sabha is the Upper House (Council of States) of the Indian Parliament, while the Lok Sabha is the Lower House (House of the People).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec2e20ff7de80d5043"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Sports",
+    "subtopic": "Sports Terminology",
+    "difficulty": "Easy",
+    "question": "'Grandmaster' term is related to which game?",
+    "option": {
+      "A": "Tennis",
+      "B": "Chess",
+      "C": "Cricket",
+      "D": "Golf"
+    },
+    "answer": "B",
+    "explanation": "Grandmaster is a title awarded to chess players by the World Chess Federation (FIDE).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec803fadd8f6e3ea3c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Acids and Bases",
+    "difficulty": "Easy",
+    "question": "Which among the following is a base?",
+    "option": {
+      "A": "$H_2SO_4$",
+      "B": "$NaOH$",
+      "C": "$HNO_3$",
+      "D": "$HCl$"
+    },
+    "answer": "B",
+    "explanation": "$NaOH$ (Sodium hydroxide) is a strong base, while $H_2SO_4$, $HNO_3$, and $HCl$ are strong acids.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aeca831fa371ff8a9da"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Human Eye",
+    "difficulty": "Easy",
+    "question": "The amount of light entering the eye is controlled by the ________.",
+    "option": {
+      "A": "Pupil",
+      "B": "Sclera",
+      "C": "Cornea",
+      "D": "Retina"
+    },
+    "answer": "A",
+    "explanation": "The pupil acts as an aperture, dilating or constricting to regulate the amount of light that enters the eye.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec1d4bfcd43f92752c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Diseases",
+    "difficulty": "Easy",
+    "question": "What disease can we get by too much exposure to X-ray?",
+    "option": {
+      "A": "Cancer",
+      "B": "HIV AIDS",
+      "C": "H1N1 Flu",
+      "D": "Gonorrhea"
+    },
+    "answer": "A",
+    "explanation": "Excessive exposure to ionizing radiation like X-rays can damage DNA, potentially leading to cancer.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec43ef729621e7a96e"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Sound",
+    "difficulty": "Easy",
+    "question": "Speed of sound is maximum in-",
+    "option": {
+      "A": "Vacuum",
+      "B": "Gases",
+      "C": "Liquids",
+      "D": "Solids"
+    },
+    "answer": "D",
+    "explanation": "Sound travels fastest in solids because the particles are more closely packed compared to liquids and gases.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecd1c42ff35baba46f"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "If the temperature of a patient is $40^{\\circ}C$ then what will be his temperature on Fahrenheit Scale?",
+    "option": {
+      "A": "$104^{\\circ}F$",
+      "B": "$98^{\\circ}F$",
+      "C": "$108^{\\circ}F$",
+      "D": "$106^{\\circ}F$"
+    },
+    "answer": "A",
+    "explanation": "Using the formula $F = C \\times \\frac{9}{5} + 32$, we get $F = 40 \\times 1.8 + 32 = 72 + 32 = 104^{\\circ}F$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec6e99bfff97f8a13d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "subtopic": "Square Roots",
+    "difficulty": "Easy",
+    "question": "Calculate: $\\sqrt{256} - \\sqrt{81} + \\sqrt{25} + \\sqrt{36} = ?$",
+    "option": {
+      "A": "$16$",
+      "B": "$17$",
+      "C": "$18$",
+      "D": "$19$"
+    },
+    "answer": "C",
+    "explanation": "Evaluating the square roots: $16 - 9 + 5 + 6 = 7 + 5 + 6 = 18$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aece22f1e22f15382c7"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "subtopic": "Average",
+    "difficulty": "Easy",
+    "question": "Find the average of the following set of numbers: 13, 42, 22, 35, 68.",
+    "option": {
+      "A": "$36$",
+      "B": "$44$",
+      "C": "$56$",
+      "D": "$64$"
+    },
+    "answer": "A",
+    "explanation": "The average is the sum of the numbers divided by the count: $\\frac{13 + 42 + 22 + 35 + 68}{5} = \\frac{180}{5} = 36$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aece0fcdf98d19fe206"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Circle",
+    "difficulty": "Easy",
+    "question": "The radius of a circle is 14 cm. What will be its perimeter (circumference)?",
+    "option": {
+      "A": "$168\\text{ cm}$",
+      "B": "$88\\text{ cm}$",
+      "C": "$140\\text{ cm}$",
+      "D": "$280\\text{ cm}$"
+    },
+    "answer": "B",
+    "explanation": "The perimeter of a circle is $2\\pi r$. Using $\\pi = \\frac{22}{7}$, we get $2 \\times \\frac{22}{7} \\times 14 = 88\\text{ cm}$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec219bd35dfa641a9d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Ratio and Proportion",
+    "subtopic": "Ratio",
+    "difficulty": "Medium",
+    "question": "What must be added to each term of the ratio 7 : 11 so as to make it equal to 3 : 4?",
+    "option": {
+      "A": "$2$",
+      "B": "$3$",
+      "C": "$6$",
+      "D": "$5$"
+    },
+    "answer": "D",
+    "explanation": "Let $x$ be added. Then $\\frac{7+x}{11+x} = \\frac{3}{4}$. Cross-multiplying: $28+4x = 33+3x$, which gives $x = 5$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec67c453410a6ef3e3"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "subtopic": "Simplification",
+    "difficulty": "Easy",
+    "question": "$51 - 75 + 125 - 25 = ?$",
+    "option": {
+      "A": "$72$",
+      "B": "$70$",
+      "C": "$76$",
+      "D": "$74$"
+    },
+    "answer": "C",
+    "explanation": "Simplifying the expression: $51 - 75 = -24$; then $-24 + 125 = 101$; and $101 - 25 = 76$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec6e3f7f940616253a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Speed, Distance, and Time",
+    "subtopic": "Average Speed",
+    "difficulty": "Medium",
+    "question": "A car travels half distance with 40 kmph and rest half distance with 60 kmph then the average speed of car is:",
+    "option": {
+      "A": "60 kmph",
+      "B": "52 kmph",
+      "C": "48 kmph",
+      "D": "40 kmph"
+    },
+    "answer": "C",
+    "explanation": "Average speed for equal distances covered at speeds $v_1$ and $v_2$ is given by $\\frac{2v_1v_2}{v_1 + v_2} = \\frac{2 \\times 40 \\times 60}{40 + 60} = \\frac{4800}{100} = 48$ kmph.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecb0502501ab3024bb"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Simple Interest",
+    "subtopic": "Basic Interest Calculation",
+    "difficulty": "Easy",
+    "question": "What will be the simple interest on Rs. 8000 at the rate of 6% per annum for three years?",
+    "option": {
+      "A": "Rs 1440",
+      "B": "Rs 1120",
+      "C": "Rs 1800",
+      "D": "Rs 2400"
+    },
+    "answer": "A",
+    "explanation": "Simple Interest = $\\frac{P \\times R \\times T}{100} = \\frac{8000 \\times 6 \\times 3}{100} = 80 \\times 18 = 1440$ Rs.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec25b7f9dcb2684032"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Volume of Cone",
+    "difficulty": "Medium",
+    "question": "Find the volume of a cone whose radius of the base is 9 cm and height is 14 cm.",
+    "option": {
+      "A": "1848 $cm^3$",
+      "B": "1188 $cm^3$",
+      "C": "1108 $cm^3$",
+      "D": "1484 $cm^3$"
+    },
+    "answer": "B",
+    "explanation": "Volume of a cone = $\\frac{1}{3}\\pi r^2 h = \\frac{1}{3} \\times \\frac{22}{7} \\times 9^2 \\times 14 = \\frac{1}{3} \\times 22 \\times 81 \\times 2 = 22 \\times 27 \\times 2 = 1188$ $cm^3$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec3c16a74dd4683323"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Number System",
+    "subtopic": "Squares and Square Roots",
+    "difficulty": "Medium",
+    "question": "Which least number must be subtracted from 3850 to make it a perfect square?",
+    "option": {
+      "A": "1",
+      "B": "4",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "C",
+    "explanation": "The square of 62 is 3844. Subtracting 6 from 3850 gives 3844, which is a perfect square ($62^2 = 3844$).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec9151ca6fe651e34c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Conversion to Fraction",
+    "difficulty": "Easy",
+    "question": "Convert 64% into fraction",
+    "option": {
+      "A": "25/64",
+      "B": "16/25",
+      "C": "8/25",
+      "D": "19/64"
+    },
+    "answer": "B",
+    "explanation": "$64\\% = \\frac{64}{100} = \\frac{64 \\div 4}{100 \\div 4} = \\frac{16}{25}$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec7ce36a232efc54e5"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Computer Science",
+    "topic": "PowerPoint",
+    "subtopic": "Interface",
+    "difficulty": "Medium",
+    "question": "To make a label on a slide ______.",
+    "option": {
+      "A": "Go to <Format> choose option",
+      "B": "Go to <View menu> choose option",
+      "C": "Go to <Edit menu> and choose option",
+      "D": "Go to <Insert> and choose option"
+    },
+    "answer": "D",
+    "explanation": "In Microsoft PowerPoint, labels or text boxes are typically inserted by going to the Insert tab and selecting 'Text Box' or 'Label'.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec60cb61d01bb26610"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Computer Science",
+    "topic": "Programming Languages",
+    "subtopic": "History of C",
+    "difficulty": "Easy",
+    "question": "Who invented the High Level Language 'C'?",
+    "option": {
+      "A": "Niklaus Wirth",
+      "B": "Seymour Papert",
+      "C": "Dennis M. Ritchie",
+      "D": "Donald Knuth"
+    },
+    "answer": "C",
+    "explanation": "The C programming language was developed by Dennis M. Ritchie at Bell Labs in the early 1970s.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecc8100cb355fecc76"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Computer Science",
+    "topic": "PowerPoint",
+    "subtopic": "Views",
+    "difficulty": "Medium",
+    "question": "______ view is not present in Power Point.",
+    "option": {
+      "A": "Slide sorter",
+      "B": "Slide show",
+      "C": "Normal",
+      "D": "Outline"
+    },
+    "answer": "B",
+    "explanation": "While 'Slide Show' is a mode to present slides, 'Slide Sorter', 'Normal', and 'Outline' are standard editing views within the software interface.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec27682c6cb70d2e26"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Computer Science",
+    "topic": "Networking",
+    "subtopic": "Fundamentals",
+    "difficulty": "Easy",
+    "question": "Minimum how many systems are required to make a network?",
+    "option": {
+      "A": "2",
+      "B": "100",
+      "C": "10",
+      "D": "3"
+    },
+    "answer": "A",
+    "explanation": "A network is defined as the interconnection of two or more computing devices, so the minimum requirement is two systems.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec630affeefd351c55"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Computer Science",
+    "topic": "Hardware",
+    "subtopic": "Storage",
+    "difficulty": "Easy",
+    "question": "A normal CD ROM usually can store up to ______ data.",
+    "option": {
+      "A": "600 GB",
+      "B": "600 KB",
+      "C": "680 bytes",
+      "D": "680 MB"
+    },
+    "answer": "D",
+    "explanation": "Standard CD-ROMs typically have a storage capacity of approximately 650 to 700 MB.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec06721dc91db06839"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "Select the most appropriate ANTONYM of the given word. Accept",
+    "option": {
+      "A": "Attain",
+      "B": "Welcome",
+      "C": "Take",
+      "D": "Deny"
+    },
+    "answer": "D",
+    "explanation": "The word 'Accept' means to consent to receive or undertake something, whereas 'Deny' means to refuse to admit or agree to something, making them antonyms.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec7e2d2654f6a55b3b"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "The word opposite in meaning to 'Kind' is",
+    "option": {
+      "A": "Honest",
+      "B": "Famous",
+      "C": "Similar",
+      "D": "Cruel"
+    },
+    "answer": "D",
+    "explanation": "The word 'Kind' refers to being helpful or benevolent, while 'Cruel' refers to willfully causing pain or suffering to others.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecb24dbc515692ea6c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Select the most appropriate synonym of the given word. Sufficient",
+    "option": {
+      "A": "Full",
+      "B": "Less",
+      "C": "Integrity",
+      "D": "Enough"
+    },
+    "answer": "D",
+    "explanation": "'Sufficient' means having as much as is needed; 'Enough' is a direct synonym carrying the same meaning.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec43aba89191ccd5b4"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Medium",
+    "question": "Choose the word which is most similar in meaning to the word - GULLIBLE",
+    "option": {
+      "A": "Credulous",
+      "B": "Credible",
+      "C": "Fallible",
+      "D": "Believable"
+    },
+    "answer": "A",
+    "explanation": "'Gullible' means easily persuaded to believe something, which is synonymous with 'Credulous'.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec82a186646b2a9a03"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Spelling Correction",
+    "subtopic": "Vocabulary",
+    "difficulty": "Easy",
+    "question": "Choose the correct spelling:",
+    "option": {
+      "A": "Superceede",
+      "B": "Superscede",
+      "C": "Supersede",
+      "D": "Superseed"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling of the word is 'Supersede', which means to take the place of something previously in use.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec1a708062ac561d99"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Synonym",
+    "subtopic": "Vocabulary",
+    "difficulty": "Easy",
+    "question": "Give a synonym for the following word: Humble",
+    "option": {
+      "A": "Proud",
+      "B": "Sweet",
+      "C": "Bold",
+      "D": "Modest"
+    },
+    "answer": "D",
+    "explanation": "The word 'Humble' means having or showing a low estimate of one's own importance; 'Modest' is the closest synonym.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec84084ccb22eccab2"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Spelling Correction",
+    "subtopic": "Vocabulary",
+    "difficulty": "Medium",
+    "question": "In the question, four words are given out of which only one word is correctly spelt. Find the correctly spelt word.",
+    "option": {
+      "A": "Tabeleau",
+      "B": "Tabaleau",
+      "C": "Tableaw",
+      "D": "Tableau"
+    },
+    "answer": "D",
+    "explanation": "The correct spelling is 'Tableau', which refers to a group of models or motionless figures representing a scene.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecf45d5828b4bfd337"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Subject-Verb Agreement",
+    "difficulty": "Medium",
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error: 'The mother as well as the sons / were asked to appear / before the magistrate / for interrogation.'",
+    "option": {
+      "A": "were asked to appear",
+      "B": "for interrogation",
+      "C": "before the magistrate",
+      "D": "The mother as well as the sons"
+    },
+    "answer": "A",
+    "explanation": "When the subject is joined by 'as well as', the verb agrees with the first subject. Since 'The mother' is singular, 'were' should be replaced by 'was'.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec4a50e48e3f919b71"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Prepositions",
+    "difficulty": "Medium",
+    "question": "Correct the error relating to prepositions in the following sentence: 'Most of Leo Tolstoy's works have been translated to Hindi and other Indian languages.'",
+    "option": {
+      "A": "for",
+      "B": "from",
+      "C": "into",
+      "D": "by"
+    },
+    "answer": "C",
+    "explanation": "The preposition 'into' is correctly used when describing the translation from one language to another.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec21fd601b4cf589c2"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Subject-Verb Agreement",
+    "difficulty": "Easy",
+    "question": "Either of the boys _______ not ready to join the camp.",
+    "option": {
+      "A": "was",
+      "B": "were",
+      "C": "have",
+      "D": "are"
+    },
+    "answer": "A",
+    "explanation": "When the subject is 'Either of', the verb should be singular. Hence, 'was' is the correct choice.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec498a56c3e0dc6f9c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Tenses",
+    "difficulty": "Easy",
+    "question": "They ______ Math Olympiad and Science quiz next Friday.",
+    "option": {
+      "A": "have",
+      "B": "will have",
+      "C": "will be having",
+      "D": "has"
+    },
+    "answer": "A",
+    "explanation": "The sentence refers to a scheduled event in the future, often expressed using the simple present tense for fixed programs or simple future. In this context, 'have' is grammatically suitable.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec5f7e87373c9b52b7"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Prepositions",
+    "difficulty": "Easy",
+    "question": "We are sitting _________ the tree.",
+    "option": {
+      "A": "Over",
+      "B": "Under",
+      "C": "Inside",
+      "D": "Above"
+    },
+    "answer": "B",
+    "explanation": "We sit under the shade or structure of a tree, making 'under' the correct preposition.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aeceafe9cb042a18204"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Prepositions",
+    "difficulty": "Easy",
+    "question": "The buses are running ______ Nagpur and Hyderabad.",
+    "option": {
+      "A": "between",
+      "B": "for",
+      "C": "from",
+      "D": "towards"
+    },
+    "answer": "A",
+    "explanation": "The preposition 'between' is used to indicate a connection or movement involving two specific points or locations.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec6e9c624756863077"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Idioms and Phrases",
+    "subtopic": "Vocabulary",
+    "difficulty": "Medium",
+    "question": "Select the most appropriate meaning of the given idiom: 'Find your feet'.",
+    "option": {
+      "A": "To play safe",
+      "B": "To feel tired",
+      "C": "To become confident",
+      "D": "To walk away"
+    },
+    "answer": "C",
+    "explanation": "The idiom 'find your feet' means to become familiar with or confident in a new situation.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecec24e792562416f2"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Idioms and Phrases",
+    "subtopic": "Vocabulary",
+    "difficulty": "Easy",
+    "question": "Choose the option which best expresses the meaning of the given idiom/phrase: 'Give it a shot'.",
+    "option": {
+      "A": "To try to do something",
+      "B": "Be unsure of how you feel",
+      "C": "Be in trouble",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "explanation": "The idiom 'give it a shot' means to make an attempt to do something.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec5386fba441dce990"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Passive Voice",
+    "difficulty": "Medium",
+    "question": "Choose the correct passive voice of the sentence: \"The TV channel broadcasts the news every hour.\"",
+    "option": {
+      "A": "The news is being broadcasted by the TV channel every hour",
+      "B": "The news is broadcasted by the TV channel every hour.",
+      "C": "The news was broadcasted by the TV channel every hour.",
+      "D": "The news will be broadcasted by the TV channel every hour."
+    },
+    "answer": "B",
+    "explanation": "The sentence is in present simple tense, so the passive form uses 'is + past participle' (broadcast is the past participle of broadcast).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecbccb06ee268e269d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Passive Voice",
+    "difficulty": "Medium",
+    "question": "Choose the correct passive voice of the sentence: \"They are organising a grand farewell party for the seniors next week.\"",
+    "option": {
+      "A": "A grand farewell party for the seniors is being organised by them next week.",
+      "B": "A grand farewell party for the seniors has been organised by them next week",
+      "C": "A grand farewell party for the seniors was being organised by them next week",
+      "D": "A grand farewell party for the seniors will be organised by them next week."
+    },
+    "answer": "A",
+    "explanation": "The sentence is in present continuous tense, so the passive form uses 'is being + past participle'.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec416c76f0107cead3"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Direct and Indirect Speech",
+    "difficulty": "Medium",
+    "question": "Select the correct indirect form of the given sentence: Jake said to his sister, \"He will be attending the conference.\"",
+    "option": {
+      "A": "Jake told his sister that he would attend the conference.",
+      "B": "Jake told his sister that he was attending the conference.",
+      "C": "Jake told his sister that he would be attending the conference.",
+      "D": "Jake told his sister that he has attended the conference."
+    },
+    "answer": "C",
+    "explanation": "In indirect speech, 'will' changes to 'would', and the continuous aspect 'be attending' is maintained.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec205db604f6e07723"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Direct and Indirect Speech",
+    "subtopic": "Narration Change",
+    "difficulty": "Medium",
+    "question": "Select the correct indirect form of the given sentence. Ava said to her friend, \"You will be bringing my book tomorrow.\"",
+    "option": {
+      "A": "Ava told her friend that you will be bringing my book tomorrow.",
+      "B": "Ava told her friend that he would bring her book tomorrow.",
+      "C": "Ava told her friend that he would be bringing her book the next day.",
+      "D": "Ava told her friend that he will bring her book the next day."
+    },
+    "answer": "C",
+    "explanation": "In indirect speech, the future tense 'will be bringing' changes to 'would be bringing', and the time marker 'tomorrow' changes to 'the next day'.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecb9a1cf70dd11ea83"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference",
+    "difficulty": "Medium",
+    "question": "What is alarming scenario for the countries with a long coastline?",
+    "option": {
+      "A": "Accelerated rates of loss of ice",
+      "B": "Increase in population",
+      "C": "Local sea level anomalies that occur once in a century might become annual event.",
+      "D": "Deteriorating human health and food shortage"
+    },
+    "answer": "C",
+    "explanation": "The passage explicitly states that for countries with a long coastline, local sea level anomalies that occurred once in a century may become annual events, which is considered an alarming scenario.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecc7c0cb5bc020562a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Detail",
+    "difficulty": "Medium",
+    "question": "Accelerated rates of loss of ice due to climate change in the case of oceans and frozen areas on land particularly in Greenland, the Arctic and the Antarctic will not produce?",
+    "option": {
+      "A": "Increase in tropical cyclone winds",
+      "B": "Rainfall and extreme waves",
+      "C": "Greenhouse gas emissions",
+      "D": "Rise in sea level"
+    },
+    "answer": "C",
+    "explanation": "The passage mentions that loss of ice produces rise in sea levels, increases in tropical cyclone winds, rainfall, and extreme waves. Greenhouse gas emissions are mentioned as a cause of climate change, not a direct production/result of ice loss mentioned in that specific context.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecb8e42cf5ef2bc7ac"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Climate Change",
+    "difficulty": "Easy",
+    "question": "According to the passage, what is the expected impact of climate change on catastrophic sea level events?",
+    "option": {
+      "A": "Climate change will further increase the catastrophic sea level event",
+      "B": "Climate change will help in mitigating the catastrophic sea level event",
+      "C": "Climate change will solve the problem of sea level rising",
+      "D": "Climate change will help the sea level to rise more"
+    },
+    "answer": "A",
+    "explanation": "The passage states that climate change is expected to exacerbate catastrophic sea level events.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aecdf1e65cc3debd893"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "General Knowledge",
+    "difficulty": "Easy",
+    "question": "According to the passage, where was the UN conference for Climate Change held?",
+    "option": {
+      "A": "Paris",
+      "B": "India",
+      "C": "Madrid",
+      "D": "Antarctica"
+    },
+    "answer": "C",
+    "explanation": "Based on the provided text, the UN conference for Climate Change mentioned was held in Madrid.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec4c60a3c785c96d11"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Awareness",
+    "topic": "Environment",
+    "subtopic": "Climate Change",
+    "difficulty": "Easy",
+    "question": "Research of IPCC scientists helps the international community decide on actions to reduce?",
+    "option": {
+      "A": "Population",
+      "B": "Extreme waves",
+      "C": "Greenhouse gas emissions",
+      "D": "Air pollution"
+    },
+    "answer": "C",
+    "explanation": "The IPCC (Intergovernmental Panel on Climate Change) focuses its research on mitigating greenhouse gas emissions to combat global warming.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Agniveer Army Clerk_Store Keeper Memory Based Paper (Held On_ 24 Apr, 2023 - All Shift).pdf",
+    "_id": {
+      "$oid": "69c76aec5c69f9d81a01b9a5"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "National Parks",
+    "difficulty": "Easy",
+    "question": "Rajaji National Park is in ______.",
+    "option": {
+      "A": "Tamil Nadu",
+      "B": "Uttarakhand",
+      "C": "Karnataka",
+      "D": "Kerala"
+    },
+    "answer": "B",
+    "explanation": "Rajaji National Park is a prominent Indian national park and tiger reserve located in the state of Uttarakhand.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769161233ef1e8622fe2c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Dams",
+    "difficulty": "Easy",
+    "question": "Hirakud dam is in which state?",
+    "option": {
+      "A": "Rajasthan",
+      "B": "Maharashtra",
+      "C": "Karnataka",
+      "D": "Odisha"
+    },
+    "answer": "D",
+    "explanation": "The Hirakud Dam is located in the state of Odisha on the Mahanadi River.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916b739d6c56353fc9d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Indian Polity",
+    "subtopic": "Defence",
+    "difficulty": "Medium",
+    "question": "When was the Chief of Defence Staff (CDS) appointed for the first time?",
+    "option": {
+      "A": "2016",
+      "B": "2017",
+      "C": "2018",
+      "D": "2019"
+    },
+    "answer": "D",
+    "explanation": "The post of Chief of Defence Staff (CDS) was officially created in December 2019, and General Bipin Rawat was appointed as the first CDS on 31 December 2019.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916e74929f81129cf48"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "General Awareness",
+    "subtopic": "Abbreviations",
+    "difficulty": "Easy",
+    "question": "What is the full form of FCRA?",
+    "option": {
+      "A": "Foreign Contribution Regulation Act",
+      "B": "Financial Credit Reporting Agency",
+      "C": "Foreign Currency Regulation Authority",
+      "D": "Foundation for Community Resource Allocation"
+    },
+    "answer": "A",
+    "explanation": "FCRA stands for Foreign Contribution (Regulation) Act, which regulates the acceptance and utilization of foreign contributions by certain individuals or associations.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769163fdc240a0dcca0d7"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Indian Polity",
+    "topic": "Parliament",
+    "subtopic": "Rajya Sabha",
+    "difficulty": "Easy",
+    "question": "Who is the ex-officio Chairman of Rajya Sabha?",
+    "option": {
+      "A": "President",
+      "B": "Vice President",
+      "C": "Retired Judge",
+      "D": "Chairman of the Planning Commission"
+    },
+    "answer": "B",
+    "explanation": "According to Article 64 and 89(1) of the Indian Constitution, the Vice President of India is the ex-officio Chairman of the Rajya Sabha.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916b545cc15193643c7"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "States of India",
+    "difficulty": "Easy",
+    "question": "Uttarakhand in the year 2000 was carved out of which state?",
+    "option": {
+      "A": "Himachal Pradesh",
+      "B": "Uttar Pradesh",
+      "C": "Punjab",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Uttarakhand was formed on November 9, 2000, as the 27th state of India, carved out of the northwestern districts of Uttar Pradesh.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691661fc38e84fa20533"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Current Affairs",
+    "subtopic": "Appointments",
+    "difficulty": "Medium",
+    "question": "Who is currently the chairman of DRDO?",
+    "option": {
+      "A": "Dr Samir V Kamat",
+      "B": "Dr Pravin K Mehta",
+      "C": "Ms Suma Varughese",
+      "D": "Dr G. Satheesh Reddy"
+    },
+    "answer": "A",
+    "explanation": "Dr. Samir V. Kamat was appointed as the Chairman of the Defence Research and Development Organisation (DRDO) in August 2022.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769165f20d60d807213bc"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Polity",
+    "subtopic": "Parliamentary Procedures",
+    "difficulty": "Medium",
+    "question": "In the context of Indian parliament what is 'Zero Hour'?",
+    "option": {
+      "A": "Time immediately after Question Hour",
+      "B": "Time in the last half of the parliamentary proceeding",
+      "C": "Time before Question Hour",
+      "D": "Time in the first half of the parliamentary proceeding"
+    },
+    "answer": "A",
+    "explanation": "Zero Hour is an Indian parliamentary innovation where members can raise matters of urgent public importance immediately following the Question Hour.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691624b540e4c14d30b5"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography/History",
+    "subtopic": "Historical Monuments",
+    "difficulty": "Easy",
+    "question": "Where is Kumbhalgarh Fort located?",
+    "option": {
+      "A": "Rajasthan",
+      "B": "Gujarat",
+      "C": "Maharashtra",
+      "D": "Madhya Pradesh"
+    },
+    "answer": "A",
+    "explanation": "Kumbhalgarh Fort is a Mewar fortress on the westerly range of Aravalli Hills, in the Rajsamand district of Rajasthan.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769166e5e67e73a2b3856"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Ancient India",
+    "difficulty": "Medium",
+    "question": "Where is the Mahaparinirvan Temple located?",
+    "option": {
+      "A": "Varanasi",
+      "B": "Bodh Gaya",
+      "C": "Sarnath",
+      "D": "Kushinagar"
+    },
+    "answer": "D",
+    "explanation": "The Mahaparinirvan Temple in Kushinagar, Uttar Pradesh, is a Buddhist temple marking the site where Gautama Buddha is believed to have attained Mahaparinirvana.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916136fafb3ad70dd12"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Government Schemes",
+    "difficulty": "Medium",
+    "question": "Which Indian state launched the solar briefcase for remote areas?",
+    "option": {
+      "A": "Gujarat",
+      "B": "Rajasthan",
+      "C": "Uttar Pradesh",
+      "D": "Uttarakhand"
+    },
+    "answer": "D",
+    "explanation": "The Uttarakhand state government launched the solar briefcase initiative to provide clean energy solutions to remote, off-grid areas.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916cf95160b17f61396"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Polity",
+    "subtopic": "Current Affairs",
+    "difficulty": "Easy",
+    "question": "Who is the current Union Health Minister of India in 2023?",
+    "option": {
+      "A": "Dr. Harsh Vardhan",
+      "B": "Dr. Mansukh Mandaviya",
+      "C": "Dr. Jitendra Singh",
+      "D": "Dr. Subrahmanyam Jaishankar"
+    },
+    "answer": "B",
+    "explanation": "Dr. Mansukh Mandaviya served as the Union Minister for Health and Family Welfare in 2023.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916fffb04d0e20a9eec"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Tribes of India",
+    "difficulty": "Medium",
+    "question": "In which state is the Khampti tribe found?",
+    "option": {
+      "A": "Assam",
+      "B": "Arunachal Pradesh",
+      "C": "Nagaland",
+      "D": "Manipur"
+    },
+    "answer": "B",
+    "explanation": "The Khampti tribe is primarily found in the state of Arunachal Pradesh and parts of Assam.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916a9174e132fc36b27"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Mineral Resources",
+    "difficulty": "Medium",
+    "question": "Which of the following is the only state in India that produces diamonds?",
+    "option": {
+      "A": "Kolkata",
+      "B": "Madhya Pradesh",
+      "C": "Andhra Pradesh",
+      "D": "Uttarakhand"
+    },
+    "answer": "B",
+    "explanation": "Madhya Pradesh is the only state in India that is currently known for its active diamond mines, particularly in the Panna district.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916191c3c5c711b91f1"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "World Religion",
+    "difficulty": "Easy",
+    "question": "Which religion does Jesus Christ belong to?",
+    "option": {
+      "A": "Hinduism",
+      "B": "Judaism",
+      "C": "Christianity",
+      "D": "Islam"
+    },
+    "answer": "B",
+    "explanation": "Jesus Christ was born into a Jewish family and practiced Judaism throughout his life.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691668e46432f7e2c4a9"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Reasoning",
+    "topic": "Ranking",
+    "subtopic": "Positioning",
+    "difficulty": "Easy",
+    "question": "In a class of 45 students, the rank of Ayush from the top is 15. What is the rank of Ayush from the bottom?",
+    "option": {
+      "A": "30",
+      "B": "32",
+      "C": "31",
+      "D": "35"
+    },
+    "answer": "C",
+    "explanation": "The formula for rank from the bottom is (Total students - Rank from top + 1). So, $45 - 15 + 1 = 31$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916c68ba1dd9ed40752"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mathematical Operations",
+    "subtopic": "Symbol Replacement",
+    "difficulty": "Medium",
+    "question": "If $\\times$ is replaced with $\\div$, $\\div$ is replaced with $+$, and $+$ is replaced with $\\times$, then what will be the value of the following expression? $250 + 75 \\div 25 + 45 \\times 5$",
+    "option": {
+      "A": "19875",
+      "B": "18975",
+      "C": "18875",
+      "D": "1897"
+    },
+    "answer": "B",
+    "explanation": "Replacing symbols: $250 \\times 75 + 25 \\times 45 \\div 5$. Following BODMAS: $250 \\times 75 + 25 \\times 9 = 18750 + 225 = 18975$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916605de69325a6a343"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Reasoning",
+    "topic": "Direction Sense",
+    "subtopic": "Distance and Direction",
+    "difficulty": "Medium",
+    "question": "Rahul was going home from his school. He first moved 3 km southwards and then turned to his left, moving 2 km. From there, he moved to his left and walked 3 km. Further, he turned to his left again and moved 1 km, to reach his home. In which direction was his home from his school?",
+    "option": {
+      "A": "East",
+      "B": "North",
+      "C": "West",
+      "D": "South"
+    },
+    "answer": "A",
+    "explanation": "Moving south 3 km, left 2 km (East), left 3 km (North), and left 1 km (West). Net movement is 1 km East of the starting point.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916becaea7e73e75fcb"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Reasoning",
+    "topic": "Coding-Decoding",
+    "subtopic": "Letter Coding",
+    "difficulty": "Medium",
+    "question": "If in a certain code language, ELEPHANT is written as FNHTMGUB. How is ASTRONAUT written in that code language?",
+    "option": {
+      "A": "BUWVTHTCC",
+      "B": "BUWVTTCHC",
+      "C": "BUVWTTHCC",
+      "D": "BUWVTTHCC"
+    },
+    "answer": "D",
+    "explanation": "The pattern involves shifting letters and incrementing positions. Following the sequence for ASTRONAUT yields BUWVTTHCC.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916909c90a108fd5357"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Reasoning",
+    "topic": "Alphabet Test",
+    "subtopic": "Position Mapping",
+    "difficulty": "Easy",
+    "question": "How many letters are there in the word \"APPLE\" that have the same position as they do in the English alphabetical series?",
+    "option": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "Comparing A(1), P(16), P(16), L(12), E(5) with standard alphabet positions: only 'E' (5) matches its alphabetical position.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916d2268d5a2c4433ec"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Acids and Bases",
+    "difficulty": "Easy",
+    "question": "Which acid is found in tomato?",
+    "option": {
+      "A": "Acetic",
+      "B": "Tartaric",
+      "C": "Methanoic",
+      "D": "Oxalic"
+    },
+    "answer": "D",
+    "explanation": "Tomatoes primarily contain oxalic acid, along with smaller amounts of citric and malic acids.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916479117cbf440eefb"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Light",
+    "difficulty": "Easy",
+    "question": "White light is composed of how many colours?",
+    "option": {
+      "A": "Six",
+      "B": "Seven",
+      "C": "Five",
+      "D": "Four"
+    },
+    "answer": "B",
+    "explanation": "White light is composed of seven constituent colors, often remembered by the acronym VIBGYOR.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769168c093917b66c00ee"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Units and Measurements",
+    "difficulty": "Easy",
+    "question": "What is the SI Unit of temperature?",
+    "option": {
+      "A": "Degree Fahrenheit",
+      "B": "Candela",
+      "C": "Kelvin",
+      "D": "Degree Celsius"
+    },
+    "answer": "C",
+    "explanation": "The Kelvin ($K$) is the base unit of temperature in the International System of Units (SI).",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916532d3f638b66880b"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Human Physiology",
+    "difficulty": "Easy",
+    "question": "In which organ does most of the digestion take place in the human body?",
+    "option": {
+      "A": "Large intestine",
+      "B": "Small intestine",
+      "C": "Stomach",
+      "D": "Pancreas"
+    },
+    "answer": "B",
+    "explanation": "The small intestine is the primary site for chemical digestion and nutrient absorption in the human body.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769163d0bc361c20a7f04"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Chemical Reactions",
+    "difficulty": "Easy",
+    "question": "Rusting of iron is an example of _______.",
+    "option": {
+      "A": "condensation",
+      "B": "corrosion",
+      "C": "combustion",
+      "D": "evaporation"
+    },
+    "answer": "B",
+    "explanation": "Rusting is a common form of corrosion where iron reacts with oxygen and moisture to form hydrated iron (III) oxide.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916713d40e7d2af4deb"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Environmental Science",
+    "subtopic": "Pollution",
+    "difficulty": "Easy",
+    "question": "The substance that causes the maximum air pollution is?",
+    "option": {
+      "A": "Smoke",
+      "B": "Carbon monoxide",
+      "C": "Sulphur dioxide",
+      "D": "Nitrogen dioxide"
+    },
+    "answer": "B",
+    "explanation": "Carbon monoxide is a major air pollutant released from incomplete combustion of fuels and contributes significantly to air quality degradation.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769168d6a71e8f06e213a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Nutrition",
+    "difficulty": "Medium",
+    "question": "In which of the following, the amount of carbohydrate per gram is maximum?",
+    "option": {
+      "A": "Ghee",
+      "B": "Egg",
+      "C": "Sugar",
+      "D": "Fish"
+    },
+    "answer": "C",
+    "explanation": "Sugar is a simple carbohydrate (disaccharide), whereas ghee is a fat, and egg and fish are primarily protein sources.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691638620f1511e5c17f"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Reproduction",
+    "difficulty": "Medium",
+    "question": "Which of the following reproduces by spore formation?",
+    "option": {
+      "A": "Planaria",
+      "B": "Bryophyllum",
+      "C": "Hydra",
+      "D": "Rhizopus"
+    },
+    "answer": "D",
+    "explanation": "Rhizopus is a fungus that reproduces asexually by producing spores in specialized structures called sporangia.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691625f69776a2a22405"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Corrosion",
+    "difficulty": "Easy",
+    "question": "What is the colour of rust usually formed on silver when it is kept in open?",
+    "option": {
+      "A": "Blue",
+      "B": "Black",
+      "C": "Green",
+      "D": "Brown"
+    },
+    "answer": "B",
+    "explanation": "Silver reacts with sulphur compounds in the air to form a layer of silver sulphide ($Ag_2S$), which appears black.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916ce66a2abd832836d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Chemical Reactions",
+    "difficulty": "Easy",
+    "question": "Which gas is flushed in a bag of chips to prevent the chips from getting oxidized?",
+    "option": {
+      "A": "Oxygen",
+      "B": "Nitrogen",
+      "C": "Hydrogen",
+      "D": "Helium"
+    },
+    "answer": "B",
+    "explanation": "Nitrogen is an inert gas used to flush chip bags to displace oxygen, thereby preventing rancidity caused by oxidation.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769169f8d273724c72396"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Diseases",
+    "difficulty": "Easy",
+    "question": "Which of the following disease is not caused by virus?",
+    "option": {
+      "A": "Polio",
+      "B": "Aids",
+      "C": "Conjunctivitis",
+      "D": "Plague"
+    },
+    "answer": "D",
+    "explanation": "Plague is a bacterial infection caused by Yersinia pestis, whereas Polio, AIDS, and Conjunctivitis (viral type) are caused by viruses.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916975c03febfb01782"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Optics",
+    "difficulty": "Easy",
+    "question": "Which of the following mirror always forms the image smaller than the object?",
+    "option": {
+      "A": "convex mirror",
+      "B": "concave mirror",
+      "C": "plane mirror",
+      "D": "either convex or concave mirror"
+    },
+    "answer": "A",
+    "explanation": "A convex mirror always forms a virtual, erect, and diminished image of an object placed in front of it.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691661887b2165c6bf5d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Units and Measurements",
+    "difficulty": "Easy",
+    "question": "What is the unit of luminous intensity?",
+    "option": {
+      "A": "Watts",
+      "B": "Lumen",
+      "C": "Candela",
+      "D": "Lux"
+    },
+    "answer": "C",
+    "explanation": "The SI unit of luminous intensity is the candela (cd).",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916e5b1903d304709de"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Chemical Reactions",
+    "difficulty": "Easy",
+    "question": "Which gas is typically produced when metal reacts with acids?",
+    "option": {
+      "A": "Carbon dioxide",
+      "B": "Oxygen",
+      "C": "Hydrogen",
+      "D": "Nitrogen"
+    },
+    "answer": "C",
+    "explanation": "When a metal reacts with a dilute acid, it typically releases hydrogen gas, expressed by the general reaction: $Metal + Acid \\rightarrow Salt + Hydrogen$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769160e9d4efd8151fb9a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Science",
+    "topic": "Environment",
+    "subtopic": "Noise Pollution",
+    "difficulty": "Medium",
+    "question": "Noise pollution is created if sound is in excess to",
+    "option": {
+      "A": "70-75 dB",
+      "B": "50-60 dB",
+      "C": "80-99 dB",
+      "D": "40-65 dB"
+    },
+    "answer": "C",
+    "explanation": "While standards vary, sounds exceeding 80 dB are generally considered to be in the range that leads to noise pollution and potential hearing damage over time.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c7691687a2740ebf8f7833"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "subtopic": "Simplification",
+    "difficulty": "Easy",
+    "question": "Solve the following: $14 \\div \\{12 + 4 \\times 3 - 5(1 + 1)\\} = ?$",
+    "option": {
+      "A": "0",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "answer": "D",
+    "explanation": "Applying BODMAS: $14 \\div \\{12 + 12 - 5(2)\\} = 14 \\div \\{24 - 10\\} = 14 \\div 14 = 1$. Note: Based on standard evaluation, the result is 1, however the provided correct option is 4.",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "level": "National",
+    "eligibility": "10th/12th",
+    "_id": {
+      "$oid": "69c769169e24da91ba8e2d21"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Basic Percentage",
+    "difficulty": "Easy",
+    "question": "If $45\\%$ of $X$ is $60$, then what is the value of $X$?",
+    "option": {
+      "A": "140.11",
+      "B": "134.67",
+      "C": "130",
+      "D": "153.22"
+    },
+    "answer": "B",
+    "explanation": "Given $0.45X = 60$, so $X = \\frac{60}{0.45} = \\frac{6000}{45} \\approx 133.33$. The closest provided option is 134.67.",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "level": "National",
+    "eligibility": "10th/12th",
+    "_id": {
+      "$oid": "69c76916f2a6837fec0591f1"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Number System",
+    "subtopic": "Divisibility Rules",
+    "difficulty": "Medium",
+    "question": "If $42906K2$ is divisible by $3$, then the minimum value of $K$ is?",
+    "option": {
+      "A": "2",
+      "B": "5",
+      "C": "1",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "A number is divisible by 3 if the sum of its digits is divisible by 3. Sum = $4+2+9+0+6+K+2 = 23+K$. For $23+K$ to be divisible by 3, the smallest integer $K$ is 1 ($23+1=24$).",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "level": "National",
+    "eligibility": "10th/12th",
+    "_id": {
+      "$oid": "69c769160452d719d93527d7"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Area",
+    "difficulty": "Medium",
+    "question": "If the side of the square is increased by $6\\%$, then what will be the percentage increase in its area?",
+    "option": {
+      "A": "13.5",
+      "B": "12.04",
+      "C": "12.12",
+      "D": "12.36"
+    },
+    "answer": "D",
+    "explanation": "Percentage increase in area = $(x + x + \\frac{x^2}{100}) = (6 + 6 + \\frac{36}{100}) = 12.36\\%$.",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "level": "National",
+    "eligibility": "10th/12th",
+    "_id": {
+      "$oid": "69c76916b5dcbb80712c2671"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Number System",
+    "subtopic": "Multiples",
+    "difficulty": "Easy",
+    "question": "How many numbers from $1$ to $100$ are multiples of both $4$ and $6$?",
+    "option": {
+      "A": "5",
+      "B": "8",
+      "C": "10",
+      "D": "9"
+    },
+    "answer": "B",
+    "explanation": "Multiples of both 4 and 6 are multiples of $LCM(4, 6) = 12$. The multiples of 12 up to 100 are 12, 24, 36, 48, 60, 72, 84, 96 (total 8 numbers).",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "level": "National",
+    "eligibility": "10th/12th",
+    "_id": {
+      "$oid": "69c769165054d1cfe646cad9"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Simple Interest",
+    "subtopic": "Interest Calculation",
+    "difficulty": "Easy",
+    "question": "What will be the simple interest for 4 months at the rate of 12% annual interest if the principal is Rs 2500?",
+    "option": {
+      "A": "240",
+      "B": "150",
+      "C": "100",
+      "D": "200"
+    },
+    "answer": "C",
+    "explanation": "Simple Interest = $\\frac{P \\times R \\times T}{100}$. Here $P = 2500$, $R = 12\\%$, and $T = \\frac{4}{12}$ years. Thus, Interest = $\\frac{2500 \\times 12 \\times 4}{100 \\times 12} = 100$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769164267c52edf15228e"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geometry",
+    "subtopic": "Polygons",
+    "difficulty": "Easy",
+    "question": "Heptagon have how many sides?",
+    "option": {
+      "A": "6",
+      "B": "5",
+      "C": "8",
+      "D": "7"
+    },
+    "answer": "D",
+    "explanation": "A heptagon is a polygon defined as having 7 sides.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769165b879d9bf59691b3"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Speed, Distance, and Time",
+    "subtopic": "Distance Calculation",
+    "difficulty": "Medium",
+    "question": "How much distance will it cover in 10 minutes at a speed of 24.5 km/hr?",
+    "option": {
+      "A": "4.08",
+      "B": "5.09",
+      "C": "3.04",
+      "D": "6.44"
+    },
+    "answer": "A",
+    "explanation": "Distance = Speed $\\times$ Time. Time = $\\frac{10}{60}$ hours = $\\frac{1}{6}$ hours. Distance = $24.5 \\times \\frac{1}{6} \\approx 4.08$ km.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769162ce51bcadec01d33"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Ratio and Proportion",
+    "subtopic": "Partitive Proportion",
+    "difficulty": "Medium",
+    "question": "What is the value of B if the ratio of A, B, and C is 1 : 2 : 3 and their sum is 240?",
+    "option": {
+      "A": "48",
+      "B": "36",
+      "C": "80",
+      "D": "40"
+    },
+    "answer": "C",
+    "explanation": "Let the parts be $x, 2x, 3x$. Sum: $x + 2x + 3x = 6x = 240$, so $x = 40$. B corresponds to $2x = 2 \\times 40 = 80$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916c44f002a9b66dabf"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Rectangle",
+    "difficulty": "Medium",
+    "question": "What is the breadth of the rectangle if its length is 6 cm more than its breadth, and the area of the rectangle is 216 cm²?",
+    "option": {
+      "A": "20",
+      "B": "14",
+      "C": "12",
+      "D": "18"
+    },
+    "answer": "C",
+    "explanation": "Let breadth = $x$, then length = $x + 6$. Area = $x(x + 6) = 216$. Solving $x^2 + 6x - 216 = 0$, we get $(x + 18)(x - 12) = 0$. Since breadth cannot be negative, $x = 12$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769160dd0cae3bed3f01c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Percentage",
+    "subtopic": "Basic Percentage",
+    "difficulty": "Easy",
+    "question": "What percentage is 65 paise of 5 rupees?",
+    "option": {
+      "A": "15%",
+      "B": "27%",
+      "C": "13%",
+      "D": "20%"
+    },
+    "answer": "C",
+    "explanation": "Convert 5 rupees to paise: $5 \\times 100 = 500$ paise. The percentage is $\\frac{65}{500} \\times 100 = 13\\%$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769162126274bae01cbd9"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopic": "Properties of Square",
+    "difficulty": "Medium",
+    "question": "The lengths of the two diagonals of a square field are $(3x + 8)$ and $(4x + 6)$. Since the diagonals of a square are equal, find the product of $(3x + 8)$ and $(4x + 6)$.",
+    "option": {
+      "A": "312",
+      "B": "132",
+      "C": "196",
+      "D": "156"
+    },
+    "answer": "C",
+    "explanation": "Since diagonals of a square are equal, $3x + 8 = 4x + 6$, so $x = 2$. Substituting $x=2$, each diagonal length is $3(2)+8 = 14$. The product is $14 \\times 14 = 196$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769165d27654f3f04fc24"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Average",
+    "subtopic": "Calculation of Mean",
+    "difficulty": "Medium",
+    "question": "What is the average of all the numbers if the average of six numbers is 74 and the seventh number is 79?",
+    "option": {
+      "A": "72.01",
+      "B": "74.71",
+      "C": "84.44",
+      "D": "66.36"
+    },
+    "answer": "B",
+    "explanation": "The sum of 6 numbers is $6 \\times 74 = 444$. Adding the seventh number, total sum $= 444 + 79 = 523$. Average of 7 numbers $= \\frac{523}{7} \\approx 74.71$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c769169ba5413aef021d56"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Cost Price Calculation",
+    "difficulty": "Medium",
+    "question": "A data card when sold for Rs. 14950 fetches a profit of 30%. Find the cost price of the data card (in Rs.).",
+    "option": {
+      "A": "10500",
+      "B": "9500",
+      "C": "11500",
+      "D": "12500"
+    },
+    "answer": "C",
+    "explanation": "$CP = \\frac{SP \\times 100}{100 + \\text{profit}\\%} = \\frac{14950 \\times 100}{130} = 11500$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916621173be4a93f08e"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Average",
+    "subtopic": "Calculation of Mean",
+    "difficulty": "Medium",
+    "question": "The average score of a batsman in 16 innings is 36. In the next innings, he scores 70 runs. What will be his new average?",
+    "option": {
+      "A": "106",
+      "B": "38",
+      "C": "35",
+      "D": "53"
+    },
+    "answer": "B",
+    "explanation": "Total runs in 16 innings $= 16 \\times 36 = 576$. After the 17th inning, total runs $= 576 + 70 = 646$. New average $= \\frac{646}{17} = 38$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023).pdf",
+    "_id": {
+      "$oid": "69c76916294892c2096b036f"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Reasoning",
+    "topic": "Alphabetical Series",
+    "subtopic": "Letter Pairs",
+    "difficulty": "Easy",
+    "question": "How many letters are there in the word \"APPLE\" that have the same position as in the English alphabetical series?",
+    "option": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "answer": "A",
+    "explanation": "In APPLE, the letter 'E' is at the 5th position, which matches its rank in the English alphabet (A=1, B=2, C=3, D=4, E=5).",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023) (1).pdf",
+    "_id": {
+      "$oid": "69c77695c50c44a795c06370"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Simple Interest",
+    "subtopic": "Simple Interest Calculation",
+    "difficulty": "Easy",
+    "question": "What will be the simple interest for 4 months at the rate of 12 percent annual interest if the principal is Rs 2500?",
+    "option": {
+      "A": "240",
+      "B": "150",
+      "C": "100",
+      "D": "200"
+    },
+    "answer": "C",
+    "explanation": "Simple interest is calculated as $SI = \\frac{P \\times R \\times T}{100}$. Here, $P = 2500$, $R = 12\\%$, and $T = \\frac{4}{12}$ years. Thus, $SI = \\frac{2500 \\times 12 \\times 4}{100 \\times 12} = 100$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023) (1).pdf",
+    "_id": {
+      "$oid": "69c7769593da7d1ea364eaa8"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Rectangle",
+    "difficulty": "Medium",
+    "question": "What is the breadth of the rectangle if its length is 6 cm more than its breadth, and the area of the rectangle is 216 cm$^2$?",
+    "option": {
+      "A": "20",
+      "B": "14",
+      "C": "12",
+      "D": "18"
+    },
+    "answer": "C",
+    "explanation": "Let breadth be $x$, then length is $x+6$. Area = $x(x+6) = 216$, so $x^2 + 6x - 216 = 0$. Solving $x=12$ (breadth) and $x+6=18$ (length).",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023) (1).pdf",
+    "_id": {
+      "$oid": "69c7769551b671070498f8e0"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopic": "Square Properties",
+    "difficulty": "Medium",
+    "question": "The lengths of the two diagonals of a square field are $(3x + 8)$ and $(4x + 6)$. Then, the value of the product of $(3x + 8)$ and $(4x + 6)$ is:",
+    "option": {
+      "A": "312",
+      "B": "132",
+      "C": "196",
+      "D": "156"
+    },
+    "answer": "C",
+    "explanation": "In a square, diagonals are equal, so $3x + 8 = 4x + 6$, which implies $x = 2$. Substituting $x=2$, the diagonals are $3(2)+8 = 14$ and $4(2)+6 = 14$. The product is $14 \\times 14 = 196$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023) (1).pdf",
+    "_id": {
+      "$oid": "69c77695e5ce3d89c507f39a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Cost Price Calculation",
+    "difficulty": "Medium",
+    "question": "A data card when sold for Rs. 14950 fetches a profit of 30%. Find the cost price of the data card. (In Rs.)",
+    "option": {
+      "A": "10500",
+      "B": "9500",
+      "C": "11500",
+      "D": "12500"
+    },
+    "answer": "C",
+    "explanation": "Cost price = $\\frac{\\text{Selling Price}}{1 + \\text{Profit}\\%} = \\frac{14950}{1.30} = 11500$.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Army Tradesman (10th Level) Memory Based Paper (Held On_ 24 Apr, 2023) (1).pdf",
+    "_id": {
+      "$oid": "69c77695be8655550ad05922"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Books and Authors",
+    "subtopic": "Biography",
+    "difficulty": "Easy",
+    "question": "Who is the author of the book 'Wings of Fire'?",
+    "option": {
+      "A": "Manmohan Singh",
+      "B": "Dr. P. C. Alexander",
+      "C": "Khushwant Singh",
+      "D": "Dr. A. P. J. Abdul Kalam"
+    },
+    "answer": "D",
+    "explanation": "Wings of Fire is an autobiography of Dr. A. P. J. Abdul Kalam, the former President of India.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9a0ff468d0a8f3f91"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Sports",
+    "subtopic": "Awards",
+    "difficulty": "Medium",
+    "question": "The first woman to win the Dronacharya Award was weightlifting coach ______ in 2000.",
+    "option": {
+      "A": "Sunita Sharma",
+      "B": "Renu Kohli",
+      "C": "Purnima Mahato",
+      "D": "Hansa Sharma"
+    },
+    "answer": "D",
+    "explanation": "Hansa Sharma became the first woman to receive the Dronacharya Award in the year 2000 for her contribution to weightlifting.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf94820f50fe6a5973e"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Indian Rivers",
+    "subtopic": "River Systems",
+    "difficulty": "Easy",
+    "question": "The river Ganga rises from",
+    "option": {
+      "A": "Aravalli range",
+      "B": "Ladakh glacier",
+      "C": "Gangotri glacier",
+      "D": "Milap glacier"
+    },
+    "answer": "C",
+    "explanation": "The river Ganga originates from the Gangotri glacier in the Himalayas, specifically known as the Gomukh.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9f5107984f6bc60ba"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Indian Freedom Struggle",
+    "subtopic": "National Movements",
+    "difficulty": "Easy",
+    "question": "When did 'Chauri Chaura incident' take place?",
+    "option": {
+      "A": "1922",
+      "B": "1919",
+      "C": "1926",
+      "D": "1947"
+    },
+    "answer": "A",
+    "explanation": "The Chauri Chaura incident occurred on February 4, 1922, in the Gorakhpur district of the United Provinces, leading to the withdrawal of the Non-Cooperation Movement.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf934a13aa21a361546"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Elections",
+    "subtopic": "Lok Sabha",
+    "difficulty": "Easy",
+    "question": "In India election of Lok Sabha are held after every _____?",
+    "option": {
+      "A": "6 Years",
+      "B": "5 Years",
+      "C": "4 Years",
+      "D": "3 Years"
+    },
+    "answer": "B",
+    "explanation": "The tenure of the Lok Sabha is five years, and general elections are held every 5 years unless dissolved earlier.",
+    "level": "National",
+    "eligibility": "10th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9a0d0c31702a091d2"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Numbers and LCM",
+    "subtopic": "Ratio and LCM",
+    "difficulty": "Medium",
+    "question": "The ratio of two numbers is $3:4$ and their LCM is $72$. Find the numbers.",
+    "option": {
+      "A": "18, 24",
+      "B": "15, 20",
+      "C": "27, 36",
+      "D": "24, 32"
+    },
+    "answer": "A",
+    "explanation": "Let the numbers be $3x$ and $4x$. Their LCM is $12x$. Given $12x = 72$, so $x = 6$. The numbers are $3 \\times 6 = 18$ and $4 \\times 6 = 24$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf94c5c194b5a185708"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Rectangle",
+    "difficulty": "Easy",
+    "question": "The length of a rectangle is $15$ cm, and its breadth is $14$ cm. What is the perimeter of the rectangle?",
+    "option": {
+      "A": "29 cm",
+      "B": "58 cm",
+      "C": "56 cm",
+      "D": "44 cm"
+    },
+    "answer": "B",
+    "explanation": "Perimeter of a rectangle is $2 \\times (\\text{length} + \\text{breadth}) = 2 \\times (15 + 14) = 2 \\times 29 = 58$ cm.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9967a0e36a8e6d5a5"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Equilateral Triangle",
+    "difficulty": "Medium",
+    "question": "If height of an equilateral triangle is $10\\sqrt{3}$ cm, then find the area of the triangle.",
+    "option": {
+      "A": "250\\sqrt{3}",
+      "B": "160\\sqrt{3}",
+      "C": "132\\sqrt{3}",
+      "D": "100\\sqrt{3}"
+    },
+    "answer": "D",
+    "explanation": "Height $h = \\frac{\\sqrt{3}}{2}a = 10\\sqrt{3}$, so $a = 20$. Area $= \\frac{\\sqrt{3}}{4}a^2 = \\frac{\\sqrt{3}}{4}(400) = 100\\sqrt{3}$ cm$^2$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf90989a2f54df04b5a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "subtopic": "Simplification",
+    "difficulty": "Easy",
+    "question": "The value of $0.23 \\div 0.23$ is:",
+    "option": {
+      "A": "0.05",
+      "B": "0.5",
+      "C": "5",
+      "D": "1"
+    },
+    "answer": "D",
+    "explanation": "Any non-zero number divided by itself equals 1. Thus, $0.23 \\div 0.23 = 1$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9933f27aa5c35b012"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "subtopic": "Square Field",
+    "difficulty": "Hard",
+    "question": "The cost of leveling a square field at the rate of ₹ $52/m^2$ is ₹ $1,30,000$. What will be the cost of fencing its boundary at the rate of ₹ $35/m$?",
+    "option": {
+      "A": "₹ 2,500",
+      "B": "₹ 7,000",
+      "C": "₹ 87,500",
+      "D": "₹ 3,500"
+    },
+    "answer": "B",
+    "explanation": "Area $= 130000 / 52 = 2500$ m$^2$. Side $= \\sqrt{2500} = 50$ m. Perimeter $= 4 \\times 50 = 200$ m. Fencing cost $= 200 \\times 35 = 7000$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9cd6d702f6f9556b0"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Metabolism",
+    "difficulty": "Easy",
+    "question": "In which form glucose is present in our body?",
+    "option": {
+      "A": "Fat",
+      "B": "Glycogen",
+      "C": "Insulin",
+      "D": "Amino acids"
+    },
+    "answer": "B",
+    "explanation": "Glucose is stored in the human body primarily in the liver and muscles in the form of glycogen, a polysaccharide.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9fd913ad11126762b"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Polymers",
+    "subtopic": "Natural Polymers",
+    "difficulty": "Easy",
+    "question": "Which one of the following is a natural polymer?",
+    "option": {
+      "A": "Bakelite",
+      "B": "Silk",
+      "C": "Kevlar",
+      "D": "Lexan"
+    },
+    "answer": "B",
+    "explanation": "Silk is a natural protein fiber produced by insects like silkworms, whereas Bakelite, Kevlar, and Lexan are synthetic polymers.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf905865d57ab933af5"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Nutrition",
+    "subtopic": "Energy Value of Nutrients",
+    "difficulty": "Easy",
+    "question": "1 gm of carbohydrate gives approximately -",
+    "option": {
+      "A": "2 Calories",
+      "B": "3 Calories",
+      "C": "4 kilo Calories",
+      "D": "5 Calories"
+    },
+    "answer": "C",
+    "explanation": "Carbohydrates provide approximately $4$ kcal of energy per gram during metabolism.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9294fd48a9535b7e5"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "subtopic": "Human Reproduction",
+    "difficulty": "Easy",
+    "question": "Which cell is the product of the union between a male sperm and a female egg?",
+    "option": {
+      "A": "Zygote",
+      "B": "Gamete",
+      "C": "Ovum",
+      "D": "Embryo"
+    },
+    "answer": "A",
+    "explanation": "The fusion of male and female gametes (fertilization) results in the formation of a single diploid cell called a zygote.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf93b57a7da5ea308d3"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Diseases",
+    "subtopic": "Bacterial Diseases",
+    "difficulty": "Medium",
+    "question": "Which of the following human diseases is caused by bacteria?",
+    "option": {
+      "A": "Hepatitis A",
+      "B": "Typhoid",
+      "C": "Measles",
+      "D": "Polio"
+    },
+    "answer": "B",
+    "explanation": "Typhoid is caused by the bacterium *Salmonella Typhi*, while Hepatitis A, Measles, and Polio are caused by viruses.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9aa9b28a3108ba66a"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Compounds",
+    "subtopic": "Amphoteric Oxides",
+    "difficulty": "Medium",
+    "question": "Amphoteric oxide is:",
+    "option": {
+      "A": "$Na_2O$",
+      "B": "$Al_2O_3$",
+      "C": "$CaO$",
+      "D": "$K_2O$"
+    },
+    "answer": "B",
+    "explanation": "$Al_2O_3$ (Aluminum oxide) is amphoteric because it reacts with both acids and bases to form salts and water.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf92fc2206c770cf315"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Changes",
+    "subtopic": "Physical vs Chemical Changes",
+    "difficulty": "Easy",
+    "question": "Which one among the following is not a chemical change?",
+    "option": {
+      "A": "Curdling of milk",
+      "B": "Ripening of fruit",
+      "C": "Evaporation of water",
+      "D": "Burning of coal"
+    },
+    "answer": "C",
+    "explanation": "Evaporation of water is a physical change because it involves a change of state (liquid to gas) without altering the chemical composition of $H_2O$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf93d635d57c476e9a2"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "subtopic": "Acid Rain",
+    "difficulty": "Medium",
+    "question": "Acid rain is caused by the pollution of environment by",
+    "option": {
+      "A": "carbon dioxide and nitrogen",
+      "B": "carbon monoxide and carbon dioxide",
+      "C": "ozone and carbon dioxide",
+      "D": "nitrous oxide and sulphur dioxide"
+    },
+    "answer": "D",
+    "explanation": "Acid rain is primarily caused by the emission of sulphur dioxide ($SO_2$) and nitrogen oxides ($NO_x$), which react with water vapor in the atmosphere to form sulphuric acid and nitric acid.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf978c5a86ff6295c1d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and Salts",
+    "subtopic": "Reactions with Metals",
+    "difficulty": "Medium",
+    "question": "Acids react with metals to liberate :",
+    "option": {
+      "A": "Carbon monoxide",
+      "B": "Hydrogen",
+      "C": "Nitrogen",
+      "D": "Carbon dioxide"
+    },
+    "answer": "B",
+    "explanation": "Acids typically react with active metals to produce a salt and liberate hydrogen gas ($H_2$).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9be78053659be5b7d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Indian Freedom Struggle",
+    "subtopic": "Key Figures and Slogans",
+    "difficulty": "Easy",
+    "question": "Who said ‘Swaraj is my birthright and I shall have it’?",
+    "option": {
+      "A": "M. K. Gandhi",
+      "B": "B. G. Tilak",
+      "C": "G. K. Gokhale",
+      "D": "B. R. Ambedkar"
+    },
+    "answer": "B",
+    "explanation": "The slogan 'Swaraj is my birthright and I shall have it' was famously declared by Bal Gangadhar Tilak during the Indian freedom struggle.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf90028729b88fd842f"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Constitution of India",
+    "subtopic": "Executive",
+    "difficulty": "Medium",
+    "question": "Which Article of the Constitution of India provides that there will be Governors of States?",
+    "option": {
+      "A": "148",
+      "B": "153",
+      "C": "124",
+      "D": "136"
+    },
+    "answer": "B",
+    "explanation": "Article 153 of the Constitution of India states that there shall be a Governor for each state.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf91673b250fe893faf"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Indian Freedom Struggle",
+    "subtopic": "Round Table Conferences",
+    "difficulty": "Medium",
+    "question": "When was the First Round Table Conference started?",
+    "option": {
+      "A": "August 1932",
+      "B": "October 1929",
+      "C": "September 1931",
+      "D": "November 1930"
+    },
+    "answer": "D",
+    "explanation": "The First Round Table Conference was held in London from November 1930 to January 1931.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf96df1d832e0ffb0e7"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Current Affairs",
+    "subtopic": "Defense Appointments",
+    "difficulty": "Medium",
+    "question": "Who is the current Chief of the Indian Army? (2023)",
+    "option": {
+      "A": "General Bipin Rawat",
+      "B": "Manoj Mukund Naravane",
+      "C": "General Manoj Pande",
+      "D": "Rakesh Kumar Singh Bhadauria"
+    },
+    "answer": "C",
+    "explanation": "General Manoj Pande assumed office as the Chief of the Army Staff on April 30, 2022, and served throughout 2023.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9f9de70be27262722"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "International Organizations",
+    "subtopic": "G-20",
+    "difficulty": "Hard",
+    "question": "When was the first meeting of G-20 held?",
+    "option": {
+      "A": "1998",
+      "B": "2000",
+      "C": "2008",
+      "D": "2010"
+    },
+    "answer": "C",
+    "explanation": "While the G-20 was formed in 1999 as a meeting of Finance Ministers and Central Bank Governors, the first G-20 Leaders' Summit was held in 2008 in Washington, D.C.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf92d6d40ffc4af55e4"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Mirrors",
+    "difficulty": "Easy",
+    "question": "Which type of mirror possesses a positive focal length?",
+    "option": {
+      "A": "Concave Mirror",
+      "B": "Convex Mirror",
+      "C": "Plane Mirror",
+      "D": "Rectilinear Mirror"
+    },
+    "answer": "B",
+    "explanation": "According to the sign convention in optics, a convex mirror has its focus behind the mirror, resulting in a positive focal length ($f > 0$).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9ad21e6088dec2d33"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "States of Matter",
+    "subtopic": "Solid State",
+    "difficulty": "Easy",
+    "question": "A substance has a definite shape as well as definite volume. This substance is-",
+    "option": {
+      "A": "Gas",
+      "B": "Liquid",
+      "C": "Solid",
+      "D": "Any of these"
+    },
+    "answer": "C",
+    "explanation": "Solids are characterized by strong intermolecular forces that maintain a fixed position of particles, resulting in a definite shape and volume.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9f05584833b9900c6"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Heat Transfer",
+    "difficulty": "Easy",
+    "question": "The heat transfers in solids by the process of-",
+    "option": {
+      "A": "Conduction",
+      "B": "Convection",
+      "C": "Radiation",
+      "D": "None"
+    },
+    "answer": "A",
+    "explanation": "Heat transfer in solids occurs primarily through conduction, where vibrational energy is passed between adjacent particles without bulk movement of matter.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf95c74e897d81e2006"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "subtopic": "Characteristics of Sound",
+    "difficulty": "Easy",
+    "question": "The pitch of a sound depends on its ________.",
+    "option": {
+      "A": "amplitude",
+      "B": "frequency",
+      "C": "timbre",
+      "D": "intensity"
+    },
+    "answer": "B",
+    "explanation": "Pitch is the auditory sensation that allows a person to classify a sound as high or low, and it is directly determined by the frequency of the sound wave.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf96ab2ed8c00c917fa"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Physics",
+    "topic": "Units and Measurements",
+    "subtopic": "Mass",
+    "difficulty": "Easy",
+    "question": "Which among the following is a unit of mass?",
+    "option": {
+      "A": "gram",
+      "B": "kilogram",
+      "C": "tonne",
+      "D": "all of the above"
+    },
+    "answer": "D",
+    "explanation": "Gram ($g$), kilogram ($kg$), and tonne ($t$) are all standard units used to measure mass in the metric system.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9b61dab1d5875821d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Nutrition",
+    "subtopic": "Diet and Health",
+    "difficulty": "Easy",
+    "question": "What nutrients are typically obtained from fast food items like Pizza and Burgers?",
+    "option": {
+      "A": "Fiber and Vitamins",
+      "B": "Protein and Calcium",
+      "C": "Carbohydrates and Iron",
+      "D": "Fat and Sodium"
+    },
+    "answer": "D",
+    "explanation": "Fast foods like pizza and burgers are typically processed and rich in saturated fats and high levels of sodium (salt).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf92ee8059302dcf19c"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Anatomy",
+    "subtopic": "Excretory System",
+    "difficulty": "Easy",
+    "question": "Bean shaped excretory organ of human is-",
+    "option": {
+      "A": "Ureter",
+      "B": "Urinary bladder",
+      "C": "Urethra",
+      "D": "Kidney"
+    },
+    "answer": "D",
+    "explanation": "The human kidneys are paired, bean-shaped organs responsible for filtering blood and producing urine as part of the excretory system.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf91574c60024ee35e1"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Nutrition",
+    "subtopic": "Vitamins",
+    "difficulty": "Easy",
+    "question": "Which of the following is a water soluble vitamin?",
+    "option": {
+      "A": "Vitamin D",
+      "B": "Vitamin A",
+      "C": "Vitamin C",
+      "D": "Vitamin K"
+    },
+    "answer": "C",
+    "explanation": "Vitamins are classified as fat-soluble (A, D, E, K) or water-soluble (B-complex and C).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9b1cb21f10ef97bff"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Botany",
+    "subtopic": "Plant Reproduction",
+    "difficulty": "Medium",
+    "question": "Which of the following flowers is unisexual?",
+    "option": {
+      "A": "Papaya",
+      "B": "Sunflower",
+      "C": "Hibiscus",
+      "D": "Mustard"
+    },
+    "answer": "A",
+    "explanation": "Unisexual flowers contain only one set of reproductive organs (either stamen or carpel). Papaya is a well-known example of a plant with unisexual flowers.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9cf0825d9d21f293e"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Digestive System",
+    "difficulty": "Easy",
+    "question": "Where is the bile juice produced?",
+    "option": {
+      "A": "Gastric",
+      "B": "Liver",
+      "C": "Gallbladder",
+      "D": "Pancreas"
+    },
+    "answer": "B",
+    "explanation": "Bile juice is produced by the hepatocytes in the liver and is stored and concentrated in the gallbladder.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf94278164562614474"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Vitamins",
+    "subtopic": "Nutritional Science",
+    "difficulty": "Easy",
+    "question": "Which vitamin helps in blood clotting?",
+    "option": {
+      "A": "Vitamin A",
+      "B": "Vitamin K",
+      "C": "Vitamin $B_1$",
+      "D": "Vitamin C"
+    },
+    "answer": "B",
+    "explanation": "Vitamin K is essential for the synthesis of proteins required for blood coagulation.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf928df3db325c16381"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Anatomy",
+    "subtopic": "Dentition",
+    "difficulty": "Easy",
+    "question": "How many canine teeth are there in an adult human?",
+    "option": {
+      "A": "2",
+      "B": "8",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "D",
+    "explanation": "Adult humans have 4 canine teeth, with two located in the upper jaw and two in the lower jaw.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9861ece525c9baeef"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Microbiology",
+    "subtopic": "Fungi",
+    "difficulty": "Easy",
+    "question": "The cell wall in fungi is mainly made of _______",
+    "option": {
+      "A": "Cellulose",
+      "B": "Chitin",
+      "C": "Mucin",
+      "D": "Glycogen"
+    },
+    "answer": "B",
+    "explanation": "Fungal cell walls are composed of chitin, a long-chain polymer of N-acetylglucosamine.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9d3429a5d1f48aeee"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Anatomy",
+    "subtopic": "Nervous System",
+    "difficulty": "Easy",
+    "question": "Which fluid is primarily found in the brain?",
+    "option": {
+      "A": "Blood",
+      "B": "Cerebrospinal Fluid",
+      "C": "Lymph",
+      "D": "Synovial Fluid"
+    },
+    "answer": "B",
+    "explanation": "Cerebrospinal fluid (CSF) is a clear, colorless body fluid found within the tissue that surrounds the brain and spinal cord of all vertebrates.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9f43a3bfcc8204533"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Reactions",
+    "subtopic": "Physical and Chemical Changes",
+    "difficulty": "Medium",
+    "question": "Burning a candle is:",
+    "option": {
+      "A": "A Chemical change",
+      "B": "A Physical change",
+      "C": "Both chemical and physical change",
+      "D": "Neither chemical nor physical change"
+    },
+    "answer": "C",
+    "explanation": "Melting of the wax is a physical change, while the combustion of the vaporized wax is a chemical change.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9f846b1c5cf2100ba"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Reactions",
+    "subtopic": "Endothermic Reactions",
+    "difficulty": "Easy",
+    "question": "Which of the following is an endothermic reaction?",
+    "option": {
+      "A": "Photosynthesis in plants",
+      "B": "Burning of magnesium ribbon in air",
+      "C": "Conversion of vegetable matter into compost",
+      "D": "Burning of natural gas"
+    },
+    "answer": "A",
+    "explanation": "Photosynthesis is an endothermic process as it requires the absorption of solar energy to convert carbon dioxide and water into glucose.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9429adcbf14d35196"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "States of Matter",
+    "subtopic": "Liquefaction of Gases",
+    "difficulty": "Easy",
+    "question": "A gas can be converted into a liquid by -",
+    "option": {
+      "A": "By increasing the pressure",
+      "B": "Decreasing the temperature",
+      "C": "By both",
+      "D": "None"
+    },
+    "answer": "C",
+    "explanation": "Gases can be liquefied by increasing pressure and decreasing temperature, as these conditions reduce the intermolecular space and kinetic energy of gas molecules.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf942524534db74f1b2"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Physical and Chemical Changes",
+    "subtopic": "Physical Changes",
+    "difficulty": "Easy",
+    "question": "Which of the following is a physical change?",
+    "option": {
+      "A": "Melting of ice",
+      "B": "Milk is set into curd",
+      "C": "Ripening of fruits",
+      "D": "Grapes get fermented"
+    },
+    "answer": "A",
+    "explanation": "Melting of ice is a physical change because the chemical composition of $H_2O$ remains the same, whereas the other options involve chemical changes.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf9dd794ec8a31ca9f0"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Metals and Non-metals",
+    "subtopic": "Properties of Metals",
+    "difficulty": "Easy",
+    "question": "Which metal remains liquid at room temperature?",
+    "option": {
+      "A": "Sodium",
+      "B": "Magnesium",
+      "C": "Mercury",
+      "D": "Lithium"
+    },
+    "answer": "C",
+    "explanation": "Mercury is the only metal that exists in a liquid state at room temperature due to its weak metallic bonding.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf998e4c03e253a1e11"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Common Chemicals",
+    "subtopic": "Washing Soda",
+    "difficulty": "Easy",
+    "question": "Chemical name of washing soda is:",
+    "option": {
+      "A": "Sodium chloride",
+      "B": "Sodium hydrogen carbonate",
+      "C": "Sodium carbonate",
+      "D": "Sodium hydroxide"
+    },
+    "answer": "C",
+    "explanation": "The chemical name of washing soda is sodium carbonate ($Na_2CO_3$).",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf91c5aa5a5b8dd7c73"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Compounds",
+    "subtopic": "Plaster of Paris",
+    "difficulty": "Easy",
+    "question": "Chemical formula of plaster of paris:",
+    "option": {
+      "A": "$CaSO_4$",
+      "B": "$CaSO_4 \\cdot 2H_2O$",
+      "C": "$CaSO_4 \\cdot \\frac{1}{2} H_2O$",
+      "D": "$CaSO_4 \\cdot H_2O$"
+    },
+    "answer": "C",
+    "explanation": "Plaster of Paris is calcium sulfate hemihydrate, which is represented by the chemical formula $CaSO_4 \\cdot \\frac{1}{2} H_2O$.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf92d7499eb93d4131d"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Reversible Process",
+    "difficulty": "Medium",
+    "question": "A reversible process _______.",
+    "option": {
+      "A": "Must pass through a continuous series of equilibrium states",
+      "B": "Leaves no history of the events in surroundings",
+      "C": "Must pass through the same states on the reversed path as on the forward path",
+      "D": "All options are correct"
+    },
+    "answer": "D",
+    "explanation": "A reversible process is defined as an ideal process that can be reversed without leaving any trace on the surroundings, passing through a continuous series of equilibrium states.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf913f64f86ac2e58e3"
+    }
+  },
+  {
+    "exam_type": "Indian Army Agniveer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Reactions",
+    "subtopic": "Acid-Base Reactions",
+    "difficulty": "Easy",
+    "question": "Acids react with bases to form salt and water. This reaction is known as",
+    "option": {
+      "A": "Combination",
+      "B": "Neutralisation",
+      "C": "Reduction",
+      "D": "Decomposition"
+    },
+    "answer": "B",
+    "explanation": "The reaction between an acid and a base is called a neutralisation reaction, where they cancel each other's effects to produce salt and water.",
+    "level": "National",
+    "eligibility": "12th",
+    "year": "2023",
+    "pdf_name": "Indian Army Nursing Assistant (Technical) 2023 Memory Based paper.pdf",
+    "_id": {
+      "$oid": "69c77bf91cf0a9250ea2daef"
+    }
+  }
+]

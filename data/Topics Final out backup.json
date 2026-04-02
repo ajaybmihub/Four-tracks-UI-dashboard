@@ -1,0 +1,6336 @@
+[{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff68"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Civil Services Examination (CSE)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "3,380",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff69"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Indian Forest Service (IFoS)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "3,380",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff6a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Engineering Services Examination (ESE/IES)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Engineering Degree",
+  "frequency": "Annual",
+  "question_count": "6,550",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff6b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Combined Defence Services (CDS)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate/12th",
+  "frequency": "Twice a Year",
+  "question_count": "6,800",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff6c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "National Defence Academy (NDA) & NA",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "12th",
+  "frequency": "Twice a Year",
+  "question_count": "6,870",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff6d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Combined Medical Services (CMS)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate (Medical)",
+  "frequency": "Annual",
+  "question_count": "2,400",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff6e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Indian Economic Service / Indian Statistical Service (IES/ISS)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Postgraduate",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff6f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Combined Geo-Scientist Examination",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "2,880",
+  "year_range": "2015-2025",
+  "not_conducted": "2020",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff70"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "EPFO Enforcement Officer/Accounts Officer",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "1,440",
+  "year_range": "2015-2025",
+  "not_conducted": "2016, 2018, 2020, 2021",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff71"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "UPSC",
+  "exam_name": "Central Armed Police Forces (Assistant Commandant - CAPF AC)",
+  "conducting_body": "UPSC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "1,250",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff72"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC Combined Graduate Level (CGL)",
+  "conducting_body": "Staff Selection Commission (SSC)",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "12,950",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff73"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC Combined Higher Secondary Level (CHSL)",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "12th",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff74"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC Multi Tasking Staff (MTS)",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "10th",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2016, 2020, 2021",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff75"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC GD Constable",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "10th",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2016, 2017, 2021, 2022",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff76"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC Junior Engineer (JE)",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "Diploma/Engineering",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff77"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC CPO (SI)",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2020, 2021",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff78"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC Stenographer Grade C & D",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "12th/10th",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff79"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC Selection Post (Phase-wise)",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2016",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff7a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "SSC",
+  "exam_name": "SSC CHSL DEO (Data Entry Operator)",
+  "conducting_body": "SSC",
+  "level": "National",
+  "eligibility": "12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff7b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "LIC AAO",
+  "conducting_body": "LIC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff7c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "LIC ADO",
+  "conducting_body": "LIC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff7d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "NIACL AO",
+  "conducting_body": "New India Assurance",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual/Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff7e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "NIACL Assistant",
+  "conducting_body": "New India Assurance",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff7f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "UIIC AO",
+  "conducting_body": "United India Insurance Company",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff80"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "GIC Assistant Manager (AM)",
+  "conducting_body": "GIC",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff81"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "AIC Management Trainee (MTS)",
+  "conducting_body": "Agriculture Insurance Company",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff82"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "Specialized Insurance Officer Exams (various) - Variant 1",
+  "conducting_body": "Insurance Companies",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff83"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "Specialized Insurance Officer Exams (various) - Variant 2",
+  "conducting_body": "Insurance Companies",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff84"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "Specialized Insurance Officer Exams (various) - Variant 3",
+  "conducting_body": "Insurance Companies",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff85"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "Specialized Insurance Officer Exams (various) - Variant 4",
+  "conducting_body": "Insurance Companies",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff86"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Insurance",
+  "exam_name": "Specialized Insurance Officer Exams (various) - Variant 5",
+  "conducting_body": "Insurance Companies",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff87"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RRB NTPC",
+  "conducting_body": "Railway Recruitment Board (RRB)",
+  "level": "National",
+  "eligibility": "12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "9,666",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2021, 2022, 2024, 2025",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff88"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RRB JE",
+  "conducting_body": "RRB",
+  "level": "National",
+  "eligibility": "Diploma/Engineering",
+  "frequency": "Varies",
+  "question_count": "9,666",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2020, 2022, 2023, 2024",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff89"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RRB Group D",
+  "conducting_body": "RRB",
+  "level": "National",
+  "eligibility": "10th",
+  "frequency": "Varies",
+  "question_count": "9,666",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2023, 2025",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff8a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RRB ALP",
+  "conducting_body": "RRB",
+  "level": "National",
+  "eligibility": "12th/Diploma",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff8b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RRB Technician",
+  "conducting_body": "RRB",
+  "level": "National",
+  "eligibility": "ITI/Diploma",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff8c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RPF Constable",
+  "conducting_body": "Railway Protection Force (RPF)",
+  "level": "National",
+  "eligibility": "10th/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff8d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "RPF Sub-Inspector (SI)",
+  "conducting_body": "RPF",
+  "level": "National",
+  "eligibility": "12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2015, 2016, 2017, 2018, 2020, 2021, 2022, 2025",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff8e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 3",
+  "conducting_body": "Railway Zone",
+  "level": "National",
+  "eligibility": "Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff8f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 4",
+  "conducting_body": "Railway Zone",
+  "level": "National",
+  "eligibility": "Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff90"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 5",
+  "conducting_body": "Railway Zone",
+  "level": "National",
+  "eligibility": "Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff91"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 3",
+  "conducting_body": "IPPB / RRBs",
+  "level": "National/Regional",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff92"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 1",
+  "conducting_body": "Railway Zone",
+  "level": "National",
+  "eligibility": "Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff93"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Railways",
+  "exam_name": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 2",
+  "conducting_body": "Railway Zone",
+  "level": "National",
+  "eligibility": "Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff94"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "AFCAT",
+  "conducting_body": "Indian Air Force",
+  "level": "National",
+  "eligibility": "Graduate/12th",
+  "frequency": "Twice a Year",
+  "question_count": "3,500",
+  "year_range": "2015-2025",
+  "not_conducted": "2020,2023,2022",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff95"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "Indian Navy SSR",
+  "conducting_body": "Indian Navy",
+  "level": "National",
+  "eligibility": "12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff96"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "Indian Navy AA",
+  "conducting_body": "Indian Navy",
+  "level": "National",
+  "eligibility": "12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2020, 2022, 2023",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff97"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "Indian Army Agniveer",
+  "conducting_body": "Indian Army",
+  "level": "National",
+  "eligibility": "10th/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2022-2025",
+  "not_conducted": "2022",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff98"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "Territorial Army Officer",
+  "conducting_body": "Indian Army",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2020, 2021",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff99"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "Coast Guard Navik / Yantrik",
+  "conducting_body": "Indian Coast Guard",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2020, 2021",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff9a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Defence",
+  "exam_name": "Military Nursing Service (MNS)",
+  "conducting_body": "DGMS / Armed Forces",
+  "level": "National",
+  "eligibility": "Nursing Qualification",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2015-2025",
+  "not_conducted": "2020, 2021, 2022",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff9b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Teaching",
+  "exam_name": "CTET",
+  "conducting_body": "CBSE",
+  "level": "National",
+  "eligibility": "Graduate/12th",
+  "frequency": "Twice a Year",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff9c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Teaching",
+  "exam_name": "UGC NET",
+  "conducting_body": "UGC / NTA",
+  "level": "National",
+  "eligibility": "Postgraduate",
+  "frequency": "Twice a Year",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff9d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Teaching",
+  "exam_name": "KVS Recruitment PRT/TGT/PGT",
+  "conducting_body": "KVS",
+  "level": "National",
+  "eligibility": "Graduate/B.Ed",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff9e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Teaching",
+  "exam_name": "NVS Recruitment",
+  "conducting_body": "NVS",
+  "level": "National",
+  "eligibility": "Graduate/B.Ed",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ff9f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Teaching",
+  "exam_name": "DSSSB Teaching Posts",
+  "conducting_body": "DSSSB",
+  "level": "State/National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Teaching",
+  "exam_name": "State TET (All States Individual)",
+  "conducting_body": "State Education Boards",
+  "level": "State",
+  "eligibility": "12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Judiciary",
+  "exam_name": "State Judicial Services (Civil Judge)",
+  "conducting_body": "State High Courts / PSC",
+  "level": "State",
+  "eligibility": "Law Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Judiciary",
+  "exam_name": "District Judge Recruitment",
+  "conducting_body": "State High Courts",
+  "level": "State",
+  "eligibility": "Law Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Judiciary",
+  "exam_name": "High Court Clerk / Junior Assistant",
+  "conducting_body": "State High Courts",
+  "level": "State",
+  "eligibility": "12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Judiciary",
+  "exam_name": "Lower Judiciary (Judicial Magistrate)",
+  "conducting_body": "State Judiciary",
+  "level": "State",
+  "eligibility": "Law Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "ONGC Graduate Trainee / GATE-based Recruitment",
+  "conducting_body": "ONGC",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "IOCL Recruitment (Executive / Technical)",
+  "conducting_body": "IOCL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BHEL Recruitment (Executive / Technician)",
+  "conducting_body": "BHEL",
+  "level": "National",
+  "eligibility": "Engineering/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "SAIL Recruitment",
+  "conducting_body": "SAIL",
+  "level": "National",
+  "eligibility": "Graduate/ITI/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffa9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "NTPC Executive Trainee",
+  "conducting_body": "NTPC",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffaa"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BEL Recruitment",
+  "conducting_body": "BEL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffab"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "DRDO Scientist / Technician Recruitment",
+  "conducting_body": "DRDO",
+  "level": "National",
+  "eligibility": "Engineering/Science",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffac"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "ISRO Scientist / Technical Recruitment",
+  "conducting_body": "ISRO",
+  "level": "National",
+  "eligibility": "Engineering/Science",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffad"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "HAL Recruitment",
+  "conducting_body": "HAL",
+  "level": "National",
+  "eligibility": "Engineering/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffae"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "Coal India Recruitment",
+  "conducting_body": "Coal India",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffaf"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "Power Grid Recruitment",
+  "conducting_body": "Power Grid",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "NPCIL Recruitment",
+  "conducting_body": "NPCIL",
+  "level": "National",
+  "eligibility": "Engineering/Science",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "GAIL Executive Trainee Recruitment - Variant 1",
+  "conducting_body": "GAIL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BEML Recruitment (Technical / Management) - Variant 1",
+  "conducting_body": "BEML",
+  "level": "National",
+  "eligibility": "Graduate/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 1",
+  "conducting_body": "Various PSUs",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BEML Recruitment (Technical / Management) - Variant 2",
+  "conducting_body": "BEML",
+  "level": "National",
+  "eligibility": "Graduate/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "GAIL Executive Trainee Recruitment - Variant 2",
+  "conducting_body": "GAIL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 2",
+  "conducting_body": "Various PSUs",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "GAIL Executive Trainee Recruitment - Variant 3",
+  "conducting_body": "GAIL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BEML Recruitment (Technical / Management) - Variant 3",
+  "conducting_body": "BEML",
+  "level": "National",
+  "eligibility": "Graduate/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffb9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 3",
+  "conducting_body": "Various PSUs",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffba"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "GAIL Executive Trainee Recruitment - Variant 4",
+  "conducting_body": "GAIL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffbb"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BEML Recruitment (Technical / Management) - Variant 4",
+  "conducting_body": "BEML",
+  "level": "National",
+  "eligibility": "Graduate/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffbc"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 4",
+  "conducting_body": "Various PSUs",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffbd"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "GAIL Executive Trainee Recruitment - Variant 5",
+  "conducting_body": "GAIL",
+  "level": "National",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffbe"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "BEML Recruitment (Technical / Management) - Variant 5",
+  "conducting_body": "BEML",
+  "level": "National",
+  "eligibility": "Graduate/ITI",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffbf"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "PSU",
+  "exam_name": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 5",
+  "conducting_body": "Various PSUs",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "AIIMS Nursing / Paramedical Recruitment",
+  "conducting_body": "AIIMS / NTA",
+  "level": "National",
+  "eligibility": "Nursing/Paramedical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "ESIC Staff Nurse / Paramedical",
+  "conducting_body": "ESIC",
+  "level": "National/State",
+  "eligibility": "Nursing/Paramedical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "State Medical Officer / Medical Officer (State Recruits)",
+  "conducting_body": "State Health Dept.",
+  "level": "State",
+  "eligibility": "MBBS/Medical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "ANM / GNM / Staff Nurse State Exams",
+  "conducting_body": "State Health Dept.",
+  "level": "State",
+  "eligibility": "Diploma/Nursing",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "Pharmacist / Lab Technician Recruitment",
+  "conducting_body": "State/Central Boards",
+  "level": "State/National",
+  "eligibility": "Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "Central Government Medical College / Hospital Recruitment - Variant 1",
+  "conducting_body": "Central Medical Institutes",
+  "level": "National",
+  "eligibility": "Medical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "Central Government Medical College / Hospital Recruitment - Variant 2",
+  "conducting_body": "Central Medical Institutes",
+  "level": "National",
+  "eligibility": "Medical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "Central Government Medical College / Hospital Recruitment - Variant 3",
+  "conducting_body": "Central Medical Institutes",
+  "level": "National",
+  "eligibility": "Medical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "Central Government Medical College / Hospital Recruitment - Variant 4",
+  "conducting_body": "Central Medical Institutes",
+  "level": "National",
+  "eligibility": "Medical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffc9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Healthcare",
+  "exam_name": "Central Government Medical College / Hospital Recruitment - Variant 5",
+  "conducting_body": "Central Medical Institutes",
+  "level": "National",
+  "eligibility": "Medical",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffca"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Technical",
+  "exam_name": "CPWD JE / AE",
+  "conducting_body": "CPWD",
+  "level": "Central",
+  "eligibility": "Diploma/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffcb"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Technical",
+  "exam_name": "DMRC (Delhi Metro) Technician / JE",
+  "conducting_body": "DMRC",
+  "level": "Urban/State",
+  "eligibility": "ITI/Diploma",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffcc"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Technical",
+  "exam_name": "BSNL / MTNL Technical Recruitment",
+  "conducting_body": "BSNL/MTNL",
+  "level": "National/State",
+  "eligibility": "Engineering/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffcd"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Technical",
+  "exam_name": "NIC / MeitY Technical Hiring",
+  "conducting_body": "National Informatics Centre (NIC)",
+  "level": "National",
+  "eligibility": "Graduate/Engineering",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffce"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Central Police",
+  "exam_name": "BSF Recruitment (Constable / SI)",
+  "conducting_body": "BSF",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffcf"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Central Police",
+  "exam_name": "CRPF Recruitment (Constable / SI)",
+  "conducting_body": "CRPF",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Central Police",
+  "exam_name": "CISF Recruitment (Assistants / SI)",
+  "conducting_body": "CISF",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Central Police",
+  "exam_name": "ITBP Recruitment",
+  "conducting_body": "ITBP",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Central Police",
+  "exam_name": "SSB / Assam Rifles Recruitment",
+  "conducting_body": "SSB / Assam Rifles",
+  "level": "National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "922",
+  "year_range": "2026 - 2010",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "India Post GDS / Postman / Mail Guard Recruitment",
+  "conducting_body": "India Post",
+  "level": "National",
+  "eligibility": "10th/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Cantonment Board Recruitment (Clerk / Skilled Posts)",
+  "conducting_body": "Cantonment Boards",
+  "level": "Local/National",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Apprenticeship Vacancies (Railways / PSUs / Industry)",
+  "conducting_body": "Apprenticeship Boards / PSUs",
+  "level": "National/State",
+  "eligibility": "ITI/Diploma/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Municipal Corporation / Urban Local Body Recruitments",
+  "conducting_body": "Municipal Corporations",
+  "level": "Local/State",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "State Cooperative Bank Recruitment (clerical / officer) - Variant 1",
+  "conducting_body": "State Cooperative Banks",
+  "level": "State",
+  "eligibility": "Graduate/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 1",
+  "conducting_body": "Supreme Court / NJA",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffd9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "State Cooperative Bank Recruitment (clerical / officer) - Variant 2",
+  "conducting_body": "State Cooperative Banks",
+  "level": "State",
+  "eligibility": "Graduate/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffda"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 1",
+  "conducting_body": "SAI / NCC",
+  "level": "National/State",
+  "eligibility": "Varies",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffdb"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 2",
+  "conducting_body": "Supreme Court / NJA",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffdc"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 2",
+  "conducting_body": "SAI / NCC",
+  "level": "National/State",
+  "eligibility": "Varies",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffdd"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "State Cooperative Bank Recruitment (clerical / officer) - Variant 3",
+  "conducting_body": "State Cooperative Banks",
+  "level": "State",
+  "eligibility": "Graduate/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffde"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 3",
+  "conducting_body": "Supreme Court / NJA",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffdf"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 3",
+  "conducting_body": "SAI / NCC",
+  "level": "National/State",
+  "eligibility": "Varies",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "State Cooperative Bank Recruitment (clerical / officer) - Variant 4",
+  "conducting_body": "State Cooperative Banks",
+  "level": "State",
+  "eligibility": "Graduate/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 4",
+  "conducting_body": "Supreme Court / NJA",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 4",
+  "conducting_body": "SAI / NCC",
+  "level": "National/State",
+  "eligibility": "Varies",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "State Cooperative Bank Recruitment (clerical / officer) - Variant 5",
+  "conducting_body": "State Cooperative Banks",
+  "level": "State",
+  "eligibility": "Graduate/12th",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "Other",
+  "exam_name": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 5",
+  "conducting_body": "Supreme Court / NJA",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State Generic",
+  "exam_name": "State Lecturer / Assistant Professor Recruitment (All States)",
+  "conducting_body": "State Higher Education Department",
+  "level": "State",
+  "eligibility": "Postgraduate / PhD",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State Generic",
+  "exam_name": "State Fisheries / Agriculture Department Recruitment (All States)",
+  "conducting_body": "State Agriculture Dept.",
+  "level": "State",
+  "eligibility": "Graduate/Diploma",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State Generic",
+  "exam_name": "State Forest Guard / Ranger Recruitment (All States)",
+  "conducting_body": "State Forest Dept.",
+  "level": "State",
+  "eligibility": "10th/12th/Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffe9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffea"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffeb"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffec"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffed"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffee"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffef"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Andhra Pradesh - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Andhra Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Arunachal Pradesh - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Arunachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fff9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fffa"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fffb"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fffc"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fffd"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1fffe"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba1ffff"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Assam - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Assam)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20000"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20001"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20002"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20003"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20004"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20005"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20006"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20007"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Bihar - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Bihar)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20008"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20009"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2000a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2000b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2000c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2000d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2000e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2000f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Chhattisgarh - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Chhattisgarh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20010"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20011"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20012"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20013"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20014"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20015"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20016"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20017"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Goa - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Goa)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20018"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20019"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2001a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2001b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2001c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2001d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2001e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2001f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Gujarat - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Gujarat)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20020"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20021"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20022"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20023"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20024"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20025"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20026"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20027"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Haryana - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Haryana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20028"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20029"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2002a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2002b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2002c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2002d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2002e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2002f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Himachal Pradesh - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Himachal Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20030"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20031"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20032"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20033"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20034"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20035"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20036"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20037"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Jharkhand - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Jharkhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20038"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20039"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2003a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2003b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2003c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2003d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2003e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2003f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Karnataka - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Karnataka)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20040"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20041"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20042"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20043"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20044"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20045"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20046"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20047"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Kerala - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Kerala)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20048"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20049"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2004a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2004b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2004c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2004d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2004e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2004f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Madhya Pradesh - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Madhya Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20050"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20051"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20052"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20053"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20054"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20055"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20056"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20057"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Maharashtra - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Maharashtra)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20058"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20059"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2005a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2005b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2005c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2005d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2005e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2005f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Manipur - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Manipur)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20060"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20061"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20062"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20063"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20064"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20065"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20066"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20067"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Meghalaya - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Meghalaya)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20068"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20069"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2006a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2006b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2006c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2006d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2006e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2006f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Mizoram - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Mizoram)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20070"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20071"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20072"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20073"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20074"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20075"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20076"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20077"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Nagaland - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Nagaland)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20078"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20079"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2007a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2007b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2007c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2007d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2007e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2007f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Odisha - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Odisha)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20080"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20081"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20082"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20083"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20084"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20085"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20086"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20087"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Punjab - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Punjab)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20088"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20089"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2008a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2008b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2008c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2008d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2008e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2008f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Rajasthan - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Rajasthan)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20090"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20091"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20092"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20093"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20094"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20095"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20096"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20097"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Sikkim - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Sikkim)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20098"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba20099"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2009a"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2009b"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2009c"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2009d"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2009e"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba2009f"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tamil Nadu - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Tamil Nadu)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Telangana - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Telangana)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200a9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200aa"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ab"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ac"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ad"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ae"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200af"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Tripura - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Tripura)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttar Pradesh - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Uttar Pradesh)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b8"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200b9"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ba"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200bb"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200bc"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200bd"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200be"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200bf"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "Uttarakhand - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (Uttarakhand)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c0"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State PSC Civil Services (State)",
+  "conducting_body": "State Public Service Commission (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c1"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State PSC Combined Services",
+  "conducting_body": "State Public Service Commission (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c2"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State PSC Assistant Engineer (AE/JE)",
+  "conducting_body": "State Public Service Commission (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c3"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State PSC Police Services / SI",
+  "conducting_body": "State Public Service Commission / State Police (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c4"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State PSC Group 2 / Group B Posts",
+  "conducting_body": "State Public Service Commission (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c5"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State TET (Teacher Eligibility Test)",
+  "conducting_body": "State Education Board (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c6"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State Police Constable Recruitment",
+  "conducting_body": "State Police Department (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c7"
+  },
+  "track_name": "Govt Exams Track",
+  "category": "State PSC / State Exams",
+  "exam_name": "West Bengal - State Judiciary / Civil Judge Recruitment",
+  "conducting_body": "State High Court (West Bengal)",
+  "level": "State",
+  "eligibility": "Varies (10th/12th/Graduate/Law/Engineering)",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c8"
+  },
+  "track_name": "Banking Track",
+  "category": "IBPS",
+  "exam_name": "IBPS PO",
+  "conducting_body": "IBPS",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "972",
+  "year_range": "2015-2024",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200c9"
+  },
+  "track_name": "Banking Track",
+  "category": "IBPS",
+  "exam_name": "IBPS Clerk",
+  "conducting_body": "IBPS",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "972",
+  "year_range": "2015-2024",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ca"
+  },
+  "track_name": "Banking Track",
+  "category": "IBPS",
+  "exam_name": "IBPS RRB Officer Scale I (PO)",
+  "conducting_body": "IBPS",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "972",
+  "year_range": "2015-2024",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200cb"
+  },
+  "track_name": "Banking Track",
+  "category": "IBPS",
+  "exam_name": "IBPS RRB Office Assistant (Clerk)",
+  "conducting_body": "IBPS",
+  "level": "National",
+  "eligibility": "12th/Graduate",
+  "frequency": "Annual",
+  "question_count": "972",
+  "year_range": "2015-2024",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200cc"
+  },
+  "track_name": "Banking Track",
+  "category": "IBPS",
+  "exam_name": "IBPS Specialist Officer (SO)",
+  "conducting_body": "IBPS",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "972",
+  "year_range": "2015-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200cd"
+  },
+  "track_name": "Banking Track",
+  "category": "SBI",
+  "exam_name": "SBI PO",
+  "conducting_body": "State Bank of India (SBI)",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "2,717",
+  "year_range": "2015-2024",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ce"
+  },
+  "track_name": "Banking Track",
+  "category": "SBI",
+  "exam_name": "SBI Clerk",
+  "conducting_body": "SBI",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "2,717",
+  "year_range": "2015-2024",
+  "not_conducted": "2016, 2017",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200cf"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "RBI Grade B",
+  "conducting_body": "Reserve Bank of India (RBI)",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "2,717",
+  "year_range": "2025 - 2012",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d0"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "RBI Assistant",
+  "conducting_body": "RBI",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d1"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "NABARD Grade A",
+  "conducting_body": "NABARD",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d2"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "NABARD Grade B",
+  "conducting_body": "NABARD",
+  "level": "National",
+  "eligibility": "Postgraduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d3"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "SIDBI Grade A",
+  "conducting_body": "SIDBI",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d4"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "EXIM Bank Recruitment",
+  "conducting_body": "EXIM Bank",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d5"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 4",
+  "conducting_body": "IPPB / RRBs",
+  "level": "National/Regional",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d6"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 1",
+  "conducting_body": "IPPB / RRBs",
+  "level": "National/Regional",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d7"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 5",
+  "conducting_body": "IPPB / RRBs",
+  "level": "National/Regional",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d8"
+  },
+  "track_name": "Banking Track",
+  "category": "RBI / Dev Banks",
+  "exam_name": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 2",
+  "conducting_body": "IPPB / RRBs",
+  "level": "National/Regional",
+  "eligibility": "Graduate",
+  "frequency": "Varies",
+  "question_count": "",
+  "year_range": "2010-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200d9"
+  },
+  "track_name": "JEE / NEET Track",
+  "category": "JEE — Joint Entrance Examination",
+  "exam_name": "JEE Main",
+  "conducting_body": "JEE",
+  "level": "National",
+  "eligibility": "Graduate",
+  "frequency": "Annual",
+  "question_count": "13,230",
+  "year_range": "2026 - 2010",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200da"
+  },
+  "track_name": "JEE / NEET Track",
+  "category": "JEE — Joint Entrance Examination",
+  "exam_name": "JEE Advanced",
+  "conducting_body": "JEE",
+  "level": "National",
+  "eligibility": "Graduate (Science / Engineering background preferred)",
+  "frequency": "Annual",
+  "question_count": "1,970",
+  "year_range": "2025 - 2010",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200db"
+  },
+  "track_name": "JEE / NEET Track",
+  "category": "NEET — National Eligibility cum Entrance Test",
+  "exam_name": "NEET UG",
+  "conducting_body": "NEET ",
+  "level": "National",
+  "eligibility": "Engineering Degree",
+  "frequency": "Annual",
+  "question_count": "21,980",
+  "year_range": "2026 - 2010",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200dc"
+  },
+  "track_name": "JEE / NEET Track",
+  "category": "NEET — National Eligibility cum Entrance Test",
+  "exam_name": "NEET PG",
+  "conducting_body": "NEET ",
+  "level": "National",
+  "eligibility": "Graduate / 12th (depending on academy)",
+  "frequency": "Annual",
+  "question_count": "12,137",
+  "year_range": "2025 - 2012",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200dd"
+  },
+  "track_name": "JEE / NEET Track",
+  "category": "NEET — National Eligibility cum Entrance Test",
+  "exam_name": "NEET MDS",
+  "conducting_body": "NEET ",
+  "level": "National",
+  "eligibility": "12th Pass",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2017-2025",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200de"
+  },
+  "track_name": "JEE / NEET Track",
+  "category": "NEET — National Eligibility cum Entrance Test",
+  "exam_name": "NEET SS",
+  "conducting_body": "NEET ",
+  "level": "National",
+  "eligibility": "Graduate (Medical – MBBS)",
+  "frequency": "Annual",
+  "question_count": "",
+  "year_range": "2017-2025",
+  "not_conducted": "2018, 2019",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200df"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Arrays",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "1930",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e0"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Strings",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "944",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e1"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Hashing",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "668",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e2"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Linked Lists",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "170",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e3"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Stack",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "174",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e4"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Queue / Deque",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "187",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e5"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "344",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e6"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Trees",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "373",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e7"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Binary Search Trees (BST)",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "79",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e8"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Graphs",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "329",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200e9"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Recursion",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "146",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ea"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Backtracking",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "106",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200eb"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Dynamic Programming",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "617",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ec"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Greedy Algorithms",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "378",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ed"
+  },
+  "track_name": "Tech Track",
+  "category": "DSA — Data Structures & Algorithms",
+  "exam_name": "Heap / Priority Queue",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "NO Sub-Domain",
+  "frequency": "",
+  "question_count": "165",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ee"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Core Programming",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "Language Syntax & OOP",
+  "frequency": "",
+  "question_count": "130",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200ef"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Backend Development",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "APIs & Server Logic",
+  "frequency": "",
+  "question_count": "65",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200f0"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Databases",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "SQL & Schema Design",
+  "frequency": "",
+  "question_count": "17",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200f1"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Debugging & Optimization",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "Testing & Profiling",
+  "frequency": "",
+  "question_count": "15",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200f2"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "Cloud & DevOps",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "Infrastructure & CI/CD",
+  "frequency": "",
+  "question_count": "7",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce5a5c3d6f8895bba200f3"
+  },
+  "track_name": "Tech Track",
+  "category": "Domain-Based",
+  "exam_name": "System Design",
+  "conducting_body": "",
+  "level": "",
+  "eligibility": "Scalable Architecture",
+  "frequency": "",
+  "question_count": "18",
+  "year_range": "",
+  "not_conducted": "",
+  "__v": 0
+}]

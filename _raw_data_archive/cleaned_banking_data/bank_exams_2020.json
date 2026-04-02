@@ -1,0 +1,86 @@
+[
+  {
+    "difficulty": "Medium",
+    "question": "Select the INCORRECT statement regarding variation in plants.",
+    "option": {
+      "A": "Individuals within a population are unique due to the variations.",
+      "B": "They are produced due to inaccuracy in the copying of DNA.",
+      "C": "Asexual reproduction is a regular source of variations in a population.",
+      "D": "They are produced during sexual reproduction."
+    },
+    "answer": "C",
+    "level": "National/Bank Exam",
+    "year": "2020",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "Statement C is incorrect. Asexual reproduction generally produces offspring that are genetically identical to the parent (clones), leading to very little variation. Variations are primarily introduced through mutations (inaccuracies in DNA copying, as stated in B) and recombination during sexual reproduction (as stated in D). Individuals within a population are indeed unique due to these variations (Statement A).",
+    "pdf_name": "IBPS-PO-Mains-Previous-Year-Paper-2020-(Solutions).pdf",
+    "subject": "Biology",
+    "subtopic": "Variation",
+    "topic": "Genetics"
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Which of the following is a common characteristic of both acids and bases when dissolved in water?",
+    "option": {
+      "A": "Both produce carbon dioxide when reacted with metal carbonates.",
+      "B": "Both produce ions that conduct electricity in aqueous solutions.",
+      "C": "Both release hydrogen gas on reacting with metals like zinc.",
+      "D": "Both turn blue litmus red."
+    },
+    "answer": "B",
+    "level": "National/Bank Exam",
+    "year": "2020",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "When acids and bases dissolve in water, they ionize (or dissociate) into ions. These ions are mobile and carry charge, making the aqueous solutions conductive of electricity. Acids react with metal carbonates to produce CO₂, and they react with active metals to produce H₂. Bases turn red litmus blue.",
+    "pdf_name": "IBPS-PO-Pre-2020-Memory-Based-Paper.pdf",
+    "subject": "General Science",
+    "subtopic": "Acids and Bases",
+    "topic": "Chemistry"
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT formed in the chlor-alkali process?",
+    "option": {
+      "A": "Sodium carbonate",
+      "B": "Hydrogen gas",
+      "C": "Chlorine gas",
+      "D": "Sodium hydroxide"
+    },
+    "answer": "A",
+    "level": "National/Bank Exam",
+    "year": "2020",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "The chlor-alkali process involves the electrolysis of brine (aqueous sodium chloride). The main products formed are chlorine gas (Cl₂), hydrogen gas (H₂), and sodium hydroxide (NaOH). Sodium carbonate (Na₂CO₃) is not a direct product of the chlor-alkali process; it is typically produced via the Solvay process.",
+    "pdf_name": "IBPS-PO-Pre-2020-Memory-Based-Paper.pdf",
+    "subject": "General Science",
+    "subtopic": "Industrial Chemistry",
+    "topic": "Chemistry"
+  },
+  {
+    "difficulty": "Easy",
+    "question": "Which of the following alcohols is commonly used as a fuel or fuel additive?",
+    "option": {
+      "A": "Methanol",
+      "B": "Butanol",
+      "C": "Ethanol",
+      "D": "Propanol"
+    },
+    "answer": "C",
+    "level": "National/Bank Exam",
+    "year": "2020",
+    "department": "Banking",
+    "eligibility": "Graduate",
+    "exam_type": "IBPS",
+    "explanation": "Ethanol (C2H5OH) is widely used as a biofuel and fuel additive, often blended with gasoline. It is produced through fermentation of sugars or starches. Methanol can also be used as fuel, but ethanol is more common as a fuel additive for internal combustion engines. Butanol and propanol have potential as fuels but are not as widely used as ethanol.",
+    "pdf_name": "IBPS-PO-Pre-2020-Memory-Based-Paper.pdf",
+    "subject": "General Science",
+    "subtopic": "Organic Chemistry",
+    "topic": "Chemistry"
+  }
+]

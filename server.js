@@ -122,7 +122,11 @@ function mapToCollection(dept) {
     
     // Defence
     if (d.includes("afcat") || d.includes("defence_afcad") || d.includes("afcad")) return "defence_afcad";
-    if (d.includes("defence") || d.includes("army") || d.includes("navy") || d.includes("air force") || d.includes("coast guard") || d.includes("agniveer") || d.includes("military")) return "defence";
+    if (d.includes("agniveer")) return "indian_army_agniveer";
+    if (d.includes("navy ssr") || d.includes("navy aa")) return "indian_navy_ssr";
+    if (d.includes("coast guard")) return "coast_guard";
+    if (d.includes("territorial army")) return "territorial_army_officer";
+    if (d.includes("defence") || d.includes("army") || d.includes("navy") || d.includes("air force") || d.includes("military")) return "defence";
     
     // JEE sub-variants
     if (d.includes("jee advance")) return "jee_advance";
@@ -158,7 +162,7 @@ app.get("/years", async (req, res) => {
     const dedicated = [
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
         "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so", "engineering_services_examination_(ESE/IES)",
-        "coding_problems"
+        "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer"
     ];
     let filter = { year: { $gte: "1900" } };
     

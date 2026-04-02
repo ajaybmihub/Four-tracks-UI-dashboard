@@ -35,6 +35,7 @@ const CATEGORY_CONFIG = {
 };
 
 function getCfg(category) {
+  if (!category) return { icon: "ic-globe", color: "ic-purple" };
   if (CATEGORY_CONFIG[category]) return CATEGORY_CONFIG[category];
   const lower = category.toLowerCase();
   if (lower.includes('jee'))      return { icon: "ic-atom",        color: "ic-blue"   };

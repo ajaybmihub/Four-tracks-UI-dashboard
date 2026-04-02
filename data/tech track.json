@@ -1,149 +1,254 @@
 [
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Arrays",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "1930"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Arrays",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "1930",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Strings",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "944"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Strings",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "944",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Hashing",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "668"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Hashing",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "668",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Linked Lists",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "170"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Linked Lists",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "170",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Stack",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "174"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Stack",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "174",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Queue / Deque",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "187"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Queue / Deque",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "187",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Binary Search",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "344"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Binary Search",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "344",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Trees",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "373"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Trees",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "373",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Binary Search Trees (BST)",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "79"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Binary Search Trees (BST)",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "79",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Graphs",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "329"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Graphs",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "329",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Recursion",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "146"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Recursion",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "146",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Backtracking",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "106"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Backtracking",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "106",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Dynamic Programming",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "617"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Dynamic Programming",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "617",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Greedy Algorithms",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "378"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Greedy Algorithms",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "378",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
-    "Category": "DSA — Data Structures & Algorithms",
-    "Topics and Domain Covered": "Heap / Priority Queue",
-    "Sub-Domain": "NO Sub-Domain",
-    "Question Count": "165"
+    "Category": "DSA \u2014 Data Structures & Algorithms",
+    "Exam Name": "Heap / Priority Queue",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "NO Sub-Domain",
+    "Frequency": "",
+    "Question Count": "165",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
     "Category": "Domain-Based",
-    "Topics and Domain Covered": "Core Programming",
-    "Sub-Domain": "Language Syntax & OOP",
-    "Question Count": "130"
+    "Exam Name": "Core Programming",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "Language Syntax & OOP",
+    "Frequency": "",
+    "Question Count": "130",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
     "Category": "Domain-Based",
-    "Topics and Domain Covered": "Backend Development",
-    "Sub-Domain": "APIs & Server Logic",
-    "Question Count": "65"
+    "Exam Name": "Backend Development",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "APIs & Server Logic",
+    "Frequency": "",
+    "Question Count": "65",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
     "Category": "Domain-Based",
-    "Topics and Domain Covered": "Databases",
-    "Sub-Domain": "SQL & Schema Design",
-    "Question Count": "17"
+    "Exam Name": "Databases",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "SQL & Schema Design",
+    "Frequency": "",
+    "Question Count": "17",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
     "Category": "Domain-Based",
-    "Topics and Domain Covered": "Debugging & Optimization",
-    "Sub-Domain": "Testing & Profiling",
-    "Question Count": "15"
+    "Exam Name": "Debugging & Optimization",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "Testing & Profiling",
+    "Frequency": "",
+    "Question Count": "15",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
     "Category": "Domain-Based",
-    "Topics and Domain Covered": "Cloud & DevOps",
-    "Sub-Domain": "Infrastructure & CI/CD",
-    "Question Count": "7"
+    "Exam Name": "Cloud & DevOps",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "Infrastructure & CI/CD",
+    "Frequency": "",
+    "Question Count": "7",
+    "Year": "",
+    "Not Conducted": ""
   },
   {
     "Track Name": "Tech Track",
     "Category": "Domain-Based",
-    "Topics and Domain Covered": "System Design",
-    "Sub-Domain": "Scalable Architecture",
-    "Question Count": "18"
+    "Exam Name": "System Design",
+    "Conducting Body": "",
+    "Level": "",
+    "Eligibility": "Scalable Architecture",
+    "Frequency": "",
+    "Question Count": "18",
+    "Year": "",
+    "Not Conducted": ""
   }
 ]

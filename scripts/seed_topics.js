@@ -3,7 +3,7 @@ require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 const mongoose = require('mongoose');
 const fs = require('fs');
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://pf3ihub:42eoLwZCRIdRO8Yz@tat-qestion-bank.qjtlk.mongodb.net/quiz_bank?retryWrites=true&w=majority&appName=TAT-Qestion-Bank";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://pf3ihub:42eoLwZCRIdRO8Yz@tat-qestion-bank.qjtlk.mongodb.net/goverment_qb?retryWrites=true&w=majority&appName=TAT-Qestion-Bank";
 
 // ── TOPIC SCHEMA ──
 const topicSchema = new mongoose.Schema({
@@ -15,8 +15,10 @@ const topicSchema = new mongoose.Schema({
   eligibility: String,
   frequency: String,
   question_count: String,
-  year_range: String
-}, { collection: 'topics' }); // Specifically targeting the 'topics' collection (lowercase)
+  year_range: String,
+  not_conducted: String,
+  paper_availability: String
+}, { collection: 'topics', strict: false }); // Specifically targeting the 'topics' collection (lowercase)
 
 const Topic = mongoose.model('Topic', topicSchema);
 
@@ -49,13 +51,15 @@ async function seedTopics() {
         const normalized = data.map(item => ({
           track_name: item["Track Name"],
           category: item["Category"],
-          exam_name: item["Exam Name"] || item["Topics and Domain Covered"],
+          exam_name: (item["Exam Name"] || item["Topics and Domain Covered"] || "").replace(/[\r\n]+/g, "").trim(),
           conducting_body: item["Conducting Body"],
           level: item["Level"],
           eligibility: item["Eligibility"] || item["Sub-Domain"],
           frequency: item["Frequency"],
           question_count: item["Question Count"],
-          year_range: item["Year"]
+          year_range: item["Year"],
+          not_conducted: item["Not Conducted"],
+          paper_availability: item["Paper Availability"] || item["paper_availability"]
         }));
         allTopics = [...allTopics, ...normalized];
       }

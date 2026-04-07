@@ -95,8 +95,12 @@ function mapToCollection(dept) {
     
     // Exact/Specific matches for UPSC sub-exams
     if (d.includes("medical services") || d.includes("cms")) return "upse_cms";
-    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("capf") || d.includes("geo-scientist")) return "upsc";
+    if (d.includes("civil services examination") || d.includes("upsc cse") || d === "cse") return "upsc_cse";
+    if (d.includes("combined geo-scientist") || d.includes("cgse")) return "combined_geo_scientist";
+    if (d.includes("epfo enforcement officer") || d.includes("epfo ao")) return "epfo_enforcement_officer";
     if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "engineering_services_examination_(ESE/IES)";
+    
+    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("capf") || d.includes("geo-scientist")) return "upsc";
     
     // 1. Precise Banking Matches (HIGHEST PRIORITY)
     if (d.includes("office assistant") || d.includes("rrb clerk") || d.includes("rrb po") || d.includes("officer scale i")) {
@@ -327,6 +331,9 @@ async function calculateProgress() {
         'indian_navy_ssr': 'Govt Exams Track',
         'coast_guard': 'Govt Exams Track',
         'territorial_army_officer': 'Govt Exams Track',
+        'upsc_cse': 'Govt Exams Track',
+        'combined_geo_scientist': 'Govt Exams Track',
+        'epfo_enforcement_officer': 'Govt Exams Track',
 
         // Banking Track
         'bank_exams': 'Banking Track',
@@ -465,7 +472,10 @@ async function calculateProgress() {
         'indian_army_agniveer': 'Indian Army Agniveer',
         'indian_navy_ssr': 'Indian Navy SSR',
         'coast_guard': 'Coast Guard Navik / Yantrik',
-        'territorial_army_officer': 'Territorial Army Officer'
+        'territorial_army_officer': 'Territorial Army Officer',
+        'upsc_cse': 'Civil Services Examination (CSE)',
+        'combined_geo_scientist': 'Combined Geo-Scientist Examination',
+        'epfo_enforcement_officer': 'EPFO Enforcement Officer/Accounts Officer'
       };
 
       if (singleExamOverrides[col]) {

@@ -323,6 +323,10 @@ async function calculateProgress() {
         'technical': 'Govt Exams Track',
         'defence_afcad': 'Govt Exams Track',
         'state_generic': 'Govt Exams Track',
+        'indian_army_agniveer': 'Govt Exams Track',
+        'indian_navy_ssr': 'Govt Exams Track',
+        'coast_guard': 'Govt Exams Track',
+        'territorial_army_officer': 'Govt Exams Track',
 
         // Banking Track
         'bank_exams': 'Banking Track',
@@ -457,7 +461,11 @@ async function calculateProgress() {
         'sbi_po': 'SBI PO',
         'ibps_clerk': 'IBPS Clerk',
         'ibps_po': 'IBPS PO',
-        'engineering_services_examination_(ESE/IES)': 'Engineering Services Examination (ESE/IES)'
+        'engineering_services_examination_(ESE/IES)': 'Engineering Services Examination (ESE/IES)',
+        'indian_army_agniveer': 'Indian Army Agniveer',
+        'indian_navy_ssr': 'Indian Navy SSR',
+        'coast_guard': 'Coast Guard Navik / Yantrik',
+        'territorial_army_officer': 'Territorial Army Officer'
       };
 
       if (singleExamOverrides[col]) {

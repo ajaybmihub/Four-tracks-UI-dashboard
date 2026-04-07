@@ -1,0 +1,217 @@
+[
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Panchayati Raj",
+    "subtopic": "Elections",
+    "difficulty": "Medium",
+    "question": "Q51. Holding of the elections for the Panchayats is decided by the:-",
+    "option": {
+      "A": "Election Commission",
+      "B": "State Government",
+      "C": "District Magistrate",
+      "D": "Union Government"
+    },
+    "answer": "B",
+    "explanation": "Under the Constitution of India, the responsibility for conducting elections to the Panchayati Raj institutions lies with the State Election Commission, but the decision to hold the elections is determined by the State Government.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe5bfde1eac35232b82"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Economics",
+    "topic": "Banking",
+    "subtopic": "Currency",
+    "difficulty": "Easy",
+    "question": "Q52. Ten rupee currency notes bear the signature of the?",
+    "option": {
+      "A": "Finance Minister",
+      "B": "RBI Governor",
+      "C": "Finance Secretary",
+      "D": "Chief Economic Adviser"
+    },
+    "answer": "B",
+    "explanation": "Currency notes in India (except the one-rupee note) are issued by the Reserve Bank of India and bear the signature of the Governor of the Reserve Bank of India.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe57b19f6b06a9776fa"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "subtopic": "Concepts",
+    "difficulty": "Medium",
+    "question": "Q53. Fiscal Policy is concerned with?",
+    "option": {
+      "A": "Public revenue and expenditure",
+      "B": "Issue of currency",
+      "C": "Population control",
+      "D": "None of these"
+    },
+    "answer": "A",
+    "explanation": "Fiscal policy is the use of government revenue collection (taxes) and expenditure (spending) to influence a country's economy.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe5d03af396571e5444"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "International Relations",
+    "subtopic": "Infrastructure",
+    "difficulty": "Easy",
+    "question": "Q54. “Gwadar Port” was developed and operated by China and is located in which of the following country?",
+    "option": {
+      "A": "Sri Lanka",
+      "B": "Pakistan",
+      "C": "Afghanisthan",
+      "D": "China"
+    },
+    "answer": "B",
+    "explanation": "Gwadar Port is a warm-water, deep-sea port located in Gwadar, Balochistan, Pakistan.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe5ba8e4b6d81f2ddd8"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Agriculture",
+    "subtopic": "Crops",
+    "difficulty": "Easy",
+    "question": "Q55. Coffee is produced largely in",
+    "option": {
+      "A": "Assam",
+      "B": "West Bengal",
+      "C": "Karnataka",
+      "D": "Tamil Nadu"
+    },
+    "answer": "C",
+    "explanation": "Karnataka is the largest producer of coffee in India, accounting for a significant portion of the total national production.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe50ff5c4526e52d1cf"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Territorial Army",
+    "difficulty": "Easy",
+    "question": "Q56. The Territorial Army in India was raised by   British    on  1920",
+    "option": {},
+    "answer": "British, 1920",
+    "explanation": "The Territorial Army was officially raised by the British in India in 1920 under the Territorial Army Act.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe5c9c5cdc6a44921ae"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "World Capitals",
+    "difficulty": "Easy",
+    "question": "Q57. Capital of Brazil is -   Brasilia",
+    "option": {},
+    "answer": "Brasilia",
+    "explanation": "The capital city of Brazil is Brasilia.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe59ede0e60a9e79afd"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Military Operations",
+    "difficulty": "Medium",
+    "question": "Q58. The operation in which Osama-bin-Laden was killed by the US troops is called   Operation Neptune Spear",
+    "option": {},
+    "answer": "Operation Neptune Spear",
+    "explanation": "Operation Neptune Spear was the US military operation that resulted in the death of Osama bin Laden in Abbottabad, Pakistan, on May 2, 2011.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe5242c95613a5a270b"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "International Organizations",
+    "subtopic": "United Nations",
+    "difficulty": "Medium",
+    "question": "Q59. The present Secretary General, United Nations Organisation is -   Ban Ki Moon",
+    "option": {},
+    "answer": "Ban Ki Moon",
+    "explanation": "Ban Ki-moon served as the Secretary-General of the United Nations from 2007 to 2016.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe5ae8fd01b609079e7"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "General Knowledge",
+    "topic": "International Organizations",
+    "subtopic": "WTO",
+    "difficulty": "Medium",
+    "question": "Q60. Present Director General of WTO is -    Roberto Azevêdo",
+    "option": {},
+    "answer": "Roberto Azevêdo",
+    "explanation": "Roberto Azevêdo served as the Director-General of the World Trade Organization from 2013 to 2020.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "fe31fe42-b568-4e9a-93d7-1b0cade8daf6.pdf",
+    "_id": {
+      "$oid": "69c74fe55a401e23bf000c51"
+    }
+  }
+]

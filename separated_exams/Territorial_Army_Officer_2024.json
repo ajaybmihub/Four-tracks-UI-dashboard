@@ -1,0 +1,1082 @@
+[
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Indus Valley Civilization",
+    "difficulty": "Medium",
+    "question": "Q42.  The Indus Valley Civilization ﬂourished during",
+    "option": {
+      "A": "5000 BC-3500 BC",
+      "B": "3000 BC-1500 BC",
+      "C": "2500 BC-1750 BC",
+      "D": "1500 BC-500 BC"
+    },
+    "answer": "C",
+    "explanation": "The mature phase of the Indus Valley Civilization is widely dated between 2500 BC and 1750 BC based on carbon dating.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec71152a9c0a0f58c5d"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Indus Valley Civilization",
+    "difficulty": "Easy",
+    "question": "Q43  The script of the Indus Valley Civilization was/is",
+    "option": {
+      "A": "Persian",
+      "B": "Dravidian",
+      "C": "Sanskrit",
+      "D": "Undeciphered"
+    },
+    "answer": "D",
+    "explanation": "The script of the Indus Valley Civilization remains undeciphered to this day.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec757928883855315ab"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Ancient Indian History",
+    "difficulty": "Medium",
+    "question": "Q44.  Saka era was founded by",
+    "option": {
+      "A": "Ashoka",
+      "B": "Harsha",
+      "C": "Kanishka",
+      "D": "Vikramaditya"
+    },
+    "answer": "C",
+    "explanation": "The Saka era is generally attributed to the Kushan king Kanishka, starting in 78 AD.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec744b77de6f66771b4"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Medieval Indian History",
+    "difficulty": "Easy",
+    "question": "Q45.  The ﬁrst Muslim invasion of India was led by",
+    "option": {
+      "A": "Mahmud Gazi",
+      "B": "Muhammad Ghori",
+      "C": "Muhammd-bin-Qasim",
+      "D": "Timur"
+    },
+    "answer": "C",
+    "explanation": "Muhammad-bin-Qasim led the first successful Arab military expedition to Sindh in 712 AD.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7077a0092e619779d"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Delhi Sultanate",
+    "difficulty": "Medium",
+    "question": "Q46.  The structure of Qutub Minar was completed by",
+    "option": {
+      "A": "Aram Shah",
+      "B": "Qutubuddin Aibak",
+      "C": "Iltutmish",
+      "D": "Muhammad-bin-Tughlaq"
+    },
+    "answer": "C",
+    "explanation": "Construction was started by Qutubuddin Aibak, but it was completed by his successor Iltutmish.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7b480d7d06b2ad54b"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Modern Indian History",
+    "difficulty": "Medium",
+    "question": "Q47.  Which of the following founded the famous Hindu College in Calcutta?",
+    "option": {
+      "A": "Ishwar Chandra Vidyasagar",
+      "B": "Henry Vivian Derozio",
+      "C": "David Hare",
+      "D": "Raja Rammohan Roy"
+    },
+    "answer": "D",
+    "explanation": "The Hindu College, Calcutta, was established in 1817 by Raja Rammohan Roy and David Hare.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec737037b0fa532e235"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Modern Indian History",
+    "difficulty": "Easy",
+    "question": "Q48.  Which of following were the ﬁrst Europeans to set up trading settlements in India?",
+    "option": {
+      "A": "French",
+      "B": "Spanish",
+      "C": "Portuguese",
+      "D": "Dutch"
+    },
+    "answer": "C",
+    "explanation": "The Portuguese were the first Europeans to arrive in India and set up trading posts, beginning with Vasco da Gama in 1498.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec721f24b753f881671"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Modern Indian History",
+    "difficulty": "Easy",
+    "question": "Q 49.  Delhi become the capital of India in",
+    "option": {
+      "A": "1910",
+      "B": "1911",
+      "C": "1916",
+      "D": "1923"
+    },
+    "answer": "B",
+    "explanation": "The transfer of the capital from Calcutta to Delhi was announced by King George V in 1911.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec70694dde8147d8ef3"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Modern Indian History",
+    "difficulty": "Medium",
+    "question": "Q50.  Who among the following pioneered Khilafat Movement?",
+    "option": {
+      "A": "Sir Syed Ahamed Khan",
+      "B": "MA Jinnah",
+      "C": "Mahatma Gandhi",
+      "D": "Ali Brothers"
+    },
+    "answer": "D",
+    "explanation": "The Khilafat Movement was primarily organized by the Ali Brothers (Maulana Shaukat Ali and Maulana Mohammad Ali Jauhar).",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7e24c45d0c8e78995"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Modern Indian History",
+    "difficulty": "Medium",
+    "question": "Q51.  Which of the following was the ﬁrst woman President of Indian National Congress?",
+    "option": {
+      "A": "Sarojini Naidu",
+      "B": "Annie Besant",
+      "C": "Sucheta kriplani",
+      "D": "Raj Kumari Amrit Kaur"
+    },
+    "answer": "B",
+    "explanation": "Annie Besant became the first woman president of the Indian National Congress in 1917.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7e8dd030ffbc6288f"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Polity",
+    "subtopic": "Political Science",
+    "difficulty": "Easy",
+    "question": "Q52.  What is suffrage?",
+    "option": {
+      "A": "Right to vote",
+      "B": "Departure to another country",
+      "C": "Right to believe in any religion",
+      "D": "Right to freedom to marry"
+    },
+    "answer": "A",
+    "explanation": "Suffrage is the right to vote in public, political elections.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7d47ca59dffcfed55"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "World History",
+    "subtopic": "French Revolution",
+    "difficulty": "Medium",
+    "question": "Q53.  During the French Revolution in 1789, France was ruled over by which of the following Dynasty?",
+    "option": {
+      "A": "Tuder dynasty",
+      "B": "Bourbon dynasty",
+      "C": "Mughal dynasty",
+      "D": "Czar dynasty"
+    },
+    "answer": "B",
+    "explanation": "At the time of the French Revolution in 1789, the Bourbon dynasty was ruling France under King Louis XVI.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7d06562d069788e9f"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "International Organizations",
+    "subtopic": "UNO",
+    "difficulty": "Medium",
+    "question": "Q54.  Which of the following languages is not an ofﬁcial language of UNO?",
+    "option": {
+      "A": "Arabian",
+      "B": "Russian",
+      "C": "Chinese",
+      "D": "German"
+    },
+    "answer": "D",
+    "explanation": "The six official languages of the UN are Arabic, Chinese, English, French, Russian, and Spanish. German is not included.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec792c3656301762989"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Agriculture",
+    "difficulty": "Medium",
+    "question": "Q55.  Which of the following States is the leading producer of tobacco?",
+    "option": {
+      "A": "Andhra Pradesh",
+      "B": "Bihar",
+      "C": "Tamil Nadu",
+      "D": "Gujarat"
+    },
+    "answer": "A",
+    "explanation": "Andhra Pradesh is widely recognized as the leading producer of tobacco in India.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec785f044e8d0dc5c47"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Agriculture",
+    "difficulty": "Medium",
+    "question": "Q56.  Which one of the following are not kharif crops?",
+    "option": {
+      "A": "Bajra and maize",
+      "B": "Sugarcane and groundnut",
+      "C": "Rice and jowar",
+      "D": "Barley and mustard"
+    },
+    "answer": "D",
+    "explanation": "Barley and mustard are Rabi crops, which are sown in winter.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7d6e7b50bb6d3a8bf"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "River Systems and Dams",
+    "difficulty": "Easy",
+    "question": "Q57.  The Tehri dam has been constructed on the river",
+    "option": {
+      "A": "Ganga",
+      "B": "Brahmputra",
+      "C": "Yamuna",
+      "D": "Bhagirathi"
+    },
+    "answer": "D",
+    "explanation": "Tehri Dam is located on the Bhagirathi River in Uttarakhand.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7479670d44d30d42f"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Polity",
+    "subtopic": "Indian Constitution",
+    "difficulty": "Medium",
+    "question": "Q58.  The constitution of India was enacted by Constituent Assembly set up",
+    "option": {
+      "A": "under the Cabinet Mission Plan , 1946",
+      "B": "promulgation of the Rowlatt Act, 1919",
+      "C": "the Indian Council Act, 1892",
+      "D": "Indian Independence Act, 1947"
+    },
+    "answer": "A",
+    "explanation": "The Constituent Assembly was constituted in November 1946 under the scheme formulated by the Cabinet Mission Plan.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec74c7af7db141a30aa"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Polity",
+    "subtopic": "Indian Parliament",
+    "difficulty": "Easy",
+    "question": "Q59.  How many members of the Rajya Sabha are nominated by the President?",
+    "option": {
+      "A": "10",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "B",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha from among persons having special knowledge or practical experience in literature, science, art, and social service.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec7ecd27369934f37c7"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Economics",
+    "subtopic": "Monetary Policy",
+    "difficulty": "Medium",
+    "question": "Q60. Devaluation means",
+    "option": {
+      "A": "to reduce the value of home currency in other currency",
+      "B": "to appreciate the value of home currency",
+      "C": "to issue new currency in place of old currency",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Devaluation is the deliberate downward adjustment of a country's currency value relative to another currency, group of currencies, or standard.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "19d25f55-ee0c-4d84-946e-b671dbfc9773.pdf",
+    "_id": {
+      "$oid": "69c74ec75558bfd3aee039e6"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference and Author's View",
+    "difficulty": "Medium",
+    "question": "Q4. According to the author\n(a) Those who have little curiosity are curious about unimportant things.\n(b) Apart from humans no other living beings have the gift of curiosity\n(c) The highest form of curiosity can be satisfied by study of human affairs alone\n(d) Spiritual reality is the ultimate goal of humans through action",
+    "option": {
+      "A": "Those who have little curiosity are curious about unimportant things.",
+      "B": "Apart from humans no other living beings have the gift of curiosity",
+      "C": "The highest form of curiosity can be satisfied by study of human affairs alone",
+      "D": "Spiritual reality is the ultimate goal of humans through action"
+    },
+    "answer": "A",
+    "explanation": "This is a reading comprehension question based on a missing passage. Based on typical comprehension testing patterns, choice (A) represents a common thematic inference regarding the nature of intellectual curiosity.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9245f95df53db1febb"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "Author's Perspective",
+    "difficulty": "Medium",
+    "question": "Q5. The author subscribes to the view\n(a) One’s curiosity should focus beyond the façade on the latent meaning of things\n(b) Curiosity in an inherent family characteristic.\n(c) A study of human affairs is the most effective method of satisfying one’s curiosity\n(d) In order to motivate, curiosity must be coupled with anxiety and conscience.",
+    "option": {
+      "A": "One’s curiosity should focus beyond the façade on the latent meaning of things",
+      "B": "Curiosity in an inherent family characteristic.",
+      "C": "A study of human affairs is the most effective method of satisfying one’s curiosity",
+      "D": "In order to motivate, curiosity must be coupled with anxiety and conscience."
+    },
+    "answer": "A",
+    "explanation": "The author's perspective often emphasizes deep inquiry. Option (A) is a standard academic interpretation of the value of curiosity.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9265743f6d98a370b2"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q6. MACABRE",
+    "option": {
+      "A": "Innocent",
+      "B": "Tarried",
+      "C": "Gruesome",
+      "D": "Pleasing"
+    },
+    "answer": "C",
+    "explanation": "MACABRE means disturbing and horrifying because of involvement with or depiction of death and injury, which is synonymous with Gruesome.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f929c573a97382fbeef"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q7. DENOUEMENT",
+    "option": {
+      "A": "Outcome",
+      "B": "Eschew",
+      "C": "Action",
+      "D": "Character"
+    },
+    "answer": "A",
+    "explanation": "DENOUEMENT refers to the final part of a play, movie, or narrative in which the strands of the plot are drawn together and matters are explained or resolved; thus, Outcome is the most similar term.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92e255cf634f53ab43"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q8. MANACLE",
+    "option": {
+      "A": "Fetter",
+      "B": "Ornament",
+      "C": "Spectacles",
+      "D": "Order"
+    },
+    "answer": "A",
+    "explanation": "A MANACLE is a metal band, chain, or shackle for fastening someone's hands or ankles; a Fetter is a synonym meaning a chain or manacle used to restrain a prisoner.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f925cc05f2d14ce6bf7"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q9. FEIGN",
+    "option": {
+      "A": "Hesitate",
+      "B": "Pretend",
+      "C": "Deserve",
+      "D": "Attend"
+    },
+    "answer": "B",
+    "explanation": "FEIGN means to pretend to be affected by (a feeling, state, or injury).",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92bc578f473269218b"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Q10. ASSAY",
+    "option": {
+      "A": "Attack",
+      "B": "Accept",
+      "C": "Case",
+      "D": "Evaluate"
+    },
+    "answer": "D",
+    "explanation": "ASSAY means to determine the content or quality of (a metal or ore) or to test or evaluate.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f923d52c61d5c7e5111"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Medieval Indian History",
+    "subtopic": "Delhi Sultanate",
+    "difficulty": "Medium",
+    "question": "Q1. The first Muslim ruler who introduced the standing army was:-",
+    "option": {
+      "A": "Ala-ud-din khilji",
+      "B": "Iltutmish",
+      "C": "Balban",
+      "D": "Firozshah Tughlaq"
+    },
+    "answer": "A",
+    "explanation": "Ala-ud-din Khilji was the first Sultan of Delhi to maintain a large standing army directly paid by the State.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f923eb82ab5481b17fb"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Ancient Indian History",
+    "subtopic": "Indus Valley Civilization",
+    "difficulty": "Medium",
+    "question": "Q2. The God with three heads and horns surrounding by animals, represented on a seal from Mohen-jo-Daro is said to be:-",
+    "option": {
+      "A": "Indra",
+      "B": "Varuna",
+      "C": "Vishnu",
+      "D": "Pasupati"
+    },
+    "answer": "D",
+    "explanation": "The 'Pashupati seal' discovered at Mohenjo-daro depicts a figure seated in a yogic posture, surrounded by animals, identified by many scholars as an early form of Lord Shiva (Pashupati).",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9265c6620d0be7488b"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Medieval Indian History",
+    "subtopic": "Mughal Empire",
+    "difficulty": "Easy",
+    "question": "Q3. Whose reign has been called the ‘Golden Age of the Mughals’?",
+    "option": {
+      "A": "Shah Jahan",
+      "B": "Akbar",
+      "C": "Jahangir",
+      "D": "Aurangzeb"
+    },
+    "answer": "A",
+    "explanation": "The reign of Shah Jahan is widely regarded as the 'Golden Age of the Mughals' due to significant architectural achievements, including the Taj Mahal.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f921f9d78542de14d97"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Modern Indian History",
+    "subtopic": "1857 Revolt",
+    "difficulty": "Medium",
+    "question": "Q4. The upheaval of 1857 was first described as the war of independence by:-",
+    "option": {
+      "A": "Jawaharlal Nehru",
+      "B": "Bal Gangadhar Tilak",
+      "C": "V.D. Savarkar",
+      "D": "Lala Lajpat Rai"
+    },
+    "answer": "C",
+    "explanation": "V.D. Savarkar wrote the book 'The Indian War of Independence of 1857', which characterized the revolt as a planned nationalist war of independence.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f924fd736308920c2f8"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Modern Indian History",
+    "subtopic": "British Colonial Rule",
+    "difficulty": "Medium",
+    "question": "Q5. Jhansi was annexed to the British Indian territory in 1854 under the:-",
+    "option": {
+      "A": "Subsidiary Alliance",
+      "B": "Mutual Agreement",
+      "C": "Passage of a separate Charter",
+      "D": "Doctrine of Lapse"
+    },
+    "answer": "D",
+    "explanation": "Jhansi was annexed in 1854 by Lord Dalhousie under the Doctrine of Lapse, as the ruler died without a natural heir.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f928d94223e16d5717e"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Modern Indian History",
+    "subtopic": "Indian National Movement",
+    "difficulty": "Medium",
+    "question": "Q6. 'Patriotism is religion and religion is love for India'- whose utterance is this?",
+    "option": {
+      "A": "Raj Narain Bose",
+      "B": "Swami Vivekananda",
+      "C": "Bal Gangadhar Tilak",
+      "D": "Bankim Chandra Chatterjee"
+    },
+    "answer": "D",
+    "explanation": "This statement is attributed to Bankim Chandra Chatterjee, a famous writer and author of Vande Mataram.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9268e090e16bceea84"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "History",
+    "topic": "Modern Indian History",
+    "subtopic": "Gandhian Era",
+    "difficulty": "Medium",
+    "question": "Q7. The notable feature of Civil Disobedience movement of Mahatma Gandhi was:-",
+    "option": {
+      "A": "Picketing of shops",
+      "B": "Mass strike",
+      "C": "Arrest of thousand of persons",
+      "D": "Wide participation of women"
+    },
+    "answer": "D",
+    "explanation": "A distinct and notable feature of the Civil Disobedience Movement (starting with the Dandi March in 1930) was the large-scale and unprecedented participation of women.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f920b8710dffa3d2907"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Health and Diseases",
+    "subtopic": "Mosquito-borne diseases",
+    "difficulty": "Easy",
+    "question": "Q8. Which one of the following is not a mosquito borne disease?",
+    "option": {
+      "A": "Dengue Fever",
+      "B": "Filariasis",
+      "C": "Sleeping Sickness",
+      "D": "Malaria"
+    },
+    "answer": "C",
+    "explanation": "Sleeping sickness (African Trypanosomiasis) is transmitted by the tsetse fly, not by mosquitoes.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f927b382702e26d603d"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Compounds",
+    "subtopic": "Fertilizers",
+    "difficulty": "Easy",
+    "question": "Q9. Which of the following is a fertilizer?",
+    "option": {
+      "A": "Sodium Nitrate",
+      "B": "Sodium Carbonate",
+      "C": "Sodium Peroxide",
+      "D": "Sodium Thiosulphate"
+    },
+    "answer": "A",
+    "explanation": "Sodium Nitrate ($NaNO_3$), often known as Chile Saltpeter, is used as a nitrogenous fertilizer.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92fccd81b6fd14dd5b"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "subtopic": "Physiography",
+    "difficulty": "Easy",
+    "question": "Q10. Which of the following is also known by the Sahyadri Range?",
+    "option": {
+      "A": "Shiwaliks",
+      "B": "Vindhyas",
+      "C": "Eastern Ghats",
+      "D": "Western Ghats"
+    },
+    "answer": "D",
+    "explanation": "The Western Ghats of India are locally known as the Sahyadri range.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9263986f92b24b2008"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "subtopic": "Political Geography",
+    "difficulty": "Easy",
+    "question": "Q11. Which of the following states in India does not share boundary with Myanmar?",
+    "option": {
+      "A": "Arunachal Pradesh",
+      "B": "Nagaland",
+      "C": "Manipur",
+      "D": "Assam"
+    },
+    "answer": "D",
+    "explanation": "Arunachal Pradesh, Nagaland, Manipur, and Mizoram share a border with Myanmar. Assam does not share a land border with Myanmar.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9299a1bfbbf018652e"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Indian Geography",
+    "subtopic": "Languages",
+    "difficulty": "Easy",
+    "question": "Q12. The Garo and Khasi are languages of the state of:-",
+    "option": {
+      "A": "Manipur",
+      "B": "Tripura",
+      "C": "Assam",
+      "D": "Meghalaya"
+    },
+    "answer": "D",
+    "explanation": "Garo and Khasi are primary languages spoken in the state of Meghalaya, belonging to the Austroasiatic and Sino-Tibetan families respectively.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f924024fa14a442e0af"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Planning Commission",
+    "subtopic": "Government Structure",
+    "difficulty": "Easy",
+    "question": "Q13. The Planning Commission (of India) presided over by the:-",
+    "option": {
+      "A": "Prime Minister",
+      "B": "Vice President",
+      "C": "Union Minister of Planning",
+      "D": "Union Finance Minister"
+    },
+    "answer": "A",
+    "explanation": "The Prime Minister of India served as the Ex-officio Chairman of the Planning Commission (which has since been replaced by the NITI Aayog).",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9211cf827bc592c6d2"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Economics",
+    "topic": "Indian Economy",
+    "subtopic": "Industries",
+    "difficulty": "Medium",
+    "question": "Q14. Which of the following is not a basic industry?",
+    "option": {
+      "A": "Iron & Steel",
+      "B": "Fertilizers",
+      "C": "Paper",
+      "D": "Cement"
+    },
+    "answer": "C",
+    "explanation": "Basic industries are those that provide raw materials or infrastructure for other industries. Iron, steel, cement, and fertilizers are core industrial materials. Paper is generally classified as a consumer-oriented or light manufacturing industry.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92c1ee77685fadb61a"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Chemistry",
+    "topic": "Chemical Reactions",
+    "subtopic": "Catalysis",
+    "difficulty": "Easy",
+    "question": "Q15. A catalyst is a substance which:-",
+    "option": {
+      "A": "Stops a chemical reaction",
+      "B": "Helps initiate a reaction",
+      "C": "Increases the speed of a reaction",
+      "D": "Decreases the speed of a reaction"
+    },
+    "answer": "C",
+    "explanation": "A catalyst is a substance that increases the rate of a chemical reaction without being consumed in the process.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92ddf5b4d4d59059fe"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Panchayati Raj",
+    "subtopic": "Elections",
+    "difficulty": "Medium",
+    "question": "Q16. Holding of elections of the Panchayats is decided by the:-",
+    "option": {
+      "A": "Election Commission",
+      "B": "State Government",
+      "C": "District Magistrate",
+      "D": "Union Government"
+    },
+    "answer": "B",
+    "explanation": "Under the Constitution, the power to legislate on local government (Panchayats) and the conduct of their elections is primarily handled by the State Governments and State Election Commissions.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92d723eb8d95f03895"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Polity",
+    "topic": "Emergency Provisions",
+    "subtopic": "Constitutional Law",
+    "difficulty": "Medium",
+    "question": "Q17. National emergency can be declared by the President:-",
+    "option": {
+      "A": "On the recommendation of the Prime Minister",
+      "B": "On the recommendation of the Parliament",
+      "C": "On his own",
+      "D": "On the recommendation of the Council of Minister"
+    },
+    "answer": "D",
+    "explanation": "National emergency can be declared by the President only on the written recommendation of the Union Cabinet (Council of Ministers).",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92275ffbd6e7d2ff58"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Geography",
+    "topic": "Physical Geography",
+    "subtopic": "Islands",
+    "difficulty": "Easy",
+    "question": "Q18. Which one of following islands is coral in origin?",
+    "option": {
+      "A": "Rameshwaram",
+      "B": "Nicobar",
+      "C": "Andaman",
+      "D": "Lakshadweep"
+    },
+    "answer": "D",
+    "explanation": "The islands of Lakshadweep are atolls, which are formed by the accumulation of coral reefs.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f9297d4173ea6ed5b7c"
+    }
+  },
+  {
+    "exam_type": "Territorial Army Officer",
+    "department": "Indian Army",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Discovery",
+    "difficulty": "Easy",
+    "question": "Q19. William Harvey is known for the discovery of",
+    "option": {
+      "A": "Blood Circulation",
+      "B": "Blood Clotting",
+      "C": "Respiration",
+      "D": "Digestion"
+    },
+    "answer": "A",
+    "explanation": "William Harvey is famously known for his work in describing the systemic circulation of blood through the human body.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "8ac28e30-eef9-4e44-b49c-ffa479f95ac4.pdf",
+    "_id": {
+      "$oid": "69c74f92b0282a5416ccf445"
+    }
+  }
+]

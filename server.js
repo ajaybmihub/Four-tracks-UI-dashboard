@@ -100,6 +100,7 @@ function mapToCollection(dept) {
     if (d.includes("epfo enforcement officer") || d.includes("epfo ao")) return "epfo_enforcement_officer";
     if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "engineering_services_examination_(ESE/IES)";
     
+    if (d.includes("national defence academy") || d.includes("nda")) return "upsc_nda";
     if (d.includes("central armed police forces") && d.includes("assistant commandant")) return "upsc_capf_ac";
     if (d.includes("upsc capf") || d.includes("capf")) return "upsc_capf_ac";
     if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("geo-scientist")) return "upsc";
@@ -169,7 +170,7 @@ app.get("/years", async (req, res) => {
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
         "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "engineering_services_examination_(ESE/IES)",
         "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer",
-        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms"
+        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -322,6 +323,7 @@ async function calculateProgress() {
         'engineering_services_examination_(ESE/IES)': 'Govt Exams Track',
         'upsc_cms': 'Govt Exams Track',
         'upsc_capf_ac': 'Govt Exams Track',
+        'upsc_nda': 'Govt Exams Track',
         'state_psc_state_exams': 'Govt Exams Track',
         'central_police': 'Govt Exams Track',
         'teaching': 'Govt Exams Track',
@@ -428,7 +430,9 @@ async function calculateProgress() {
         },
         exams: {},         // stores year counts
         examTargets: {},    // stores year targets
-        examQuestionCounts: {} // stores exact LIVE question counts
+        examQuestionCounts: {}, // stores exact LIVE question counts
+        completedPerTrack: {},  // exams ≥80% per track
+        pendingPerTrack:   {}   // exams <80% per track
     };
 
     // 🚀 FIXED: Use Topic collection (Roadmap) for the authoritative exam and topic counts
@@ -474,6 +478,7 @@ async function calculateProgress() {
         'neet_mds': 'NEET MDS',
         'upsc_cms': 'Combined Medical Services (CMS)',
         'upsc_capf_ac': 'Central Armed Police Forces (Assistant Commandant - CAPF AC)',
+        'upsc_nda': 'National Defence Academy (NDA) & NA',
         'ibps_rrb_po': 'IBPS RRB Officer Scale I (PO)',
         'ibps_rrb_clerk': 'IBPS RRB Office Assistant (Clerk)',
         'ibps_so': 'IBPS Specialist Officer (SO)',
@@ -498,10 +503,15 @@ async function calculateProgress() {
           const examTarget = topicYearRangeMap[examLabel] || 15;
           metric.exams[examLabel] = count;
           metric.examTargets[examLabel] = examTarget;
-          metric.examQuestionCounts[examLabel] = totalQInCol; 
+          metric.examQuestionCounts[examLabel] = totalQInCol;
           metric.tracks[trackTitle].updated += count;
           metric.tracks[trackTitle].target += examTarget;
            metric.totalUpdatedYears += count;
+           // ── Completion tracking: ≥80% of year-target = complete
+           const examPct = examTarget > 0 ? (count / examTarget) * 100 : 0;
+           if (examPct >= 80) {
+               metric.completedPerTrack[trackTitle] = (metric.completedPerTrack[trackTitle] || 0) + 1;
+           }
            if (examLabel === "NEET MDS") {
                console.log(`[SYNC] NEET MDS: ${count}/${examTarget} years (${Math.round((count/examTarget)*100)}%)`);
            }
@@ -520,6 +530,11 @@ async function calculateProgress() {
                   metric.tracks[trackTitle].updated += item.updated_years;
                   metric.tracks[trackTitle].target += examTarget;
                   metric.totalUpdatedYears += item.updated_years;
+                  // Completion tracking
+                  const examPct = examTarget > 0 ? (item.updated_years / examTarget) * 100 : 0;
+                  if (examPct >= 80) {
+                      metric.completedPerTrack[trackTitle] = (metric.completedPerTrack[trackTitle] || 0) + 1;
+                  }
               }
           });
 
@@ -545,7 +560,11 @@ async function calculateProgress() {
                           ] 
                       });
                       metric.exams[t.exam_name] = c; 
-                      metric.examQuestionCounts[t.exam_name] = c; 
+                      metric.examQuestionCounts[t.exam_name] = c;
+                      // Tech Track: 200+ questions = topic complete
+                      if (c >= 200) {
+                          metric.completedPerTrack['Tech Track'] = (metric.completedPerTrack['Tech Track'] || 0) + 1;
+                      }
                   }
               }
           }
@@ -595,6 +614,13 @@ async function calculateProgress() {
             completed: completed
         };
     });
+
+    // Finalize pending counts: Total Exams - Completed Exams
+    for (const trackName of Object.keys(metric.tracks)) {
+        const total = metric.tracks[trackName].exams || 0;
+        const done = metric.completedPerTrack[trackName] || 0;
+        metric.pendingPerTrack[trackName] = Math.max(0, total - done);
+    }
 
     metric.totalQuestions = Math.round(metric.totalQuestions);
     cachedProgressData = metric;

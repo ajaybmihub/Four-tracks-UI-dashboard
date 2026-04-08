@@ -439,9 +439,20 @@ window.loadYears = async function(exam) {
       });
     }
 
-    // If no year_range in topics, fall back to just synced years
-    if (!allYears.length) allYears = [...syncedYears];
+    // Build a set for fast lookups
     const syncedSet = new Set(syncedYears.map(String));
+    const allYearsSet = new Set(allYears);
+
+    // Merge DB years that fall OUTSIDE the defined year_range.
+    // These are years with real questions that aren't listed in year_range — always show them.
+    const extraYears = syncedYears
+      .map(String)
+      .filter(y => !allYearsSet.has(y))
+      .sort((a, b) => parseInt(b) - parseInt(a)); // newest first
+    if (extraYears.length > 0) allYears = [...allYears, ...extraYears];
+
+    // If no year_range in topics AND no extra years, fall back to just synced years
+    if (!allYears.length) allYears = [...syncedYears];
 
     const hasAny = allYears.length > 0;
     if (!hasAny) {
@@ -455,18 +466,24 @@ window.loadYears = async function(exam) {
       const yStr = String(year);
       const isNotConducted = notConductedSet.has(yStr);
       const isSynced       = syncedSet.has(yStr);
+      const isExtra        = !allYearsSet.has(yStr); // outside the defined range
 
-      if (isNotConducted) {
-        // Grey out, no click, "Not Conducted" badge
+      // RULE: Real DB data always wins — if we have questions for this year, make it clickable
+      // even if topics.not_conducted lists it, or it's outside the year_range.
+      if (isSynced) {
+        const extraBadge = isExtra
+          ? `<span class="year-card__extra-badge" title="Outside listed range — data available">Extra</span>`
+          : '';
+        const ncHint = isNotConducted ? ' — not officially held but questions available' : '';
+        html += `<div class="year-card year-card--has-data${isExtra ? ' year-card--extra' : ''}" data-action="load-papers" data-exam="${exam}" data-year="${yStr}" title="${exam} ${yStr}${ncHint}">${yStr}${extraBadge}</div>`;
+      } else if (isNotConducted) {
+        // Not conducted AND no DB data — grey out
         html += `<div class="year-card year-card--not-conducted" title="${exam} ${yStr} was not conducted">
           <span class="year-card__year">${yStr}</span>
           <span class="year-card__badge">Not Conducted</span>
         </div>`;
-      } else if (isSynced) {
-        // Normal clickable card
-        html += `<div class="year-card" data-action="load-papers" data-exam="${exam}" data-year="${yStr}">${yStr}</div>`;
       } else {
-        // Year in range but no data yet — show as "Coming Soon"
+        // Year in range but no data yet — Coming Soon
         html += `<div class="year-card year-card--pending" title="Data for ${yStr} coming soon">
           <span class="year-card__year">${yStr}</span>
           <span class="year-card__badge">Coming Soon</span>

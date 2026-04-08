@@ -687,16 +687,22 @@
     </div>
   </header>
 
-  <div class="stats-grid">
+  <div class="stats-grid" style="grid-template-columns: repeat(5, 1fr);">
     <div class="stat-card">
       <span class="stat-label">Total Exams</span>
-      <div class="stat-value" id="stat-exams">13 / 396</div>
+      <div class="stat-value" id="stat-exams">396</div>
       <div class="stat-trend trend-up" id="stat-exams-trend">+21 Topics</div>
+    </div>
+
+    <div class="stat-card" style="border-color: rgba(0,230,118,0.25); background: linear-gradient(135deg, rgba(0,230,118,0.04) 0%, transparent 100%);">
+      <span class="stat-label" style="color: var(--green);">Refined Exams</span>
+      <div class="stat-value skeleton" id="stat-refined" style="color: var(--green);"></div>
+      <div class="stat-trend trend-up" id="stat-refined-trend">≥ 80% Synced</div>
     </div>
 
     <div class="stat-card">
       <span class="stat-label">Raw Data</span>
-      <div class="stat-value" id="stat-raw-data">116</div>
+      <div class="stat-value" id="stat-raw-data">184</div>
       <div class="stat-trend" style="color: var(--text-muted)">Exams</div>
     </div>
 
@@ -736,6 +742,8 @@
             <div class="m-row"><span class="m-lbl">Total Questions</span><span class="m-val skeleton" id="q-jee"
                 style="color:var(--blue)"></span></div>
             <div class="m-row"><span class="m-lbl">Years Range</span><span class="m-val">2010 - 2025</span></div>
+            <div class="m-row"><span class="m-lbl">Completed</span><span class="m-val" id="comp-jee" style="color:var(--green)">—</span></div>
+            <div class="m-row"><span class="m-lbl">Pending</span><span class="m-val" id="pend-jee" style="color:var(--text-muted)">—</span></div>
           </div>
         </div>
 
@@ -764,6 +772,8 @@
             <div class="m-row"><span class="m-lbl">Total Questions</span><span class="m-val skeleton" id="q-govt"
                 style="color:var(--orange)"></span></div>
             <div class="m-row"><span class="m-lbl">Years Range</span><span class="m-val">2008 - 2026</span></div>
+            <div class="m-row"><span class="m-lbl">Completed</span><span class="m-val" id="comp-govt" style="color:var(--green)">—</span></div>
+            <div class="m-row"><span class="m-lbl">Pending</span><span class="m-val" id="pend-govt" style="color:var(--text-muted)">—</span></div>
           </div>
         </div>
 
@@ -792,6 +802,8 @@
             <div class="m-row"><span class="m-lbl">Total Questions</span><span class="m-val skeleton" id="q-banking"
                 style="color:var(--green)"></span></div>
             <div class="m-row"><span class="m-lbl">Years Range</span><span class="m-val">2012 - 2026</span></div>
+            <div class="m-row"><span class="m-lbl">Completed</span><span class="m-val" id="comp-banking" style="color:var(--green)">—</span></div>
+            <div class="m-row"><span class="m-lbl">Pending</span><span class="m-val" id="pend-banking" style="color:var(--text-muted)">—</span></div>
           </div>
         </div>
 
@@ -820,6 +832,8 @@
             <div class="m-row"><span class="m-lbl">Live Questions</span><span class="m-val skeleton" id="q-tech"
                 style="color:var(--purple)"></span></div>
             <div class="m-row"><span class="m-lbl">Domains</span><span class="m-val">CS Fundamentals</span></div>
+            <div class="m-row"><span class="m-lbl">Completed</span><span class="m-val" id="comp-tech" style="color:var(--green)">—</span></div>
+            <div class="m-row"><span class="m-lbl">Pending</span><span class="m-val" id="pend-tech" style="color:var(--text-muted)">—</span></div>
           </div>
         </div>
 
@@ -1007,6 +1021,7 @@
         
         updateReadinessUI(progressData);
         updateSummaryTable(progressData);
+        updateCompletionStats(progressData);
       }
     }
 
@@ -1065,6 +1080,50 @@
                 </tr>
             `;
         }
+    }
+
+    // ── COMPLETION STATS ──
+    // Server computes this precisely: ≥80% year-target = complete for exam tracks,
+    // 200+ questions = complete for Tech Track topics.
+    function updateCompletionStats(progressData) {
+      if (!progressData) return;
+
+      const trackKeyMap = {
+        'JEE / NEET Track': 'jee',
+        'Banking Track':    'banking',
+        'Govt Exams Track': 'govt',
+        'Tech Track':       'tech'
+      };
+
+      const completed = progressData.completedPerTrack || {};
+      const pending   = progressData.pendingPerTrack   || {};
+
+      // Global refined count (all tracks)
+      let globalRefined = 0;
+      let globalTotal   = 0;
+      for (const v of Object.values(completed)) globalRefined += v;
+      for (const v of Object.values(completed)) globalTotal   += v;
+      for (const v of Object.values(pending))   globalTotal   += v;
+
+      const refinedEl = document.getElementById('stat-refined');
+      if (refinedEl) {
+        refinedEl.classList.remove('skeleton');
+        refinedEl.textContent = globalRefined;
+      }
+      const refinedTrend = document.getElementById('stat-refined-trend');
+      if (refinedTrend) {
+        refinedTrend.textContent = `${globalRefined} of ${globalTotal} exams \u226580%`;
+      }
+
+      // Per-track cards
+      for (const [trackName, key] of Object.entries(trackKeyMap)) {
+        const done = completed[trackName] || 0;
+        const pend = pending[trackName]   || 0;
+        const compEl = document.getElementById(`comp-${key}`);
+        const pendEl = document.getElementById(`pend-${key}`);
+        if (compEl) compEl.textContent = `${done} ${key === 'tech' ? 'Topics' : 'Exams'}`;
+        if (pendEl) pendEl.textContent = `${pend} ${key === 'tech' ? 'Topics' : 'Exams'}`;
+      }
     }
 
     // ── READINESS UI UPDATER ──
@@ -1151,6 +1210,7 @@
 
         updateReadinessUI(progressData);
         updateSummaryTable(progressData);
+        updateCompletionStats(progressData);
 
         // 🚀 LIVE QUESTION COUNTS UPDATE
         if (progressData.totalQuestions) {

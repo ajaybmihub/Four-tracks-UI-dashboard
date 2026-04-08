@@ -960,6 +960,58 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
+/* Block pointer on non-clickable cards */
+.year-card--not-conducted,
+.year-card--pending {
+    cursor: default;
+    pointer-events: none;
+}
+
+/* 🟢 HAS DATA — clickable synced card (replaces old bare :not() selector) */
+.year-card--has-data {
+    border-color: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1;
+    position: relative;
+}
+.year-card--has-data:hover {
+    border-color: var(--accent);
+    background: rgba(255, 45, 85, 0.07);
+    box-shadow: 0 4px 18px rgba(255, 45, 85, 0.18);
+}
+
+/* 🟡 EXTRA — out-of-range years with real data */
+.year-card--extra {
+    border-color: rgba(251, 191, 36, 0.3) !important;
+    background: rgba(251, 191, 36, 0.04) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.year-card--extra:hover {
+    border-color: rgba(251, 191, 36, 0.7) !important;
+    background: rgba(251, 191, 36, 0.1) !important;
+    box-shadow: 0 4px 18px rgba(251, 191, 36, 0.15) !important;
+}
+
+/* Extra badge pill */
+.year-card__extra-badge {
+    display: inline-block;
+    font-size: 8.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 7px;
+    border-radius: 6px;
+    background: rgba(251, 191, 36, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+    margin-top: 4px;
+    pointer-events: none;
+}
 
 /* ── PAPER CARDS ── */
 .paper-grid {

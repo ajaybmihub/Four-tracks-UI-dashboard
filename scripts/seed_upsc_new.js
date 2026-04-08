@@ -59,6 +59,9 @@ async function start() {
         // Seed CMS
         await seedFolder(path.join(DATA_ROOT, 'CMS'), 'upsc_cms', 'UPSC CMS');
 
+        // Seed NDA
+        await seedFolder(path.join(DATA_ROOT, 'NDA'), 'upsc_nda', 'National Defence Academy (NDA) & NA');
+
         console.log('Seeding finished.');
         process.exit(0);
     } catch (err) {

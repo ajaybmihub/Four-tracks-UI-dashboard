@@ -690,7 +690,7 @@
   <div class="stats-grid" style="grid-template-columns: repeat(5, 1fr);">
     <div class="stat-card">
       <span class="stat-label">Total Exams</span>
-      <div class="stat-value" id="stat-exams">396</div>
+      <div class="stat-value skeleton" id="stat-exams"></div>
       <div class="stat-trend trend-up" id="stat-exams-trend">+21 Topics</div>
     </div>
 
@@ -1013,6 +1013,7 @@
             examLabel.innerText = `+${techCount} Topics`;
         }
 
+        animateValue("stat-exams", 0, progressData.totalExams || 0, 1000);
         animateValue("stat-papers", 0, progressData.totalQuestions || 0, 1400);
         const yearTrend = document.querySelector('#stat-papers + .stat-trend');
         if (yearTrend && progressData.minYear < 3000) {
@@ -1211,6 +1212,17 @@
         updateReadinessUI(progressData);
         updateSummaryTable(progressData);
         updateCompletionStats(progressData);
+
+        // 🚀 LIVE EXAM COUNTS UPDATE
+        if (progressData.totalExams) {
+            const statExams = document.getElementById('stat-exams');
+            if (statExams) {
+                const curVal = parseInt(statExams.innerText.replace(/,/g,'')) || 0;
+                if (curVal !== progressData.totalExams) {
+                    animateValue("stat-exams", curVal, progressData.totalExams, 1000);
+                }
+            }
+        }
 
         // 🚀 LIVE QUESTION COUNTS UPDATE
         if (progressData.totalQuestions) {

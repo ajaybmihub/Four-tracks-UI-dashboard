@@ -94,20 +94,22 @@ function mapToCollection(dept) {
     const d = dept.toLowerCase();
     
     // Exact/Specific matches for UPSC sub-exams
-    if (d.includes("medical services") || d.includes("cms")) return "upse_cms";
+    if (d.includes("medical services") || d.includes("combined medical services") || d.includes("cms")) return "upsc_cms";
     if (d.includes("civil services examination") || d.includes("upsc cse") || d === "cse") return "upsc_cse";
     if (d.includes("combined geo-scientist") || d.includes("cgse")) return "combined_geo_scientist";
     if (d.includes("epfo enforcement officer") || d.includes("epfo ao")) return "epfo_enforcement_officer";
     if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "engineering_services_examination_(ESE/IES)";
     
-    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("capf") || d.includes("geo-scientist")) return "upsc";
+    if (d.includes("central armed police forces") && d.includes("assistant commandant")) return "upsc_capf_ac";
+    if (d.includes("upsc capf") || d.includes("capf")) return "upsc_capf_ac";
+    if (d.includes("upsc") || d.includes("civil services") || d.includes("cse") || d.includes("forest service") || d.includes("ifos") || d.includes("defence service") || d.includes("cds") || d.includes("defence academy") || d.includes("nda") || d.includes("economic service") || d.includes("epfo") || d.includes("central armed police forces") || d.includes("geo-scientist")) return "upsc";
     
     // 1. Precise Banking Matches (HIGHEST PRIORITY)
     if (d.includes("office assistant") || d.includes("rrb clerk") || d.includes("rrb po") || d.includes("officer scale i")) {
         if (d.includes("clerk") || d.includes("assistant")) return "ibps_rrb_clerk";
         if (d.includes("po") || d.includes("scale i")) return "ibps_rrb_po";
     }
-    if (d.includes("specialist officer") || d.includes("so")) return "ibps_rrb_so";
+    if (d.includes("specialist officer") || d.includes("so")) return "ibps_so";
     if (d.includes("sbi clerk") || d === "sbi clerk") return "sbi_clerk";
     if (d.includes("sbi po") || d === "sbi po") return "sbi_po";
     if (d.includes("ibps clerk") || d === "ibps clerk") return "ibps_clerk";
@@ -118,7 +120,7 @@ function mapToCollection(dept) {
     if (d.includes("railway") || d.includes("rrb") || d.includes("ntpc") || d.includes("group d") || d.includes("alp") || d.includes("rpf")) return "railways";
     
     // 3. Medical
-    if (d.includes("medical services") || d.includes("cms")) return "upse_cms";
+    if (d.includes("medical services") || d.includes("combined medical services") || d.includes("cms")) return "upsc_cms";
     if (d.includes("neet mds")) return "neet_mds";
     if (d.includes("neet ss")) return "neet_ss";
     if (d.includes("neet pg")) return "neet_pg";
@@ -165,8 +167,9 @@ app.get("/years", async (req, res) => {
     
     const dedicated = [
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
-        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_rrb_so", "engineering_services_examination_(ESE/IES)",
-        "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer"
+        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "engineering_services_examination_(ESE/IES)",
+        "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer",
+        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -317,7 +320,8 @@ async function calculateProgress() {
         'railways': 'Govt Exams Track',
         'defence': 'Govt Exams Track',
         'engineering_services_examination_(ESE/IES)': 'Govt Exams Track',
-        'upse_cms': 'Govt Exams Track',
+        'upsc_cms': 'Govt Exams Track',
+        'upsc_capf_ac': 'Govt Exams Track',
         'state_psc_state_exams': 'Govt Exams Track',
         'central_police': 'Govt Exams Track',
         'teaching': 'Govt Exams Track',
@@ -341,7 +345,7 @@ async function calculateProgress() {
         'ibps_clerk': 'Banking Track',
         'ibps_rrb_po': 'Banking Track',
         'ibps_rrb_clerk': 'Banking Track',
-        'ibps_rrb_so': 'Banking Track',
+        'ibps_so': 'Banking Track',
         'sbi_po': 'Banking Track',
         'sbi_clerk': 'Banking Track',
         'insurance': 'Banking Track',
@@ -376,7 +380,7 @@ async function calculateProgress() {
     // year_range can be: "2025 - 2017" (reversed), "2022-2024", or "2025-2023, 2021-2020, 2017-2014" (multi-segment)
     // Tech Track is EXCLUDED — it uses question count, not year-based progress
     const topicYearRangeMap = {};
-    const allTopicDocs = await Topic.find({ track_name: { $ne: 'Tech Track' } }, { exam_name: 1, year_range: 1 }).lean();
+    const allTopicDocs = await Topic.find({ track_name: { $ne: 'Tech Track' } }, { exam_name: 1, year_range: 1, not_conducted: 1 }).lean();
     allTopicDocs.forEach(doc => {
         if (doc.exam_name && doc.year_range) {
             const rangeStr = doc.year_range.toString();
@@ -392,6 +396,13 @@ async function calculateProgress() {
                     totalSpan += 1;
                 }
             });
+
+            // Subtract years when the exam was NOT conducted
+            if (doc.not_conducted) {
+                const notHeldCount = doc.not_conducted.split(',').filter(y => y.trim().length === 4).length;
+                totalSpan = Math.max(1, totalSpan - notHeldCount);
+            }
+
             if (totalSpan > 0) {
                 topicYearRangeMap[doc.exam_name] = totalSpan;
             }
@@ -461,9 +472,11 @@ async function calculateProgress() {
         'neet_pg': 'NEET PG',
         'neet_ss': 'NEET SS',
         'neet_mds': 'NEET MDS',
-        'upse_cms': 'Combined Medical Services (CMS)',
+        'upsc_cms': 'Combined Medical Services (CMS)',
+        'upsc_capf_ac': 'Central Armed Police Forces (Assistant Commandant - CAPF AC)',
         'ibps_rrb_po': 'IBPS RRB Officer Scale I (PO)',
         'ibps_rrb_clerk': 'IBPS RRB Office Assistant (Clerk)',
+        'ibps_so': 'IBPS Specialist Officer (SO)',
         'sbi_clerk': 'SBI Clerk',
         'sbi_po': 'SBI PO',
         'ibps_clerk': 'IBPS Clerk',
@@ -488,7 +501,10 @@ async function calculateProgress() {
           metric.examQuestionCounts[examLabel] = totalQInCol; 
           metric.tracks[trackTitle].updated += count;
           metric.tracks[trackTitle].target += examTarget;
-          metric.totalUpdatedYears += count;
+           metric.totalUpdatedYears += count;
+           if (examLabel === "NEET MDS") {
+               console.log(`[SYNC] NEET MDS: ${count}/${examTarget} years (${Math.round((count/examTarget)*100)}%)`);
+           }
       } else {
           // Process multi-exam collections (upsc, railways, bank_exams)
           const aggr = await Model.aggregate([

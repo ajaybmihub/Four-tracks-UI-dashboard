@@ -80,9 +80,9 @@ const topicSchema = new mongoose.Schema({
   frequency: String,
   question_count: String,
   year_range: String,
-  not_conducted: String,   // e.g. "2018, 2019" — years in range when exam was NOT held
+  not_conducted: String,
   sub_topic: [String]
-}, { collection: 'topics' });
+}, { collection: 'topics', strict: false });
 
 const Topic = mongoose.model('Topic', topicSchema);
 
@@ -98,6 +98,7 @@ function mapToCollection(dept) {
     if (d.includes("civil services examination") || d.includes("upsc cse") || d === "cse") return "upsc_cse";
     if (d.includes("combined geo-scientist") || d.includes("cgse")) return "combined_geo_scientist";
     if (d.includes("epfo enforcement officer") || d.includes("epfo ao")) return "epfo_enforcement_officer";
+    if (d.includes("economic service") || d.includes("statistical service") || d.includes("ies/iss")) return "upsc_ies";
     if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "upsc_ese";
     
     if (d.includes("indian forest service") || d.includes("ifos")) return "upsc_ifos";
@@ -139,11 +140,11 @@ function mapToCollection(dept) {
     
     // JEE sub-variants
     if (d.includes("jee advance")) return "jee_advance";
-    if (d.includes("jee main") || d.includes("jee")) return "jee_main";
+    if (d.includes("jee")) return "jee_main";
 
-    // 4. Tech Track (DSA)
-    const techTopics = ["arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", "heap", "priority queue", "ai / machine learning", "web development", "software engineering", "programming languages", "operating systems", "cloud & devops", "system design", "databases", "dsa", "core programming", "backend development", "debugging & optimization"];
-    if (techTopics.some(t => d.includes(t)) || d.includes("data structure") || d.includes("algorithms")) {
+    // 4. Tech / Programming
+    const techTopics = ["arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", "heap", "priority queue", "ai", "machine learning", "web dev", "software engineering", "operating systems", "database", "dsa", "c++", "java", "python", "javascript"];
+    if (techTopics.some(t => d.includes(t)) || d.includes("data structure") || d.includes("algorithm") || d.includes("coding")) {
         return "coding_problems";
     }
 
@@ -172,7 +173,7 @@ app.get("/years", async (req, res) => {
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
         "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "upsc_ese",
         "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer",
-        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds", "upsc_ifos"
+        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds", "upsc_ifos", "upsc_ies"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -247,7 +248,7 @@ app.get("/papers", async (req, res) => {
         // Special case for Tech Track (uses sub_topic filtering)
         if (colName === "coding_problems") {
             const topicMeta = await Topic.findOne({ 
-                $or: [{ exam_name: exam }, { topic: exam }, { category: exam }],
+                $or: [{ exam_name: exam }, { category: exam }],
                 track_name: "Tech Track" 
             });
             
@@ -311,13 +312,27 @@ app.get("/topic-meta", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+// ── ROOT HEALTH CHECK ──
+app.get("/", (req, res) => {
+  res.status(200).send(`
+    <div style="font-family: sans-serif; padding: 40px; background: #050507; color: #fff; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <h1 style="color: #FF2D55;">🚀 Course Explorer Backend</h1>
+      <p>Server is live and synchronized with MongoDB.</p>
+      <div style="background: rgba(255,255,255,0.05); padding: 24px; border-radius: 12px; margin-top: 24px; border: 1px solid rgba(255,255,255,0.1);">
+        <p><strong>DB Status:</strong> ${mongoose.connection.readyState === 1 ? '✅ Connected' : '⏳ Connecting...'}</p>
+        <p><strong>Stats Cache:</strong> ${cachedProgressData ? '✅ Ready' : '⏳ Initializing...'}</p>
+      </div>
+    </div>
+  `);
+});
+
 // 6. GET /api/progress
 async function calculateProgress() {
   if (isCalculatingProgress) return;
   isCalculatingProgress = true;
   try {
     const collections = {
-        // Govt Exams Track
         'upsc': 'Govt Exams Track',
         'ssc': 'Govt Exams Track',
         'railways': 'Govt Exams Track',
@@ -344,8 +359,7 @@ async function calculateProgress() {
         'epfo_enforcement_officer': 'Govt Exams Track',
         'upsc_cds': 'Govt Exams Track',
         'upsc_ifos': 'Govt Exams Track',
-
-        // Banking Track
+        'upsc_ies': 'Govt Exams Track',
         'bank_exams': 'Banking Track',
         'ibps_po': 'Banking Track',
         'ibps_clerk': 'Banking Track',
@@ -355,40 +369,22 @@ async function calculateProgress() {
         'sbi_po': 'Banking Track',
         'sbi_clerk': 'Banking Track',
         'insurance': 'Banking Track',
-
-        // JEE / NEET Track
         'jee_advance': 'JEE / NEET Track',
         'jee_main': 'JEE / NEET Track',
         'neet_mds': 'JEE / NEET Track',
         'neet_pg': 'JEE / NEET Track',
         'neet_ss': 'JEE / NEET Track',
         'neet_ug': 'JEE / NEET Track',
-
-        // Tech Track
         'coding_problems': 'Tech Track'
     };
 
-    // ── ROOT HEALTH CHECK ──
-    app.get("/", (req, res) => {
-      res.status(200).send(`
-        <div style="font-family: sans-serif; padding: 40px; background: #0f172a; color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-          <h1 style="color: #38bdf8;">🚀 Server is Live!</h1>
-          <p>Course Explorer Analytics Backend is running.</p>
-          <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin-top: 20px;">
-            <p><strong>DB Status:</strong> ${mongoose.connection.readyState === 1 ? '✅ Connected' : '⏳ Connecting...'}</p>
-            <p><strong>Last Sync:</strong> ${cachedProgressData ? new Date().toLocaleTimeString() : 'Pending...'}</p>
-          </div>
-        </div>
-      `);
-    });
-
-    // Build a lookup map: exam_name → year span from the topics collection
-    // year_range can be: "2025 - 2017" (reversed), "2022-2024", or "2025-2023, 2021-2020, 2017-2014" (multi-segment)
-    // Tech Track is EXCLUDED — it uses question count, not year-based progress
     const topicYearRangeMap = {};
-    const allTopicDocs = await Topic.find({ track_name: { $ne: 'Tech Track' } }, { exam_name: 1, year_range: 1, not_conducted: 1 }).lean();
+    const allTopicDocs = await Topic.find({ 
+        track_name: { $ne: 'Tech Track' }
+    }, { exam_name: 1, year_range: 1, not_conducted: 1 }).lean(); 
     allTopicDocs.forEach(doc => {
-        if (doc.exam_name && doc.year_range) {
+        const eName = doc.exam_name ? doc.exam_name.toString().trim() : null;
+        if (eName && doc.year_range) {
             const rangeStr = doc.year_range.toString();
             const segments = rangeStr.split(',');
             let totalSpan = 0;
@@ -403,19 +399,17 @@ async function calculateProgress() {
                 }
             });
 
-            // Subtract years when the exam was NOT conducted
-            if (doc.not_conducted && doc.not_conducted.trim().length > 0) {
-                const notHeldCount = doc.not_conducted.split(',').map(y => y.trim()).filter(y => y.length === 4 && !isNaN(y)).length;
+            if (doc.not_conducted && doc.not_conducted.toString().trim().length > 0) {
+                const notHeldCount = doc.not_conducted.toString().split(',').map(y => y.trim()).filter(y => y.length === 4 && !isNaN(y)).length;
                 totalSpan = Math.max(1, totalSpan - notHeldCount);
             }
 
             if (totalSpan > 0) {
-                topicYearRangeMap[doc.exam_name] = totalSpan;
+                topicYearRangeMap[eName] = totalSpan;
             }
         }
     });
 
-    // Grand total target = sum of ALL non-Tech-Track exam year spans (includes exams with no data yet)
     const grandTotalTarget = Object.values(topicYearRangeMap).reduce((sum, s) => sum + s, 0);
 
     let metric = {
@@ -432,23 +426,20 @@ async function calculateProgress() {
             "JEE / NEET Track": { updated: 0, target: 0, questions: 0, exams: 0 },
             "Tech Track": { updated: 0, target: 0, questions: 0, exams: 0 }
         },
-        exams: {},         // stores year counts
-        examTargets: {},    // stores year targets
-        examQuestionCounts: {}, // stores exact LIVE question counts
-        completedPerTrack: {},  // exams ≥80% per track
-        pendingPerTrack:   {}   // exams <80% per track
+        exams: {},
+        examTargets: {},
+        examQuestionCounts: {},
+        completedPerTrack: {},
+        pendingPerTrack:   {}
     };
 
-    // 🚀 FIXED: Use Topic collection (Roadmap) for the authoritative exam and topic counts
     const totalRoadmapExams = await Topic.countDocuments(); 
     metric.totalExams = totalRoadmapExams;
-    metric.totalTopics = totalRoadmapExams; // In this context, Exams and Topics are the roadmap items
+    metric.totalTopics = totalRoadmapExams;
 
-    // 🚀 FIXED: Set Tech Track progress targets (Questions-based)
     metric.tracks["Tech Track"].target = 5000; 
     metric.tracks["Tech Track"].updated = 0;   
     
-    // Calculate per-track exam roadmap counts
     metric.tracks["Govt Exams Track"].exams = await Topic.countDocuments({ track_name: 'Govt Exams Track' });
     metric.tracks["Banking Track"].exams = await Topic.countDocuments({ track_name: 'Banking Track' });
     metric.tracks["JEE / NEET Track"].exams = await Topic.countDocuments({ track_name: 'JEE / NEET Track' });
@@ -456,16 +447,14 @@ async function calculateProgress() {
 
     for (const [col, trackTitle] of Object.entries(collections)) {
       const Model = getQuestionModel(col);
-      
       const totalQInCol = await Model.countDocuments();
       metric.tracks[trackTitle].questions = (metric.tracks[trackTitle].questions || 0) + totalQInCol;
       metric.totalQuestions += totalQInCol;
       
       if (trackTitle === "Tech Track") {
-          metric.tracks[trackTitle].updated = totalQInCol; // Use questions as progress measure
+          metric.tracks[trackTitle].updated = totalQInCol;
       }
       
-      // Year Range Calculation (Scanning all available year fields)
       const years = (await Model.distinct("year")).filter(y => y && !isNaN(y));
       years.forEach(y => {
         const yr = parseInt(y);
@@ -499,7 +488,8 @@ async function calculateProgress() {
         'combined_geo_scientist': 'Combined Geo-Scientist Examination',
         'epfo_enforcement_officer': 'EPFO Enforcement Officer/Accounts Officer',
         'upsc_cds': 'Combined Defence Services (CDS)',
-        'upsc_ifos': 'Indian Forest Service (IFoS)'
+        'upsc_ifos': 'Indian Forest Service (IFoS)',
+        'upsc_ies': 'Indian Economic Service / Indian Statistical Service (IES/ISS)'
       };
 
       if (singleExamOverrides[col]) {
@@ -513,16 +503,11 @@ async function calculateProgress() {
           metric.tracks[trackTitle].updated += count;
           metric.tracks[trackTitle].target += examTarget;
            metric.totalUpdatedYears += count;
-           // ── Completion tracking: ≥80% of year-target = complete
            const examPct = examTarget > 0 ? (count / examTarget) * 100 : 0;
            if (examPct >= 80) {
                metric.completedPerTrack[trackTitle] = (metric.completedPerTrack[trackTitle] || 0) + 1;
            }
-           if (examLabel === "NEET MDS") {
-               console.log(`[SYNC] NEET MDS: ${count}/${examTarget} years (${Math.round((count/examTarget)*100)}%)`);
-           }
       } else {
-          // Process multi-exam collections (upsc, railways, bank_exams)
           const aggr = await Model.aggregate([
               { $group: { _id: { exam_name: { $ifNull: ["$exam_type", "$exam"] }, year: "$year" } } },
               { $group: { _id: "$_id.exam_name", updated_years: { $sum: 1 } } }
@@ -536,7 +521,6 @@ async function calculateProgress() {
                   metric.tracks[trackTitle].updated += item.updated_years;
                   metric.tracks[trackTitle].target += examTarget;
                   metric.totalUpdatedYears += item.updated_years;
-                  // Completion tracking
                   const examPct = examTarget > 0 ? (item.updated_years / examTarget) * 100 : 0;
                   if (examPct >= 80) {
                       metric.completedPerTrack[trackTitle] = (metric.completedPerTrack[trackTitle] || 0) + 1;
@@ -544,7 +528,6 @@ async function calculateProgress() {
               }
           });
 
-          // CALCULATE REAL QUESTION COUNTS per exam for these collections
           const qAggr = await Model.aggregate([
             { $group: { _id: { $ifNull: ["$exam_type", "$exam"] }, count: { $sum: 1 } } }
           ]);
@@ -553,21 +536,47 @@ async function calculateProgress() {
           });
 
           if (col === 'coding_problems') {
-              const techTopics = await Topic.find({ track_name: 'Tech Track' });
-              for (const t of techTopics) {
+              const techTopicsDocs = await Topic.find({ track_name: 'Tech Track' });
+              
+              const getSearchTags = (name) => {
+                  if (!name) return [];
+                  const base = name.toLowerCase().replace(/ \/ /g, '-').replace(/\s+/g, '-').replace(/[()]/g, '');
+                  const tags = [name, base];
+                  if (base === 'arrays') tags.push('array');
+                  if (base === 'strings') tags.push('string');
+                  if (base === 'trees') tags.push('tree', 'binary-tree');
+                  if (base === 'hashing') tags.push('hash-table');
+                  if (base === 'graphs') tags.push('graph');
+                  if (base === 'linked-lists') tags.push('linked-list');
+                  if (base === 'greedy-algorithms') tags.push('greedy');
+                  if (base === 'binary-search-trees-bst') tags.push('bst', 'binary-search-tree');
+                  if (base === 'heap-priority-queue') tags.push('heap', 'priority-queue');
+                  if (base === 'dynamic-programming') tags.push('dynamic programming');
+                  return [...new Set(tags)];
+              };
+
+              for (const t of techTopicsDocs) {
                   if (t.exam_name) {
-                      const searchTags = [t.exam_name, ...(t.sub_topic || [])];
+                      const searchTags = getSearchTags(t.exam_name);
+                      if (t.sub_topic && Array.isArray(t.sub_topic)) {
+                          t.sub_topic.forEach(st => {
+                               searchTags.push(...getSearchTags(st));
+                          });
+                      }
+
                       const c = await Model.countDocuments({ 
                           $or: [
                               { topics: { $in: searchTags } }, 
                               { topic: { $in: searchTags } },
                               { role: { $in: searchTags } },
-                              { topics_normalized: { $in: searchTags } }
+                              { topics_normalized: { $in: searchTags } },
+                              { sub_topic: { $in: searchTags } }
                           ] 
                       });
                       metric.exams[t.exam_name] = c; 
                       metric.examQuestionCounts[t.exam_name] = c;
-                      // Tech Track: 200+ questions = topic complete
+                      
+                      // Tech Track: 200+ questions per topic for completion
                       if (c >= 200) {
                           metric.completedPerTrack['Tech Track'] = (metric.completedPerTrack['Tech Track'] || 0) + 1;
                       }

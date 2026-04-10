@@ -28,7 +28,10 @@ const questionSchema = new mongoose.Schema({
 // Helper to map collection based on filename or content
 function getTargetCollection(fileName) {
   const d = fileName.toLowerCase();
-  if (d.includes("engineering_services") || d.includes("ese") || d.includes("ies")) {
+  if (d.includes("economic_service") || d.includes("ies_iss") || d.includes("upsc_ies")) {
+      return "upsc_ies";
+  }
+  if (d.includes("engineering_services") || d.includes("ese") || d.includes("upsc_ese")) {
       return "upsc_ese";
   }
   if (d.includes("cds")) {

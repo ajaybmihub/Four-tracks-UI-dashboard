@@ -57,7 +57,7 @@
     "Frequency": "Annual",
     "Question Count": "",
     "Year": "2017-2025",
-    "Not Conducted": ""
+    "Not Conducted": "2020,2018,2017"
   },
   {
     "Track Name": "JEE / NEET Track",
@@ -68,7 +68,7 @@
     "Eligibility": "Graduate (Medical \u2013 MBBS)",
     "Frequency": "Annual",
     "Question Count": "",
-    "Year": "2017-2025",
-    "Not Conducted": "2018, 2019"
+    "Year": "2022-2024",
+    "Not Conducted": ""
   }
 ]

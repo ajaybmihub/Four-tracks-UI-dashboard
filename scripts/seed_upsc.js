@@ -29,7 +29,10 @@ const questionSchema = new mongoose.Schema({
 function getTargetCollection(fileName) {
   const d = fileName.toLowerCase();
   if (d.includes("engineering_services") || d.includes("ese") || d.includes("ies")) {
-      return "engineering_services_examination_(ESE/IES)";
+      return "upsc_ese";
+  }
+  if (d.includes("cds")) {
+      return "upsc_cds";
   }
   return "upsc";
 }

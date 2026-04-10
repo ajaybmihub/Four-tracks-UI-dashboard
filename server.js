@@ -98,8 +98,9 @@ function mapToCollection(dept) {
     if (d.includes("civil services examination") || d.includes("upsc cse") || d === "cse") return "upsc_cse";
     if (d.includes("combined geo-scientist") || d.includes("cgse")) return "combined_geo_scientist";
     if (d.includes("epfo enforcement officer") || d.includes("epfo ao")) return "epfo_enforcement_officer";
-    if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "engineering_services_examination_(ESE/IES)";
+    if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "upsc_ese";
     
+    if (d.includes("combined defence services") || d.includes("cds")) return "upsc_cds";
     if (d.includes("national defence academy") || d.includes("nda")) return "upsc_nda";
     if (d.includes("central armed police forces") && d.includes("assistant commandant")) return "upsc_capf_ac";
     if (d.includes("upsc capf") || d.includes("capf")) return "upsc_capf_ac";
@@ -168,9 +169,9 @@ app.get("/years", async (req, res) => {
     
     const dedicated = [
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
-        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "engineering_services_examination_(ESE/IES)",
+        "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "upsc_ese",
         "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer",
-        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda"
+        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -320,7 +321,7 @@ async function calculateProgress() {
         'ssc': 'Govt Exams Track',
         'railways': 'Govt Exams Track',
         'defence': 'Govt Exams Track',
-        'engineering_services_examination_(ESE/IES)': 'Govt Exams Track',
+        'upsc_ese': 'Govt Exams Track',
         'upsc_cms': 'Govt Exams Track',
         'upsc_capf_ac': 'Govt Exams Track',
         'upsc_nda': 'Govt Exams Track',
@@ -340,6 +341,7 @@ async function calculateProgress() {
         'upsc_cse': 'Govt Exams Track',
         'combined_geo_scientist': 'Govt Exams Track',
         'epfo_enforcement_officer': 'Govt Exams Track',
+        'upsc_cds': 'Govt Exams Track',
 
         // Banking Track
         'bank_exams': 'Banking Track',
@@ -400,8 +402,8 @@ async function calculateProgress() {
             });
 
             // Subtract years when the exam was NOT conducted
-            if (doc.not_conducted) {
-                const notHeldCount = doc.not_conducted.split(',').filter(y => y.trim().length === 4).length;
+            if (doc.not_conducted && doc.not_conducted.trim().length > 0) {
+                const notHeldCount = doc.not_conducted.split(',').map(y => y.trim()).filter(y => y.length === 4 && !isNaN(y)).length;
                 totalSpan = Math.max(1, totalSpan - notHeldCount);
             }
 
@@ -486,14 +488,15 @@ async function calculateProgress() {
         'sbi_po': 'SBI PO',
         'ibps_clerk': 'IBPS Clerk',
         'ibps_po': 'IBPS PO',
-        'engineering_services_examination_(ESE/IES)': 'Engineering Services Examination (ESE/IES)',
+        'upsc_ese': 'Engineering Services Examination (ESE/IES)',
         'indian_army_agniveer': 'Indian Army Agniveer',
         'indian_navy_ssr': 'Indian Navy SSR',
         'coast_guard': 'Coast Guard Navik / Yantrik',
         'territorial_army_officer': 'Territorial Army Officer',
         'upsc_cse': 'Civil Services Examination (CSE)',
         'combined_geo_scientist': 'Combined Geo-Scientist Examination',
-        'epfo_enforcement_officer': 'EPFO Enforcement Officer/Accounts Officer'
+        'epfo_enforcement_officer': 'EPFO Enforcement Officer/Accounts Officer',
+        'upsc_cds': 'Combined Defence Services (CDS)'
       };
 
       if (singleExamOverrides[col]) {

@@ -100,6 +100,7 @@ function mapToCollection(dept) {
     if (d.includes("epfo enforcement officer") || d.includes("epfo ao")) return "epfo_enforcement_officer";
     if (d.includes("engineering services") || d.includes("ese") || d.includes("ies")) return "upsc_ese";
     
+    if (d.includes("indian forest service") || d.includes("ifos")) return "upsc_ifos";
     if (d.includes("combined defence services") || d.includes("cds")) return "upsc_cds";
     if (d.includes("national defence academy") || d.includes("nda")) return "upsc_nda";
     if (d.includes("central armed police forces") && d.includes("assistant commandant")) return "upsc_capf_ac";
@@ -171,7 +172,7 @@ app.get("/years", async (req, res) => {
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
         "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "upsc_ese",
         "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer",
-        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds"
+        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds", "upsc_ifos"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -342,6 +343,7 @@ async function calculateProgress() {
         'combined_geo_scientist': 'Govt Exams Track',
         'epfo_enforcement_officer': 'Govt Exams Track',
         'upsc_cds': 'Govt Exams Track',
+        'upsc_ifos': 'Govt Exams Track',
 
         // Banking Track
         'bank_exams': 'Banking Track',
@@ -496,7 +498,8 @@ async function calculateProgress() {
         'upsc_cse': 'Civil Services Examination (CSE)',
         'combined_geo_scientist': 'Combined Geo-Scientist Examination',
         'epfo_enforcement_officer': 'EPFO Enforcement Officer/Accounts Officer',
-        'upsc_cds': 'Combined Defence Services (CDS)'
+        'upsc_cds': 'Combined Defence Services (CDS)',
+        'upsc_ifos': 'Indian Forest Service (IFoS)'
       };
 
       if (singleExamOverrides[col]) {

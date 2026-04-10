@@ -34,6 +34,9 @@ function getTargetCollection(fileName) {
   if (d.includes("cds")) {
       return "upsc_cds";
   }
+  if (d.includes("ifos") || d.includes("forest")) {
+      return "upsc_ifos";
+  }
   return "upsc";
 }
 

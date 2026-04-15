@@ -702,7 +702,7 @@
 
     <div class="stat-card">
       <span class="stat-label">Raw Data</span>
-      <div class="stat-value" id="stat-raw-data">184</div>
+      <div class="stat-value" id="stat-raw-data">290</div>
       <div class="stat-trend" style="color: var(--text-muted)">Exams</div>
     </div>
 
@@ -844,34 +844,6 @@
 
     </div>
   </main>
-
-  <!-- 🚀 TRACK SUMMARY TABLE (REPOSITIONED BELOW CARDS) -->
-  <div class="section-container" style="margin-top: 60px; margin-bottom: 60px; width: 100%; padding: 0;">
-    <div class="qn-header" style="margin-bottom: 24px;">
-        <div class="qn-title">Track Summary</div>
-        <div class="qn-sub">Curriculum maturity and synchronization roadmap</div>
-    </div>
-    <div class="summary-table-wrapper">
-        <table class="summary-table">
-            <thead>
-                <tr>
-                    <th>Track</th>
-                    <th>Total Exams / Topics</th>
-                    <th>Raw Data (Synced)</th>
-                    <th>Raw Data Need</th>
-                    <th>Completed</th>
-                </tr>
-            </thead>
-            <tbody id="track-summary-body">
-                <!-- Dynamically Populated -->
-            </tbody>
-            <tfoot id="track-summary-foot">
-                <!-- Dynamically Populated -->
-            </tfoot>
-        </table>
-    </div>
-  </div>
-
 
   <script>
     function animateValue(id, start, end, duration, formatStr = false) {

@@ -121,6 +121,16 @@ function _getQuestionCount(eName, staticFallback) {
 }
 
 // ═══════════════════════════════════════════════════════════
+//  TRACK CATEGORY PRIORITY FOR SORTING
+// ═══════════════════════════════════════════════════════════
+const TRACK_CATEGORY_ORDER = {
+  "JEE / NEET Track": ["JEE", "NEET"],
+  "Banking Track": ["IBPS", "SBI", "RBI"],
+  "Govt Exams Track": ["UPSC", "SSC", "Railways", "Defence", "Insurance", "Teaching", "Judiciary", "PSU", "Healthcare"],
+  "Tech Track": ["DSA", "Domain"]
+};
+
+// ═══════════════════════════════════════════════════════════
 //  FETCH ALL JSON FILES IN PARALLEL
 // ═══════════════════════════════════════════════════════════
 async function loadAllTracks() {
@@ -139,7 +149,38 @@ async function loadAllTracks() {
     }
     
     TRACKS.forEach(track => {
-      loadedData[track.name] = allTopics.filter(t => t.track_name === track.name);
+      let items = allTopics.filter(t => t.track_name === track.name);
+      
+      const orderList = TRACK_CATEGORY_ORDER[track.name] || [];
+      items.sort((a, b) => {
+          const catA = a.category || "";
+          const catB = b.category || "";
+          
+          let idxA = orderList.findIndex(o => catA.includes(o));
+          let idxB = orderList.findIndex(o => catB.includes(o));
+          
+          if (idxA === -1) idxA = 999;
+          if (idxB === -1) idxB = 999;
+          
+          if (idxA !== idxB) return idxA - idxB;
+          
+          // Same category, sort by exam_name
+          // Special case for common exam orders
+          const nameA = (a.exam_name || "").toLowerCase();
+          const nameB = (b.exam_name || "").toLowerCase();
+          
+          // Priority for PO before Clerk
+          if (nameA.includes("po") && nameB.includes("clerk")) return -1;
+          if (nameA.includes("clerk") && nameB.includes("po")) return 1;
+          
+          // Priority for UG before PG/MDS/SS
+          if (nameA.includes("ug") && (nameB.includes("pg") || nameB.includes("mds") || nameB.includes("ss"))) return -1;
+          if ((nameA.includes("pg") || nameA.includes("mds") || nameA.includes("ss")) && nameB.includes("ug")) return 1;
+
+          return (a.exam_name || "").localeCompare(b.exam_name || "");
+      });
+
+      loadedData[track.name] = items;
     });
     
     init();

@@ -85,8 +85,32 @@ const topicSchema = new mongoose.Schema({
 }, { collection: 'topics', strict: false });
 
 const Topic = mongoose.model('Topic', topicSchema);
-
-// ── API ROUTES ──
+const getSearchTags = (name) => {
+    if (!name) return [];
+    // Normalize: lowercase, replace spaces/slashes with dashes
+    const base = name.toLowerCase().replace(/ \/ /g, '-').replace(/\s+/g, '-').replace(/[()]/g, '');
+    const tags = [name, base, base.replace('-', ' ')];
+    
+    // Add common variants
+    if (base === 'arrays') tags.push('array', 'matrix');
+    if (base === 'strings') tags.push('string');
+    if (base === 'trees') tags.push('tree', 'binary-tree');
+    if (base === 'hashing') tags.push('hash-table', 'hash-function', 'hash');
+    if (base === 'graphs') tags.push('graph', 'graph-theory');
+    if (base === 'linked-lists') tags.push('linked-list');
+    if (base === 'greedy-algorithms') tags.push('greedy');
+    if (base === 'binary-search-trees-bst') tags.push('bst', 'binary-search-tree');
+    if (base === 'heap-priority-queue') tags.push('heap', 'priority-queue');
+    if (base === 'dynamic-programming') tags.push('dynamic programming', 'dp');
+    if (base === 'core-programming') tags.push('programming', 'coding', 'languages', 'syntax', 'oop', 'logic', 'development');
+    if (base === 'backend-development') tags.push('backend', 'server', 'api', 'apis', 'rest', 'db');
+    if (base === 'debugging-optimization') tags.push('debug', 'optimization', 'performance', 'refactoring', 'testing');
+    if (base === 'databases') tags.push('sql', 'nosql', 'database', 'db', 'query', 'schema');
+    if (base === 'cloud-devops') tags.push('cloud', 'devops', 'aws', 'docker', 'kubernetes', 'cicd');
+    if (base === 'system-design') tags.push('architecture', 'scaling', 'distributed', 'microservices');
+    
+    return [...new Set(tags)];
+};
 
 // Helper to map department/category to collection name
 function mapToCollection(dept) {
@@ -118,6 +142,13 @@ function mapToCollection(dept) {
     if (d.includes("sbi po") || d === "sbi po") return "sbi_po";
     if (d.includes("ibps clerk") || d === "ibps clerk") return "ibps_clerk";
     if (d.includes("ibps po") || d === "ibps po") return "ibps_po";
+    if (d.includes("rbi grade b") || d === "rbi grade b") return "rbi_grade_b";
+    if (d.includes("rbi assistant") || d === "rbi assistant") return "rbi_assistant";
+    if (d.includes("nabard grade a") || d === "nabard grade a") return "nabard_grade_a";
+    if (d.includes("nabard grade b") || d === "nabard grade b") return "nabard_grade_b";
+    if (d.includes("sidbi grade a") || d === "sidbi grade a") return "sidbi_grade_a";
+    if (d.includes("exim bank recruitment") || d === "exim bank recruitment") return "exim_bank_recruitment";
+    if (d.includes("ippb") && d.includes("regional rural bank") || d.includes("ippb / regional rural bank") || d.includes("ippb rbi-linked")) return "ippb_rbi_linked";
     if (d.includes("bank") || d.includes("sbi") || d.includes("ibps") || d.includes("rbi") || d.includes("rbi po") || d.includes("rbi assistant")) return "bank_exams";
     
     // 2. Railways / RRB
@@ -141,10 +172,18 @@ function mapToCollection(dept) {
     // JEE sub-variants
     if (d.includes("jee advance")) return "jee_advance";
     if (d.includes("jee")) return "jee_main";
+    if (d.includes("neet")) return "neet_ug";
 
     // 4. Tech / Programming
-    const techTopics = ["arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", "heap", "priority queue", "ai", "machine learning", "web dev", "software engineering", "operating systems", "database", "dsa", "c++", "java", "python", "javascript"];
-    if (techTopics.some(t => d.includes(t)) || d.includes("data structure") || d.includes("algorithm") || d.includes("coding")) {
+    const techWords = [
+        "arrays", "strings", "hashing", "linked lists", "stack", "queue", "binary search", 
+        "trees", "graphs", "recursion", "backtracking", "dynamic programming", "greedy", 
+        "heap", "priority queue", "ai", "machine learning", "web dev", "software engineering", 
+        "operating systems", "database", "dsa", "c++", "java", "python", "javascript",
+        "programming", "core-programming", "domain-based", "development", "backend", 
+        "frontend", "system design", "cloud", "devops", "debugging", "optimization", "coding"
+    ];
+    if (techWords.some(w => d.includes(w)) || d.includes("data structure") || d.includes("algorithm")) {
         return "coding_problems";
     }
 
@@ -173,7 +212,8 @@ app.get("/years", async (req, res) => {
         "jee_main", "jee_advance", "neet_ug", "neet_pg", "neet_ss", "neet_mds",
         "sbi_clerk", "sbi_po", "ibps_clerk", "ibps_po", "ibps_rrb_clerk", "ibps_rrb_po", "ibps_so", "upsc_ese",
         "coding_problems", "indian_army_agniveer", "indian_navy_ssr", "coast_guard", "territorial_army_officer",
-        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds", "upsc_ifos", "upsc_ies"
+        "upsc_cse", "combined_geo_scientist", "epfo_enforcement_officer", "upsc_capf_ac", "upsc_cms", "upsc_nda", "upsc_cds", "upsc_ifos", "upsc_ies",
+        "rbi_grade_b", "rbi_assistant", "nabard_grade_a", "nabard_grade_b", "sidbi_grade_a", "exim_bank_recruitment", "ippb_rbi_linked"
     ];
     let filter = { year: { $gte: "1900" } };
     
@@ -252,16 +292,32 @@ app.get("/papers", async (req, res) => {
                 track_name: "Tech Track" 
             });
             
-            const searchTags = topicMeta ? [topicMeta.exam_name, ...(topicMeta.sub_topic || [])] : [exam];
+            // Build comprehensive search tags
+            let searchTags = getSearchTags(exam);
+            if (topicMeta) {
+                if (topicMeta.exam_name) searchTags = [...new Set([...searchTags, ...getSearchTags(topicMeta.exam_name)])];
+                if (topicMeta.sub_topic && Array.isArray(topicMeta.sub_topic)) {
+                    topicMeta.sub_topic.forEach(st => searchTags.push(...getSearchTags(st)));
+                }
+                // Also add eligibility and conducting body as potential tags
+                if (topicMeta.eligibility) searchTags.push(...getSearchTags(topicMeta.eligibility));
+                if (topicMeta.conducting_body) searchTags.push(...getSearchTags(topicMeta.conducting_body));
+            }
             
+            searchTags = [...new Set(searchTags.filter(Boolean))];
+
             const questions = await Model.find({ 
                 $or: [
                     { topics: { $in: searchTags } }, 
                     { topic: { $in: searchTags } },
+                    { subtopic: { $in: searchTags } },
+                    { sub_topic: { $in: searchTags } },
+                    { subject: { $in: searchTags } },
                     { role: { $in: searchTags } },
-                    { topics_normalized: { $in: searchTags } }
+                    { topics_normalized: { $in: searchTags } },
+                    { exam_type: { $in: searchTags } }
                 ]
-            }).limit(50);
+            });
             return res.json(questions);
         }
 
@@ -368,6 +424,13 @@ async function calculateProgress() {
         'ibps_so': 'Banking Track',
         'sbi_po': 'Banking Track',
         'sbi_clerk': 'Banking Track',
+        'rbi_grade_b': 'Banking Track',
+        'rbi_assistant': 'Banking Track',
+        'nabard_grade_a': 'Banking Track',
+        'nabard_grade_b': 'Banking Track',
+        'sidbi_grade_a': 'Banking Track',
+        'exim_bank_recruitment': 'Banking Track',
+        'ippb_rbi_linked': 'Banking Track',
         'insurance': 'Banking Track',
         'jee_advance': 'JEE / NEET Track',
         'jee_main': 'JEE / NEET Track',
@@ -489,7 +552,14 @@ async function calculateProgress() {
         'epfo_enforcement_officer': 'EPFO Enforcement Officer/Accounts Officer',
         'upsc_cds': 'Combined Defence Services (CDS)',
         'upsc_ifos': 'Indian Forest Service (IFoS)',
-        'upsc_ies': 'Indian Economic Service / Indian Statistical Service (IES/ISS)'
+        'upsc_ies': 'Indian Economic Service / Indian Statistical Service (IES/ISS)',
+        'rbi_grade_b': 'RBI Grade B',
+        'rbi_assistant': 'RBI Assistant',
+        'nabard_grade_a': 'NABARD Grade A',
+        'nabard_grade_b': 'NABARD Grade B',
+        'sidbi_grade_a': 'SIDBI Grade A',
+        'exim_bank_recruitment': 'EXIM Bank Recruitment',
+        'ippb_rbi_linked': 'IPPB / Regional Rural Bank (RBI-linked) Recruitment'
       };
 
       if (singleExamOverrides[col]) {
@@ -537,32 +607,16 @@ async function calculateProgress() {
 
           if (col === 'coding_problems') {
               const techTopicsDocs = await Topic.find({ track_name: 'Tech Track' });
-              
-              const getSearchTags = (name) => {
-                  if (!name) return [];
-                  const base = name.toLowerCase().replace(/ \/ /g, '-').replace(/\s+/g, '-').replace(/[()]/g, '');
-                  const tags = [name, base];
-                  if (base === 'arrays') tags.push('array');
-                  if (base === 'strings') tags.push('string');
-                  if (base === 'trees') tags.push('tree', 'binary-tree');
-                  if (base === 'hashing') tags.push('hash-table');
-                  if (base === 'graphs') tags.push('graph');
-                  if (base === 'linked-lists') tags.push('linked-list');
-                  if (base === 'greedy-algorithms') tags.push('greedy');
-                  if (base === 'binary-search-trees-bst') tags.push('bst', 'binary-search-tree');
-                  if (base === 'heap-priority-queue') tags.push('heap', 'priority-queue');
-                  if (base === 'dynamic-programming') tags.push('dynamic programming');
-                  return [...new Set(tags)];
-              };
-
               for (const t of techTopicsDocs) {
                   if (t.exam_name) {
                       const searchTags = getSearchTags(t.exam_name);
                       if (t.sub_topic && Array.isArray(t.sub_topic)) {
                           t.sub_topic.forEach(st => {
-                               searchTags.push(...getSearchTags(st));
+                                searchTags.push(...getSearchTags(st));
                           });
                       }
+                      if (t.eligibility) searchTags.push(...getSearchTags(t.eligibility));
+                      if (t.conducting_body) searchTags.push(...getSearchTags(t.conducting_body));
 
                       const c = await Model.countDocuments({ 
                           $or: [

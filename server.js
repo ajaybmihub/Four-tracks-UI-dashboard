@@ -187,6 +187,40 @@ function mapToCollection(dept) {
         return "coding_problems";
     }
 
+    // 5. SSC Exams
+    if (["ssc cgl", "ssc chsl", "ssc mts", "ssc cpo", "ssc gd", "ssc stenographer", "ssc je"].some(k => d.includes(k))) return "ssc";
+    if (d.includes("ssc")) return "ssc";
+
+    // 6. State PSC & State Exams (Comprehensive)
+    const states = [
+        "andhra pradesh", "arunachal pradesh", "assam", "bihar", "chhattisgarh", "goa", "gujarat", 
+        "haryana", "himachal pradesh", "jharkhand", "karnataka", "kerala", "madhya pradesh", 
+        "maharashtra", "manipur", "meghalaya", "mizoram", "nagaland", "odisha", "punjab", 
+        "rajasthan", "sikkim", "tamil nadu", "telangana", "tripura", "uttar pradesh", 
+        "uttarakhand", "west bengal", "delhi", "jammu", "kashmir", "ladakh", "puducherry"
+    ];
+    if (states.some(s => d.includes(s))) {
+        if (["psc", "public service commission", "civil services", "combined services", "state services"].some(k => d.includes(k))) return "state_psc_state_exams";
+        if (["police", "constable", "sub inspector", "si", "jail warder"].some(k => d.includes(k))) return "central_police";
+        if (["judiciary", "civil judge", "district judge"].some(k => d.includes(k))) return "judiciary";
+        if (["tet", "teacher eligibility test", "teaching"].some(k => d.includes(k))) return "teaching";
+        if (["assistant engineer", "ae", "je", "junior engineer"].some(k => d.includes(k))) return "technical";
+        return "state_generic";
+    }
+
+    // 7. Insurance Exams
+    if (["lic ", "gic ", "niacl", "nicl", "uiic", "oicl", "irda"].some(k => d.includes(k))) return "insurance";
+        
+    // 8. Teaching Exams (General)
+    if (["ctet", "kvs", "nvs", "dsssb", "ugc net", "csir net", "set exam"].some(k => d.includes(k))) return "teaching";
+        
+    // 9. PSU Exams
+    const psus = ["ntpc", "ongc", "sail", "bhel", "gail", "hpcl", "bpcl", "iocl", "hal", "bel", "coal india"];
+    if (psus.some(psu => d.includes(psu)) || d.includes("psu")) return "psu";
+        
+    // 10. Healthcare
+    if (["nurse", "nursing", "anm", "gnm", "pharmacist", "lab technician", "medical officer"].some(k => d.includes(k))) return "healthcare";
+
     return "topics"; 
 }
 
